@@ -1,0 +1,40 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Preliminaries}{3}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Model Introduction}{3}{subsection*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Turing Pattern Formation Without Delay}{4}{subsection*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Numerical Implementation}{7}{subsection*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Spatial Discretisation}{7}{subsubsection*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Temporal Discretisation}{8}{subsubsection*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Fixed Delay Model}{9}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Linear Analysis}{9}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Bifurcation Analysis}{12}{subsection*.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Investigation of Variation in Initial and Boundary Conditions}{19}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Relationship Between Time-To-Pattern and Time-Delay}{23}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Distributed Delay Model}{29}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Quadrature}{30}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Linear Analysis}{32}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Numerical Results}{40}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclusion}{41}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{42}{chapter.4}%

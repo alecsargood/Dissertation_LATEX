@@ -1,0 +1,44 @@
+\documentclass{article}
+%
+% Choose how your presentation looks.
+%
+% For more themes, color themes and font themes, see:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%
+\title{Presentation script}
+
+
+\begin{document}
+
+The project that I will be working on will focus on studying the effects of distributed delay on Turing patterns in reaction-diffusion systems.
+\\\\
+So firstly, what is a Turing pattern. Turing proposed that the process of morphogenesis, or the development of form of cells, could be mathematically modelled by considering a purely chemical reaction, and that biological spatial patterns could emerge from systems of reaction-diffusion equations describing the interaction of reactants or morphagens. It was proposed that a steady state in the spatially homogenous case which is robust to small perturbations, could become sensitive to small perturbations with the indroduction of a diffusive term, leading to spatially inhomogenous patterns.
+Physically, the spatially homogeneous state can be thought of representing early stages of development, for example a zygote with a negligble domain size. We can therefore think of the diffusion-driven instability as a characterisation of the growing domain size and the spatially inhomogenous morphagen concentration across the spatial domain. Equation (1) gives the general form of the reaction-diffusion system, with u and v being the two morphagens - Only considering two reactants is obviously a gross simplication of the biological process on a cellular level, but it's still a non-trival case which can admit these Turing patterns.
+Using linear stability analysis, we can derive conditions where these reaction-diffusion systems can exhibit Turing patterns.
+We have an image here of a pattern seen in nature on a seashell on the left, and on the right a computer simulation of the pattern being reproduced using this Turing mechanism, and these kinds of patterns can be seen all through nature and biology.
+\\\\
+The model that we will consider is the Schnakenberg model - one of the simplest 'toy' models that exhibit some of the key behaviour that we are interested in.
+u and v here are our two reactants, and a and b model parameters. We will also restrict our attention to one spatial domain.
+Looking at some of the Turing analysis, we we can plot the Turing spaces, or the parameter regions where Turing instability can occur.
+\\\\
+The aim of this project is to determine whether delays, and mainly distributed delays, aid or hinder the existence of Turing patterns. Biologoically, these delay terms arise naturally in the pattern formation process, often on the order of minutes or hours, so the and so it's important to study the effect they may have on pattern formation.
+\\\\
+Ultimately the motivation for incorporating time-delay stems from the biological process in which patterns emerge. The morphagenesis process is dependent on the cell-signalling and gene-expression processes. The way cells communicate and coordinate with each other is via cell signalling, and this cell-signalling can impact the gene expresson process. The gene-expression process can be quite complex depending on the gene in question, and this is where the time-delay in the system occurs.
+\\\\
+Introducing the delay into the model, we will consider the Ligand-internalisation variant of the model. Here u and v represent the activator and inhibitor in the chemical reaction. I've been a been a bit brief on notation - u and v are functions of x and t, and where it's not been made explicit, theyre evaluated at x and t. I've only highlighted the terms with a time-delay.
+For the distributed delay model where we integrate over the delay, we use a truncated Gaussian pdf for the kernel.
+\\\\
+Why are we interested in distributed delays ? Most of the current literature on Turing pattern formation is concerned with the fixed delay case, and it's been shown that introducing fixed delays potentially provides an obstruction for applying Turing's theory to real systems. These delays have generally been shown to increase the time taken for pattern formation to occur, and for some parameter values, oscillations have been induced. We therefore want to investigate whether considering a distributed delay can resolve some of these problems.
+\\\\
+The research for this project will be split into 4 distinct stages. The first will focus on deveoloping some of the mathematical tool and code to numerically solve these systems. Building off work from a previous dissertation, we will use quadrature rules to deal with the integral part of the DDE, and approximate this as a fixed DDE. Due to the diffusive term, these systems can be stiff, and so
+one of the main tools we'll use is Julia, to implement stiff delay solvers, which is something that wasn't previously done.
+\\\\
+The second part, which is something that we have already started looking at, is evaluating current literature and reproducing results in the fixed-delay case, mainly to validate the implemenation of the code. We then hope to extend some of the work previously done and examine how the results may vary with systematic varying of initial conditons, and potentially varying parameters.
+\\\\
+We will then introduce the distributed delay into the model. As far as we know, there is no current literature covering the analysis of the Schnakenberg model with incorporated distributed delay. There are some preliminary results in the previous dissertation, so we hope to validate these and extend this research further.
+\\\\
+Finally, we hope to be able to conclude what the effect of distributed delays are on Turing pattern formation, and whether they solve some of the problems caused by fixed delays. In the process of doing so, we also aim to have developed efficient code to evaluate and extend some of the current literature, as well as code that can be used for future research.
+
+
+
+\end{document}

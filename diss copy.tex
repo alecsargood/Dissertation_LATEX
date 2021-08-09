@@ -1,0 +1,40 @@
+\documentclass[12pt]{article}
+\setlength{\topmargin}{-0.5in}
+\setlength{\oddsidemargin}{0.33in}
+\setlength{\textheight}{9.0in}
+\setlength{\textwidth}{6.0in}
+
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath,hyperref,graphicx,caption,subcaption,float,pifont}
+\captionsetup{belowskip=0pt}
+%\usepackage[ruled]{algorithm2e}
+\usepackage[style=numeric,backend=biber]{biblatex}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (.25,.15) -- cycle;}
+\addbibresource{bibliography.bib}
+
+\title{Dissertation Notes}
+
+
+\begin{document}
+
+\begin{figure}[H]
+    \begin{subfigure}[b]{0.5\linewidth}
+        \centering
+        \includegraphics[width=\textwidth]{eriodicorbitbranch.png}
+        \caption{Branch of the periodic orbit in the phase plane.}
+        \hfill
+    \end{subfigure}
+    \begin{subfigure}[b]{0.5\linewidth}
+        \centering
+        \includegraphics[width=\textwidth]{RM Model/periodicorbitprofiles.png}
+        \caption{Profile of the periodic orbit after the Hopf bifurcation shows the paradox of enrichment emerging as $k$ increases.}
+    \end{subfigure}
+\end{figure}\label{fig: paradox of enrichment}
+
+
+
+
+
+\end{document}

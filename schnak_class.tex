@@ -1,0 +1,69 @@
+\documentclass[12pt,a4paper]{article}
+
+\setlength{\topmargin}{0.0in}
+\setlength{\oddsidemargin}{0.33in}
+\setlength{\textheight}{9.0in}
+\setlength{\textwidth}{6.0in}
+\renewcommand{\baselinestretch}{1.25}
+
+\usepackage{nicematrix}
+\usepackage[margin=0.75in]{geometry}
+\usepackage[edges]{forest}
+\usepackage{graphicx,wrapfig,lipsum}
+\usepackage{amsmath,empheq}
+\usepackage{dirtree}
+\usepackage{titlesec}
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[style=numeric,backend=biber]{biblatex}
+\addbibresource{bibliography.bib}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage[ruled]{algorithm2e}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{cancel}
+\usepackage{epstopdf}
+\usepackage{mathtools}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{setspace}
+\usepackage{bm}
+\usepackage[export]{adjustbox}
+\usepackage{relsize}
+\usepackage{listings}
+\usepackage[toc,page]{appendix}
+\usepackage{cancel}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+
+
+
+\begin{document}
+
+The evolution of the activator in the LI model is given by
+
+\begin{equation}
+u'=c\frac{\partial^2u}{\partial x^2}+a-u-2u^2v+3u^2(t-\tau)v(t-\tau),
+\end{equation}
+for some delay $\tau>0$. Here $u=u(t)$ and $v=v(t)$, and $c>0$ is some constant. We also use the notation $u'=\frac{\partial u}{\partial t}$ to be the partial time-derivative of $u$.
+Taylor expanding the delay terms about $\tau=0$ up to order $O(\tau^2)$ we get
+
+\begin{equation}
+u'=c\frac{\partial^2u}{\partial x^2}+a-u-2u^2v+3\left[\left(u-\tau u'+\frac{\tau^2}{2}u''\right)^2\right]\left[v-\tau v'+\frac{\tau^2}{2}v''\right].
+\end{equation}
+Expanding out the brackets and simplifying (up to $O(\tau^2)$), we obtain
+
+\begin{equation}
+u'=c\frac{\partial^2u}{\partial x^2}+a-u-2u^2v+3\left[u^2v-\tau u^2v'+\frac{1}{2}u^2\tau^2v''-2\tau uvu'+2\tau^2uu'v'+\tau^2uvu''\right]
+\end{equation}
+
+\end{document}

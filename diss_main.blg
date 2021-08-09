@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'diss_main.blg'
+[130] biber-darwin:322> INFO - === Sun Aug  8, 2021, 14:58:55
+[155] Biber.pm:415> INFO - Reading 'diss_main.bcf'
+[356] Biber.pm:943> INFO - Found 33 citekeys in bib section 0
+[389] Biber.pm:4256> INFO - Processing section 0
+[390] Utils.pm:75> INFO - Globbing data source 'bibliographydiss.bib'
+[390] Utils.pm:91> INFO - Globbed data source 'bibliographydiss.bib' to bibliographydiss.bib
+[405] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographydiss.bib' for section 0
+[408] bibtex.pm:1653> INFO - LaTeX decoding ...
+[475] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographydiss.bib'
+[766] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[766] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[766] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[766] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[816] bbl.pm:652> INFO - Writing 'diss_main.bbl' with encoding 'UTF-8'
+[842] bbl.pm:755> INFO - Output to diss_main.bbl

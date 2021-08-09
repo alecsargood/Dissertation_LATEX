@@ -1,0 +1,291 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{turing1}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://www.labroots.com/trending/chemistry-and-physics/8754/turing-patterns-inspired-membrane-water-filters
+      \endverb
+      \verb{url}
+      \verb https://www.labroots.com/trending/chemistry-and-physics/8754/turing-patterns-inspired-membrane-water-filters
+      \endverb
+    \endentry
+    \entry{nature}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://www.nature.com/scitable/topicpage/gene-expression-14121669/
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/scitable/topicpage/gene-expression-14121669/
+      \endverb
+    \endentry
+    \entry{william}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bb01e5086d06f1caf9f66b095594700f}{%
+           family={Dash},
+           familyi={D\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb01e5086d06f1caf9f66b095594700f}
+      \strng{fullhash}{bb01e5086d06f1caf9f66b095594700f}
+      \strng{bibnamehash}{bb01e5086d06f1caf9f66b095594700f}
+      \strng{authorbibnamehash}{bb01e5086d06f1caf9f66b095594700f}
+      \strng{authornamehash}{bb01e5086d06f1caf9f66b095594700f}
+      \strng{authorfullhash}{bb01e5086d06f1caf9f66b095594700f}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Institute, University of Oxford}
+      \field{title}{Distributed Delay in Reaction-Diffusion systems}
+      \field{year}{2020}
+    \endentry
+    \entry{paper1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c374bde1848f9040ae70fa8b49c1c511}{%
+           family={Gaffney},
+           familyi={G\bibinitperiod},
+           given={EA},
+           giveni={E\bibinitperiod}}}%
+        {{hash=cf20478f9d6c2d198d833895cb9c2bfc}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={S\bibnamedelima Seirin},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{d56cbe4eaa88a63d8c404174f2f22f0a}
+      \strng{fullhash}{d56cbe4eaa88a63d8c404174f2f22f0a}
+      \strng{bibnamehash}{d56cbe4eaa88a63d8c404174f2f22f0a}
+      \strng{authorbibnamehash}{d56cbe4eaa88a63d8c404174f2f22f0a}
+      \strng{authornamehash}{d56cbe4eaa88a63d8c404174f2f22f0a}
+      \strng{authorfullhash}{d56cbe4eaa88a63d8c404174f2f22f0a}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical medicine and biology: a journal of the IMA}
+      \field{number}{1}
+      \field{title}{The sensitivity of Turing self-organization to biological feedback delays: 2D models of fish pigmentation}
+      \field{volume}{32}
+      \field{year}{2015}
+      \field{pages}{57\bibrangedash 79}
+      \range{pages}{23}
+    \endentry
+    \entry{gaffmonk}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c374bde1848f9040ae70fa8b49c1c511}{%
+           family={Gaffney},
+           familyi={G\bibinitperiod},
+           given={EA},
+           giveni={E\bibinitperiod}}}%
+        {{hash=135b71ec2ac01241c4b3bb2bb2b68da3}{%
+           family={Monk},
+           familyi={M\bibinitperiod},
+           given={NAM},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a9d3d0d613a7b21f01a785f6dafbdabd}
+      \strng{fullhash}{a9d3d0d613a7b21f01a785f6dafbdabd}
+      \strng{bibnamehash}{a9d3d0d613a7b21f01a785f6dafbdabd}
+      \strng{authorbibnamehash}{a9d3d0d613a7b21f01a785f6dafbdabd}
+      \strng{authornamehash}{a9d3d0d613a7b21f01a785f6dafbdabd}
+      \strng{authorfullhash}{a9d3d0d613a7b21f01a785f6dafbdabd}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of mathematical biology}
+      \field{number}{1}
+      \field{title}{Gene expression time delays and Turing pattern formation systems}
+      \field{volume}{68}
+      \field{year}{2006}
+      \field{pages}{99\bibrangedash 130}
+      \range{pages}{32}
+    \endentry
+    \entry{jiang}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6595226a3e2753e80b5c256aeb1fd93d}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Weihua},
+           giveni={W\bibinitperiod}}}%
+        {{hash=bb596c2ad266541ba401586042bb0896}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hongbin},
+           giveni={H\bibinitperiod}}}%
+        {{hash=99fcca9ec88c3d0bc13189b334d1185d}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Xun},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{303542881c63c891da1a6259ff62c274}
+      \strng{fullhash}{303542881c63c891da1a6259ff62c274}
+      \strng{bibnamehash}{303542881c63c891da1a6259ff62c274}
+      \strng{authorbibnamehash}{303542881c63c891da1a6259ff62c274}
+      \strng{authornamehash}{303542881c63c891da1a6259ff62c274}
+      \strng{authorfullhash}{303542881c63c891da1a6259ff62c274}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Dynamics and Differential Equations}
+      \field{number}{4}
+      \field{title}{Turing instability and Turing--Hopf bifurcation in diffusive Schnakenberg systems with gene expression time delay}
+      \field{volume}{31}
+      \field{year}{2019}
+      \field{pages}{2223\bibrangedash 2247}
+      \range{pages}{25}
+    \endentry
+    \entry{shell}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d3740821bf69b36846b43ad640e02fb5}{%
+           family={Meinhardt},
+           familyi={M\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{d3740821bf69b36846b43ad640e02fb5}
+      \strng{fullhash}{d3740821bf69b36846b43ad640e02fb5}
+      \strng{bibnamehash}{d3740821bf69b36846b43ad640e02fb5}
+      \strng{authorbibnamehash}{d3740821bf69b36846b43ad640e02fb5}
+      \strng{authornamehash}{d3740821bf69b36846b43ad640e02fb5}
+      \strng{authorfullhash}{d3740821bf69b36846b43ad640e02fb5}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The algorithmic beauty of sea shells}
+      \field{year}{2009}
+    \endentry
+    \entry{murray}{book}{}
+      \name{author}{1}{}{%
+        {{hash=29820554483e0151cc9f851a9b33214b}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={JD},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{29820554483e0151cc9f851a9b33214b}
+      \strng{fullhash}{29820554483e0151cc9f851a9b33214b}
+      \strng{bibnamehash}{29820554483e0151cc9f851a9b33214b}
+      \strng{authorbibnamehash}{29820554483e0151cc9f851a9b33214b}
+      \strng{authornamehash}{29820554483e0151cc9f851a9b33214b}
+      \strng{authorfullhash}{29820554483e0151cc9f851a9b33214b}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mathematical biology II: spatial models and biomedical applications}
+      \field{volume}{3}
+      \field{year}{2001}
+    \endentry
+    \entry{turing}{article}{}
+      \name{author}{1}{}{%
+        {{hash=74b4cb980e41f6e8857af4f97c98b755}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima Mathison},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{74b4cb980e41f6e8857af4f97c98b755}
+      \strng{fullhash}{74b4cb980e41f6e8857af4f97c98b755}
+      \strng{bibnamehash}{74b4cb980e41f6e8857af4f97c98b755}
+      \strng{authorbibnamehash}{74b4cb980e41f6e8857af4f97c98b755}
+      \strng{authornamehash}{74b4cb980e41f6e8857af4f97c98b755}
+      \strng{authorfullhash}{74b4cb980e41f6e8857af4f97c98b755}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of mathematical biology}
+      \field{number}{1}
+      \field{title}{The chemical basis of morphogenesis}
+      \field{volume}{52}
+      \field{year}{1990}
+      \field{pages}{153\bibrangedash 197}
+      \range{pages}{45}
+    \endentry
+    \entry{paper2}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9d3365878edf0501ab3d6760281cc5ef}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Fengqi},
+           giveni={F\bibinitperiod}}}%
+        {{hash=81a45e4c4cd8c3f408c04999cd16c75d}{%
+           family={Gaffney},
+           familyi={G\bibinitperiod},
+           given={Eamonn\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ee7c849a58322f9cce84bcf22c14b197}{%
+           family={Seirin-Lee},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={Sungrim},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Mathematical Sciences}%
+      }
+      \strng{namehash}{d064f9b897958a83bca1c595400ad1e8}
+      \strng{fullhash}{d064f9b897958a83bca1c595400ad1e8}
+      \strng{bibnamehash}{d064f9b897958a83bca1c595400ad1e8}
+      \strng{authorbibnamehash}{d064f9b897958a83bca1c595400ad1e8}
+      \strng{authornamehash}{d064f9b897958a83bca1c595400ad1e8}
+      \strng{authorfullhash}{d064f9b897958a83bca1c595400ad1e8}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Discrete \& Continuous Dynamical Systems-B}
+      \field{number}{2}
+      \field{title}{The bifurcation analysis of Turing pattern formation induced by delay and diffusion in the Schnakenberg system}
+      \field{volume}{22}
+      \field{year}{2017}
+      \field{pages}{647}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

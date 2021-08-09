@@ -1,0 +1,15 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Background}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Preliminaries}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Model Introduction}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Turing Pattern Formation Without Delay}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Numerical Implementation}{section.1.2}% 6
+\BOOKMARK [0][-]{chapter.2}{Fixed Delay Model}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Linear Analysis}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.1.1}{Bifurcation Analysis}{section.2.1}% 9
+\BOOKMARK [1][-]{section.2.2}{Investigation of Variation in Initial and Boundary Conditions}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.3}{Relationship Between Time-To-Pattern and Time-Delay}{chapter.2}% 11
+\BOOKMARK [0][-]{chapter.3}{Distributed Delay Model}{}% 12
+\BOOKMARK [1][-]{subsection.3.0.1}{Quadrature}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.1}{Linear Analysis}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Numerical Results}{chapter.3}% 15
