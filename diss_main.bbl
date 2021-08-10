@@ -29,24 +29,34 @@
       \verb https://en.wikipedia.org/wiki/Morphogenesis
       \endverb
     \endentry
-    \entry{finitediff}{online}{}
+    \entry{wikitrunc}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
       \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Finite_difference
+      \verb https://en.wikipedia.org/wiki/Truncated_normal_distribution
       \endverb
       \verb{url}
-      \verb https://en.wikipedia.org/wiki/Finite_difference
+      \verb https://en.wikipedia.org/wiki/Truncated_normal_distribution
       \endverb
     \endentry
-    \entry{marchingsquares}{online}{}
+    \entry{methsteps}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
       \verb{urlraw}
-      \verb https://www.chebfun.org/examples/roots/MarchingSquares.html
+      \verb https://en.wikipedia.org/wiki/Delay_differential_equation
       \endverb
       \verb{url}
-      \verb https://www.chebfun.org/examples/roots/MarchingSquares.html
+      \verb https://en.wikipedia.org/wiki/Delay_differential_equation
+      \endverb
+    \endentry
+    \entry{rodas}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://diffeq.sciml.ai/stable/solvers/ode_solve/
+      \endverb
+      \verb{url}
+      \verb https://diffeq.sciml.ai/stable/solvers/ode_solve/
       \endverb
     \endentry
     \entry{chebfun}{online}{}
@@ -59,16 +69,6 @@
       \verb https://www.chebfun.org
       \endverb
     \endentry
-    \entry{wikitrunc}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Truncated_normal_distribution
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Truncated_normal_distribution
-      \endverb
-    \endentry
     \entry{compsimp}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
@@ -77,6 +77,16 @@
       \endverb
       \verb{url}
       \verb https://en.wikipedia.org/wiki/Simpson%27s_rule
+      \endverb
+    \endentry
+    \entry{finitediff}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Finite_difference
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Finite_difference
       \endverb
     \endentry
     \entry{bailleul}{article}{}
@@ -186,6 +196,50 @@
       \field{year}{2005}
       \field{pages}{14593\bibrangedash 14598}
       \range{pages}{6}
+    \endentry
+    \entry{stiff1}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a8e9d3b964cfb623147a91a2aee7efe2}{%
+           family={Chou},
+           familyi={C\bibinitperiod},
+           given={Ching-Shan},
+           giveni={C\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=d0737a03b1cbcd49796fcf153330244e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yong-Tao},
+           giveni={Y\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=5db4068796cde560b4fd3829096ef6c5}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5f45b8ea167da2d5685f5d8f36094dea}{%
+           family={Nie},
+           familyi={N\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Mathematical Sciences}%
+      }
+      \strng{namehash}{bba2fc250e9b82e07f4b6281f14e8ef9}
+      \strng{fullhash}{5343536b78f67322196385817cc40aed}
+      \strng{bibnamehash}{bba2fc250e9b82e07f4b6281f14e8ef9}
+      \strng{authorbibnamehash}{bba2fc250e9b82e07f4b6281f14e8ef9}
+      \strng{authornamehash}{bba2fc250e9b82e07f4b6281f14e8ef9}
+      \strng{authorfullhash}{5343536b78f67322196385817cc40aed}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Discrete \& Continuous Dynamical Systems-B}
+      \field{number}{3}
+      \field{title}{Numerical methods for stiff reaction-diffusion systems}
+      \field{volume}{7}
+      \field{year}{2007}
+      \field{pages}{515}
+      \range{pages}{1}
     \endentry
     \entry{william}{article}{}
       \name{author}{1}{}{%
@@ -879,6 +933,35 @@
       \field{pages}{216\bibrangedash 226}
       \range{pages}{11}
     \endentry
+    \entry{rosenbrock}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c590405dd2553f2a0311f2bffbb0b053}{%
+           family={Rosenbrock},
+           familyi={R\bibinitperiod},
+           given={HH},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{c590405dd2553f2a0311f2bffbb0b053}
+      \strng{fullhash}{c590405dd2553f2a0311f2bffbb0b053}
+      \strng{bibnamehash}{c590405dd2553f2a0311f2bffbb0b053}
+      \strng{authorbibnamehash}{c590405dd2553f2a0311f2bffbb0b053}
+      \strng{authornamehash}{c590405dd2553f2a0311f2bffbb0b053}
+      \strng{authorfullhash}{c590405dd2553f2a0311f2bffbb0b053}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Computer Journal}
+      \field{number}{4}
+      \field{title}{Some general implicit processes for the numerical solution of differential equations}
+      \field{volume}{5}
+      \field{year}{1963}
+      \field{pages}{329\bibrangedash 330}
+      \range{pages}{2}
+    \endentry
     \entry{krausefixed}{article}{}
       \name{author}{4}{}{%
         {{hash=e2dac613b0d3bc3305f8e7ef012b3b4e}{%
@@ -1019,6 +1102,55 @@
       \field{pages}{153\bibrangedash 197}
       \range{pages}{45}
     \endentry
+    \entry{baker}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e54d50f8c12b6dad7c1086da2e1af825}{%
+           family={Woolley},
+           familyi={W\bibinitperiod},
+           given={Thomas\bibnamedelima E},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f8b372ed26f6542b44dced564b500faf}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Ruth\bibnamedelima E},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=81a45e4c4cd8c3f408c04999cd16c75d}{%
+           family={Gaffney},
+           familyi={G\bibinitperiod},
+           given={Eamonn\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2ee9644b9267423553b2c9ee226c46b0}{%
+           family={Maini},
+           familyi={M\bibinitperiod},
+           given={Philip\bibnamedelima K},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=ee7c849a58322f9cce84bcf22c14b197}{%
+           family={Seirin-Lee},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={Sungrim},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{4e30024261b48e1e49de24697534e9e2}
+      \strng{fullhash}{c4508ddc9d9bd2f822437c2a399f4a2e}
+      \strng{bibnamehash}{4e30024261b48e1e49de24697534e9e2}
+      \strng{authorbibnamehash}{4e30024261b48e1e49de24697534e9e2}
+      \strng{authornamehash}{4e30024261b48e1e49de24697534e9e2}
+      \strng{authorfullhash}{c4508ddc9d9bd2f822437c2a399f4a2e}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review E}
+      \field{number}{5}
+      \field{title}{Effects of intrinsic stochasticity on delayed reaction-diffusion patterning systems}
+      \field{volume}{85}
+      \field{year}{2012}
+      \field{pages}{051914}
+      \range{pages}{1}
+    \endentry
     \entry{yigaffneyli}{article}{}
       \name{author}{3}{}{%
         {{hash=9d3365878edf0501ab3d6760281cc5ef}{%
@@ -1059,6 +1191,7 @@
       \range{pages}{1}
     \endentry
   \enddatalist
+  \missing{rods}
 \endrefsection
 \endinput
 

@@ -1,0 +1,47 @@
+\chapter{Further Mathematical Details}\label{section:appA}
+With the $m=500$ spatially discretised points given as $\textbf{x}=[x_1,\cdots,x_m]^T$ where $x_i=(i-1)\Delta x$, with $\Delta x=\frac{1}{m-1}$. This ensures $x_1=0$ and $x_m=1$. Letting $U_i^t$ denote the numerical approximation to $u(x_i,t)$, we use a second-order central difference approximation \cite{finitediff} to evaluate the second-order derivatve $\frac{\partial^2 u}{\partial x^2}(x_i,t)$. Namely,
+\begin{equation}
+\frac{\partial^2 u}{\partial x^2}(x_i,t)\approx\frac{1}{\Delta x^2}\left(U_{i+1}^t-2U_i^t+U_{i-1}^t\right).
+\end{equation}
+By denoting $\textbf{U}^t$ as the vector of numerical approximations to $u(x,t)$ at some time $t$ across the whole spatial domain $\textbf{x}$, so that $\textbf{U}^t=\left[U_1^t,\cdots,U_m^t\right]^T$, the numerical approximation of the second-order derivative across the whole spatial domain at some time $t$ can be computed in matrix form as
+\begin{equation}
+    \frac{\partial^2 u}{\partial \textbf{x}^2}\approx A\textbf{U}^t.
+\end{equation}
+$A$ is the discrete second-order differential operator, and is given by
+\begin{equation}\label{A}
+A=\frac{1}{\Delta x^2}\begin{bmatrix}
+   -2&  1&  &  & 0\\
+   1&  -2&  1&  & \\
+   &  \ddots&  \ddots&  \ddots& \\
+   &  &  1&  -2& 1\\
+   0&  &  &  1& -2
+  \end{bmatrix}.
+\end{equation}
+The sparse nature of $A$ allows for computational advantages when implementing the finite-difference scheme. In order to implement homogeneous Neumann boundary conditions, a first-order central difference approximation is used with `ghost' nodes appended at $x_{-1}$ and $x_{m+1}$. This results in altering entries $A_{1,2}$ and $A_{m,m-1}$ from a $1$ to a $2$, as seen in \eqref{Aneumann}. Further details on using `ghost' nodes can be found in appenix \ref{appendix:extramath}. To implement homogeneous Dirichlet conditions, the first and last rows of $A$ are set to $0$, as seen in \eqref{Adirichlet}. Since homogeneous Dirichlet conditions require $u(x)=0$ at $x=0,1$ for all $t>0$, we also set the initial conditions and kinetic functions to equal $0$ at the end nodes.
+\begin{multicols}{2}
+\begin{equation}\label{Aneumann}
+    \begin{split}
+A&=\frac{1}{\Delta x^2}\begin{bmatrix}
+   -2&  2&  &  & 0\\
+   1&  -2&  1&  & \\
+   &  \ddots&  \ddots&  \ddots& \\
+   &  &  1&  -2& 1\\
+   0&  &  &  2& -2
+  \end{bmatrix}.\\
+  A &\textit{ with homogeneous Neumann conditions}
+    \end{split}
+\end{equation}
+\break
+\begin{equation}\label{Adirichlet}
+    \begin{split}
+A&=\frac{1}{\Delta x^2}\begin{bmatrix}
+   -0&  0& \cdots &  & 0\\
+   1&  -2&  1&  & \\
+   &  \ddots&  \ddots&  \ddots& \\
+   &  &  1&  -2& 1\\
+   0&\cdots  &  &  0& 0
+  \end{bmatrix}.\\
+  A & \textit{ with homogeneous Dirichlet conditions}
+    \end{split}
+\end{equation}
+\end{multicols}

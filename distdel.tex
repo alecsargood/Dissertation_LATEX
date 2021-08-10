@@ -1,28 +1,5 @@
 \chapter{Distributed Delay Model}
 
-In the previous chapter we introduced a fixed constant delay into the dynamics of the activator. The stochastic nature of gene expression delays lead us however to consider a mean-field approach to modelling the time delay \cite{bratsun,krausenew}. As done in \cite{william}, by assuming each individual mechanism within the gene expression process acts independently and identically, we use the central limit theorem to model the delay as Gaussian distribution with some mean $\tau$ and standard deviation $\sigma$. We begin by using a symmetric truncated Guassian distribuion, with integration limits $a=\tau-n\sigma$ and $b=\tau+n\sigma$ for some $n\in\mathbb{N}$, such that $a=\tau-n\sigma>0$ to maintain positive time delays. We can thus write the LI model with distributed time delay as
-
-\begin{equation}
-  \begin{split}
-    \frac{\partial u}{\partial t}&=\frac{\epsilon^2}{\gamma}\frac{\partial^2u}{\partial x^2}+a-u-2u^2v+3\int_{a}^{b}k(s,\tau,\sigma)\hat{u}^2\hat{v} \quad\text{ds},\\
-    \frac{\partial v}{\partial t}&=\frac{1}{\gamma}\frac{\partial^2v}{\partial x^2}+b-u^2v,
-\end{split}
-\end{equation}
-where $\hat{u}=u(x,t-s)$ and $\hat{v}=v(x,t-s)$ where $s$ is the integration variable ranging over the delays. $k(s,\tau,\sigma)$ is the truncated Gaussian pdf and for some mean $\tau$ and standard devation $\sigma$ is given by \cite{wikitrunc}
-
-\begin{equation}
-  k(s)=\frac{\Phi_c}{\sqrt{2\pi}\sigma}\exp\left(\frac{-1}{2}\left(\frac{s-\tau}{\sigma}\right)^2\right).
-\end{equation}
-We use $\Phi_c$ to denote the truncation scaling constant. This constant ensures $k(s,\tau,\sigma)$ integrates to $1$ over the given integration domain $[a, b]$, and is computed as
-\begin{equation}
-\Phi_c=\frac{1}{\phi\left(\frac{b-\tau}{\sigma}\right)-\phi\left(\frac{a-\tau}{\sigma}\right)},
-\end{equation}
-with the function $\phi$ described by
-\begin{equation}
-\phi(x)=\frac{1}{2}\left(1+\text{erf}\left(\frac{x}{\sqrt{2}}\right)\right).
-\end{equation}
-In order to simulate the distributed delay model, we will use the composite Simpson's quadrature rule to numerically resolve the integral term \cite{compsimp}. Convergence analysis of the quadrature rule will be considered in section \ref{section:quad}.
-
 \section{Quadrature}\label{section:quad}
 The integration domain $[a, b]$, with $a=\tau-n\sigma$ and $b=\tau+n\sigma$, can be discretised into $N$ sub-intervals of equal length with $N+1$ discretisation points, $s_0,\cdots,s_{N}$, such that $s_0=\tau-n\sigma$ and $s_N=\tau+n\sigma$. Using the composite Simpsons's rule \cite{compsimp}, the integral term can be numerically approximated as
 
@@ -79,29 +56,29 @@ The system of equations is given by
 \end{equation}
 where $u=u(x,t)$, $v=v(x,t)$, $\hat{u}=u(x,t-s)$ and $\hat{v}=v(x,t-s)$. $k(s)$ is the truncated Gaussian distribution, integrating to $1$ between constant limits $a$ and $b$, and is given by
 \begin{equation}
-k(s)=\frac{\Phi_c}{\sqrt{2\pi}\sigma}\exp\left(\frac{-1}{2}\left(\frac{s-\tau}{\sigma}\right)^2\right),
+k(s)=\frac{\Phi_c}{\sqrt{2\pi}\sigma}\exp\left(-\frac{1}{2}\left(\frac{s-\tau}{\sigma}\right)^2\right),
 \end{equation}
-for some mean $\tau$ and standard deviation $\sigma$. $\Phi_c$ denotes the truncation scaling factor. Denoting the steady-state $(u_\star,v_\star)$, and taking a small perturbation about the steady-state $u=u_\star+\epsilon\xi$, $v=v_\star+\epsilon\eta$, where $|\epsilon|\ll1$, we can write the equation for $u$ in \eqref{dist} as
+for some mean $\tau$ and standard deviation $\sigma$. $\Phi_c$ denotes the truncation scaling factor. Denoting the steady-state $(u_\star,v_\star)$, and taking a small perturbation about the steady-state $u=u_\star+\delta\xi$, $v=v_\star+\delta\eta$, where $|\delta|\ll1$, we can write the equation for $u$ in \eqref{dist} as
 
 \begin{equation}\label{perturb}
-  \epsilon\frac{\partial \xi}{\partial t}=\epsilon D_u\frac{\partial^2\xi}{\partial x^2}+f(u_\star+\epsilon\xi, v_\star+\epsilon\eta)+g(u_\star+\epsilon\hat{\xi},v_\star+\epsilon\hat{\eta}) ,
+  \delta\frac{\partial \xi}{\partial t}=\delta D_u\frac{\partial^2\xi}{\partial x^2}+f(u_\star+\delta\xi, v_\star+\delta\eta)+g(u_\star+\delta\hat{\xi},v_\star+\delta\hat{\eta}) ,
 \end{equation}
 where $f(u,v)=a-u+2u^2v$ and $g(\hat{u},\hat{v})=3\int_a^bk(s)\hat{u}^2\hat{v} \text{ds}$. The $\hat{\xi}$ notation is used to denote the perturbation evaluated at a delay $\hat{\xi}=\xi(x,t-s)$. Taylor expanding equation \eqref{perturb} for the $f$ term about the steady-state and evaluating the $g$ term, up to $O(\epsilon)$, yields
 
 \begin{dmath}\label{taylor}
-  \epsilon\frac{\partial \xi}{\partial t}=\epsilon D_u\frac{\partial^2\xi}{\partial x^2}+f(u_\star,v_\star)+3u_\star^2v_\star\int_a^bk(s)\text{ds}+\epsilon\left[\xi f_u(u_\star,v_\star)+\eta f_v(u_\star,v_\star)+6u_\star v_\star\int_a^bk(s)\hat{\xi}\text{ds}+3u_\star^2\int_a^bk(s)\hat{\eta}\text{ds}
+  \delta\frac{\partial \xi}{\partial t}=\delta D_u\frac{\partial^2\xi}{\partial x^2}+f(u_\star,v_\star)+3u_\star^2v_\star\int_a^bk(s)\text{ds}+\delta\left[\xi f_u(u_\star,v_\star)+\eta f_v(u_\star,v_\star)+6u_\star v_\star\int_a^bk(s)\hat{\xi}\text{ds}+3u_\star^2\int_a^bk(s)\hat{\eta}\text{ds}
   \right].
 \end{dmath}
 We use the notation $f_u$ to denote the derivative of function $f$ with respect $u$. Using the facts that the truncated Guassian $k(s)$ integrates to $1$ over $[a,b]$, and evaluation the expressions $f_u(u_\star,v_\star)$ and $f_v(u_\star,v_\star)$, equation \eqref{taylor} can be simplified to
 
 \begin{equation}\label{linu}
-  \epsilon \frac{\partial \xi}{\partial t}=\epsilon D_u\frac{\partial^2\xi}{\partial x^2}+\epsilon\left[\xi(-1-4u_\star v_\star)-2\eta u_\star^2 +6u_\star v_\star\int_a^bk(s)\hat{\xi}\text{ds}+3u_\star^2\int_a^bk(s)\hat{\eta}\text{ds}\right].
+  \delta \frac{\partial \xi}{\partial t}=\delta D_u\frac{\partial^2\xi}{\partial x^2}+\delta\left[\xi(-1-4u_\star v_\star)-2\eta u_\star^2 +6u_\star v_\star\int_a^bk(s)\hat{\xi}\text{ds}+3u_\star^2\int_a^bk(s)\hat{\eta}\text{ds}\right].
 \end{equation}
 The linearised dynmacs for $v$ are more simply given by
 \begin{equation}\label{linv}
-\epsilon \frac{\partial\eta}{\partial t}=\epsilon D_v\frac{\partial^2\eta}{\partial x^2}-\epsilon\left[2\xi u_\star v_\star+\eta u_\star^2\right].
+\delta \frac{\partial\eta}{\partial t}=\delta D_v\frac{\partial^2\eta}{\partial x^2}-\delta\left[2\xi u_\star v_\star+\eta u_\star^2\right].
 \end{equation}
-Substituting in an ansatz of the form $\xi=\xi_0e^{\lambda t}\cos(k\pi x)$ \cite{yigaffneyli} into \eqref{linu} and $\eta=\eta_0e^{\lambda t}\cos(k\pi x)$ into \eqref{linv}, and then dividing through by $e^{\lambda t}$ and $\cos(k\pi x)$, results in
+Dividing through by $\delta$ and substituting in an ansatz of the form $\xi=\xi_0e^{\lambda t}\cos(k\pi x)$ \cite{yigaffneyli} into \eqref{linu} and $\eta=\eta_0e^{\lambda t}\cos(k\pi x)$ into \eqref{linv}, and then dividing through by $e^{\lambda t}$ and $\cos(k\pi x)$, results in
 
 \begin{equation}\label{sysof}
   \begin{split}
@@ -130,7 +107,7 @@ Finally, we note that the expression $E$ can be evaluated as
 \begin{equation}
 E=\int_a^bk(s)e^{-\lambda s}ds=\frac{\Phi_c}{2}\left[\exp\left(\frac{\lambda(\lambda\sigma^2-2\tau)}{2}\right) \text{erf} \left(\frac{\lambda\sigma^2+s-\tau}{\sqrt{2}\sigma}\right)\right]\Bigg|_a^b.
 \end{equation}
-The charactersitic equation \eqref{characdist} cannot trivially be split into it's real and imaginary components due to the error function term in $E$ as was done in the fixed delay case. We therefore cannot explicitly compute the stability lines in $(a,b)$ parameter space. We can however range over $(a,b)$ and compute $\max_k(\Re(\lambda_k))$ for different $\tau$, and produce plots similar to those in figures \ref{fig:dispfixed} and \ref{fig:lambdavary}. We use these plots to pseudo-analytically prove that, using a symmetric Gaussian distribution centred at mean $\tau$ will not change the time-to pattern seen for a fixed delay of $\tau$, independent of the standard deviation of the distribution $\sigma$. We first plot $\max_k(\Re(\lambda_k))$ against $\tau$, as seen analogously in figure \ref{fig:dispfixed} for the fixed delay case, for multiple parameters $(a,b,\tau,\sigma)$, and compares these to the fixed delay case. Since physically we cannot have negative delays, we require the lower integration limit to be positive. Namely, for a given mean $\tau$, we require $\tau-3\sigma>0$. We therefore define a maximum $\sigma$ value by $\sigma_{max}=\tau / 3$. By ensuring $\sigma<\sigma_{max}$, we ensure only positive delays are considered. Figures \ref{fig:p1}, \ref{fig:p2}, and \ref{fig:p3} show $\max_k(\Re(\lambda_k))$ plotted against $\tau\in[0,1]$ for three different parameter sets $(a,b)=\{(0.3,1.2), (0.1,0.9), (0.4,0.4)\}$. For each parameter set, plots are produced with different $\sigma$ values as a fraction of $\sigma_{max}$, as well as for the fixed delay case. We note that in the distributed delay case, as we vary $\tau$, $\sigma_{max}$ and thus the integration limits both change as functions of $\tau$. The domain length was again given by $L=30$, and $k$ varied from $[0,20]$ at regular discrete intervals of $1$.
+The charactersitic equation \eqref{characdist} cannot trivially be split into it's real and imaginary components due to the error function term in $E$ as was done in the fixed delay case. We therefore cannot explicitly compute the stability lines in $(a,b)$ parameter space. We can however range over $(a,b)$ and compute $\max_k(\Re(\lambda_k))$ for different $\tau$, and produce plots similar to those in figures \ref{fig:dispfixed} and \ref{fig:lambdavary}. We use these plots to pseudo-analytically prove that, using a symmetric Gaussian distribution centred at mean $\tau$ will not change the time-to pattern seen for a fixed delay of $\tau$, independent of the standard deviation of the distribution $\sigma$. We first plot $\max_k(\Re(\lambda_k))$ against $\tau$, as seen analogously in figure \ref{fig:dispfixed} for the fixed delay case, for multiple parameters $(a,b,\tau,\sigma)$, and compares these to the fixed delay case. Since physically we cannot have negative delays, we require the lower integration limit to be positive. Namely, for a given mean $\tau$, we require $\tau-3\sigma>0$. We therefore define a maximum $\sigma$ value by $\sigma_{max}=\tau / 3$. By ensuring $\sigma<\sigma_{max}$, we ensure only positive delays are considered. Figures \ref{fig:p1}, \ref{fig:p2}, and \ref{fig:p3} show $\max_k(\Re(\lambda_k))$ plotted against $\tau\in[0,1]$ for three different parameter sets $(a,b)=\{(0.3,1.2), (0.1,0.9), (0.4,0.4)\}$. For each parameter set, plots are produced with different $\sigma$ values as a fraction of $\sigma_{max}$, as well as for the fixed delay case. We note that in the distributed delay case, as we vary $\tau$, $\sigma_{max}$ and thus the integration limits both change as functions of $\tau$. The diffusive coefficients were set as $D_u=\epsilon^2/L^2$, $D_v=1/L^2$,  with  $\epsilon^2=0.001$, $L=30\sqrt{0.05}$, and $k$ varied from $[0,50]$ at regular discrete intervals of $1$.
 
 % PARAMTER SET 1
 \begin{figure}[H]
@@ -162,7 +139,7 @@ The charactersitic equation \eqref{characdist} cannot trivially be split into it
         \caption{Distributed delay with $\sigma=\sigma_{max}\times0.1$.}
         \label{}
     \end{subfigure}
-    \caption{$\max_k(\Re(\lambda_k))$ plotted against $\tau\in[0,1]$ for parameter set $(a,b,\epsilon^2)=(0.3,1.2,0.001)$. $\Omega=[0,30]$ and $k$ varied over $[0,20]$ at regular discrete intervals of $1$.}
+    \caption{$\max_k(\Re(\lambda_k))$ plotted against $\tau\in[0,1]$ for parameter set $(a,b,\epsilon^2)=(0.3,1.2,0.001)$. $L=30\sqrt{0.05}$ and $k$ varied over $[0,50]$ at regular discrete intervals of $1$.}
     \label{fig:p1}
 \end{figure}
 % PARAMTER SET 2
@@ -195,7 +172,7 @@ The charactersitic equation \eqref{characdist} cannot trivially be split into it
         \caption{Distributed delay with $\sigma=\sigma_{max}\times0.1$.}
         \label{}
     \end{subfigure}
-    \caption{$\max_k(\Re(\lambda_k))$ plotted against $\tau\in[0,1]$ for parameter set $(a,b,\epsilon^2)=(0.1,0.9,0.001)$. $\Omega=[0,30]$ and $k$ varied over $[0,20]$ at regular discrete intervals of $1$.}
+    \caption{$\max_k(\Re(\lambda_k))$ plotted against $\tau\in[0,1]$ for parameter set $(a,b,\epsilon^2)=(0.1,0.9,0.001)$. $L=30\sqrt{0.05}$ and $k$ varied over $[0,50]$ at regular discrete intervals of $1$.}
     \label{fig:p2}
 \end{figure}
 % PARAMETER SET 3
@@ -228,11 +205,11 @@ The charactersitic equation \eqref{characdist} cannot trivially be split into it
         \caption{Distributed delay with $\sigma=\sigma_{max}\times0.1$.}
         \label{}
     \end{subfigure}
-    \caption{$\max_k(\Re(\lambda_k))$ plotted against $\tau\in[0,1]$ for parameter set $(a,b,\epsilon^2)=(0.4,0.4,0.001)$. $\Omega=[0,30]$ and $k$ varied over $[0,20]$ at regular discrete intervals of $1$.}
+    \caption{$\max_k(\Re(\lambda_k))$ plotted against $\tau\in[0,1]$ for parameter set $(a,b,\epsilon^2)=(0.4,0.4,0.001)$. $L=30\sqrt{0.05}$ and $k$ varied over $[0,50]$ at regular discrete intervals of $1$.}
     \label{fig:p3}
 \end{figure}
 
-These results suggest that the time-taken to pattern formation is invariant under $\sigma$, for the parameter values chosen. The linear theory also suggests that pattern formation will occur sooner for the parameters $(a,b)=(0.1,0.9)$ than for $(a,b)=(0.3,1.2)$. This is a result we verify numerically in section \ref{section:distsim}. Here,  we plot heatmaps of $\max_k(\Re(\lambda_k))$ for varying $\sigma$ values as a fraction of $\sigma_{max}$, for $\tau\in\{0.2,1\}$. The domain length was given by $L=30$, and $k$ varied from $[0,20]$ at regular discrete intervals of $1$. Overlayed onto these bifurcation plots are the contour lines at $\max_k(\Re(\lambda_k))=0$ and $\Re(\lambda_0)=0$, to highlight the Turing instability region. For each $\tau$ and $\sigma$, the bifrucation plots were computed with two different $\epsilon^2$ values, $\epsilon^2=0.001,0.1$. Figures \ref{fig:distbif1} and \ref{fig:distbif3} show the results for a fixed $\tau=0.2$ with varying $\sigma$, and an $\epsilon^2=0.001,0.1$. Figures \ref{fig:distbif2} and \ref{fig:distbif4} show the analogous plots but with a fixed $\tau=1$.
+These results suggest that the time-taken to pattern formation is invariant under $\sigma$, for the parameter values chosen. The linear theory also suggests that pattern formation will occur sooner for the parameters $(a,b)=(0.1,0.9)$ than for $(a,b)=(0.3,1.2)$. This is a result we verify numerically in section \ref{section:distsim}. Here,  we plot heatmaps of $\max_k(\Re(\lambda_k))$ for varying $\sigma$ values as a fraction of $\sigma_{max}$, for $\tau\in\{0.2,1\}$. The domain length was given by $L=30\sqrt{0.05}$, and $k$ varied from $[0,50]$ at regular discrete intervals of $1$. Overlayed onto these bifurcation plots are the contour lines at $\max_k(\Re(\lambda_k))=0$ and $\Re(\lambda_0)=0$, to highlight the Turing instability region. For each $\tau$ and $\sigma$, the bifrucation plots were computed with two different $\epsilon^2$ values, $\epsilon^2=0.001,0.1$. Figures \ref{fig:distbif1} and \ref{fig:distbif3} show the results for a fixed $\tau=0.2$ with varying $\sigma$, and an $\epsilon^2=0.001,0.1$. Figures \ref{fig:distbif2} and \ref{fig:distbif4} show the analogous plots but with a fixed $\tau=1$.
 
 \begin{figure}[H]
     \centering
