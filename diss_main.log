@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.8.21)  10 AUG 2021 14:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.8.21)  10 AUG 2021 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1728,11 +1728,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotelevel=\count526
 \@quotereset=\count527
 (./diss_main.aux (./dedication.aux) (./acknowledgements.aux) (./abstract.aux)
-(./intro.aux
-
-LaTeX Warning: Label `chem' multiply defined.
-
-) (./fixdel.aux
+(./intro.aux) (./fixdel.aux
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -2169,54 +2165,6 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `sub@' multiply defined.
 
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
 ) (./conclusion.aux) (./appendixA.aux) (./appendixB.aux))
 \openout1 = `diss_main.aux'.
 
@@ -2405,28 +2353,28 @@ LaTeX Warning: Command \L invalid in math mode on input line 26.
 LaTeX Warning: Command \L invalid in math mode on input line 26.
 
 [3] [4] [5] [6] [7]
-<bifsh.png, id=256, 1467.4825pt x 1076.02pt>
+<bifsh.png, id=257, 1467.4825pt x 1076.02pt>
 File: bifsh.png Graphic file (type png)
 <use bifsh.png>
-Package pdftex.def Info: bifsh.png  used on input line 125.
+Package pdftex.def Info: bifsh.png  used on input line 126.
 (pdftex.def)             Requested size: 227.61418pt x 170.70544pt.
 
-Overfull \hbox (32.48651pt too wide) in paragraph at lines 125--126
+Overfull \hbox (32.48651pt too wide) in paragraph at lines 126--127
  [][] 
  []
 
-<turingspace.png, id=257, 1495.5875pt x 1037.8775pt>
+<turingspace.png, id=258, 1495.5875pt x 1037.8775pt>
 File: turingspace.png Graphic file (type png)
 <use turingspace.png>
-Package pdftex.def Info: turingspace.png  used on input line 132.
+Package pdftex.def Info: turingspace.png  used on input line 133.
 (pdftex.def)             Requested size: 227.61464pt x 170.70395pt.
 
-Overfull \hbox (32.48697pt too wide) in paragraph at lines 132--133
+Overfull \hbox (32.48697pt too wide) in paragraph at lines 133--134
  [][] 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 141--74
+Underfull \hbox (badness 10000) in paragraph at lines 142--74
 
  []
 
@@ -2435,20 +2383,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--74
 
  (./fixdel.tex
 Chapter 2.
-
-LaTeX Warning: Reference `fixex' on page 10 undefined on input line 6.
-
 [10
 
 
 
 ]
-Overfull \hbox (9.59145pt too wide) in paragraph at lines 30--32
+Overfull \hbox (4.4271pt too wide) in paragraph at lines 30--32
 \OT1/cmr/m/n/12 This char-ac-ter-is-tic equa-tion can be used to de-ter-mine th
-e pa-ram-e-ter sets $(\OML/cmm/m/it/12 a; b; D[]; D[]; ^^\\OT1/cmr/m/n/12 )$
+e pa-ram-e-ter sets $(\OML/cmm/m/it/12 a; b; []; []; ^^\\OT1/cmr/m/n/12 )$
  []
 
-<disp1.png, id=301, 1341.01pt x 1015.795pt>
+<disp1.png, id=303, 1341.01pt x 1015.795pt>
 File: disp1.png Graphic file (type png)
 <use disp1.png>
 Package pdftex.def Info: disp1.png  used on input line 37.
@@ -2458,7 +2403,7 @@ Overfull \hbox (4.03032pt too wide) in paragraph at lines 37--38
  [][] 
  []
 
-<disp2.png, id=302, 1405.25pt x 991.705pt>
+<disp2.png, id=304, 1405.25pt x 991.705pt>
 File: disp2.png Graphic file (type png)
 <use disp2.png>
 Package pdftex.def Info: disp2.png  used on input line 44.
@@ -2469,7 +2414,7 @@ Overfull \hbox (4.02898pt too wide) in paragraph at lines 44--45
  []
 
 [11]
-<nopatt1.png, id=327, 591.20876pt x 372.39125pt>
+<nopatt1.png, id=330, 591.20876pt x 372.39125pt>
 File: nopatt1.png Graphic file (type png)
 <use nopatt1.png>
 Package pdftex.def Info: nopatt1.png  used on input line 56.
@@ -2479,7 +2424,7 @@ Overfull \hbox (4.04033pt too wide) in paragraph at lines 56--57
  [][] 
  []
 
-<nopatt2.png, id=328, 591.20876pt x 372.39125pt>
+<nopatt2.png, id=331, 591.20876pt x 372.39125pt>
 File: nopatt2.png Graphic file (type png)
 <use nopatt2.png>
 Package pdftex.def Info: nopatt2.png  used on input line 63.
@@ -2490,7 +2435,7 @@ Overfull \hbox (4.04033pt too wide) in paragraph at lines 63--64
  []
 
 [12 <./disp1.png> <./disp2.png>]
-<patt1.png, id=337, 591.20876pt x 369.38pt>
+<patt1.png, id=340, 591.20876pt x 369.38pt>
 File: patt1.png Graphic file (type png)
 <use patt1.png>
 Package pdftex.def Info: patt1.png  used on input line 75.
@@ -2500,7 +2445,7 @@ Overfull \hbox (4.04033pt too wide) in paragraph at lines 75--76
  [][] 
  []
 
-<patt2.png, id=338, 592.2125pt x 372.39125pt>
+<patt2.png, id=341, 592.2125pt x 372.39125pt>
 File: patt2.png Graphic file (type png)
 <use patt2.png>
 Package pdftex.def Info: patt2.png  used on input line 82.
@@ -2511,7 +2456,7 @@ Overfull \hbox (4.04413pt too wide) in paragraph at lines 82--83
  []
 
 [13 <./nopatt1.png> <./nopatt2.png> <./patt1.png> <./patt2.png>]
-<bif0.png, id=360, 1481.535pt x 999.735pt>
+<bif0.png, id=363, 1481.535pt x 999.735pt>
 File: bif0.png Graphic file (type png)
 <use bif0.png>
 Package pdftex.def Info: bif0.png  used on input line 110.
@@ -2521,13 +2466,13 @@ File: turingspace.png Graphic file (type png)
 Package pdftex.def Info: turingspace.png  used on input line 117.
 (pdftex.def)             Requested size: 199.1571pt x 156.48257pt.
  [14]
-<tspacetau.png, id=385, 1507.6325pt x 1072.005pt>
+<tspacetau.png, id=387, 1507.6325pt x 1072.005pt>
 File: tspacetau.png Graphic file (type png)
 <use tspacetau.png>
 Package pdftex.def Info: tspacetau.png  used on input line 128.
 (pdftex.def)             Requested size: 341.41112pt x 256.05965pt.
  [15 <./bif0.png>]
-<toscill.png, id=399, 806.01125pt x 504.88625pt>
+<toscill.png, id=401, 806.01125pt x 504.88625pt>
 File: toscill.png Graphic file (type png)
 <use toscill.png>
 Package pdftex.def Info: toscill.png  used on input line 138.
@@ -2537,7 +2482,7 @@ Overfull \hbox (4.03789pt too wide) in paragraph at lines 138--139
  [][] 
  []
 
-<tpattpred.png, id=400, 583.68062pt x 367.3725pt>
+<tpattpred.png, id=402, 583.68062pt x 367.3725pt>
 File: tpattpred.png Graphic file (type png)
 <use tpattpred.png>
 Package pdftex.def Info: tpattpred.png  used on input line 145.
@@ -2550,7 +2495,7 @@ Overfull \hbox (4.04251pt too wide) in paragraph at lines 145--146
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<p3t0.png, id=403, 743.77875pt x 461.725pt>
+<p3t0.png, id=405, 743.77875pt x 461.725pt>
 File: p3t0.png Graphic file (type png)
 <use p3t0.png>
 Package pdftex.def Info: p3t0.png  used on input line 157.
@@ -2560,7 +2505,7 @@ Overfull \hbox (4.0383pt too wide) in paragraph at lines 157--158
  [][] 
  []
 
-<p3t05.png, id=404, 725.71124pt x 454.69875pt>
+<p3t05.png, id=406, 725.71124pt x 454.69875pt>
 File: p3t05.png Graphic file (type png)
 <use p3t05.png>
 Package pdftex.def Info: p3t05.png  used on input line 164.
@@ -2570,7 +2515,7 @@ Overfull \hbox (4.03935pt too wide) in paragraph at lines 164--165
  [][] 
  []
 
-<p3t1.png, id=405, 742.775pt x 462.72874pt>
+<p3t1.png, id=407, 742.775pt x 462.72874pt>
 File: p3t1.png Graphic file (type png)
 <use p3t1.png>
 Package pdftex.def Info: p3t1.png  used on input line 171.
@@ -2580,7 +2525,7 @@ Overfull \hbox (4.04153pt too wide) in paragraph at lines 171--172
  [][] 
  []
 
-<p3t15.png, id=406, 755.82375pt x 476.78125pt>
+<p3t15.png, id=408, 755.82375pt x 476.78125pt>
 File: p3t15.png Graphic file (type png)
 <use p3t15.png>
 Package pdftex.def Info: p3t15.png  used on input line 178.
@@ -2591,7 +2536,7 @@ Overfull \hbox (4.03444pt too wide) in paragraph at lines 178--179
  []
 
 [16 <./tspacetau.png>]
-<p2t0.png, id=418, 694.595pt x 437.635pt>
+<p2t0.png, id=420, 694.595pt x 437.635pt>
 File: p2t0.png Graphic file (type png)
 <use p2t0.png>
 Package pdftex.def Info: p2t0.png  used on input line 190.
@@ -2601,7 +2546,7 @@ Overfull \hbox (4.0422pt too wide) in paragraph at lines 190--191
  [][] 
  []
 
-<p2t05.png, id=419, 716.6775pt x 445.665pt>
+<p2t05.png, id=421, 716.6775pt x 445.665pt>
 File: p2t05.png Graphic file (type png)
 <use p2t05.png>
 Package pdftex.def Info: p2t05.png  used on input line 197.
@@ -2611,7 +2556,7 @@ Overfull \hbox (4.04248pt too wide) in paragraph at lines 197--198
  [][] 
  []
 
-<p2t1.png, id=420, 738.76pt x 461.725pt>
+<p2t1.png, id=422, 738.76pt x 461.725pt>
 File: p2t1.png Graphic file (type png)
 <use p2t1.png>
 Package pdftex.def Info: p2t1.png  used on input line 204.
@@ -2621,7 +2566,7 @@ Overfull \hbox (4.03583pt too wide) in paragraph at lines 204--205
  [][] 
  []
 
-<p2t15.png, id=421, 722.7pt x 452.69125pt>
+<p2t15.png, id=423, 722.7pt x 452.69125pt>
 File: p2t15.png Graphic file (type png)
 <use p2t15.png>
 Package pdftex.def Info: p2t15.png  used on input line 211.
@@ -2633,7 +2578,7 @@ Overfull \hbox (4.04pt too wide) in paragraph at lines 211--212
 
 [17 <./toscill.png> <./tpattpred.png> <./p3t0.png> <./p3t05.png> <./p3t1.png> <
 ./p3t15.png>]
-<tau0bif.png, id=437, 1664.2175pt x 1190.4475pt>
+<tau0bif.png, id=439, 1664.2175pt x 1190.4475pt>
 File: tau0bif.png Graphic file (type png)
 <use tau0bif.png>
 Package pdftex.def Info: tau0bif.png  used on input line 224.
@@ -2643,7 +2588,7 @@ Overfull \hbox (4.03654pt too wide) in paragraph at lines 224--225
  [][] 
  []
 
-<tau05bif.png, id=438, 1587.9325pt x 1186.4325pt>
+<tau05bif.png, id=440, 1587.9325pt x 1186.4325pt>
 File: tau05bif.png Graphic file (type png)
 <use tau05bif.png>
 Package pdftex.def Info: tau05bif.png  used on input line 231.
@@ -2653,7 +2598,7 @@ Overfull \hbox (4.04184pt too wide) in paragraph at lines 231--232
  [][] 
  []
 
-<tau1bif.png, id=439, 1579.9025pt x 1156.32pt>
+<tau1bif.png, id=441, 1579.9025pt x 1156.32pt>
 File: tau1bif.png Graphic file (type png)
 <use tau1bif.png>
 Package pdftex.def Info: tau1bif.png  used on input line 238.
@@ -2663,7 +2608,7 @@ Overfull \hbox (4.02306pt too wide) in paragraph at lines 238--239
  [][] 
  []
 
-<tau15bif.png, id=440, 1551.7975pt x 1166.3575pt>
+<tau15bif.png, id=442, 1551.7975pt x 1166.3575pt>
 File: tau15bif.png Graphic file (type png)
 <use tau15bif.png>
 Package pdftex.def Info: tau15bif.png  used on input line 245.
@@ -2674,7 +2619,7 @@ Overfull \hbox (4.03214pt too wide) in paragraph at lines 245--246
  []
 
 [18 <./p2t0.png> <./p2t05.png> <./p2t1.png> <./p2t15.png>]
-<fixbif21.png, id=455, 1523.6925pt x 1232.605pt>
+<fixbif21.png, id=457, 1523.6925pt x 1232.605pt>
 File: fixbif21.png Graphic file (type png)
 <use fixbif21.png>
 Package pdftex.def Info: fixbif21.png  used on input line 258.
@@ -2684,7 +2629,7 @@ Overfull \hbox (4.0288pt too wide) in paragraph at lines 258--259
  [][] 
  []
 
-<fixbif22.png, id=456, 1553.805pt x 1178.4025pt>
+<fixbif22.png, id=458, 1553.805pt x 1178.4025pt>
 File: fixbif22.png Graphic file (type png)
 <use fixbif22.png>
 Package pdftex.def Info: fixbif22.png  used on input line 265.
@@ -2694,7 +2639,7 @@ Overfull \hbox (4.02898pt too wide) in paragraph at lines 265--266
  [][] 
  []
 
-<fixbif23.png, id=457, 1563.8425pt x 1180.41pt>
+<fixbif23.png, id=459, 1563.8425pt x 1180.41pt>
 File: fixbif23.png Graphic file (type png)
 <use fixbif23.png>
 Package pdftex.def Info: fixbif23.png  used on input line 272.
@@ -2704,7 +2649,7 @@ Overfull \hbox (4.02695pt too wide) in paragraph at lines 272--273
  [][] 
  []
 
-<fixbif24.png, id=458, 1505.625pt x 1210.5225pt>
+<fixbif24.png, id=460, 1505.625pt x 1210.5225pt>
 File: fixbif24.png Graphic file (type png)
 <use fixbif24.png>
 Package pdftex.def Info: fixbif24.png  used on input line 279.
@@ -2720,7 +2665,7 @@ Overfull \hbox (1.30772pt too wide) in paragraph at lines 286--286
  []
 
 [20 <./fixbif21.png> <./fixbif22.png> <./fixbif23.png> <./fixbif24.png>]
-<gaff0.png, id=486, 774.895pt x 485.815pt>
+<gaff0.png, id=488, 774.895pt x 485.815pt>
 File: gaff0.png Graphic file (type png)
 <use gaff0.png>
 Package pdftex.def Info: gaff0.png  used on input line 299.
@@ -2730,7 +2675,7 @@ Overfull \hbox (3.49214pt too wide) in paragraph at lines 299--300
  [][] 
  []
 
-<ic20.png, id=487, 624.3325pt x 391.4625pt>
+<ic20.png, id=489, 624.3325pt x 391.4625pt>
 File: ic20.png Graphic file (type png)
 <use ic20.png>
 Package pdftex.def Info: ic20.png  used on input line 306.
@@ -2740,7 +2685,7 @@ Overfull \hbox (3.49817pt too wide) in paragraph at lines 306--307
  [][] 
  []
 
-<ic30.png, id=488, 658.46pt x 411.5375pt>
+<ic30.png, id=490, 658.46pt x 411.5375pt>
 File: ic30.png Graphic file (type png)
 <use ic30.png>
 Package pdftex.def Info: ic30.png  used on input line 313.
@@ -2750,7 +2695,7 @@ Overfull \hbox (3.49783pt too wide) in paragraph at lines 313--314
  [][] 
  []
 
-<gaff1.png, id=489, 709.65125pt x 457.71pt>
+<gaff1.png, id=491, 709.65125pt x 457.71pt>
 File: gaff1.png Graphic file (type png)
 <use gaff1.png>
 Package pdftex.def Info: gaff1.png  used on input line 324.
@@ -2760,7 +2705,7 @@ Overfull \hbox (3.50185pt too wide) in paragraph at lines 324--325
  [][] 
  []
 
-<ic21.png, id=490, 632.3625pt x 400.49625pt>
+<ic21.png, id=492, 632.3625pt x 400.49625pt>
 File: ic21.png Graphic file (type png)
 <use ic21.png>
 Package pdftex.def Info: ic21.png  used on input line 331.
@@ -2770,7 +2715,7 @@ Overfull \hbox (3.49455pt too wide) in paragraph at lines 331--332
  [][] 
  []
 
-<ic31.png, id=491, 642.4pt x 408.52625pt>
+<ic31.png, id=493, 642.4pt x 408.52625pt>
 File: ic31.png Graphic file (type png)
 <use ic31.png>
 Package pdftex.def Info: ic31.png  used on input line 338.
@@ -2780,7 +2725,7 @@ Overfull \hbox (3.49808pt too wide) in paragraph at lines 338--339
  [][] 
  []
 
-<gaff2.png, id=492, 673.51625pt x 431.6125pt>
+<gaff2.png, id=494, 673.51625pt x 431.6125pt>
 File: gaff2.png Graphic file (type png)
 <use gaff2.png>
 Package pdftex.def Info: gaff2.png  used on input line 349.
@@ -2790,7 +2735,7 @@ Overfull \hbox (3.50317pt too wide) in paragraph at lines 349--350
  [][] 
  []
 
-<ic22.png, id=493, 619.31375pt x 391.4625pt>
+<ic22.png, id=495, 619.31375pt x 391.4625pt>
 File: ic22.png Graphic file (type png)
 <use ic22.png>
 Package pdftex.def Info: ic22.png  used on input line 356.
@@ -2800,7 +2745,7 @@ Overfull \hbox (3.49805pt too wide) in paragraph at lines 356--357
  [][] 
  []
 
-<ic32.png, id=494, 669.50125pt x 420.57124pt>
+<ic32.png, id=496, 669.50125pt x 420.57124pt>
 File: ic32.png Graphic file (type png)
 <use ic32.png>
 Package pdftex.def Info: ic32.png  used on input line 363.
@@ -2810,7 +2755,7 @@ Overfull \hbox (3.503pt too wide) in paragraph at lines 363--364
  [][] 
  []
 
-<gaff4.png, id=495, 703.62875pt x 440.64626pt>
+<gaff4.png, id=497, 703.62875pt x 440.64626pt>
 File: gaff4.png Graphic file (type png)
 <use gaff4.png>
 Package pdftex.def Info: gaff4.png  used on input line 374.
@@ -2820,7 +2765,7 @@ Overfull \hbox (3.49701pt too wide) in paragraph at lines 374--375
  [][] 
  []
 
-<ic24.png, id=496, 661.47125pt x 413.545pt>
+<ic24.png, id=498, 661.47125pt x 413.545pt>
 File: ic24.png Graphic file (type png)
 <use ic24.png>
 Package pdftex.def Info: ic24.png  used on input line 381.
@@ -2830,7 +2775,7 @@ Overfull \hbox (3.49236pt too wide) in paragraph at lines 381--382
  [][] 
  []
 
-<ic34.png, id=497, 667.49374pt x 423.5825pt>
+<ic34.png, id=499, 667.49374pt x 423.5825pt>
 File: ic34.png Graphic file (type png)
 <use ic34.png>
 Package pdftex.def Info: ic34.png  used on input line 388.
@@ -2842,7 +2787,7 @@ Overfull \hbox (3.49402pt too wide) in paragraph at lines 388--389
 
 [21 <./gaff0.png> <./ic20.png> <./ic30.png> <./gaff1.png> <./ic21.png> <./ic31.
 png>]
-<gaff8.png, id=516, 737.75626pt x 460.72125pt>
+<gaff8.png, id=518, 737.75626pt x 460.72125pt>
 File: gaff8.png Graphic file (type png)
 <use gaff8.png>
 Package pdftex.def Info: gaff8.png  used on input line 399.
@@ -2852,7 +2797,7 @@ Overfull \hbox (3.49617pt too wide) in paragraph at lines 399--400
  [][] 
  []
 
-<ic28.png, id=517, 656.4525pt x 407.5225pt>
+<ic28.png, id=519, 656.4525pt x 407.5225pt>
 File: ic28.png Graphic file (type png)
 <use ic28.png>
 Package pdftex.def Info: ic28.png  used on input line 406.
@@ -2862,7 +2807,7 @@ Overfull \hbox (3.50485pt too wide) in paragraph at lines 406--407
  [][] 
  []
 
-<ic38.png, id=518, 645.41125pt x 413.545pt>
+<ic38.png, id=520, 645.41125pt x 413.545pt>
 File: ic38.png Graphic file (type png)
 <use ic38.png>
 Package pdftex.def Info: ic38.png  used on input line 413.
@@ -2893,7 +2838,7 @@ Overfull \hbox (4.03406pt too wide) in paragraph at lines 431--432
  [][] 
  []
 
-<bc0.png, id=538, 639.38875pt x 401.5pt>
+<bc0.png, id=540, 639.38875pt x 401.5pt>
 File: bc0.png Graphic file (type png)
 <use bc0.png>
 Package pdftex.def Info: bc0.png  used on input line 438.
@@ -2913,7 +2858,7 @@ Overfull \hbox (4.03862pt too wide) in paragraph at lines 450--451
  [][] 
  []
 
-<bc1.png, id=548, 637.38126pt x 398.48875pt>
+<bc1.png, id=550, 637.38126pt x 398.48875pt>
 File: bc1.png Graphic file (type png)
 <use bc1.png>
 Package pdftex.def Info: bc1.png  used on input line 457.
@@ -2932,7 +2877,7 @@ Overfull \hbox (4.03957pt too wide) in paragraph at lines 469--470
  [][] 
  []
 
-<bc2.png, id=549, 623.32875pt x 389.455pt>
+<bc2.png, id=551, 623.32875pt x 389.455pt>
 File: bc2.png Graphic file (type png)
 <use bc2.png>
 Package pdftex.def Info: bc2.png  used on input line 476.
@@ -2963,7 +2908,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 486--495
  []
 
 [25 <./bc2.png>]
-<compdisp1.png, id=566, 1668.2325pt x 1122.1925pt>
+<compdisp1.png, id=568, 1668.2325pt x 1122.1925pt>
 File: compdisp1.png Graphic file (type png)
 <use compdisp1.png>
 Package pdftex.def Info: compdisp1.png  used on input line 503.
@@ -2973,7 +2918,7 @@ Overfull \hbox (4.03339pt too wide) in paragraph at lines 503--504
  [][] 
  []
 
-<compdisp2.png, id=567, 1543.7675pt x 1160.335pt>
+<compdisp2.png, id=569, 1543.7675pt x 1160.335pt>
 File: compdisp2.png Graphic file (type png)
 <use compdisp2.png>
 Package pdftex.def Info: compdisp2.png  used on input line 510.
@@ -2983,7 +2928,7 @@ Overfull \hbox (4.03801pt too wide) in paragraph at lines 510--511
  [][] 
  []
 
-<uic.png, id=570, 793.96625pt x 518.93875pt>
+<uic.png, id=572, 793.96625pt x 518.93875pt>
 File: uic.png Graphic file (type png)
 <use uic.png>
 Package pdftex.def Info: uic.png  used on input line 522.
@@ -2993,7 +2938,7 @@ Overfull \hbox (4.04184pt too wide) in paragraph at lines 522--523
  [][] 
  []
 
-<uicfc.png, id=571, 797.98125pt x 537.00626pt>
+<uicfc.png, id=573, 797.98125pt x 537.00626pt>
 File: uicfc.png Graphic file (type png)
 <use uicfc.png>
 Package pdftex.def Info: uicfc.png  used on input line 529.
@@ -3004,7 +2949,7 @@ Overfull \hbox (4.03839pt too wide) in paragraph at lines 529--530
  []
 
 [26 <./compdisp1.png> <./compdisp2.png>]
-<Tu.png, id=580, 599.23875pt x 398.48875pt>
+<Tu.png, id=582, 599.23875pt x 398.48875pt>
 File: Tu.png Graphic file (type png)
 <use Tu.png>
 Package pdftex.def Info: Tu.png  used on input line 541.
@@ -3014,7 +2959,7 @@ Overfull \hbox (4.03899pt too wide) in paragraph at lines 541--542
  [][] 
  []
 
-<Tfc.png, id=581, 599.23875pt x 398.48875pt>
+<Tfc.png, id=583, 599.23875pt x 398.48875pt>
 File: Tfc.png Graphic file (type png)
 <use Tfc.png>
 Package pdftex.def Info: Tfc.png  used on input line 548.
@@ -3031,7 +2976,7 @@ ime-to-pattern is $\OMS/cmsy/m/n/12 ^^Y \OT1/cmr/m/n/12 57\OML/cmm/m/it/12 :\OT
 1/cmr/m/n/12 5(3\OML/cmm/m/it/12 sf\OT1/cmr/m/n/12 )$.
  []
 
-<dispnumsim.png, id=595, 799.98875pt x 504.88625pt>
+<dispnumsim.png, id=597, 799.98875pt x 504.88625pt>
 File: dispnumsim.png Graphic file (type png)
 <use dispnumsim.png>
 Package pdftex.def Info: dispnumsim.png  used on input line 567.
@@ -3041,7 +2986,7 @@ Overfull \hbox (4.03896pt too wide) in paragraph at lines 567--568
  [][] 
  []
 
-<ttp1.png, id=596, 598.235pt x 386.44376pt>
+<ttp1.png, id=598, 598.235pt x 386.44376pt>
 File: ttp1.png Graphic file (type png)
 <use ttp1.png>
 Package pdftex.def Info: ttp1.png  used on input line 574.
@@ -3052,7 +2997,7 @@ Overfull \hbox (4.04312pt too wide) in paragraph at lines 574--575
  []
 
 [28 <./Tu.png> <./Tfc.png>]
-<ttp2.png, id=606, 598.235pt x 392.46625pt>
+<ttp2.png, id=608, 598.235pt x 392.46625pt>
 File: ttp2.png Graphic file (type png)
 <use ttp2.png>
 Package pdftex.def Info: ttp2.png  used on input line 586.
@@ -3062,7 +3007,7 @@ Overfull \hbox (4.04312pt too wide) in paragraph at lines 586--587
  [][] 
  []
 
-<ttp3.png, id=607, 597.23125pt x 395.4775pt>
+<ttp3.png, id=609, 597.23125pt x 395.4775pt>
 File: ttp3.png Graphic file (type png)
 <use ttp3.png>
 Package pdftex.def Info: ttp3.png  used on input line 593.
@@ -3072,7 +3017,7 @@ Overfull \hbox (4.037pt too wide) in paragraph at lines 593--594
  [][] 
  []
 
-<longlin2.png, id=612, 596.2275pt x 394.47375pt>
+<longlin2.png, id=614, 596.2275pt x 394.47375pt>
 File: longlin2.png Graphic file (type png)
 <use longlin2.png>
 Package pdftex.def Info: longlin2.png  used on input line 606.
@@ -3082,7 +3027,7 @@ Overfull \hbox (4.0389pt too wide) in paragraph at lines 606--607
  [][] 
  []
 
-<longlin1.png, id=613, 598.235pt x 392.46625pt>
+<longlin1.png, id=615, 598.235pt x 392.46625pt>
 File: longlin1.png Graphic file (type png)
 <use longlin1.png>
 Package pdftex.def Info: longlin1.png  used on input line 613.
@@ -3093,7 +3038,7 @@ Overfull \hbox (4.04312pt too wide) in paragraph at lines 613--614
  []
 
 [29 <./dispnumsim.png> <./ttp1.png> <./ttp2.png> <./ttp3.png>]
-<longlin3.png, id=624, 737.75626pt x 492.84125pt>
+<longlin3.png, id=626, 737.75626pt x 492.84125pt>
 File: longlin3.png Graphic file (type png)
 <use longlin3.png>
 Package pdftex.def Info: longlin3.png  used on input line 625.
@@ -3103,7 +3048,7 @@ Overfull \hbox (4.0354pt too wide) in paragraph at lines 625--626
  [][] 
  []
 
-<longlin4.png, id=625, 819.06pt x 541.02126pt>
+<longlin4.png, id=627, 819.06pt x 541.02126pt>
 File: longlin4.png Graphic file (type png)
 <use longlin4.png>
 Package pdftex.def Info: longlin4.png  used on input line 632.
@@ -3130,349 +3075,282 @@ Underfull \hbox (badness 10000) in paragraph at lines 643--75
  (./distdel.tex
 Chapter 3.
 
-Overfull \hbox (38.87856pt too wide) detected at line 7
+Overfull \hbox (38.87856pt too wide) detected at line 18
 [][] [][] \OML/cmm/m/it/12 k\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 
 )[][] [] \OMS/cmsy/m/n/12 ^^Y [] [] \OML/cmm/m/it/12 ;
- []
-
-<t1sig1.png, id=642, 803.0pt x 526.96875pt>
-File: t1sig1.png Graphic file (type png)
-<use t1sig1.png>
-Package pdftex.def Info: t1sig1.png  used on input line 15.
-(pdftex.def)             Requested size: 199.1689pt x 142.26738pt.
-
-Overfull \hbox (4.04123pt too wide) in paragraph at lines 15--16
- [][] 
- []
-
-<t1sig2.png, id=643, 810.02625pt x 539.01375pt>
-File: t1sig2.png Graphic file (type png)
-<use t1sig2.png>
-Package pdftex.def Info: t1sig2.png  used on input line 22.
-(pdftex.def)             Requested size: 199.16885pt x 142.26222pt.
-
-Overfull \hbox (4.04118pt too wide) in paragraph at lines 22--23
- [][] 
- []
-
-<t2sig1.png, id=644, 823.075pt x 544.0325pt>
-File: t2sig1.png Graphic file (type png)
-<use t2sig1.png>
-Package pdftex.def Info: t2sig1.png  used on input line 33.
-(pdftex.def)             Requested size: 199.16216pt x 142.26694pt.
-
-Overfull \hbox (4.03448pt too wide) in paragraph at lines 33--34
- [][] 
- []
-
-<t2sig2.png, id=645, 870.25125pt x 573.14125pt>
-File: t2sig2.png Graphic file (type png)
-<use t2sig2.png>
-Package pdftex.def Info: t2sig2.png  used on input line 40.
-(pdftex.def)             Requested size: 199.17093pt x 142.26173pt.
-
-Overfull \hbox (4.04326pt too wide) in paragraph at lines 40--41
- [][] 
  []
 
 [32
 
 
 
-] [33 <./t1sig1.png> <./t1sig2.png> <./t2sig1.png> <./t2sig2.png>] [34]
+]
+<t1sig1.png, id=651, 803.0pt x 526.96875pt>
+File: t1sig1.png Graphic file (type png)
+<use t1sig1.png>
+Package pdftex.def Info: t1sig1.png  used on input line 26.
+(pdftex.def)             Requested size: 199.1689pt x 142.26738pt.
+
+Overfull \hbox (4.04123pt too wide) in paragraph at lines 26--27
+ [][] 
+ []
+
+<t1sig2.png, id=652, 810.02625pt x 539.01375pt>
+File: t1sig2.png Graphic file (type png)
+<use t1sig2.png>
+Package pdftex.def Info: t1sig2.png  used on input line 33.
+(pdftex.def)             Requested size: 199.16885pt x 142.26222pt.
+
+Overfull \hbox (4.04118pt too wide) in paragraph at lines 33--34
+ [][] 
+ []
+
+<t2sig1.png, id=653, 823.075pt x 544.0325pt>
+File: t2sig1.png Graphic file (type png)
+<use t2sig1.png>
+Package pdftex.def Info: t2sig1.png  used on input line 44.
+(pdftex.def)             Requested size: 199.16216pt x 142.26694pt.
+
+Overfull \hbox (4.03448pt too wide) in paragraph at lines 44--45
+ [][] 
+ []
+
+<t2sig2.png, id=654, 870.25125pt x 573.14125pt>
+File: t2sig2.png Graphic file (type png)
+<use t2sig2.png>
+Package pdftex.def Info: t2sig2.png  used on input line 51.
+(pdftex.def)             Requested size: 199.17093pt x 142.26173pt.
+
+Overfull \hbox (4.04326pt too wide) in paragraph at lines 51--52
+ [][] 
+ []
+
+[33 <./t1sig1.png> <./t1sig2.png>] [34 <./t2sig1.png> <./t2sig2.png>]
+
+LaTeX Warning: Reference `fig:p1' on page 35 undefined on input line 112.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--113
+
+ []
+
 [35]
-<p1fixed.png, id=700, 1324.95pt x 995.72pt>
-File: p1fixed.png Graphic file (type png)
-<use p1fixed.png>
-Package pdftex.def Info: p1fixed.png  used on input line 117.
-(pdftex.def)             Requested size: 199.15848pt x 142.25621pt.
-
-Overfull \hbox (4.0308pt too wide) in paragraph at lines 117--118
- [][] 
- []
-
-<p1sigmax.png, id=701, 1290.8225pt x 1017.8025pt>
-File: p1sigmax.png Graphic file (type png)
-<use p1sigmax.png>
-Package pdftex.def Info: p1sigmax.png  used on input line 124.
-(pdftex.def)             Requested size: 199.16939pt x 142.25842pt.
-
-Overfull \hbox (4.04172pt too wide) in paragraph at lines 124--125
- [][] 
- []
-
-<p1sigmax5.png, id=702, 1324.95pt x 1025.8325pt>
-File: p1sigmax5.png Graphic file (type png)
-<use p1sigmax5.png>
-Package pdftex.def Info: p1sigmax5.png  used on input line 131.
-(pdftex.def)             Requested size: 199.15848pt x 142.25377pt.
-
-Overfull \hbox (4.0308pt too wide) in paragraph at lines 131--132
- [][] 
- []
-
-<p1sigmax10.png, id=703, 1351.0475pt x 975.645pt>
-File: p1sigmax10.png Graphic file (type png)
-<use p1sigmax10.png>
-Package pdftex.def Info: p1sigmax10.png  used on input line 138.
-(pdftex.def)             Requested size: 199.1644pt x 142.26135pt.
-
-Overfull \hbox (4.03673pt too wide) in paragraph at lines 138--139
- [][] 
- []
-
-<p2fixed.png, id=704, 1487.5575pt x 1015.795pt>
+<p2fixed.png, id=699, 1487.5575pt x 1015.795pt>
 File: p2fixed.png Graphic file (type png)
 <use p2fixed.png>
-Package pdftex.def Info: p2fixed.png  used on input line 150.
+Package pdftex.def Info: p2fixed.png  used on input line 119.
 (pdftex.def)             Requested size: 199.15462pt x 142.25682pt.
 
-Overfull \hbox (4.02695pt too wide) in paragraph at lines 150--151
+Overfull \hbox (4.02695pt too wide) in paragraph at lines 119--120
  [][] 
  []
 
-<p2sigmax.png, id=705, 1429.34pt x 1134.2375pt>
-File: p2sigmax.png Graphic file (type png)
-<use p2sigmax.png>
-Package pdftex.def Info: p2sigmax.png  used on input line 157.
-(pdftex.def)             Requested size: 199.16841pt x 142.24663pt.
+<dispdiff1.png, id=700, 1658.195pt x 1180.41pt>
+File: dispdiff1.png Graphic file (type png)
+<use dispdiff1.png>
+Package pdftex.def Info: dispdiff1.png  used on input line 126.
+(pdftex.def)             Requested size: 199.15193pt x 142.25548pt.
 
-Overfull \hbox (4.04074pt too wide) in paragraph at lines 157--158
+Overfull \hbox (4.02426pt too wide) in paragraph at lines 126--127
  [][] 
  []
 
-<p2sigmax5.png, id=706, 1377.145pt x 1144.275pt>
-File: p2sigmax5.png Graphic file (type png)
-<use p2sigmax5.png>
-Package pdftex.def Info: p2sigmax5.png  used on input line 164.
-(pdftex.def)             Requested size: 199.16608pt x 142.2483pt.
-
-Overfull \hbox (4.0384pt too wide) in paragraph at lines 164--165
- [][] 
- []
-
-<p2sigmax10.png, id=707, 1411.2725pt x 1122.1925pt>
-File: p2sigmax10.png Graphic file (type png)
-<use p2sigmax10.png>
-Package pdftex.def Info: p2sigmax10.png  used on input line 171.
-(pdftex.def)             Requested size: 199.1488pt x 142.26001pt.
-
-Overfull \hbox (4.02113pt too wide) in paragraph at lines 171--172
- [][] 
- []
-
-<p3fixed.png, id=708, 1495.5875pt x 1027.84pt>
+<p3fixed.png, id=701, 1495.5875pt x 1027.84pt>
 File: p3fixed.png Graphic file (type png)
 <use p3fixed.png>
-Package pdftex.def Info: p3fixed.png  used on input line 183.
+Package pdftex.def Info: p3fixed.png  used on input line 138.
 (pdftex.def)             Requested size: 199.1571pt x 142.24985pt.
 
-Overfull \hbox (4.02943pt too wide) in paragraph at lines 183--184
+Overfull \hbox (4.02943pt too wide) in paragraph at lines 138--139
  [][] 
  []
 
-<p3sigmax.png, id=709, 1351.0475pt x 1011.78pt>
-File: p3sigmax.png Graphic file (type png)
-<use p3sigmax.png>
-Package pdftex.def Info: p3sigmax.png  used on input line 190.
-(pdftex.def)             Requested size: 199.1644pt x 142.25034pt.
+<dispdiff2.png, id=702, 1479.5275pt x 1076.02pt>
+File: dispdiff2.png Graphic file (type png)
+<use dispdiff2.png>
+Package pdftex.def Info: dispdiff2.png  used on input line 145.
+(pdftex.def)             Requested size: 199.1632pt x 142.2518pt.
 
-Overfull \hbox (4.03673pt too wide) in paragraph at lines 190--191
+Overfull \hbox (4.03552pt too wide) in paragraph at lines 145--146
  [][] 
  []
 
-<p3sigmax5.png, id=710, 1351.0475pt x 1011.78pt>
-File: p3sigmax5.png Graphic file (type png)
-<use p3sigmax5.png>
-Package pdftex.def Info: p3sigmax5.png  used on input line 197.
-(pdftex.def)             Requested size: 199.1644pt x 142.25034pt.
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 153--156
 
-Overfull \hbox (4.03673pt too wide) in paragraph at lines 197--198
- [][] 
  []
 
-<p3sigmax10.png, id=711, 1441.385pt x 1021.8175pt>
-File: p3sigmax10.png Graphic file (type png)
-<use p3sigmax10.png>
-Package pdftex.def Info: p3sigmax10.png  used on input line 204.
-(pdftex.def)             Requested size: 199.15327pt x 142.2583pt.
-
-Overfull \hbox (4.0256pt too wide) in paragraph at lines 204--205
- [][] 
- []
-
-[36 <./p1fixed.png> <./p1sigmax.png> <./p1sigmax5.png> <./p1sigmax10.png>]
-[37 <./p2fixed.png> <./p2sigmax.png> <./p2sigmax5.png> <./p2sigmax10.png>]
-<t1f1.png, id=736, 1401.235pt x 1063.975pt>
+[37 <./p2fixed.png> <./dispdiff1.png (PNG copy)> <./p3fixed.png> <./dispdiff2.p
+ng (PNG copy)>]
+<t1f1.png, id=723, 1401.235pt x 1063.975pt>
 File: t1f1.png Graphic file (type png)
 <use t1f1.png>
-Package pdftex.def Info: t1f1.png  used on input line 218.
+Package pdftex.def Info: t1f1.png  used on input line 161.
 (pdftex.def)             Requested size: 199.16492pt x 135.13956pt.
 
-Overfull \hbox (4.03725pt too wide) in paragraph at lines 218--219
+Overfull \hbox (4.03725pt too wide) in paragraph at lines 161--162
  [][] 
  []
 
-<t1f2.png, id=737, 1413.28pt x 1078.0275pt>
+<t1f2.png, id=724, 1413.28pt x 1078.0275pt>
 File: t1f2.png Graphic file (type png)
 <use t1f2.png>
-Package pdftex.def Info: t1f2.png  used on input line 225.
+Package pdftex.def Info: t1f2.png  used on input line 168.
 (pdftex.def)             Requested size: 199.15175pt x 135.14789pt.
 
-Overfull \hbox (4.02408pt too wide) in paragraph at lines 225--226
+Overfull \hbox (4.02408pt too wide) in paragraph at lines 168--169
  [][] 
  []
 
-<t1f3.png, id=738, 1429.34pt x 1116.17pt>
+<t1f3.png, id=725, 1429.34pt x 1116.17pt>
 File: t1f3.png Graphic file (type png)
 <use t1f3.png>
-Package pdftex.def Info: t1f3.png  used on input line 232.
+Package pdftex.def Info: t1f3.png  used on input line 175.
 (pdftex.def)             Requested size: 199.16841pt x 135.14384pt.
 
-Overfull \hbox (4.04074pt too wide) in paragraph at lines 232--233
+Overfull \hbox (4.04074pt too wide) in paragraph at lines 175--176
  [][] 
  []
 
-<t1f4.png, id=739, 1351.0475pt x 1082.0425pt>
+<t1f4.png, id=726, 1351.0475pt x 1082.0425pt>
 File: t1f4.png Graphic file (type png)
 <use t1f4.png>
-Package pdftex.def Info: t1f4.png  used on input line 239.
+Package pdftex.def Info: t1f4.png  used on input line 182.
 (pdftex.def)             Requested size: 199.1644pt x 135.1394pt.
 
-Overfull \hbox (4.03673pt too wide) in paragraph at lines 239--240
+Overfull \hbox (4.03673pt too wide) in paragraph at lines 182--183
  [][] 
  []
 
-<distbif31.png, id=740, 1353.055pt x 1035.87pt>
+<distbif31.png, id=727, 1353.055pt x 1035.87pt>
 File: distbif31.png Graphic file (type png)
 <use distbif31.png>
-Package pdftex.def Info: distbif31.png  used on input line 250.
+Package pdftex.def Info: distbif31.png  used on input line 193.
 (pdftex.def)             Requested size: 199.15063pt x 135.142pt.
 
-Overfull \hbox (4.02296pt too wide) in paragraph at lines 250--251
+Overfull \hbox (4.02296pt too wide) in paragraph at lines 193--194
  [][] 
  []
 
-<distbif32.png, id=741, 1555.8125pt x 1098.1025pt>
+<distbif32.png, id=728, 1555.8125pt x 1098.1025pt>
 File: distbif32.png Graphic file (type png)
 <use distbif32.png>
-Package pdftex.def Info: distbif32.png  used on input line 257.
+Package pdftex.def Info: distbif32.png  used on input line 200.
 (pdftex.def)             Requested size: 199.15282pt x 135.15126pt.
 
-Overfull \hbox (4.02515pt too wide) in paragraph at lines 257--258
+Overfull \hbox (4.02515pt too wide) in paragraph at lines 200--201
  [][] 
  []
 
-<distbif33.png, id=742, 1507.6325pt x 1102.1175pt>
+<distbif33.png, id=729, 1507.6325pt x 1102.1175pt>
 File: distbif33.png Graphic file (type png)
 <use distbif33.png>
-Package pdftex.def Info: distbif33.png  used on input line 264.
+Package pdftex.def Info: distbif33.png  used on input line 207.
 (pdftex.def)             Requested size: 199.15073pt x 135.1409pt.
 
-Overfull \hbox (4.02306pt too wide) in paragraph at lines 264--265
+Overfull \hbox (4.02306pt too wide) in paragraph at lines 207--208
  [][] 
  []
 
-<distbif34.png, id=743, 1459.4525pt x 1082.0425pt>
+<distbif34.png, id=730, 1459.4525pt x 1082.0425pt>
 File: distbif34.png Graphic file (type png)
 <use distbif34.png>
-Package pdftex.def Info: distbif34.png  used on input line 271.
+Package pdftex.def Info: distbif34.png  used on input line 214.
 (pdftex.def)             Requested size: 199.15546pt x 135.1394pt.
 
-Overfull \hbox (4.02779pt too wide) in paragraph at lines 271--272
+Overfull \hbox (4.02779pt too wide) in paragraph at lines 214--215
  [][] 
  []
 
-[38 <./p3fixed.png> <./p3sigmax.png> <./p3sigmax5.png> <./p3sigmax10.png>]
-<t2f1.png, id=756, 1431.3475pt x 1088.065pt>
+<t2f1.png, id=731, 1431.3475pt x 1088.065pt>
 File: t2f1.png Graphic file (type png)
 <use t2f1.png>
-Package pdftex.def Info: t2f1.png  used on input line 282.
+Package pdftex.def Info: t2f1.png  used on input line 225.
 (pdftex.def)             Requested size: 199.16422pt x 135.14445pt.
 
-Overfull \hbox (4.03654pt too wide) in paragraph at lines 282--283
+Overfull \hbox (4.03654pt too wide) in paragraph at lines 225--226
  [][] 
  []
 
-<t2f2.png, id=757, 1437.37pt x 1076.02pt>
+<t2f2.png, id=732, 1437.37pt x 1076.02pt>
 File: t2f2.png Graphic file (type png)
 <use t2f2.png>
-Package pdftex.def Info: t2f2.png  used on input line 289.
+Package pdftex.def Info: t2f2.png  used on input line 232.
 (pdftex.def)             Requested size: 199.16878pt x 135.1425pt.
 
-Overfull \hbox (4.0411pt too wide) in paragraph at lines 289--290
+Overfull \hbox (4.0411pt too wide) in paragraph at lines 232--233
  [][] 
  []
 
-<t2f3.png, id=758, 1499.6025pt x 1128.215pt>
+<t2f3.png, id=733, 1499.6025pt x 1128.215pt>
 File: t2f3.png Graphic file (type png)
 <use t2f3.png>
-Package pdftex.def Info: t2f3.png  used on input line 296.
+Package pdftex.def Info: t2f3.png  used on input line 239.
 (pdftex.def)             Requested size: 199.16547pt x 135.13895pt.
 
-Overfull \hbox (4.0378pt too wide) in paragraph at lines 296--297
+Overfull \hbox (4.0378pt too wide) in paragraph at lines 239--240
  [][] 
  []
 
-<t2f4.png, id=759, 1591.9475pt x 1184.425pt>
+<t2f4.png, id=734, 1591.9475pt x 1184.425pt>
 File: t2f4.png Graphic file (type png)
 <use t2f4.png>
-Package pdftex.def Info: t2f4.png  used on input line 303.
+Package pdftex.def Info: t2f4.png  used on input line 246.
 (pdftex.def)             Requested size: 199.16298pt x 135.14874pt.
 
-Overfull \hbox (4.03531pt too wide) in paragraph at lines 303--304
+Overfull \hbox (4.03531pt too wide) in paragraph at lines 246--247
  [][] 
  []
 
-[39 <./t1f1.png> <./t1f2.png> <./t1f3.png> <./t1f4.png>]
-<distbif41.png, id=768, 1449.415pt x 1100.11pt>
+[38 <./t1f1.png> <./t1f2.png> <./t1f3.png> <./t1f4.png>]
+<distbif41.png, id=747, 1449.415pt x 1100.11pt>
 File: distbif41.png Graphic file (type png)
 <use distbif41.png>
-Package pdftex.def Info: distbif41.png  used on input line 314.
+Package pdftex.def Info: distbif41.png  used on input line 257.
 (pdftex.def)             Requested size: 199.15695pt x 135.14655pt.
 
-Overfull \hbox (4.02928pt too wide) in paragraph at lines 314--315
+Overfull \hbox (4.02928pt too wide) in paragraph at lines 257--258
  [][] 
  []
 
-<distbif42.png, id=769, 1381.16pt x 1086.0575pt>
+<distbif42.png, id=748, 1381.16pt x 1086.0575pt>
 File: distbif42.png Graphic file (type png)
 <use distbif42.png>
-Package pdftex.def Info: distbif42.png  used on input line 321.
+Package pdftex.def Info: distbif42.png  used on input line 264.
 (pdftex.def)             Requested size: 199.15665pt x 135.14369pt.
 
-Overfull \hbox (4.02898pt too wide) in paragraph at lines 321--322
+Overfull \hbox (4.02898pt too wide) in paragraph at lines 264--265
  [][] 
  []
 
-<distbif43.png, id=770, 1409.265pt x 1053.9375pt>
+<distbif43.png, id=749, 1409.265pt x 1053.9375pt>
 File: distbif43.png Graphic file (type png)
 <use distbif43.png>
-Package pdftex.def Info: distbif43.png  used on input line 328.
+Package pdftex.def Info: distbif43.png  used on input line 271.
 (pdftex.def)             Requested size: 199.16656pt x 135.1512pt.
 
-Overfull \hbox (4.0389pt too wide) in paragraph at lines 328--329
+Overfull \hbox (4.0389pt too wide) in paragraph at lines 271--272
  [][] 
  []
 
-<distbif44.png, id=771, 1405.25pt x 1061.9675pt>
+<distbif44.png, id=750, 1405.25pt x 1061.9675pt>
 File: distbif44.png Graphic file (type png)
 <use distbif44.png>
-Package pdftex.def Info: distbif44.png  used on input line 335.
+Package pdftex.def Info: distbif44.png  used on input line 278.
 (pdftex.def)             Requested size: 199.15665pt x 135.14384pt.
 
-Overfull \hbox (4.02898pt too wide) in paragraph at lines 335--336
+Overfull \hbox (4.02898pt too wide) in paragraph at lines 278--279
  [][] 
  []
 
-[40 <./distbif31.png> <./distbif32.png> <./distbif33.png> <./distbif34.png>]
-[41 <./t2f1.png> <./t2f2.png> <./t2f3.png> <./t2f4.png>]) [42 <./distbif41.png>
+[39 <./distbif31.png> <./distbif32.png> <./distbif33.png> <./distbif34.png>]
+[40 <./t2f1.png> <./t2f2.png> <./t2f3.png> <./t2f4.png>]) [41 <./distbif41.png>
  <./distbif42.png> <./distbif43.png> <./distbif44.png>]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 Chapter 4.
-) [43
+) [42
 
 
 
@@ -3482,10 +3360,10 @@ Chapter 4.
  (./appendixA.tex
 Appendix A.
 
-LaTeX Warning: Reference `appendix:extramath' on page 44 undefined on input lin
+LaTeX Warning: Reference `appendix:extramath' on page 43 undefined on input lin
 e 20.
 
-[44
+[43
 
 
 
@@ -3504,16 +3382,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
-) [45]
+) [44]
 \openout2 = `appendixB.aux'.
 
  (./appendixB.tex
 Appendix B.
-) [46
+) [45
 
 
 
-] [47
+] [46
 
 
 ]
@@ -3522,7 +3400,7 @@ Overfull \hbox (6.75104pt too wide) in paragraph at lines 91--91
 er-en-tial Equa-tions \OT1/cmr/m/n/12 31.4 (2019), pp. 2223{
  []
 
-[48] [49]
+[47] [48]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
  (./diss_main.aux (./dedication.aux) (./acknowledgements.aux)
@@ -3544,13 +3422,13 @@ Package logreq Info: Writing requests to 'diss_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47658 strings out of 480608
- 1039051 string characters out of 5903630
- 1836025 words of memory out of 5000000
- 62457 multiletter control sequences out of 15000+600000
+ 47609 strings out of 480608
+ 1038273 string characters out of 5903630
+ 1836138 words of memory out of 5000000
+ 62419 multiletter control sequences out of 15000+600000
  549658 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,23n,108p,2273b,1760s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,23n,108p,2222b,1760s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -3575,10 +3453,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf
 ist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on diss_main.pdf (51 pages, 7055668 bytes).
+Output written on diss_main.pdf (50 pages, 6698965 bytes).
 PDF statistics:
- 958 PDF objects out of 1000 (max. 8388607)
- 679 compressed objects within 7 object streams
- 196 named destinations out of 1000 (max. 500000)
- 614 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 937 PDF objects out of 1000 (max. 8388607)
+ 677 compressed objects within 7 object streams
+ 193 named destinations out of 1000 (max. 500000)
+ 574 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,18 +3,18 @@
 The authors in \cite{gaffmonk}, who studied the LI model, numerically demonstrated the important result that as the fixed time delay is increased, the time taken for patterns to emerge also increases. In this chapter, we first revisit analysis of the LI model through a more careful review of the linear theory presented in \cite{yigaffneyli,jiang}, with the aim of analytically showing a linear dependance between a fixed delay $\tau$ and the time taken for pattern formation, which has not yet been done in the literature, and verify these results through numerical simulations. Through full numerical simulations, we also consider the effects of variations in both initial and boundary conditions on pattern formation.
 
 \section{Linear Analysis}
-As defined in \eqref{fixex}, the system equations we study for the LI model are
-\begin{equation}\label{fixed}
+As defined in \eqref{fixed}, the equations we study for the LI model are
+\begin{equation}\label{fixed2}
   \begin{split}
   \frac{\partial u}{\partial t}&=\frac{\epsilon^2}{L^2}\frac{\partial^2u}{\partial x^2}+a-u-2u^2v+3\hat{u}^2\hat{v} \text{ds}\\
   \frac{\partial v}{\partial t}&=\frac{1}{L^2}\frac{\partial^2v}{\partial x^2}+b-u^2v,
 \end{split}
 \end{equation}
-where $u=u(x,t)$, $v=v(x,t)$ and $\hat{u}$, $\hat{v}$ are evaluated at some delay $\tau$, so that $\hat{u}=u(x,t-\tau)$ and $\hat{v}=v(x,t-\tau)$. Following the methodology in \cite{yigaffneyli}, we take a small perturbation about the steady-state $u(x,t)=u_\star+\delta\xi(x,t)$ and $v(x,t)=v_\star+\delta\eta(x,t)$, where $|\delta|\ll 1$. Taylor expanding up to $O(\delta)$ about the steady-state, the linearised dynamics of \eqref{fixed} are then given by
+where $u=u(x,t)$, $v=v(x,t)$ and $\hat{u}$, $\hat{v}$ are evaluated at some delay $\tau$, so that $\hat{u}=u(x,t-\tau)$ and $\hat{v}=v(x,t-\tau)$. Following the methodology in \cite{yigaffneyli}, we take a small perturbation about the steady-state $u(x,t)=u_\star+\delta\xi(x,t)$ and $v(x,t)=v_\star+\delta\eta(x,t)$, where $|\delta|\ll 1$. Taylor expanding up to $O(\delta)$ about the steady-state, the linearised dynamics of \eqref{fixed2} are then given by
 \begin{equation}\label{linfixed}
   \begin{split}
-\frac{\partial\xi}{\partial t}&=D_u\frac{\partial^2\xi}{\partial x^2}-\xi-4u_\star v_\star\xi+6u_\star v_\star\hat{\xi}-2u_\star^2\eta+3u_\star^2\hat{\eta},\\
-\frac{\partial\eta}{\partial t}&=D_v\frac{\partial^2\eta}{\partial x^2}-2u_\star v_\star\xi-u_\star^2\eta,
+\frac{\partial\xi}{\partial t}&=\frac{\epsilon^2}{L^2}\frac{\partial^2\xi}{\partial x^2}-\xi-4u_\star v_\star\xi+6u_\star v_\star\hat{\xi}-2u_\star^2\eta+3u_\star^2\hat{\eta},\\
+\frac{\partial\eta}{\partial t}&=\frac{1}{L^2}\frac{\partial^2\eta}{\partial x^2}-2u_\star v_\star\xi-u_\star^2\eta,
 \end{split}
 \end{equation}
 with $\hat{\xi}=\xi(x,t-\tau)$ and $\hat{\eta}=\eta(x,t-\tau)$. Substituting into \eqref{linfixed} an ansatz of the form $\begin{pmatrix}\xi\\\eta\end{pmatrix}=\begin{pmatrix}\xi_0e^{-\lambda t}\cos(k\pi x)\\ \eta_0e^{-\lambda t}\cos(k\pi x)\end{pmatrix}$, we obtain the characteristic equation $\mathcal{D}_k=0$, given by,
@@ -23,12 +23,12 @@ with $\hat{\xi}=\xi(x,t-\tau)$ and $\hat{\eta}=\eta(x,t-\tau)$. Substituting int
 \end{equation}
 where the coefficients are given as,\footnote{We note the coefficient of $\beta_k$ differs from that of \cite{yigaffneyli} due to a suspected error in the cited paper.}
 \begin{align}
-\alpha_k&=(D_u+D_v)k^2\pi^2+u_\star^2+4u_\star v_\star+1\\
-\beta_k&=(D_v\pi^2k^2+u_\star^2)(D_u\pi^2k^2+4u_\star v_\star+1)-4u_\star^3v_\star\\
+\alpha_k&=(\frac{\epsilon^2}{L^2}+\frac{1}{L^2})k^2\pi^2+u_\star^2+4u_\star v_\star+1\\
+\beta_k&=(\frac{1}{L^2}\pi^2k^2+u_\star^2)(\frac{\epsilon^2}{L^2}\pi^2k^2+4u_\star v_\star+1)-4u_\star^3v_\star\\
 \gamma_k&=-6u_\star v_\star\\
-\delta_k&=-6D_vu_\star v_\star k^2\pi^2.
+\delta_k&=-6\frac{1}{L^2}u_\star v_\star k^2\pi^2.
 \end{align}
-This characteristic equation can be used to determine the parameter sets $(a,b,D_u,D_v,\tau)$ in which a Turing instability occurs, and hence where we expect pattern formation. From \eqref{perturbgrow}, the perturbation grows like $e^{\lambda t}\cos(k\pi x)$, and so if there exists a $k\neq0$ for a given $(a,b,D_u,D_v,\tau)$ such that $\Re(\max_k(\lambda))>0$, we expect pattern formation. Figure \ref{fig:dispfixed} shows $\max_k(\Re(\lambda))$ plotted against $\tau$, for multiple given $(a,b)$ parameter sets. The complex roots for $\lambda$ of the characteristic equation were found using the \emph{roots} command of the MATLAB package Chebfun \cite{chebfun}. These plots were produced by varying $k$ over $[0,50]$ at regular discrete intervals of $1$ for a given $\tau$, and for each $k$, the roots of \eqref{realfix} and \eqref{complexfix} were computed. The maximum over the $k$ of the $\Re(\lambda)$ was then taken for $k\in[0,50]$. This was repeated for time delay varied over $\tau\in[0,1]$ at regular intervals of $0.1$. We do not consider a $k$ larger than $50$ as full numerical solutions for the parameter values used tended towards patterns with four `spikes', so we do expect large wave numbers to be excited. All results in this section, unless otherwise stated, were obtained using parameter values $\epsilon^2=0.001$ and $L=30\sqrt{0.05}$
+This characteristic equation can be used to determine the parameter sets $(a,b,\frac{\epsilon^2}{L^2},\frac{1}{L^2},\tau)$ in which a Turing instability occurs, and hence where we expect pattern formation. From \eqref{perturbgrow}, the perturbation grows like $e^{\lambda t}\cos(k\pi x)$, and so if there exists a $k\neq0$ for a given $(a,b,\frac{\epsilon^2}{L^2},\frac{1}{L^2},\tau)$ such that $\Re(\max_k(\lambda))>0$, we expect pattern formation. Figure \ref{fig:dispfixed} shows $\max_k(\Re(\lambda))$ plotted against $\tau$, for multiple given $(a,b)$ parameter sets. The complex roots for $\lambda$ of the characteristic equation were found using the \emph{roots} command of the MATLAB package Chebfun \cite{chebfun}. These plots were produced by varying $k$ over $[0,50]$ at regular discrete intervals of $1$ for a given $\tau$, and for each $k$, the roots of \eqref{realfix} and \eqref{complexfix} were computed. The maximum over the $k$ of the $\Re(\lambda)$ was then taken for $k\in[0,50]$. This was repeated for time delay varied over $\tau\in[0,1]$ at regular intervals of $0.1$. We do not consider a $k$ larger than $50$ as full numerical solutions for the parameter values used tended towards patterns with four `spikes', so we do expect large wave numbers to be excited. All results in this section, unless otherwise stated, were obtained using parameter values $\epsilon^2=0.001$ and $L=30\sqrt{0.05}$
 
 \begin{figure}[H]
     \centering
