@@ -39,16 +39,6 @@
       \verb https://en.wikipedia.org/wiki/Truncated_normal_distribution
       \endverb
     \endentry
-    \entry{methsteps}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Delay_differential_equation
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Delay_differential_equation
-      \endverb
-    \endentry
     \entry{rodas}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
@@ -57,6 +47,16 @@
       \endverb
       \verb{url}
       \verb https://diffeq.sciml.ai/stable/solvers/ode_solve/
+      \endverb
+    \endentry
+    \entry{methsteps}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Delay_differential_equation
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Delay_differential_equation
       \endverb
     \endentry
     \entry{chebfun}{online}{}
@@ -1102,6 +1102,35 @@
       \field{pages}{153\bibrangedash 197}
       \range{pages}{45}
     \endentry
+    \entry{wolpert}{article}{}
+      \name{author}{1}{}{%
+        {{hash=150e4376a8fbf56402f90f32c1d7c81b}{%
+           family={Wolpert},
+           familyi={W\bibinitperiod},
+           given={Lewis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{150e4376a8fbf56402f90f32c1d7c81b}
+      \strng{fullhash}{150e4376a8fbf56402f90f32c1d7c81b}
+      \strng{bibnamehash}{150e4376a8fbf56402f90f32c1d7c81b}
+      \strng{authorbibnamehash}{150e4376a8fbf56402f90f32c1d7c81b}
+      \strng{authornamehash}{150e4376a8fbf56402f90f32c1d7c81b}
+      \strng{authorfullhash}{150e4376a8fbf56402f90f32c1d7c81b}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of theoretical biology}
+      \field{number}{1}
+      \field{title}{Positional information and the spatial pattern of cellular differentiation}
+      \field{volume}{25}
+      \field{year}{1969}
+      \field{pages}{1\bibrangedash 47}
+      \range{pages}{47}
+    \endentry
     \entry{baker}{article}{}
       \name{author}{5}{}{%
         {{hash=e54d50f8c12b6dad7c1086da2e1af825}{%
@@ -1191,7 +1220,6 @@
       \range{pages}{1}
     \endentry
   \enddatalist
-  \missing{rods}
 \endrefsection
 \endinput
 

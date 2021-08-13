@@ -8,11 +8,11 @@ The LI model with distributed time delay, as defined in \eqref{distmodel}, is gi
 
 \begin{equation}\label{distmodel2}
   \begin{split}
-    \frac{\partial u}{\partial t}&=\frac{\epsilon^2}{L^2}\frac{\partial^2u}{\partial x^2}+a-u-2u^2v+3\int_{a}^{b}k(s,\tau,\sigma)\hat{u}^2\hat{v} \quad\text{ds},\\
+    \frac{\partial u}{\partial t}&=\frac{\epsilon^2}{L^2}\frac{\partial^2u}{\partial x^2}+a-u-2u^2v+3\int_{a}^{b}k(s,\tau,\sigma)\hat{u}^2\hat{v} \ \text{ds},\\
     \frac{\partial v}{\partial t}&=\frac{1}{L^2}\frac{\partial^2v}{\partial x^2}+b-u^2v,
 \end{split}
 \end{equation}
-where $\hat{u}=u(x,t-s)$ and $\hat{v}=v(x,t-s)$ where $s$ is the integration variable ranging over the delays. The function $k(s,\tau,\sigma)$ is the truncated Gaussian pdf for some mean $\tau$ and standard devation $\sigma$, and $\Phi_c$ is the truncation scaling constant. The integration domain $[a, b]$, with $a=\tau-n\sigma$ and $b=\tau+n\sigma$, can be discretised into $N$ sub-intervals of equal length with $N+1$ discretisation points, $s_0,\cdots,s_{N}$, such that $s_0=\tau-n\sigma$ and $s_N=\tau+n\sigma$. Using the composite Simpsons's rule \cite{compsimp}, the integral term can be numerically approximated as
+where $\hat{u}=u(x,t-s)$ and $\hat{v}=v(x,t-s)$ where $s$ is the integration variable ranging over the delays. The function $k(s,\tau,\sigma)$ is the truncated Gaussian pdf for some mean $\tau$ and standard devation $\sigma$. The integration domain $[a, b]$, with $a=\tau-n\sigma$ and $b=\tau+n\sigma$, can be discretised into $N$ sub-intervals of equal length with $N+1$ discretisation points, $s_0,\cdots,s_{N}$, such that $s_0=\tau-n\sigma$ and $s_N=\tau+n\sigma$. Using the composite Simpsons's rule \cite{compsimp}, the integral term can be numerically approximated as
 
 \begin{equation}\label{simp}\int_{a}^{b}k(s)\hat{u}^2\hat{v}\  \text{ds}\approx\frac{h}{3}\left[k(s_0)\hat{u}^2_0\hat{v}_0+2\sum_{i=1}^{\frac{N}{2}-1}k(s_{2i})\hat{u}^2_{2i}\hat{v}_{2i}+4\sum_{i=2}^{\frac{N}{2}}k(s_{2i-1})\hat{u}^2_{2i-1}\hat{v}_{2i-1}+k(s_N)\hat{u}^2_N\hat{v}_N\right],
 \end{equation}
@@ -55,7 +55,7 @@ Figures \ref{fig:pdf1} and \ref{fig:pdf2} show the pdf of a truncated Gaussian d
     \caption{PDF of truncated Gaussian distribution with mean $\tau=2$ and integration domain $[2-3\sigma,2+3\sigma]$. $\sigma$ values of $0.66(2.d.p)$ and $0.07(2.d.p)$ are considered.}
     \label{fig:pdf2}
 \end{figure}
-We see that $\sigma$ is responsible for scaling on the $x$-axis, while the truncation constant $\Phi_c$ scales the $y$-axis, ensuring the pdf integrates to $1$ across the integration domain. For the implementation of the quadrature rule, the number of sub-intervals $N$ was chosen to be $N=50$. The consideration for such a choice involves both quadrature accuracy and computational efficiency. In this section, we present results obtained in testing the quadrature rule, to show that $N=50$ is a sufficiently large choice. We apply the quadrature to two test integrals: the first is the truncated Gaussian pdf $k(s,\tau,\sigma)$, which should analytically integrate to $1$. For the second test, we apply the quadrature rule to both a spatially and temporally dependent integral, which can be evaluated analytically, given by
+We see that $\sigma$ is responsible for scaling on the $x$-axis, while the truncation constant $\Phi_c$, defined in \eqref{distmodel}, scales the $y$-axis, ensuring the pdf integrates to $1$ across the integration domain. For the implementation of the quadrature rule, the number of sub-intervals $N$ was chosen to qbe $N=50$. The consideration for such a choice involves both quadrature accuracy and computational efficiency. In this section, we present results obtained in testing the quadrature rule, to show that $N=50$ is a sufficiently large choice. We apply the quadrature to two test integrals: the first is the truncated Gaussian pdf $k(s,\tau,\sigma)$, which should analytically integrate to $1$. For the second test, we apply the quadrature rule to both a spatially and temporally dependent integral, which can be evaluated analytically, given by
 \begin{equation}\label{testint}
 \int_a^bk(s,\tau,\sigma)f(x,t-s)\ \text{ds},
 \end{equation}
@@ -66,7 +66,7 @@ where $f(x,t)=xt$. This can be explicitly evaluated as
 \int_a^b&k(s,\tau,\sigma)f(x,t-s)\ \text{ds}=xt\int_a^bk(s,\tau,\sigma)\ \text{ds}-x\int_a^bk(s,\tau,\sigma)s\ \text{ds}\\&=xt\left[\frac{\Phi_c}{2}\text{erf}\left(\frac{s-\tau}{\sqrt{2}\sigma}\right)\right]\bigg|_a^b-x\left[\frac{\Phi_c}{2}\text{erf}\left(\frac{s-\tau}{\sqrt{2}\sigma}\right)-\frac{\Phi_c\sigma}{\sqrt{2\pi}}\exp\left(-\frac{1}{2}\left(\frac{s-\tau}{\sigma}\right)^2 \right)\right]\bigg|_a^b.
     \end{split}
 \end{equation}
-The constant $\Phi_c$ is the truncation scaling constant, and is as defined in \eqref{distmodel}. Figure \ref{fig:truncerr} shows the relative (and absolute error) of the quadrature rule applied to the truncated Guassian pdf $k(s,\tau,\sigma)$ for different $N$, with a fixed $\tau=1$ and $\sigma=\sigma_{max}\times0.1$. We only consider a fixed $\tau$ and $\sigma$ here, as further numerical solutions in appendix \ref{section:appB} for varying $\tau$ values show that the relative error results are independent of $\tau$ and $\sigma$. Figure \ref{fig:distint} shows a heatmap of the relative error of the quadrature rule applied to \eqref{testint} for $t\in[1.1,500]$ and $x\in[0.1,1]$, for a fixed $\tau=1$ and $\sigma=\sigma_{max}\times0.1$, and $N=50$. The spatial and temporal domains were chosen to discard the effects of catastrophic cancellation, which is caused by very small solution values for $0\leq t\leq 1.1$ and $0\leq x\leq 0.1$.
+Figure \ref{fig:truncerr} shows the relative (and absolute error) of the quadrature rule applied to the truncated Guassian pdf $k(s,\tau,\sigma)$ for different $N$, with a fixed $\tau=1$ and $\sigma=\sigma_{max}\times0.1$. We only consider a fixed $\tau$ and $\sigma$ here, as further numerical solutions in appendix \ref{section:appB} for varying $\tau$ values show that the relative error results are independent of $\tau$ and $\sigma$. Figure \ref{fig:distint} shows a heatmap of the relative error of the quadrature rule applied to \eqref{testint} for $t\in[1.1,500]$ and $x\in[0.1,1]$, for a fixed $\tau=1$ and $\sigma=\sigma_{max}\times0.1$, and $N=50$. The spatial and temporal domains were chosen to discard the effects of catastrophic cancellation, which is caused by very small solution values for $0\leq t\leq 1.1$ and $0\leq x\leq 0.1$.
 
 \begin{figure}[H]
     \centering
@@ -110,22 +110,22 @@ The linearised dynmacs for $v$ are more simply given by
 \begin{equation}\label{linv}
 \delta \frac{\partial\eta}{\partial t}=\delta \frac{1}{L^2}\frac{\partial^2\eta}{\partial x^2}-\delta\left[2\xi u_\star v_\star+\eta u_\star^2\right].
 \end{equation}
-Dividing through by $\delta$ and substituting in an ansatz of the form $\xi=\xi_0e^{\lambda t}\cos(k\pi x)$ \cite{yigaffneyli} into \eqref{linu} and $\eta=\eta_0e^{\lambda t}\cos(k\pi x)$ into \eqref{linv}, and then dividing through by $e^{\lambda t}$ and $\cos(k\pi x)$, results in
+Dividing through by $\delta$ and substituting in an ansatz of the form $\xi=\xi_0e^{\lambda_k t}\cos(k\pi x)$ \cite{yigaffneyli} into \eqref{linu} and $\eta=\eta_0e^{\lambda_k t}\cos(k\pi x)$ into \eqref{linv}, and then dividing through by $e^{\lambda_k t}$ and $\cos(k\pi x)$, results in
 
 \begin{equation}\label{sysof}
   \begin{split}
-\lambda\xi_0&=-\frac{\epsilon^2}{L^2}k^2\pi^2\xi_0+\xi_0(-1-4u_\star v_\star)-2\eta_0u_\star^2+6\xi_0u_\star v_\star E+3\xi_0u_\star^2E \\
-\lambda\eta_0&=-\frac{1}{L^2}k^2\pi^2\eta_0-2\xi_0u_\star v_\star-\eta_0u_\star^2,
+\lambda_k\xi_0&=-\frac{\epsilon^2}{L^2}k^2\pi^2\xi_0+\xi_0(-1-4u_\star v_\star)-2\eta_0u_\star^2+6\xi_0u_\star v_\star E+3\xi_0u_\star^2E \\
+\lambda_k\eta_0&=-\frac{1}{L^2}k^2\pi^2\eta_0-2\xi_0u_\star v_\star-\eta_0u_\star^2,
 \end{split}
 \end{equation}
-where $E=\int_a^bk(s)e^{-\lambda s}\text{ds}$. We can write equation \eqref{sysof} as a homogeneous linear system for $(\xi_0,\eta_0)^T$, given by
+where $E=\int_a^bk(s)e^{-\lambda_k s}\text{ds}$. We can write equation \eqref{sysof} as a homogeneous linear system for $(\xi_0,\eta_0)^T$, given by
 
 \begin{equation}
-\underbrace{\begin{pmatrix}-1-4u_\star v_\star-\frac{\epsilon^2}{L^2}k^2\pi^2+6u_\star v_\star E-\lambda&-2u_\star^2+3u_\star^2E\\-2u_\star v_\star&-u_\star^2-\frac{1}{L^2}k^2\pi^2-\lambda \end{pmatrix}}_{\textbf{M}}\begin{pmatrix}\xi_0\\\eta_0\end{pmatrix}=\begin{pmatrix}0\\0\end{pmatrix}.
+\underbrace{\begin{pmatrix}-1-4u_\star v_\star-\frac{\epsilon^2}{L^2}k^2\pi^2+6u_\star v_\star E-\lambda_k&-2u_\star^2+3u_\star^2E\\-2u_\star v_\star&-u_\star^2-\frac{1}{L^2}k^2\pi^2-\lambda_k \end{pmatrix}}_{\textbf{M}}\begin{pmatrix}\xi_0\\\eta_0\end{pmatrix}=\begin{pmatrix}0\\0\end{pmatrix}.
 \end{equation}
 Looking for non-trivial solutions, we look for roots of the characteristic equation, namely $D_k=\text{det}(\textbf{M})=0$. The characteristic equation, $D_k$, is given as
 \begin{equation}\label{characdist}
-  D_k=\lambda^2+\alpha_k\lambda+\beta_k+(\gamma_k\lambda+\delta_k)E=0,
+  D_k=\lambda_k^2+\alpha_k\lambda_k+\beta_k+(\gamma_k\lambda_k+\delta_k)E=0,
 \end{equation}
 where
 \begin{align}
@@ -137,11 +137,11 @@ where
 
 Finally, we note that the expression $E$ can be evaluated as
 \begin{equation}
-E=\int_a^bk(s)e^{-\lambda s}ds=\frac{\Phi_c}{2}\left[\exp\left(\frac{\lambda(\lambda\sigma^2-2\tau)}{2}\right) \text{erf} \left(\frac{\lambda\sigma^2+s-\tau}{\sqrt{2}\sigma}\right)\right]\Bigg|_a^b.
+E=\int_a^bk(s)e^{-\lambda_k s}ds=\frac{\Phi_c}{2}\left[\exp\left(\frac{\lambda_k(\lambda_k\sigma^2-2\tau)}{2}\right) \text{erf} \left(\frac{\lambda_k\sigma^2+s-\tau}{\sqrt{2}\sigma}\right)\right]\Bigg|_a^b.
 \end{equation}
 The charactersitic equation \eqref{characdist} cannot trivially be split into it's real and imaginary components due to the error function term in $E$ as was done in the fixed delay case. We therefore cannot explicitly compute the stability lines in $(a,b)$ parameter space. We can however range over $(a,b)$ and compute $\max_k(\Re(\lambda_k))$ for different $\tau$, and produce plots similar to those in figures \ref{fig:dispfixed} and \ref{fig:lambdavary}. We use these plots to pseudo-analytically prove that, using a symmetric Gaussian distribution centred at mean $\tau$ will not change the time-to-pattern seen for a fixed delay of $\tau$, independent of the standard deviation of the distribution $\sigma$. We first plot $\max_k(\Re(\lambda_k))$ against $\tau$, as seen analogously in figure \ref{fig:dispfixed} for the fixed delay case, for multiple parameters $(a,b,\tau,\sigma)$, and compares these to the fixed delay case. Since physically we cannot have negative delays, we require the lower integration limit to be positive. Namely, for a given mean $\tau$, we require $\tau-3\sigma>0$. We therefore define a maximum $\sigma$ value by $\sigma_{max}=\tau / 3$. By ensuring $\sigma<\sigma_{max}$, we ensure only positive delays are considered.
-\\\\
-Figures \ref{fig:p2} and \ref{fig:p3} show $\max_k(\Re(\lambda_k))$ plotted against $\tau\in[0,1]$ for two different parameter sets $(a,b)=\{(0.1,0.9), (0.4,0.4)\}$, for the fixed delay case. For each parameter set, figures are produced with different $\sigma$ values as a fraction of $\sigma_{max}$, and the absolute value of the difference between $\max_k(\Re(\lambda))$ for each distributed delay case compared with the fixed delay case is plotted. We note that in the distributed delay case, as we vary $\tau$, $\sigma_{max}$ and thus the integration limits both change as functions of $\tau$. All numerical results in this chapter are produced with $L=30\sqrt{0.05}$, and unless otherwise stated, $\epsilon^2=0.001$.
+\\
+Figures \ref{fig:p2} and \ref{fig:p3} show $\max_k(\Re(\lambda_k))$ plotted against $\tau\in[0,1]$ for two different parameter sets $(a,b)=\{(0.1,0.9), (0.4,0.4)\}$, for the fixed delay case. For each parameter set, figures are produced with different $\sigma$ values as a fraction of $\sigma_{max}$, and the absolute value of the difference between $\max_k(\Re(\lambda_k))$ for each distributed delay case compared with the fixed delay case is plotted. We note that in the distributed delay case, as we vary $\tau$, $\sigma_{max}$ and thus the integration limits both change as functions of $\tau$. All numerical results in this chapter are produced with $L=30\sqrt{0.05}$, and unless otherwise stated, $\epsilon^2=0.001$.
 
 % PARAMTER SET 2
 \begin{figure}[H]
@@ -156,7 +156,7 @@ Figures \ref{fig:p2} and \ref{fig:p3} show $\max_k(\Re(\lambda_k))$ plotted agai
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
         \includegraphics[width=7cm,height=5cm]{dispdiff1.png}
-        \caption{Absolute difference in $\max_k(\Re(\lambda))$ as $\sigma$ is varied.}
+        \caption{Absolute difference in $\max_k(\Re(\lambda_k))$ as $\sigma$ is varied.}
         \label{}
     \end{subfigure}
     \caption{$\max_k(\Re(\lambda_k))$ plotted against $\tau\in[0,1]$ for parameter set $(a,b)=(0.1,0.9)$. $\epsilon^2=0.001$ and $L=30\sqrt{0.05}$. $k$ is varied over $[0,50]$ at regular discrete intervals of $1$.}
@@ -175,16 +175,16 @@ Figures \ref{fig:p2} and \ref{fig:p3} show $\max_k(\Re(\lambda_k))$ plotted agai
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
         \includegraphics[width=7cm,height=5cm]{dispdiff2.png}
-        \caption{Absolute difference in $\max_k(\Re(\lambda))$ as $\sigma$ is varied.}
+        \caption{Absolute difference in $\max_k(\Re(\lambda_k))$ as $\sigma$ is varied.}
         \label{}
     \end{subfigure}
     \caption{$\max_k(\Re(\lambda_k))$ plotted against $\tau\in[0,1]$ for parameter set $(a,b)=(0.4,0.4)$. $\epsilon^2=0.001$ and $L=30\sqrt{0.05}$. $k$ is varied over $[0,50]$ at regular discrete intervals of $1$.}
     \label{fig:p3}
 \end{figure}
 
-Figures \ref{fig:p2} and \ref{fig:p3} show that, the largest variation in $\max_k(\Re(\lambda))$ when the largest $\sigma$ value is used. The results also suggest that for all $\sigma$ and $\tau\in[0,1]$ considered, that we expect to see pattern formation for $(a,b)=(0.1,0.9)$, but not for $(a,b)=(0.4,0.4)$. We note that that largest absolute difference in $\max_k(\Re(\lambda))$ across both parameter sets is of $O(10^{-5})$. This is an extremely small difference, on a similar order to numerical round off error, and is thus unlikely to make a qualitative difference on time-to-pattern. We verify these obvservations numerically in section \ref{section:distsim}.
-\\\\
- In order to consider how $\max_k(\Re(\lambda))$ varies across a larger parameter plane as $\sigma$ is varied, we plot heatmaps of the absolute difference of $\max_k(\Re(\lambda_k))$ for varying $\sigma$ values as a fraction of $\sigma_{max}$, for $\tau\in\{0.2,1\}$, against the fixed delay case. Overlayed onto these bifurcation plots are the contour lines at $\max_k(\Re(\lambda_k))=0$ and $\Re(\lambda_0)=0$, to highlight the Turing instability region. For each $\tau$ and $\sigma$, the bifrucation plots were computed with two different $\epsilon^2$ values, $\epsilon^2=0.001,0.1$. Figures \ref{fig:distbif1} and \ref{fig:distbif3} show the results for a fixed $\tau=0.2$ with varying $\sigma$, and an $\epsilon^2=0.001,0.1$. Figures \ref{fig:distbif2} and \ref{fig:distbif4} show the analogous plots but with a fixed $\tau=1$.
+Figures \ref{fig:p2} and \ref{fig:p3} show that, the largest variation in $\max_k(\Re(\lambda_k))$ when the largest $\sigma$ value is used. The results also suggest that for all $\sigma$ and $\tau\in[0,1]$ considered, that we expect to see pattern formation for $(a,b)=(0.1,0.9)$, but not for $(a,b)=(0.4,0.4)$. We note that that largest absolute difference in $\max_k(\Re(\lambda_k))$ across both parameter sets is of $O(10^{-5})$. This is an extremely small difference, on a similar order to numerical round off error, and is thus unlikely to make a qualitative difference on time-to-pattern. We verify these obvservations numerically in section \ref{section:distsim}.
+\\
+ In order to consider how $\max_k(\Re(\lambda_k))$ varies across a larger parameter plane as $\sigma$ is varied, we plot heatmaps of the absolute difference of $\max_k(\Re(\lambda_k))$ for varying $\sigma$ values as a fraction of $\sigma_{max}$, for $\tau\in\{0.2,1\}$, against the fixed delay case. Overlayed onto these bifurcation plots are the contour lines at $\max_k(\Re(\lambda_k))=0$ and $\Re(\lambda_0)=0$, to highlight the Turing instability region. For each $\tau$ and $\sigma$, the bifrucation plots were computed with two different $\epsilon^2$ values, $\epsilon^2=0.001,0.1$. Figures \ref{fig:distbif1} and \ref{fig:distbif3} show the results for a fixed $\tau=0.2$ with varying $\sigma$, and an $\epsilon^2=0.001,0.1$. Figures \ref{fig:distbif2} and \ref{fig:distbif4} show the analogous plots but with a fixed $\tau=1$.
 
 \begin{figure}[H]
     \centering
@@ -319,4 +319,43 @@ We see that, for $\tau=0.2$, $|\max_k(\Re(\lambda_k))|$ is larger than that of $
 
 
 \section{Numerical Results}\label{section:distsim}
-Numerical simulations are presented here to confirm the linear theory presented in section \ref{section:distlin}. Through numerical simulation, for various parameter sets $(a,b,\tau,\sigma,\epsilon^2)$, we show that the time taken until pattern formation does not change as $\sigma$ varies for a fixed $(a,b,\tau,\epsilon^2)$, compared to that of the fixed delay case with a time-delay $\tau$.
+Numerical simulations are shown here to verify the linear theory presented in section \ref{section:distlin}. We first confirm that the results obtained in figures \ref{fig:p2} and \ref{fig:p3} are accurate, namely that we find pattern formation for $(a,b)=(0.1,0.9)$ but not for $(a,b)=(0.4,0.4)$, independent of the $\tau\in[0,1]$ and $\sigma$ values considered. We also verify our main result, that modelling time delay as a symmetric Gaussian distribution will not quantitatively change the results seen from that of a fixed delay, independent of the $\sigma$ used. Figures \ref{fig:testdist1} and \ref{fig:testdist2} show the numerical solutions for $(a,b)=\{(0.1,0.9),(0.4,0.4)\}$ for $\tau=1$ and varying $\sigma$. Further numerical results with different $\tau$ and $\sigma$ values can be found in appendix \ref{section:appB}. Initial conditions were set as $\text{IC}_2$, as defined in \eqref{ICs}.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=7cm,height=5cm]{distp1sig1.png}
+        \caption{Numerical solution with $\tau=1$ and $\sigma=\sigma_{max}\times0.99$.}
+        \label{}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=7cm,height=5cm]{distp1sig2.png}
+        \caption{Numerical solution with $\tau=1$ and $\sigma=\sigma_{max}\times0.1$.}
+        \label{}
+    \end{subfigure}
+    \caption{Numerical solutions produced for $(a,b)=(0.1,0.9)$ with $\tau=1$ and $\sigma=\sigma_{max}\times0.99, \sigma_{max}\times0.1$. We use $L=30\sqrt{0.05}$ and $\epsilon^2=0.001$. $N=50$ quadrature points used for distributed delay.
+    We see pattern formation, as predicted from linear theory.}
+    \label{fig:testdist1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=7cm,height=5cm]{distp2sig1.png}
+        \caption{Numerical solution with $\tau=1$ and $\sigma=\sigma_{max}\times0.99$.}
+        \label{}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=7cm,height=5cm]{distp2sig2.png}
+        \caption{Numerical solution with $\tau=1$ and $\sigma=\sigma_{max}\times0.1$.}
+        \label{}
+    \end{subfigure}
+    \caption{Numerical solutions produced for $(a,b)=(0.4,0.4)$ with $\tau=1$ and $\sigma=\sigma_{max}\times0.99, \sigma_{max}\times0.1$. We use $L=30\sqrt{0.05}$ and $\epsilon^2=0.001$. $N=50$ quadrature points used for distributed delay. We see no pattern formation, as predicted from linear theory.}
+    \label{fig:testdist2}
+\end{figure}
