@@ -307,7 +307,7 @@
       \field{pages}{1183\bibrangedash 1186}
       \range{pages}{4}
     \endentry
-    \entry{fadai}{article}{}
+    \entry{fadai2}{article}{}
       \name{author}{3}{}{%
         {{hash=c890cf87bf6b05ebaad37bdd6bb769c5}{%
            family={Fadai},
@@ -334,6 +334,7 @@
       \strng{authorbibnamehash}{8cc1de02edc0ea7369a14680a037e135}
       \strng{authornamehash}{8cc1de02edc0ea7369a14680a037e135}
       \strng{authorfullhash}{8cc1de02edc0ea7369a14680a037e135}
+      \field{extraname}{1}
       \field{sortinit}{F}
       \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
       \field{labelnamesource}{author}
@@ -345,6 +346,46 @@
       \field{year}{2018}
       \field{pages}{1431}
       \range{pages}{1}
+    \endentry
+    \entry{fadai1}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c890cf87bf6b05ebaad37bdd6bb769c5}{%
+           family={Fadai},
+           familyi={F\bibinitperiod},
+           given={Nabil\bibnamedelima T},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=c837e6250585cb26b519b71979ad4e82}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a5b38628065ba35b632c0087951a7b95}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Juncheng},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{8cc1de02edc0ea7369a14680a037e135}
+      \strng{fullhash}{8cc1de02edc0ea7369a14680a037e135}
+      \strng{bibnamehash}{8cc1de02edc0ea7369a14680a037e135}
+      \strng{authorbibnamehash}{8cc1de02edc0ea7369a14680a037e135}
+      \strng{authornamehash}{8cc1de02edc0ea7369a14680a037e135}
+      \strng{authorfullhash}{8cc1de02edc0ea7369a14680a037e135}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SIAM Journal on Applied Mathematics}
+      \field{number}{2}
+      \field{title}{Delayed Reaction Kinetics and the Stability of Spikes in the Gierer--Meinhardt Model}
+      \field{volume}{77}
+      \field{year}{2017}
+      \field{pages}{664\bibrangedash 696}
+      \range{pages}{33}
     \endentry
     \entry{gaffmonk}{article}{}
       \name{author}{2}{}{%
@@ -379,40 +420,6 @@
       \field{year}{2006}
       \field{pages}{99\bibrangedash 130}
       \range{pages}{32}
-    \endentry
-    \entry{gm}{article}{}
-      \name{author}{2}{}{%
-        {{hash=da157d5f038be13ff6e02671f2c472cf}{%
-           family={Gierer},
-           familyi={G\bibinitperiod},
-           given={Alfred},
-           giveni={A\bibinitperiod}}}%
-        {{hash=d3740821bf69b36846b43ad640e02fb5}{%
-           family={Meinhardt},
-           familyi={M\bibinitperiod},
-           given={Hans},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{2da4783bb8228d3034007afe9729260b}
-      \strng{fullhash}{2da4783bb8228d3034007afe9729260b}
-      \strng{bibnamehash}{2da4783bb8228d3034007afe9729260b}
-      \strng{authorbibnamehash}{2da4783bb8228d3034007afe9729260b}
-      \strng{authornamehash}{2da4783bb8228d3034007afe9729260b}
-      \strng{authorfullhash}{2da4783bb8228d3034007afe9729260b}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Kybernetik}
-      \field{number}{1}
-      \field{title}{A theory of biological pattern formation}
-      \field{volume}{12}
-      \field{year}{1972}
-      \field{pages}{30\bibrangedash 39}
-      \range{pages}{10}
     \endentry
     \entry{glimm}{article}{}
       \name{author}{4}{}{%
@@ -1220,6 +1227,7 @@
       \range{pages}{1}
     \endentry
   \enddatalist
+  \missing{fadai}
 \endrefsection
 \endinput
 
