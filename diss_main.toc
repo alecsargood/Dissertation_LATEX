@@ -17,15 +17,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Turing Pattern Formation Without Delay}{6}{subsection*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Numerical Implementation}{9}{subsection*.7}%
+\contentsline {subsection}{Numerical Implementation}{8}{subsection*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Fixed Delay Model}{11}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Fixed Delay Model}{10}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Linear Analysis}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Linear Analysis}{10}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Bifurcation Analysis}{15}{subsection*.11}%
+\contentsline {subsection}{Bifurcation Analysis}{14}{subsection*.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Investigation of Variation in Initial and Boundary Conditions}{21}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Investigation of Variation in Initial and Boundary Conditions}{20}{section.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Relationship Between Time-To-Pattern and time delay}{25}{section.2.3}%
 \defcounter {refsection}{0}\relax 
@@ -33,11 +33,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Distributed Delay Model}{32}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Quadrature}{32}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Composite Simpson's Rule}{32}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Linear Analysis}{35}{section.3.2}%
+\contentsline {section}{\numberline {3.2}A Symmetric Distribution}{33}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Numerical Results}{42}{section.3.3}%
+\contentsline {subsection}{Introduction}{33}{subsection*.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Linear Analysis}{36}{subsection*.35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Numerical Results}{40}{subsection*.40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}An Asymmetric Distribution}{42}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Introduction}{42}{subsection*.43}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Conclusion}{44}{chapter.4}%
 \defcounter {refsection}{0}\relax 

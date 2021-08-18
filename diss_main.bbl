@@ -29,16 +29,6 @@
       \verb https://en.wikipedia.org/wiki/Morphogenesis
       \endverb
     \endentry
-    \entry{wikitrunc}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Truncated_normal_distribution
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Truncated_normal_distribution
-      \endverb
-    \endentry
     \entry{rodas}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
@@ -130,21 +120,21 @@
     \endentry
     \entry{beentjes}{report}{}
       \name{author}{1}{}{%
-        {{hash=803a1bd1a12333a598ebe649ecba086a}{%
+        {{hash=4de664a041cf3206cd03359bc043d407}{%
            family={Beentjes},
            familyi={B\bibinitperiod},
-           given={CASPER\bibnamedelima HL},
+           given={Casper\bibnamedelima HL},
            giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
       }
       \list{institution}{1}{%
         {Technical Report, University of Oxford, Oxford, UK}%
       }
-      \strng{namehash}{803a1bd1a12333a598ebe649ecba086a}
-      \strng{fullhash}{803a1bd1a12333a598ebe649ecba086a}
-      \strng{bibnamehash}{803a1bd1a12333a598ebe649ecba086a}
-      \strng{authorbibnamehash}{803a1bd1a12333a598ebe649ecba086a}
-      \strng{authornamehash}{803a1bd1a12333a598ebe649ecba086a}
-      \strng{authorfullhash}{803a1bd1a12333a598ebe649ecba086a}
+      \strng{namehash}{4de664a041cf3206cd03359bc043d407}
+      \strng{fullhash}{4de664a041cf3206cd03359bc043d407}
+      \strng{bibnamehash}{4de664a041cf3206cd03359bc043d407}
+      \strng{authorbibnamehash}{4de664a041cf3206cd03359bc043d407}
+      \strng{authornamehash}{4de664a041cf3206cd03359bc043d407}
+      \strng{authorfullhash}{4de664a041cf3206cd03359bc043d407}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{labelnamesource}{author}
@@ -387,6 +377,45 @@
       \field{pages}{664\bibrangedash 696}
       \range{pages}{33}
     \endentry
+    \entry{skewed}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0c03b808316790fc66f453655099e828}{%
+           family={Flecher},
+           familyi={F\bibinitperiod},
+           given={Cedric},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6da5c62889bdd5a138d69aa4cfec2ac9}{%
+           family={Allard},
+           familyi={A\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1f7662a8baf8910aec10869658f84a41}{%
+           family={Naveau},
+           familyi={N\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3b4a0bf8e440434c10df3e529547aa06}
+      \strng{fullhash}{3b4a0bf8e440434c10df3e529547aa06}
+      \strng{bibnamehash}{3b4a0bf8e440434c10df3e529547aa06}
+      \strng{authorbibnamehash}{3b4a0bf8e440434c10df3e529547aa06}
+      \strng{authornamehash}{3b4a0bf8e440434c10df3e529547aa06}
+      \strng{authorfullhash}{3b4a0bf8e440434c10df3e529547aa06}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Metron}
+      \field{number}{3}
+      \field{title}{Truncated skew-normal distributions: moments, estimation by weighted moments and application to climatic data}
+      \field{volume}{68}
+      \field{year}{2010}
+      \field{pages}{331\bibrangedash 345}
+      \range{pages}{15}
+    \endentry
     \entry{gaffmonk}{article}{}
       \name{author}{2}{}{%
         {{hash=c374bde1848f9040ae70fa8b49c1c511}{%
@@ -420,6 +449,40 @@
       \field{year}{2006}
       \field{pages}{99\bibrangedash 130}
       \range{pages}{32}
+    \endentry
+    \entry{gm}{article}{}
+      \name{author}{2}{}{%
+        {{hash=da157d5f038be13ff6e02671f2c472cf}{%
+           family={Gierer},
+           familyi={G\bibinitperiod},
+           given={Alfred},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d3740821bf69b36846b43ad640e02fb5}{%
+           family={Meinhardt},
+           familyi={M\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2da4783bb8228d3034007afe9729260b}
+      \strng{fullhash}{2da4783bb8228d3034007afe9729260b}
+      \strng{bibnamehash}{2da4783bb8228d3034007afe9729260b}
+      \strng{authorbibnamehash}{2da4783bb8228d3034007afe9729260b}
+      \strng{authornamehash}{2da4783bb8228d3034007afe9729260b}
+      \strng{authorfullhash}{2da4783bb8228d3034007afe9729260b}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Kybernetik}
+      \field{number}{1}
+      \field{title}{A theory of biological pattern formation}
+      \field{volume}{12}
+      \field{year}{1972}
+      \field{pages}{30\bibrangedash 39}
+      \range{pages}{10}
     \endentry
     \entry{glimm}{article}{}
       \name{author}{4}{}{%
@@ -877,6 +940,40 @@
       \field{pages}{285\bibrangedash 314}
       \range{pages}{30}
     \endentry
+    \entry{owenst}{article}{}
+      \name{author}{2}{}{%
+        {{hash=840423d4273850f0df6b7fff5172b24c}{%
+           family={Patefield},
+           familyi={P\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e075b7be6a2566eb59cd192899b52520}{%
+           family={Tandy},
+           familyi={T\bibinitperiod},
+           given={DAVID},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Statistical Association}%
+      }
+      \strng{namehash}{d1d142b5fd7988b1b1a00f2d64e2f5c4}
+      \strng{fullhash}{d1d142b5fd7988b1b1a00f2d64e2f5c4}
+      \strng{bibnamehash}{d1d142b5fd7988b1b1a00f2d64e2f5c4}
+      \strng{authorbibnamehash}{d1d142b5fd7988b1b1a00f2d64e2f5c4}
+      \strng{authornamehash}{d1d142b5fd7988b1b1a00f2d64e2f5c4}
+      \strng{authorfullhash}{d1d142b5fd7988b1b1a00f2d64e2f5c4}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Statistical Software}
+      \field{number}{5}
+      \field{title}{Fast and accurate calculation of Owen’s T function}
+      \field{volume}{5}
+      \field{year}{2000}
+      \field{pages}{1\bibrangedash 25}
+      \range{pages}{25}
+    \endentry
     \entry{paulsson}{article}{}
       \name{author}{1}{}{%
         {{hash=ca532e2cf7dfa60584c3119426157a1b}{%
@@ -1227,7 +1324,7 @@
       \range{pages}{1}
     \endentry
   \enddatalist
-  \missing{fadai}
+  \missing{cite}
 \endrefsection
 \endinput
 

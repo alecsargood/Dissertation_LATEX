@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.8.21)  13 AUG 2021 17:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.8.21)  15 AUG 2021 15:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -393,32 +393,48 @@ Package: xparse 2020-03-06 L3 Experimental document command parser
 \l__nicematrix_extra_right_margin_dim=\dimen256
 \c__nicematrix_max_l_dim=\dimen257
 )
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip54
+\multirow@cntb=\count279
+\multirow@dima=\skip55
+\bigstrutjot=\dimen258
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box57
+\UL@hyphenbox=\box58
+\UL@skip=\skip56
+\UL@hook=\toks32
+\UL@height=\dimen259
+\UL@pe=\count280
+\UL@pixel=\dimen260
+\ULC@box=\box59
+Package: ulem 2019/11/18
+\ULdepth=\dimen261
+)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count279
-\mult@box=\box57
-\multicol@leftmargin=\dimen258
-\c@unbalance=\count280
-\c@collectmore=\count281
-\doublecol@number=\count282
-\multicoltolerance=\count283
-\multicolpretolerance=\count284
-\full@width=\dimen259
-\page@free=\dimen260
-\premulticols=\dimen261
-\postmulticols=\dimen262
-\multicolsep=\skip54
-\multicolbaselineskip=\skip55
-\partial@page=\box58
-\last@line=\box59
-\maxbalancingoverflow=\dimen263
-\mult@rightbox=\box60
-\mult@grightbox=\box61
-\mult@gfirstbox=\box62
-\mult@firstbox=\box63
-\@tempa=\box64
-\@tempa=\box65
-\@tempa=\box66
+\c@tracingmulticols=\count281
+\mult@box=\box60
+\multicol@leftmargin=\dimen262
+\c@unbalance=\count282
+\c@collectmore=\count283
+\doublecol@number=\count284
+\multicoltolerance=\count285
+\multicolpretolerance=\count286
+\full@width=\dimen263
+\page@free=\dimen264
+\premulticols=\dimen265
+\postmulticols=\dimen266
+\multicolsep=\skip57
+\multicolbaselineskip=\skip58
+\partial@page=\box61
+\last@line=\box62
+\maxbalancingoverflow=\dimen267
+\mult@rightbox=\box63
+\mult@grightbox=\box64
+\mult@gfirstbox=\box65
+\mult@firstbox=\box66
 \@tempa=\box67
 \@tempa=\box68
 \@tempa=\box69
@@ -453,15 +469,18 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box98
 \@tempa=\box99
 \@tempa=\box100
-\c@minrows=\count285
-\c@columnbadness=\count286
-\c@finalcolumnbadness=\count287
-\last@try=\dimen264
-\multicolovershoot=\dimen265
-\multicolundershoot=\dimen266
-\mult@nat@firstbox=\box101
-\colbreak@box=\box102
-\mc@col@check@num=\count288
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\c@minrows=\count287
+\c@columnbadness=\count288
+\c@finalcolumnbadness=\count289
+\last@try=\dimen268
+\multicolovershoot=\dimen269
+\multicolundershoot=\dimen270
+\mult@nat@firstbox=\box104
+\colbreak@box=\box105
+\mc@col@check@num=\count290
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
@@ -469,17 +488,17 @@ Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen267
-\captionmargin@=\dimen268
-\captionwidth=\dimen269
-\caption@tempdima=\dimen270
-\caption@indent=\dimen271
-\caption@parindent=\dimen272
-\caption@hangindent=\dimen273
+\captionmargin=\dimen271
+\captionmargin@=\dimen272
+\captionwidth=\dimen273
+\caption@tempdima=\dimen274
+\caption@indent=\dimen275
+\caption@parindent=\dimen276
+\caption@hangindent=\dimen277
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count289
-\c@continuedfloat=\count290
+\c@caption@flags=\count291
+\c@continuedfloat=\count292
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/forest/forest.sty
 Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
@@ -495,8 +514,8 @@ File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen274
-\pgf@nodesepend=\dimen275
+\pgf@nodesepstart=\dimen278
+\pgf@nodesepend=\dimen279
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -511,10 +530,10 @@ Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen276
-\pgffor@skip=\dimen277
-\pgffor@stack=\toks32
-\pgffor@toks=\toks33
+\pgffor@iter=\dimen280
+\pgffor@skip=\dimen281
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -523,34 +542,34 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count291
-\pgfplotmarksize=\dimen278
+\pgf@plot@mark@count=\count293
+\pgfplotmarksize=\dimen282
 )
-\tikz@lastx=\dimen279
-\tikz@lasty=\dimen280
-\tikz@lastxsaved=\dimen281
-\tikz@lastysaved=\dimen282
-\tikz@lastmovetox=\dimen283
-\tikz@lastmovetoy=\dimen284
-\tikzleveldistance=\dimen285
-\tikzsiblingdistance=\dimen286
-\tikz@figbox=\box103
-\tikz@figbox@bg=\box104
-\tikz@tempbox=\box105
-\tikz@tempbox@bg=\box106
-\tikztreelevel=\count292
-\tikznumberofchildren=\count293
-\tikznumberofcurrentchild=\count294
-\tikz@fig@count=\count295
+\tikz@lastx=\dimen283
+\tikz@lasty=\dimen284
+\tikz@lastxsaved=\dimen285
+\tikz@lastysaved=\dimen286
+\tikz@lastmovetox=\dimen287
+\tikz@lastmovetoy=\dimen288
+\tikzleveldistance=\dimen289
+\tikzsiblingdistance=\dimen290
+\tikz@figbox=\box106
+\tikz@figbox@bg=\box107
+\tikz@tempbox=\box108
+\tikz@tempbox@bg=\box109
+\tikztreelevel=\count294
+\tikznumberofchildren=\count295
+\tikznumberofcurrentchild=\count296
+\tikz@fig@count=\count297
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count296
-\pgfmatrixcurrentcolumn=\count297
-\pgf@matrix@numberofcolumns=\count298
+\pgfmatrixcurrentrow=\count298
+\pgfmatrixcurrentcolumn=\count299
+\pgf@matrix@numberofcolumns=\count300
 )
-\tikz@expandcount=\count299
+\tikz@expandcount=\count301
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -603,26 +622,26 @@ File: tikzlibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
 shapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodepartlowerbox=\box107
-\pgfnodeparttwobox=\box108
-\pgfnodepartthreebox=\box109
-\pgfnodepartfourbox=\box110
-\pgfnodeparttwentybox=\box111
-\pgfnodepartnineteenbox=\box112
-\pgfnodeparteighteenbox=\box113
-\pgfnodepartseventeenbox=\box114
-\pgfnodepartsixteenbox=\box115
-\pgfnodepartfifteenbox=\box116
-\pgfnodepartfourteenbox=\box117
-\pgfnodepartthirteenbox=\box118
-\pgfnodeparttwelvebox=\box119
-\pgfnodepartelevenbox=\box120
-\pgfnodeparttenbox=\box121
-\pgfnodepartninebox=\box122
-\pgfnodeparteightbox=\box123
-\pgfnodepartsevenbox=\box124
-\pgfnodepartsixbox=\box125
-\pgfnodepartfivebox=\box126
+\pgfnodepartlowerbox=\box110
+\pgfnodeparttwobox=\box111
+\pgfnodepartthreebox=\box112
+\pgfnodepartfourbox=\box113
+\pgfnodeparttwentybox=\box114
+\pgfnodepartnineteenbox=\box115
+\pgfnodeparteighteenbox=\box116
+\pgfnodepartseventeenbox=\box117
+\pgfnodepartsixteenbox=\box118
+\pgfnodepartfifteenbox=\box119
+\pgfnodepartfourteenbox=\box120
+\pgfnodepartthirteenbox=\box121
+\pgfnodeparttwelvebox=\box122
+\pgfnodepartelevenbox=\box123
+\pgfnodeparttenbox=\box124
+\pgfnodepartninebox=\box125
+\pgfnodeparteightbox=\box126
+\pgfnodepartsevenbox=\box127
+\pgfnodepartsixbox=\box128
+\pgfnodepartfivebox=\box129
 )))
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryfit.code.tex
@@ -636,15 +655,15 @@ File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ctions.code.tex
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
 e.tex)
-\pgf@intersect@solutions=\count300
+\pgf@intersect@solutions=\count302
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks34
-\pgfopts@list@add@b@toks=\toks35
+\pgfopts@list@add@a@toks=\toks35
+\pgfopts@list@add@b@toks=\toks36
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count301
+\etb@tempcnta=\count303
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/elocalloc/elocalloc.sty
 Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
@@ -657,65 +676,65 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/inlinedef/inlinedef.sty
 Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
-\ID@toks=\toks36
-\ID@count=\count302
+\ID@toks=\toks37
+\ID@count=\count304
 )
-\ID@usercommands=\toks37
-\safeloop@depth=\count303
-\safeRKloop@depth=\count304
-\forest@temp@dimen=\dimen287
-\forest@temp@count=\count305
-\forest@n=\count306
-\forest@temp@global@count=\count307
-\forest@temp@toks=\toks38
-\forest@temparray@M=\count308
-\forest@temparray@N=\count309
-\forest@global@temparray@M=\count310
-\forest@global@temparray@N=\count311
-\forest@isnum@count=\count312
-\forest@isdim@nonintpart=\count313
-\forest@isdim@dimen=\dimen288
-\forest@sort@m=\count314
-\forest@sort@k=\count315
-\forest@sort@p=\count316
-\bracket@content=\toks39
-\bracket@afterthought=\toks40
-\forest@node@maxid=\count317
-\forest@process@left@M=\count318
-\forest@process@left@N=\count319
-\forest@process@right@M=\count320
-\forest@process@right@N=\count321
-\forest@process@saved@M=\count322
-\forest@process@saved@N=\count323
-\forest@process@result@M=\count324
-\forest@process@result@N=\count325
-\forest@process@n=\count326
-\forest@nodewalk@branch@toks=\toks41
-\forest@nodewalk@shortsteps@resolution=\toks42
-\forest@do@dynamics=\toks43
-\forest@box=\box127
-\forest@xg=\dimen289
-\forest@yg=\dimen290
-\forest@xs=\dimen291
-\forest@ys=\dimen292
-\forest@pi@toks=\toks44
-\forest@segment@toks=\toks45
-\forest@PIi@toks=\toks46
-\forest@PIii@toks=\toks47
+\ID@usercommands=\toks38
+\safeloop@depth=\count305
+\safeRKloop@depth=\count306
+\forest@temp@dimen=\dimen291
+\forest@temp@count=\count307
+\forest@n=\count308
+\forest@temp@global@count=\count309
+\forest@temp@toks=\toks39
+\forest@temparray@M=\count310
+\forest@temparray@N=\count311
+\forest@global@temparray@M=\count312
+\forest@global@temparray@N=\count313
+\forest@isnum@count=\count314
+\forest@isdim@nonintpart=\count315
+\forest@isdim@dimen=\dimen292
+\forest@sort@m=\count316
+\forest@sort@k=\count317
+\forest@sort@p=\count318
+\bracket@content=\toks40
+\bracket@afterthought=\toks41
+\forest@node@maxid=\count319
+\forest@process@left@M=\count320
+\forest@process@left@N=\count321
+\forest@process@right@M=\count322
+\forest@process@right@N=\count323
+\forest@process@saved@M=\count324
+\forest@process@saved@N=\count325
+\forest@process@result@M=\count326
+\forest@process@result@N=\count327
+\forest@process@n=\count328
+\forest@nodewalk@branch@toks=\toks42
+\forest@nodewalk@shortsteps@resolution=\toks43
+\forest@do@dynamics=\toks44
+\forest@box=\box130
+\forest@xg=\dimen293
+\forest@yg=\dimen294
+\forest@xs=\dimen295
+\forest@ys=\dimen296
+\forest@pi@toks=\toks45
+\forest@segment@toks=\toks46
+\forest@PIi@toks=\toks47
+\forest@PIii@toks=\toks48
 \forest@copy@in=\read3
 \forest@copy@out=\write4
-\forest@externalize@max@outer@n=\count327
-\forest@externalize@inner@n=\count328
+\forest@externalize@max@outer@n=\count329
+\forest@externalize@inner@n=\count330
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/forest/forest-lib-edges.sty
 Package: forest-lib-edges 2016/12/05 v0.1.1
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen293
-\WF@size=\dimen294
-\c@WF@wrappedlines=\count329
-\WF@box=\box128
-\WF@everypar=\toks48
+\wrapoverhang=\dimen297
+\WF@size=\dimen298
+\c@WF@wrappedlines=\count331
+\WF@box=\box131
+\WF@everypar=\toks49
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lipsum/lipsum.sty
@@ -735,69 +754,69 @@ Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count330
-\calc@Bcount=\count331
-\calc@Adimen=\dimen295
-\calc@Bdimen=\dimen296
-\calc@Askip=\skip56
-\calc@Bskip=\skip57
+\calc@Acount=\count332
+\calc@Bcount=\count333
+\calc@Adimen=\dimen299
+\calc@Bdimen=\dimen300
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count332
-\calc@Cskip=\skip58
+\calc@Ccount=\count334
+\calc@Cskip=\skip61
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count333
-\l_MT_multwidth_dim=\dimen297
-\origjot=\skip59
-\l_MT_shortvdotswithinadjustabove_dim=\dimen298
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen299
-\l_MT_above_intertext_sep=\dimen300
-\l_MT_below_intertext_sep=\dimen301
-\l_MT_above_shortintertext_sep=\dimen302
-\l_MT_below_shortintertext_sep=\dimen303
-\xmathstrut@box=\box129
-\xmathstrut@dim=\dimen304
+\g_MT_multlinerow_int=\count335
+\l_MT_multwidth_dim=\dimen301
+\origjot=\skip62
+\l_MT_shortvdotswithinadjustabove_dim=\dimen302
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen303
+\l_MT_above_intertext_sep=\dimen304
+\l_MT_below_intertext_sep=\dimen305
+\l_MT_above_shortintertext_sep=\dimen306
+\l_MT_below_shortintertext_sep=\dimen307
+\xmathstrut@box=\box132
+\xmathstrut@dim=\dimen308
 )
-\l_EQ_equationtype_int=\count334
-\l_EQ_alignmentmode_int=\count335
-\l_EQ_totalwidth_dim=\dimen305
-\l_EQ_displaywidth_dim=\dimen306
-\l_EQ_temp_linewidth_dim=\dimen307
-\l_EQ_linewidth_dim=\dimen308
-\EmphEqdelimitershortfall=\dimen309
-\EmphEqdelimiterfactor=\count336
-\g_EQ_toptag_height_dim=\dimen310
-\g_EQ_bottomtag_depth_dim=\dimen311
-\g_EQ_toprow_height_dim=\dimen312
-\g_EQ_bottomrow_depth_dim=\dimen313
-\g_EQ_widesttag_dim=\dimen314
-\EQ_mathdisplay_box=\box130
-\EQ_tag_box=\box131
-\g_EQ_temprow_int=\count337
+\l_EQ_equationtype_int=\count336
+\l_EQ_alignmentmode_int=\count337
+\l_EQ_totalwidth_dim=\dimen309
+\l_EQ_displaywidth_dim=\dimen310
+\l_EQ_temp_linewidth_dim=\dimen311
+\l_EQ_linewidth_dim=\dimen312
+\EmphEqdelimitershortfall=\dimen313
+\EmphEqdelimiterfactor=\count338
+\g_EQ_toptag_height_dim=\dimen314
+\g_EQ_bottomtag_depth_dim=\dimen315
+\g_EQ_toprow_height_dim=\dimen316
+\g_EQ_bottomrow_depth_dim=\dimen317
+\g_EQ_widesttag_dim=\dimen318
+\EQ_mathdisplay_box=\box133
+\EQ_tag_box=\box134
+\g_EQ_temprow_int=\count339
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/dirtree/dirtree.sty
 Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/dirtree/dirtree.tex
 `dirtree' v0.32, 2012/12/11 (jcc)
-\DT@offset=\dimen315
-\DT@width=\dimen316
-\DT@sep=\dimen317
-\DT@all=\dimen318
-\DT@rulewidth=\dimen319
-\DT@dotwidth=\dimen320
-\DTbaselineskip=\dimen321
-\DT@counti=\count338
-\DT@countii=\count339
-\DT@countiii=\count340
-\DT@countiv=\count341
-\DT@indent=\dimen322
-\DT@parskip=\dimen323
-\DT@baselineskip=\dimen324
+\DT@offset=\dimen319
+\DT@width=\dimen320
+\DT@sep=\dimen321
+\DT@all=\dimen322
+\DT@rulewidth=\dimen323
+\DT@dotwidth=\dimen324
+\DTbaselineskip=\dimen325
+\DT@counti=\count340
+\DT@countii=\count341
+\DT@countiii=\count342
+\DT@countiv=\count343
+\DT@indent=\dimen326
+\DT@parskip=\dimen327
+\DT@baselineskip=\dimen328
 )
 File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
 )
@@ -808,15 +827,15 @@ istry documents (CN)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/chemmacros/chemmacros5.sty
 Package: chemmacros5 2020/03/07 v5.11 comprehensive support for typesetting che
 mistry documents (CN)
-\l__chemmacros_tmpa_dim=\dimen325
-\l__chemmacros_tmpb_dim=\dimen326
-\l__chemmacros_tmpc_dim=\dimen327
-\l__chemmacros_tmpa_int=\count342
-\l__chemmacros_tmpb_int=\count343
-\l__chemmacros_tmpc_int=\count344
-\l__chemmacros_tmpa_box=\box132
-\l__chemmacros_tmpb_box=\box133
-\l__chemmacros_tmpc_box=\box134
+\l__chemmacros_tmpa_dim=\dimen329
+\l__chemmacros_tmpb_dim=\dimen330
+\l__chemmacros_tmpc_dim=\dimen331
+\l__chemmacros_tmpa_int=\count344
+\l__chemmacros_tmpb_int=\count345
+\l__chemmacros_tmpc_int=\count346
+\l__chemmacros_tmpa_box=\box135
+\l__chemmacros_tmpb_box=\box136
+\l__chemmacros_tmpc_box=\box137
 (chemmacros)    Loading module `base'...
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/chemmacros/chemmacros.module.base
@@ -880,8 +899,8 @@ k' 2020/02/02 upright greek symbols
 (/usr/local/texlive/2020/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
-\l__chemgreek_tmpa_int=\count345
-\g__chemgreek_tmpa_int=\count346
+\l__chemgreek_tmpa_int=\count347
+\g__chemgreek_tmpa_int=\count348
 ))
 (chemmacros)    Loading module `chemformula'...
 
@@ -916,7 +935,7 @@ mbols' 2015/06/09 symbols
 icles.code.tex
 File: chemmacros.module.particles.code.tex 2020/03/07 v5.11 chemmacros module `
 particles' 2016/04/02 particles
-\l__chemmacros_nucleophile_dim=\dimen328
+\l__chemmacros_nucleophile_dim=\dimen332
 )
 (chemmacros)    Loading module `phases'...
 
@@ -924,7 +943,7 @@ particles' 2016/04/02 particles
 es.code.tex
 File: chemmacros.module.phases.code.tex 2020/03/07 v5.11 chemmacros module `pha
 ses' 2016/05/31 phase descriptors
-\l__chemmacros_phases_space_dim=\dimen329
+\l__chemmacros_phases_space_dim=\dimen333
 )
 (chemmacros)    Loading module `nomenclature'...
 
@@ -945,38 +964,38 @@ s/tikzlibrarydecorations.pathmorphing.code.tex
 s/tikzlibrarydecorations.code.tex
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
 s.code.tex
-\pgfdecoratedcompleteddistance=\dimen330
-\pgfdecoratedremainingdistance=\dimen331
-\pgfdecoratedinputsegmentcompleteddistance=\dimen332
-\pgfdecoratedinputsegmentremainingdistance=\dimen333
-\pgf@decorate@distancetomove=\dimen334
-\pgf@decorate@repeatstate=\count347
-\pgfdecorationsegmentamplitude=\dimen335
-\pgfdecorationsegmentlength=\dimen336
+\pgfdecoratedcompleteddistance=\dimen334
+\pgfdecoratedremainingdistance=\dimen335
+\pgfdecoratedinputsegmentcompleteddistance=\dimen336
+\pgfdecoratedinputsegmentremainingdistance=\dimen337
+\pgf@decorate@distancetomove=\dimen338
+\pgf@decorate@repeatstate=\count349
+\pgfdecorationsegmentamplitude=\dimen339
+\pgfdecorationsegmentlength=\dimen340
 )
-\tikz@lib@dec@box=\box135
+\tikz@lib@dec@box=\box138
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
 brarydecorations.pathmorphing.code.tex))
-\l__chemmacros_el_length_dim=\dimen337
+\l__chemmacros_el_length_dim=\dimen341
 )
-\l__chemmacros_cip_kern_dim=\dimen338
-\l__chemmacros_iupac_hyphen_pre_dim=\dimen339
-\l__chemmacros_iupac_hyphen_post_dim=\dimen340
-\l__chemmacros_iupac_break_dim=\dimen341
-\l__chemmacros_iupac_break_skip=\skip60
+\l__chemmacros_cip_kern_dim=\dimen342
+\l__chemmacros_iupac_hyphen_pre_dim=\dimen343
+\l__chemmacros_iupac_hyphen_post_dim=\dimen344
+\l__chemmacros_iupac_break_dim=\dimen345
+\l__chemmacros_iupac_break_skip=\skip63
 )))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box136
-\beforetitleunit=\skip61
-\aftertitleunit=\skip62
-\ttl@plus=\dimen342
-\ttl@minus=\dimen343
-\ttl@toksa=\toks49
-\titlewidth=\dimen344
-\titlewidthlast=\dimen345
-\titlewidthfirst=\dimen346
+\ttl@box=\box139
+\beforetitleunit=\skip64
+\aftertitleunit=\skip65
+\ttl@plus=\dimen346
+\ttl@minus=\dimen347
+\ttl@toksa=\toks50
+\titlewidth=\dimen348
+\titlewidthlast=\dimen349
+\titlewidthfirst=\dimen350
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/breqn/breqn.sty
 Package: breqn 2020/02/18 v0.98i Breaking equations
@@ -1020,79 +1039,79 @@ LaTeX Info: Redefining \scriptstyle on input line 97.
 LaTeX Info: Redefining \scriptscriptstyle on input line 99.
 LaTeX Info: Redefining \genfrac on input line 145.
 ))
-\inf@bad=\count348
-\maxint=\count349
-\listwidth=\dimen347
-\eqnumsep=\dimen348
-\eqmargin=\dimen349
-\eqlinespacing=\skip63
-\eqlineskip=\skip64
-\eqlineskiplimit=\dimen350
+\inf@bad=\count350
+\maxint=\count351
+\listwidth=\dimen351
+\eqnumsep=\dimen352
+\eqmargin=\dimen353
+\eqlinespacing=\skip66
+\eqlineskip=\skip67
+\eqlineskiplimit=\dimen354
 \eqbinoffset=\muskip17
 \eqdelimoffset=\muskip18
-\eqindentstep=\dimen351
-\eqstyle=\toks50
-\eqbreakdepth=\count350
-\eqinterlinepenalty=\count351
-\intereqpenalty=\count352
-\intereqskip=\skip65
-\prerelpenalty=\count353
-\prebinoppenalty=\count354
+\eqindentstep=\dimen355
+\eqstyle=\toks51
+\eqbreakdepth=\count352
+\eqinterlinepenalty=\count353
+\intereqpenalty=\count354
+\intereqskip=\skip68
+\prerelpenalty=\count355
+\prebinoppenalty=\count356
 \Dmedmuskip=\muskip19
 \Dthickmuskip=\muskip20
-\eqleftskip=\skip66
-\eqrightskip=\skip67
-\eq@vspan=\skip68
+\eqleftskip=\skip69
+\eqrightskip=\skip70
+\eq@vspan=\skip71
 \eq@binoffset=\muskip21
-\EQ@box=\box137
-\EQ@copy=\box138
-\EQ@numbox=\box139
-\eq@wdNum=\dimen352
-\GRP@numbox=\box140
-\grp@wdNum=\dimen353
-\eq@lines=\count355
-\eq@curline=\count356
-\eq@badness=\count357
-\EQ@vims=\count358
-\eq@dp=\dimen354
-\eq@wdL=\dimen355
-\eq@wdT=\dimen356
-\eq@wdMin=\dimen357
-\grp@wdL=\dimen358
-\grp@wdR=\dimen359
-\grp@wdT=\dimen360
-\eq@wdRmax=\dimen361
-\eq@firstht=\dimen362
-\eq@wdCond=\dimen363
-\eq@indentstep=\dimen364
-\eq@linewidth=\dimen365
-\grp@linewidth=\dimen366
-\eq@hshift=\dimen367
-\eq@given@sidespace=\dimen368
-\mathindent=\dimen369
-\eq@final@linecount=\count359
-\eq@wdR=\dimen370
-\EQ@continue=\toks51
-\lr@level=\count360
-\GRP@queue=\toks52
-\GRP@box=\box141
-\GRP@wholebox=\box142
-\darraycolsep=\skip69
-\cur@row=\count361
-\cur@col=\count362
-\conditionsep=\skip70
+\EQ@box=\box140
+\EQ@copy=\box141
+\EQ@numbox=\box142
+\eq@wdNum=\dimen356
+\GRP@numbox=\box143
+\grp@wdNum=\dimen357
+\eq@lines=\count357
+\eq@curline=\count358
+\eq@badness=\count359
+\EQ@vims=\count360
+\eq@dp=\dimen358
+\eq@wdL=\dimen359
+\eq@wdT=\dimen360
+\eq@wdMin=\dimen361
+\grp@wdL=\dimen362
+\grp@wdR=\dimen363
+\grp@wdT=\dimen364
+\eq@wdRmax=\dimen365
+\eq@firstht=\dimen366
+\eq@wdCond=\dimen367
+\eq@indentstep=\dimen368
+\eq@linewidth=\dimen369
+\grp@linewidth=\dimen370
+\eq@hshift=\dimen371
+\eq@given@sidespace=\dimen372
+\mathindent=\dimen373
+\eq@final@linecount=\count361
+\eq@wdR=\dimen374
+\EQ@continue=\toks52
+\lr@level=\count362
+\GRP@queue=\toks53
+\GRP@box=\box144
+\GRP@wholebox=\box145
+\darraycolsep=\skip72
+\cur@row=\count363
+\cur@col=\count364
+\conditionsep=\skip73
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks53
-\thm@bodyfont=\toks54
-\thm@headfont=\toks55
-\thm@notefont=\toks56
-\thm@headpunct=\toks57
-\thm@preskip=\skip71
-\thm@postskip=\skip72
-\thm@headsep=\skip73
-\dth@everypar=\toks58
+\thm@style=\toks54
+\thm@bodyfont=\toks55
+\thm@headfont=\toks56
+\thm@notefont=\toks57
+\thm@headpunct=\toks58
+\thm@preskip=\skip74
+\thm@postskip=\skip75
+\thm@headsep=\skip76
+\dth@everypar=\toks59
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
@@ -1105,7 +1124,7 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count363
+\lrq@indent=\count365
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1114,61 +1133,61 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \Urlmuskip=\muskip22
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count364
-\c@listtotal=\count365
-\c@listcount=\count366
-\c@liststart=\count367
-\c@liststop=\count368
-\c@citecount=\count369
-\c@citetotal=\count370
-\c@multicitecount=\count371
-\c@multicitetotal=\count372
-\c@instcount=\count373
-\c@maxnames=\count374
-\c@minnames=\count375
-\c@maxitems=\count376
-\c@minitems=\count377
-\c@citecounter=\count378
-\c@maxcitecounter=\count379
-\c@savedcitecounter=\count380
-\c@uniquelist=\count381
-\c@uniquename=\count382
-\c@refsection=\count383
-\c@refsegment=\count384
-\c@maxextratitle=\count385
-\c@maxextratitleyear=\count386
-\c@maxextraname=\count387
-\c@maxextradate=\count388
-\c@maxextraalpha=\count389
-\c@abbrvpenalty=\count390
-\c@highnamepenalty=\count391
-\c@lownamepenalty=\count392
-\c@maxparens=\count393
-\c@parenlevel=\count394
-\blx@tempcnta=\count395
-\blx@tempcntb=\count396
-\blx@tempcntc=\count397
-\blx@maxsection=\count398
-\blx@maxsegment@0=\count399
-\blx@notetype=\count400
-\blx@parenlevel@text=\count401
-\blx@parenlevel@foot=\count402
-\blx@sectionciteorder@0=\count403
-\blx@entrysetcounter=\count404
-\labelnumberwidth=\skip74
-\labelalphawidth=\skip75
-\biblabelsep=\skip76
-\bibitemsep=\skip77
-\bibnamesep=\skip78
-\bibinitsep=\skip79
-\bibparsep=\skip80
-\bibhang=\skip81
+\c@tabx@nest=\count366
+\c@listtotal=\count367
+\c@listcount=\count368
+\c@liststart=\count369
+\c@liststop=\count370
+\c@citecount=\count371
+\c@citetotal=\count372
+\c@multicitecount=\count373
+\c@multicitetotal=\count374
+\c@instcount=\count375
+\c@maxnames=\count376
+\c@minnames=\count377
+\c@maxitems=\count378
+\c@minitems=\count379
+\c@citecounter=\count380
+\c@maxcitecounter=\count381
+\c@savedcitecounter=\count382
+\c@uniquelist=\count383
+\c@uniquename=\count384
+\c@refsection=\count385
+\c@refsegment=\count386
+\c@maxextratitle=\count387
+\c@maxextratitleyear=\count388
+\c@maxextraname=\count389
+\c@maxextradate=\count390
+\c@maxextraalpha=\count391
+\c@abbrvpenalty=\count392
+\c@highnamepenalty=\count393
+\c@lownamepenalty=\count394
+\c@maxparens=\count395
+\c@parenlevel=\count396
+\blx@tempcnta=\count397
+\blx@tempcntb=\count398
+\blx@tempcntc=\count399
+\blx@maxsection=\count400
+\blx@maxsegment@0=\count401
+\blx@notetype=\count402
+\blx@parenlevel@text=\count403
+\blx@parenlevel@foot=\count404
+\blx@sectionciteorder@0=\count405
+\blx@entrysetcounter=\count406
+\labelnumberwidth=\skip77
+\labelalphawidth=\skip78
+\biblabelsep=\skip79
+\bibitemsep=\skip80
+\bibnamesep=\skip81
+\bibinitsep=\skip82
+\bibparsep=\skip83
+\bibhang=\skip84
 \blx@bcfin=\read4
 \blx@bcfout=\write5
 \blx@langwohyphens=\language86
-\c@mincomprange=\count405
-\c@maxcomprange=\count406
-\c@mincompwidth=\count407
+\c@mincomprange=\count407
+\c@maxcomprange=\count408
+\c@mincompwidth=\count409
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1179,88 +1198,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count408
-\c@savedafterword=\count409
-\c@annotator=\count410
-\c@savedannotator=\count411
-\c@author=\count412
-\c@savedauthor=\count413
-\c@bookauthor=\count414
-\c@savedbookauthor=\count415
-\c@commentator=\count416
-\c@savedcommentator=\count417
-\c@editor=\count418
-\c@savededitor=\count419
-\c@editora=\count420
-\c@savededitora=\count421
-\c@editorb=\count422
-\c@savededitorb=\count423
-\c@editorc=\count424
-\c@savededitorc=\count425
-\c@foreword=\count426
-\c@savedforeword=\count427
-\c@holder=\count428
-\c@savedholder=\count429
-\c@introduction=\count430
-\c@savedintroduction=\count431
-\c@namea=\count432
-\c@savednamea=\count433
-\c@nameb=\count434
-\c@savednameb=\count435
-\c@namec=\count436
-\c@savednamec=\count437
-\c@translator=\count438
-\c@savedtranslator=\count439
-\c@shortauthor=\count440
-\c@savedshortauthor=\count441
-\c@shorteditor=\count442
-\c@savedshorteditor=\count443
-\c@labelname=\count444
-\c@savedlabelname=\count445
-\c@institution=\count446
-\c@savedinstitution=\count447
-\c@lista=\count448
-\c@savedlista=\count449
-\c@listb=\count450
-\c@savedlistb=\count451
-\c@listc=\count452
-\c@savedlistc=\count453
-\c@listd=\count454
-\c@savedlistd=\count455
-\c@liste=\count456
-\c@savedliste=\count457
-\c@listf=\count458
-\c@savedlistf=\count459
-\c@location=\count460
-\c@savedlocation=\count461
-\c@organization=\count462
-\c@savedorganization=\count463
-\c@origlocation=\count464
-\c@savedoriglocation=\count465
-\c@origpublisher=\count466
-\c@savedorigpublisher=\count467
-\c@publisher=\count468
-\c@savedpublisher=\count469
-\c@language=\count470
-\c@savedlanguage=\count471
-\c@origlanguage=\count472
-\c@savedoriglanguage=\count473
-\c@pageref=\count474
-\c@savedpageref=\count475
-\shorthandwidth=\skip82
-\shortjournalwidth=\skip83
-\shortserieswidth=\skip84
-\shorttitlewidth=\skip85
-\shortauthorwidth=\skip86
-\shorteditorwidth=\skip87
-\locallabelnumberwidth=\skip88
-\locallabelalphawidth=\skip89
-\localshorthandwidth=\skip90
-\localshortjournalwidth=\skip91
-\localshortserieswidth=\skip92
-\localshorttitlewidth=\skip93
-\localshortauthorwidth=\skip94
-\localshorteditorwidth=\skip95
+\c@afterword=\count410
+\c@savedafterword=\count411
+\c@annotator=\count412
+\c@savedannotator=\count413
+\c@author=\count414
+\c@savedauthor=\count415
+\c@bookauthor=\count416
+\c@savedbookauthor=\count417
+\c@commentator=\count418
+\c@savedcommentator=\count419
+\c@editor=\count420
+\c@savededitor=\count421
+\c@editora=\count422
+\c@savededitora=\count423
+\c@editorb=\count424
+\c@savededitorb=\count425
+\c@editorc=\count426
+\c@savededitorc=\count427
+\c@foreword=\count428
+\c@savedforeword=\count429
+\c@holder=\count430
+\c@savedholder=\count431
+\c@introduction=\count432
+\c@savedintroduction=\count433
+\c@namea=\count434
+\c@savednamea=\count435
+\c@nameb=\count436
+\c@savednameb=\count437
+\c@namec=\count438
+\c@savednamec=\count439
+\c@translator=\count440
+\c@savedtranslator=\count441
+\c@shortauthor=\count442
+\c@savedshortauthor=\count443
+\c@shorteditor=\count444
+\c@savedshorteditor=\count445
+\c@labelname=\count446
+\c@savedlabelname=\count447
+\c@institution=\count448
+\c@savedinstitution=\count449
+\c@lista=\count450
+\c@savedlista=\count451
+\c@listb=\count452
+\c@savedlistb=\count453
+\c@listc=\count454
+\c@savedlistc=\count455
+\c@listd=\count456
+\c@savedlistd=\count457
+\c@liste=\count458
+\c@savedliste=\count459
+\c@listf=\count460
+\c@savedlistf=\count461
+\c@location=\count462
+\c@savedlocation=\count463
+\c@organization=\count464
+\c@savedorganization=\count465
+\c@origlocation=\count466
+\c@savedoriglocation=\count467
+\c@origpublisher=\count468
+\c@savedorigpublisher=\count469
+\c@publisher=\count470
+\c@savedpublisher=\count471
+\c@language=\count472
+\c@savedlanguage=\count473
+\c@origlanguage=\count474
+\c@savedoriglanguage=\count475
+\c@pageref=\count476
+\c@savedpageref=\count477
+\shorthandwidth=\skip85
+\shortjournalwidth=\skip86
+\shortserieswidth=\skip87
+\shorttitlewidth=\skip88
+\shortauthorwidth=\skip89
+\shorteditorwidth=\skip90
+\locallabelnumberwidth=\skip91
+\locallabelalphawidth=\skip92
+\localshorthandwidth=\skip93
+\localshortjournalwidth=\skip94
+\localshortserieswidth=\skip95
+\localshorttitlewidth=\skip96
+\localshortauthorwidth=\skip97
+\localshorteditorwidth=\skip98
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1272,19 +1291,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count476
-\c@textcitetotal=\count477
-\c@textcitemaxnames=\count478
-\c@biburlbigbreakpenalty=\count479
-\c@biburlbreakpenalty=\count480
-\c@biburlnumpenalty=\count481
-\c@biburlucpenalty=\count482
-\c@biburllcpenalty=\count483
+\c@textcitecount=\count478
+\c@textcitetotal=\count479
+\c@textcitemaxnames=\count480
+\c@biburlbigbreakpenalty=\count481
+\c@biburlbreakpenalty=\count482
+\c@biburlnumpenalty=\count483
+\c@biburlucpenalty=\count484
+\c@biburllcpenalty=\count485
 \biburlbigskip=\muskip23
 \biburlnumskip=\muskip24
 \biburlucskip=\muskip25
 \biburllcskip=\muskip26
-\c@smartand=\count484
+\c@smartand=\count486
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1296,8 +1315,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count485
-\c@bbx:relatedtotal=\count486
+\c@bbx:relatedcount=\count487
+\c@bbx:relatedtotal=\count488
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1324,8 +1343,8 @@ File: biblatex.cfg
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks59
-\inpenc@posthook=\toks60
+\inpenc@prehook=\toks60
+\inpenc@posthook=\toks61
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2020/03/22 3.42 The Babel package
@@ -1338,12 +1357,12 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2020/03/22 3.42 Babel common definitions
-\babel@savecnt=\count487
-\U@D=\dimen371
+\babel@savecnt=\count489
+\U@D=\dimen375
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read5
-\bbl@dirlevel=\count488
+\bbl@dirlevel=\count490
 )
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
@@ -1370,9 +1389,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen372
-\Hy@linkcounter=\count489
-\Hy@pagecounter=\count490
+\@linkdim=\dimen376
+\Hy@linkcounter=\count491
+\Hy@pagecounter=\count492
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
@@ -1385,7 +1404,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count491
+\Hy@SavedSpaceFactor=\count493
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -1393,9 +1412,9 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count492
+\c@Hy@tempcnt=\count494
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen373
+\XeTeXLinkMargin=\dimen377
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1404,9 +1423,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count493
-\Field@Width=\dimen374
-\Fld@charsize=\dimen375
+\Fld@menulength=\count495
+\Field@Width=\dimen378
+\Fld@charsize=\dimen379
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
@@ -1420,9 +1439,9 @@ LaTeX Info: Redefining \pageref on input line 6504.
 (/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count494
-\c@Item=\count495
-\c@Hfootnote=\count496
+\Hy@abspage=\count496
+\c@Item=\count497
+\c@Hfootnote=\count498
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -1432,8 +1451,8 @@ File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 (/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-\Fld@listcount=\count497
-\c@bookmark@seq@number=\count498
+\Fld@listcount=\count499
+\c@bookmark@seq@number=\count500
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -1444,15 +1463,15 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip96
+\Hy@SectionHShift=\skip99
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count499
-\algocf@hangindent=\skip97
+\c@AlgoLine=\count501
+\algocf@hangindent=\skip100
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count500
+\c@checkoddpage=\count502
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -1460,41 +1479,41 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\skiptotal=\skip98
-\skiplinenumber=\skip99
-\skiprule=\skip100
-\skiphlne=\skip101
-\skiptext=\skip102
-\skiplength=\skip103
-\algomargin=\skip104
-\skipalgocfslide=\skip105
-\algowidth=\dimen376
-\inoutsize=\dimen377
-\inoutindent=\dimen378
-\interspacetitleruled=\dimen379
-\interspacealgoruled=\dimen380
-\interspacetitleboxruled=\dimen381
-\algocf@ruledwidth=\skip106
-\algocf@inoutbox=\box143
-\algocf@inputbox=\box144
-\AlCapSkip=\skip107
-\AlCapHSkip=\skip108
-\algoskipindent=\skip109
-\algocf@nlbox=\box145
-\algocf@hangingbox=\box146
-\algocf@untilbox=\box147
-\algocf@skipuntil=\skip110
-\algocf@capbox=\box148
-\algocf@lcaptionbox=\skip111
-\algoheightruledefault=\skip112
-\algoheightrule=\skip113
-\algotitleheightruledefault=\skip114
-\algotitleheightrule=\skip115
-\c@algocfline=\count501
-\c@algocfproc=\count502
-\c@algocf=\count503
-\algocf@algoframe=\box149
-\algocf@algobox=\box150
+\skiptotal=\skip101
+\skiplinenumber=\skip102
+\skiprule=\skip103
+\skiphlne=\skip104
+\skiptext=\skip105
+\skiplength=\skip106
+\algomargin=\skip107
+\skipalgocfslide=\skip108
+\algowidth=\dimen380
+\inoutsize=\dimen381
+\inoutindent=\dimen382
+\interspacetitleruled=\dimen383
+\interspacealgoruled=\dimen384
+\interspacetitleboxruled=\dimen385
+\algocf@ruledwidth=\skip109
+\algocf@inoutbox=\box146
+\algocf@inputbox=\box147
+\AlCapSkip=\skip110
+\AlCapHSkip=\skip111
+\algoskipindent=\skip112
+\algocf@nlbox=\box148
+\algocf@hangingbox=\box149
+\algocf@untilbox=\box150
+\algocf@skipuntil=\skip113
+\algocf@capbox=\box151
+\algocf@lcaptionbox=\skip114
+\algoheightruledefault=\skip115
+\algoheightrule=\skip116
+\algotitleheightruledefault=\skip117
+\algotitleheightrule=\skip118
+\c@algocfline=\count503
+\c@algocfproc=\count504
+\c@algocf=\count505
+\algocf@algoframe=\box152
+\algocf@algobox=\box153
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -1530,16 +1549,16 @@ e
 )))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count504
-\float@exts=\toks61
-\float@box=\box151
-\@float@everytoks=\toks62
-\@floatcapt=\box152
+\c@float@type=\count506
+\float@exts=\toks62
+\float@box=\box154
+\@float@everytoks=\toks63
+\@floatcapt=\box155
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
-\c@subfigure=\count505
-\c@subtable=\count506
+\c@subfigure=\count507
+\c@subtable=\count508
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -1552,10 +1571,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks63
-\XKV@tempa@toks=\toks64
+\XKV@toks=\toks64
+\XKV@tempa@toks=\toks65
 )
-\XKV@depth=\count507
+\XKV@depth=\count509
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -1567,52 +1586,52 @@ Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box153
+\collectedbox=\box156
 )
-\tc@llx=\dimen382
-\tc@lly=\dimen383
-\tc@urx=\dimen384
-\tc@ury=\dimen385
+\tc@llx=\dimen386
+\tc@lly=\dimen387
+\tc@urx=\dimen388
+\tc@ury=\dimen389
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen386
-\adjbox@Height=\dimen387
-\adjbox@Depth=\dimen388
-\adjbox@Totalheight=\dimen389
-\adjbox@pwidth=\dimen390
-\adjbox@pheight=\dimen391
-\adjbox@pdepth=\dimen392
-\adjbox@ptotalheight=\dimen393
+\adjbox@Width=\dimen390
+\adjbox@Height=\dimen391
+\adjbox@Depth=\dimen392
+\adjbox@Totalheight=\dimen393
+\adjbox@pwidth=\dimen394
+\adjbox@pheight=\dimen395
+\adjbox@pdepth=\dimen396
+\adjbox@ptotalheight=\dimen397
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box154
-\sift@deathcycles=\count508
-\@vwid@loff=\dimen394
-\@vwid@roff=\dimen395
+\@vwid@box=\box157
+\sift@deathcycles=\count510
+\@vwid@loff=\dimen398
+\@vwid@roff=\dimen399
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count509
-\lst@gtempboxa=\box155
-\lst@token=\toks65
-\lst@length=\count510
-\lst@currlwidth=\dimen396
-\lst@column=\count511
-\lst@pos=\count512
-\lst@lostspace=\dimen397
-\lst@width=\dimen398
-\lst@newlines=\count513
-\lst@lineno=\count514
-\lst@maxwidth=\dimen399
+\lst@mode=\count511
+\lst@gtempboxa=\box158
+\lst@token=\toks66
+\lst@length=\count512
+\lst@currlwidth=\dimen400
+\lst@column=\count513
+\lst@pos=\count514
+\lst@lostspace=\dimen401
+\lst@width=\dimen402
+\lst@newlines=\count515
+\lst@lineno=\count516
+\lst@maxwidth=\dimen403
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count515
-\lst@skipnumbers=\count516
-\lst@framebox=\box156
+\c@lstnumber=\count517
+\lst@skipnumbers=\count518
+\lst@framebox=\box159
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -1621,9 +1640,9 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count517
-\c@@ppsavesec=\count518
-\c@@ppsaveapp=\count519
+\c@@pps=\count519
+\c@@ppsavesec=\count520
+\c@@ppsaveapp=\count521
 )
 
 Package chemmacros Info: You haven't chosen a formula method so I'm assuming
@@ -1638,19 +1657,19 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
 y
 Package: xtemplate 2020-03-06 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen400
-\l__xtemplate_tmp_int=\count520
+\l__xtemplate_tmp_dim=\dimen404
+\l__xtemplate_tmp_int=\count522
 \l__xtemplate_tmp_muskip=\muskip27
-\l__xtemplate_tmp_skip=\skip116
+\l__xtemplate_tmp_skip=\skip119
 )
 Package: xfrac 2020-03-06 L3 Experimental split-level fractions
-\l__xfrac_slash_box=\box157
-\l__xfrac_tmp_box=\box158
-\l__xfrac_denominator_bot_sep_dim=\dimen401
-\l__xfrac_numerator_bot_sep_dim=\dimen402
-\l__xfrac_numerator_top_sep_dim=\dimen403
-\l__xfrac_slash_left_sep_dim=\dimen404
-\l__xfrac_slash_right_sep_dim=\dimen405
+\l__xfrac_slash_box=\box160
+\l__xfrac_tmp_box=\box161
+\l__xfrac_denominator_bot_sep_dim=\dimen405
+\l__xfrac_numerator_bot_sep_dim=\dimen406
+\l__xfrac_numerator_top_sep_dim=\dimen407
+\l__xfrac_slash_left_sep_dim=\dimen408
+\l__xfrac_slash_right_sep_dim=\dimen409
 \l__xfrac_slash_left_muskip=\muskip28
 \l__xfrac_slash_right_muskip=\muskip29
 
@@ -1659,74 +1678,74 @@ Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
 
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip117
-\L@UnitsRaiseTextstyle=\skip118
-\L@UnitsRaiseScriptstyle=\skip119
+\L@UnitsRaiseDisplaystyle=\skip120
+\L@UnitsRaiseTextstyle=\skip121
+\L@UnitsRaiseScriptstyle=\skip122
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowinset=\dimen406
-\pgfarrowlength=\dimen407
-\pgfarrowwidth=\dimen408
-\pgfarrowlinewidth=\dimen409
+\pgfarrowinset=\dimen410
+\pgfarrowlength=\dimen411
+\pgfarrowwidth=\dimen412
+\pgfarrowlinewidth=\dimen413
 )
 Package: chemformula 2020/03/07 v4.15j typeset chemical compounds and reactions
  (CN)
-\l__chemformula_tmpa_dim=\dimen410
-\l__chemformula_tmpb_dim=\dimen411
-\l__chemformula_tmpc_dim=\dimen412
-\l__chemformula_tmpa_int=\count521
-\l__chemformula_tmpb_int=\count522
-\l__chemformula_tmpc_int=\count523
-\l__chemformula_tmpa_box=\box159
-\l__chemformula_tmpb_box=\box160
-\l__chemformula_arrow_length_dim=\dimen413
-\l__chemformula_arrow_label_height_dim=\dimen414
-\l__chemformula_arrow_label_offset_dim=\dimen415
-\l__chemformula_arrow_minimum_length_dim=\dimen416
-\l__chemformula_arrow_shortage_dim=\dimen417
-\l__chemformula_arrow_offset_dim=\dimen418
-\l__chemformula_arrow_yshift_dim=\dimen419
-\l__chemformula_radical_radius_dim=\dimen420
-\l__chemformula_radical_hshift_dim=\dimen421
-\l__chemformula_radical_vshift_dim=\dimen422
-\l__chemformula_radical_space_dim=\dimen423
-\l__chemformula_arrow_head_dim=\dimen424
-\l__chemformula_name_dim=\dimen425
-\l__chemformula_adduct_space_dim=\dimen426
-\l__chemformula_charge_shift_dim=\dimen427
-\l__chemformula_subscript_shift_dim=\dimen428
-\l__chemformula_superscript_shift_dim=\dimen429
-\l__chemformula_subscript_dim=\dimen430
-\l__chemformula_superscript_dim=\dimen431
-\l__chemformula_bond_dim=\dimen432
-\l__chemformula_bond_space_dim=\dimen433
-\l__chemformula_elspec_pair_distance_dim=\dimen434
-\l__chemformula_elspec_pair_line_length_dim=\dimen435
-\l__chemformula_elspec_pair_width_dim=\dimen436
-\l__chemformula_kroegervink_positive_radius_dim=\dimen437
-\l__chemformula_kroegervink_positive_hshift_dim=\dimen438
-\l__chemformula_kroegervink_positive_vshift_dim=\dimen439
-\l__chemformula_kroegervink_positive_space_dim=\dimen440
-\l__chemformula_stoich_space_skip=\skip120
-\l__chemformula_math_space_skip=\skip121
-\l__chemformula_count_tokens_int=\count524
-\g__chemformula_lewis_int=\count525
-\l__chemformula_arrow_arg_i_box=\box161
-\l__chemformula_arrow_arg_ii_box=\box162
-\l__chemformula_superscript_box=\box163
-\l__chemformula_subscript_box=\box164
-\l__chemformula_additions_symbol_space_skip=\skip122
-\l__chemformula_plus_space_skip=\skip123
-\l__chemformula_minus_space_skip=\skip124
+\l__chemformula_tmpa_dim=\dimen414
+\l__chemformula_tmpb_dim=\dimen415
+\l__chemformula_tmpc_dim=\dimen416
+\l__chemformula_tmpa_int=\count523
+\l__chemformula_tmpb_int=\count524
+\l__chemformula_tmpc_int=\count525
+\l__chemformula_tmpa_box=\box162
+\l__chemformula_tmpb_box=\box163
+\l__chemformula_arrow_length_dim=\dimen417
+\l__chemformula_arrow_label_height_dim=\dimen418
+\l__chemformula_arrow_label_offset_dim=\dimen419
+\l__chemformula_arrow_minimum_length_dim=\dimen420
+\l__chemformula_arrow_shortage_dim=\dimen421
+\l__chemformula_arrow_offset_dim=\dimen422
+\l__chemformula_arrow_yshift_dim=\dimen423
+\l__chemformula_radical_radius_dim=\dimen424
+\l__chemformula_radical_hshift_dim=\dimen425
+\l__chemformula_radical_vshift_dim=\dimen426
+\l__chemformula_radical_space_dim=\dimen427
+\l__chemformula_arrow_head_dim=\dimen428
+\l__chemformula_name_dim=\dimen429
+\l__chemformula_adduct_space_dim=\dimen430
+\l__chemformula_charge_shift_dim=\dimen431
+\l__chemformula_subscript_shift_dim=\dimen432
+\l__chemformula_superscript_shift_dim=\dimen433
+\l__chemformula_subscript_dim=\dimen434
+\l__chemformula_superscript_dim=\dimen435
+\l__chemformula_bond_dim=\dimen436
+\l__chemformula_bond_space_dim=\dimen437
+\l__chemformula_elspec_pair_distance_dim=\dimen438
+\l__chemformula_elspec_pair_line_length_dim=\dimen439
+\l__chemformula_elspec_pair_width_dim=\dimen440
+\l__chemformula_kroegervink_positive_radius_dim=\dimen441
+\l__chemformula_kroegervink_positive_hshift_dim=\dimen442
+\l__chemformula_kroegervink_positive_vshift_dim=\dimen443
+\l__chemformula_kroegervink_positive_space_dim=\dimen444
+\l__chemformula_stoich_space_skip=\skip123
+\l__chemformula_math_space_skip=\skip124
+\l__chemformula_count_tokens_int=\count526
+\g__chemformula_lewis_int=\count527
+\l__chemformula_arrow_arg_i_box=\box164
+\l__chemformula_arrow_arg_ii_box=\box165
+\l__chemformula_superscript_box=\box166
+\l__chemformula_subscript_box=\box167
+\l__chemformula_additions_symbol_space_skip=\skip125
+\l__chemformula_plus_space_skip=\skip126
+\l__chemformula_minus_space_skip=\skip127
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count526
-\@quotereset=\count527
+\@quotelevel=\count528
+\@quotereset=\count529
 (./diss_main.aux (./dedication.aux) (./acknowledgements.aux) (./abstract.aux)
 (./intro.aux) (./fixdel.aux
 
@@ -2005,106 +2024,7 @@ LaTeX Warning: Label `sub@' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
 ) (./distdel.aux
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -2192,36 +2112,36 @@ LaTeX Warning: Label `sub@' multiply defined.
 ) (./conclusion.aux) (./appendixA.aux) (./appendixB.aux))
 \openout1 = `diss_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count528
-\scratchdimen=\dimen441
-\scratchbox=\box165
-\nofMPsegments=\count529
-\nofMParguments=\count530
-\everyMPshowfont=\toks66
-\MPscratchCnt=\count531
-\MPscratchDim=\dimen442
-\MPnumerator=\count532
-\makeMPintoPDFobject=\count533
-\everyMPtoPDFconversion=\toks67
+\scratchcounter=\count530
+\scratchdimen=\dimen445
+\scratchbox=\box168
+\nofMPsegments=\count531
+\nofMParguments=\count532
+\everyMPshowfont=\toks67
+\MPscratchCnt=\count533
+\MPscratchDim=\dimen446
+\MPnumerator=\count534
+\makeMPintoPDFobject=\count535
+\everyMPtoPDFconversion=\toks68
 ) ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -2236,9 +2156,9 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 52.
+or `english'. on input line 55.
 
-Package chemgreek Info: Activating mapping `default' on line 52.
+Package chemgreek Info: Activating mapping `default' on line 55.
 
 
 
@@ -2264,15 +2184,15 @@ Package biblatex Info: ... file 'diss_main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                fadai
+(biblatex)                cite
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 52.
-Package biblatex Info: Reference segment=0 on input line 52.
-\AtBeginShipoutBox=\box166
-Package hyperref Info: Link coloring OFF on input line 52.
+Package biblatex Info: Reference section=0 on input line 55.
+Package biblatex Info: Reference segment=0 on input line 55.
+\AtBeginShipoutBox=\box169
+Package hyperref Info: Link coloring OFF on input line 55.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -2283,20 +2203,20 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count534
+\c@section@level=\count536
 )
-LaTeX Info: Redefining \ref on input line 52.
-LaTeX Info: Redefining \pageref on input line 52.
-LaTeX Info: Redefining \nameref on input line 52.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
  (./diss_main.out) (./diss_main.out)
 \@outlinefile=\write6
 \openout6 = `diss_main.out'.
 
-\c@lstlisting=\count535
+\c@lstlisting=\count537
 <oxlogo.png, id=82, 225.84375pt x 225.84375pt>
 File: oxlogo.png Graphic file (type png)
 <use oxlogo.png>
-Package pdftex.def Info: oxlogo.png  used on input line 64.
+Package pdftex.def Info: oxlogo.png  used on input line 67.
 (pdftex.def)             Requested size: 91.04881pt x 91.04922pt.
  [1
 
@@ -2357,37 +2277,37 @@ LaTeX Warning: Command \L invalid in math mode on input line 33.
 LaTeX Warning: Command \L invalid in math mode on input line 33.
 
 [4] [5] [6] [7]
-<bifsh.png, id=267, 1467.4825pt x 1076.02pt>
+<bifsh.png, id=262, 1467.4825pt x 1076.02pt>
 File: bifsh.png Graphic file (type png)
 <use bifsh.png>
-Package pdftex.def Info: bifsh.png  used on input line 131.
+Package pdftex.def Info: bifsh.png  used on input line 119.
 (pdftex.def)             Requested size: 227.61418pt x 170.70544pt.
 
-Overfull \hbox (32.48651pt too wide) in paragraph at lines 131--132
+Overfull \hbox (32.48651pt too wide) in paragraph at lines 119--120
  [][] 
  []
 
-<turingspace.png, id=268, 1495.5875pt x 1037.8775pt>
+<turingspace.png, id=263, 1495.5875pt x 1037.8775pt>
 File: turingspace.png Graphic file (type png)
 <use turingspace.png>
-Package pdftex.def Info: turingspace.png  used on input line 138.
+Package pdftex.def Info: turingspace.png  used on input line 126.
 (pdftex.def)             Requested size: 227.61464pt x 170.70395pt.
 
-Overfull \hbox (32.48697pt too wide) in paragraph at lines 138--139
+Overfull \hbox (32.48697pt too wide) in paragraph at lines 126--127
  [][] 
  []
 
-[8]) [9 <./bifsh.png> <./turingspace.png>] [10]
+[8 <./bifsh.png> <./turingspace.png>]) [9]
 \openout2 = `fixdel.aux'.
 
  (./fixdel.tex
 Chapter 2.
-[11
+[10
 
 
 
 ]
-<disp1.png, id=325, 1341.01pt x 1015.795pt>
+<disp1.png, id=314, 1341.01pt x 1015.795pt>
 File: disp1.png Graphic file (type png)
 <use disp1.png>
 Package pdftex.def Info: disp1.png  used on input line 37.
@@ -2397,7 +2317,7 @@ Overfull \hbox (4.03032pt too wide) in paragraph at lines 37--38
  [][] 
  []
 
-<disp2.png, id=326, 1405.25pt x 991.705pt>
+<disp2.png, id=315, 1405.25pt x 991.705pt>
 File: disp2.png Graphic file (type png)
 <use disp2.png>
 Package pdftex.def Info: disp2.png  used on input line 44.
@@ -2407,8 +2327,8 @@ Overfull \hbox (4.02898pt too wide) in paragraph at lines 44--45
  [][] 
  []
 
-[12]
-<nopatt1.png, id=348, 591.20876pt x 372.39125pt>
+[11]
+<nopatt1.png, id=340, 591.20876pt x 372.39125pt>
 File: nopatt1.png Graphic file (type png)
 <use nopatt1.png>
 Package pdftex.def Info: nopatt1.png  used on input line 56.
@@ -2418,7 +2338,7 @@ Overfull \hbox (4.04033pt too wide) in paragraph at lines 56--57
  [][] 
  []
 
-<nopatt2.png, id=349, 591.20876pt x 372.39125pt>
+<nopatt2.png, id=341, 591.20876pt x 372.39125pt>
 File: nopatt2.png Graphic file (type png)
 <use nopatt2.png>
 Package pdftex.def Info: nopatt2.png  used on input line 63.
@@ -2428,8 +2348,8 @@ Overfull \hbox (4.04033pt too wide) in paragraph at lines 63--64
  [][] 
  []
 
-[13 <./disp1.png> <./disp2.png>]
-<patt1.png, id=358, 591.20876pt x 369.38pt>
+[12 <./disp1.png> <./disp2.png>]
+<patt1.png, id=354, 591.20876pt x 369.38pt>
 File: patt1.png Graphic file (type png)
 <use patt1.png>
 Package pdftex.def Info: patt1.png  used on input line 75.
@@ -2439,7 +2359,7 @@ Overfull \hbox (4.04033pt too wide) in paragraph at lines 75--76
  [][] 
  []
 
-<patt2.png, id=359, 592.2125pt x 372.39125pt>
+<patt2.png, id=355, 592.2125pt x 372.39125pt>
 File: patt2.png Graphic file (type png)
 <use patt2.png>
 Package pdftex.def Info: patt2.png  used on input line 82.
@@ -2449,585 +2369,561 @@ Overfull \hbox (4.04413pt too wide) in paragraph at lines 82--83
  [][] 
  []
 
-[14 <./nopatt1.png> <./nopatt2.png> <./patt1.png> <./patt2.png>]
-<bif0.png, id=381, 1481.535pt x 999.735pt>
+[13 <./nopatt1.png> <./nopatt2.png> <./patt1.png> <./patt2.png>]
+<bif0.png, id=382, 1481.535pt x 999.735pt>
 File: bif0.png Graphic file (type png)
 <use bif0.png>
-Package pdftex.def Info: bif0.png  used on input line 110.
+Package pdftex.def Info: bif0.png  used on input line 114.
 (pdftex.def)             Requested size: 199.16216pt x 156.48279pt.
 File: turingspace.png Graphic file (type png)
 <use turingspace.png>
-Package pdftex.def Info: turingspace.png  used on input line 117.
+Package pdftex.def Info: turingspace.png  used on input line 121.
 (pdftex.def)             Requested size: 199.1571pt x 156.48257pt.
- [15]
+ [14]
 <tspacetau.png, id=406, 1507.6325pt x 1072.005pt>
 File: tspacetau.png Graphic file (type png)
 <use tspacetau.png>
-Package pdftex.def Info: tspacetau.png  used on input line 128.
+Package pdftex.def Info: tspacetau.png  used on input line 132.
 (pdftex.def)             Requested size: 341.41112pt x 256.05965pt.
- [16 <./bif0.png>]
+ [15 <./bif0.png>]
 <toscill.png, id=424, 806.01125pt x 504.88625pt>
 File: toscill.png Graphic file (type png)
 <use toscill.png>
-Package pdftex.def Info: toscill.png  used on input line 138.
+Package pdftex.def Info: toscill.png  used on input line 142.
 (pdftex.def)             Requested size: 199.16556pt x 142.26083pt.
 
-Overfull \hbox (4.03789pt too wide) in paragraph at lines 138--139
+Overfull \hbox (4.03789pt too wide) in paragraph at lines 142--143
  [][] 
  []
 
 <tpattpred.png, id=425, 583.68062pt x 367.3725pt>
 File: tpattpred.png Graphic file (type png)
 <use tpattpred.png>
-Package pdftex.def Info: tpattpred.png  used on input line 145.
+Package pdftex.def Info: tpattpred.png  used on input line 149.
 (pdftex.def)             Requested size: 199.17018pt x 142.26567pt.
 
-Overfull \hbox (4.04251pt too wide) in paragraph at lines 145--146
+Overfull \hbox (4.04251pt too wide) in paragraph at lines 149--150
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<p3t0.png, id=428, 891.33pt x 553.06625pt>
+<p3t0.png, id=432, 891.33pt x 553.06625pt>
 File: p3t0.png Graphic file (type png)
 <use p3t0.png>
-Package pdftex.def Info: p3t0.png  used on input line 157.
+Package pdftex.def Info: p3t0.png  used on input line 161.
 (pdftex.def)             Requested size: 199.16693pt x 113.80971pt.
 
-Overfull \hbox (4.03926pt too wide) in paragraph at lines 157--158
+Overfull \hbox (4.03926pt too wide) in paragraph at lines 161--162
  [][] 
  []
 
-<p3t05.png, id=429, 891.33pt x 561.09625pt>
+<p3t05.png, id=433, 891.33pt x 561.09625pt>
 File: p3t05.png Graphic file (type png)
 <use p3t05.png>
-Package pdftex.def Info: p3t05.png  used on input line 164.
+Package pdftex.def Info: p3t05.png  used on input line 168.
 (pdftex.def)             Requested size: 199.16693pt x 113.80972pt.
 
-Overfull \hbox (4.03926pt too wide) in paragraph at lines 164--165
+Overfull \hbox (4.03926pt too wide) in paragraph at lines 168--169
  [][] 
  []
 
-<p3t1.png, id=430, 907.39pt x 571.13374pt>
+<p3t1.png, id=434, 907.39pt x 571.13374pt>
 File: p3t1.png Graphic file (type png)
 <use p3t1.png>
-Package pdftex.def Info: p3t1.png  used on input line 171.
+Package pdftex.def Info: p3t1.png  used on input line 175.
 (pdftex.def)             Requested size: 199.16951pt x 113.80641pt.
 
-Overfull \hbox (4.04184pt too wide) in paragraph at lines 171--172
+Overfull \hbox (4.04184pt too wide) in paragraph at lines 175--176
  [][] 
  []
 
-<p3t15.png, id=431, 907.39pt x 571.13374pt>
+<p3t15.png, id=435, 907.39pt x 571.13374pt>
 File: p3t15.png Graphic file (type png)
 <use p3t15.png>
-Package pdftex.def Info: p3t15.png  used on input line 178.
+Package pdftex.def Info: p3t15.png  used on input line 182.
 (pdftex.def)             Requested size: 199.16951pt x 113.80641pt.
 
-Overfull \hbox (4.04184pt too wide) in paragraph at lines 178--179
+Overfull \hbox (4.04184pt too wide) in paragraph at lines 182--183
  [][] 
  []
 
-[17 <./tspacetau.png>]
-<p2t0.png, id=444, 694.595pt x 437.635pt>
+[16 <./tspacetau.png>]
+<p2t0.png, id=451, 694.595pt x 437.635pt>
 File: p2t0.png Graphic file (type png)
 <use p2t0.png>
-Package pdftex.def Info: p2t0.png  used on input line 190.
+Package pdftex.def Info: p2t0.png  used on input line 194.
 (pdftex.def)             Requested size: 199.16988pt x 113.80913pt.
 
-Overfull \hbox (4.0422pt too wide) in paragraph at lines 190--191
+Overfull \hbox (4.0422pt too wide) in paragraph at lines 194--195
  [][] 
  []
 
-<p2t05.png, id=445, 716.6775pt x 445.665pt>
+<p2t05.png, id=452, 716.6775pt x 445.665pt>
 File: p2t05.png Graphic file (type png)
 <use p2t05.png>
-Package pdftex.def Info: p2t05.png  used on input line 197.
+Package pdftex.def Info: p2t05.png  used on input line 201.
 (pdftex.def)             Requested size: 199.17015pt x 113.80968pt.
 
-Overfull \hbox (4.04248pt too wide) in paragraph at lines 197--198
+Overfull \hbox (4.04248pt too wide) in paragraph at lines 201--202
  [][] 
  []
 
-<p2t1.png, id=446, 738.76pt x 461.725pt>
+<p2t1.png, id=453, 738.76pt x 461.725pt>
 File: p2t1.png Graphic file (type png)
 <use p2t1.png>
-Package pdftex.def Info: p2t1.png  used on input line 204.
+Package pdftex.def Info: p2t1.png  used on input line 208.
 (pdftex.def)             Requested size: 199.1635pt x 113.81053pt.
 
-Overfull \hbox (4.03583pt too wide) in paragraph at lines 204--205
+Overfull \hbox (4.03583pt too wide) in paragraph at lines 208--209
  [][] 
  []
 
-<p2t15.png, id=447, 722.7pt x 452.69125pt>
+<p2t15.png, id=454, 722.7pt x 452.69125pt>
 File: p2t15.png Graphic file (type png)
 <use p2t15.png>
-Package pdftex.def Info: p2t15.png  used on input line 211.
+Package pdftex.def Info: p2t15.png  used on input line 215.
 (pdftex.def)             Requested size: 199.16766pt x 113.80801pt.
 
-Overfull \hbox (4.04pt too wide) in paragraph at lines 211--212
+Overfull \hbox (4.04pt too wide) in paragraph at lines 215--216
  [][] 
  []
 
-[18 <./toscill.png> <./tpattpred.png> <./p3t0.png> <./p3t05.png> <./p3t1.png> <
+[17 <./toscill.png> <./tpattpred.png> <./p3t0.png> <./p3t05.png> <./p3t1.png> <
 ./p3t15.png>]
-<tau0bif.png, id=462, 1664.2175pt x 1190.4475pt>
+<tau0bif.png, id=474, 1664.2175pt x 1190.4475pt>
 File: tau0bif.png Graphic file (type png)
 <use tau0bif.png>
-Package pdftex.def Info: tau0bif.png  used on input line 224.
+Package pdftex.def Info: tau0bif.png  used on input line 229.
 (pdftex.def)             Requested size: 199.16422pt x 142.2481pt.
 
-Overfull \hbox (4.03654pt too wide) in paragraph at lines 224--225
+Overfull \hbox (4.03654pt too wide) in paragraph at lines 229--230
  [][] 
  []
 
-<tau05bif.png, id=463, 1587.9325pt x 1186.4325pt>
+<tau05bif.png, id=475, 1587.9325pt x 1186.4325pt>
 File: tau05bif.png Graphic file (type png)
 <use tau05bif.png>
-Package pdftex.def Info: tau05bif.png  used on input line 231.
+Package pdftex.def Info: tau05bif.png  used on input line 236.
 (pdftex.def)             Requested size: 199.16951pt x 142.25713pt.
 
-Overfull \hbox (4.04184pt too wide) in paragraph at lines 231--232
+Overfull \hbox (4.04184pt too wide) in paragraph at lines 236--237
  [][] 
  []
 
-<tau1bif.png, id=464, 1579.9025pt x 1156.32pt>
+<tau1bif.png, id=476, 1579.9025pt x 1156.32pt>
 File: tau1bif.png Graphic file (type png)
 <use tau1bif.png>
-Package pdftex.def Info: tau1bif.png  used on input line 238.
+Package pdftex.def Info: tau1bif.png  used on input line 243.
 (pdftex.def)             Requested size: 199.15073pt x 142.26357pt.
 
-Overfull \hbox (4.02306pt too wide) in paragraph at lines 238--239
+Overfull \hbox (4.02306pt too wide) in paragraph at lines 243--244
  [][] 
  []
 
-<tau15bif.png, id=465, 1551.7975pt x 1166.3575pt>
+<tau15bif.png, id=477, 1551.7975pt x 1166.3575pt>
 File: tau15bif.png Graphic file (type png)
 <use tau15bif.png>
-Package pdftex.def Info: tau15bif.png  used on input line 245.
+Package pdftex.def Info: tau15bif.png  used on input line 250.
 (pdftex.def)             Requested size: 199.1598pt x 142.25269pt.
 
-Overfull \hbox (4.03214pt too wide) in paragraph at lines 245--246
+Overfull \hbox (4.03214pt too wide) in paragraph at lines 250--251
  [][] 
  []
 
-[19 <./p2t0.png> <./p2t05.png> <./p2t1.png> <./p2t15.png>]
-<fixbif21.png, id=482, 1523.6925pt x 1232.605pt>
+[18 <./p2t0.png> <./p2t05.png> <./p2t1.png> <./p2t15.png>]
+<fixbif21.png, id=495, 1523.6925pt x 1232.605pt>
 File: fixbif21.png Graphic file (type png)
 <use fixbif21.png>
-Package pdftex.def Info: fixbif21.png  used on input line 258.
+Package pdftex.def Info: fixbif21.png  used on input line 263.
 (pdftex.def)             Requested size: 199.15646pt x 142.26381pt.
 
-Overfull \hbox (4.0288pt too wide) in paragraph at lines 258--259
+Overfull \hbox (4.0288pt too wide) in paragraph at lines 263--264
  [][] 
  []
 
-<fixbif22.png, id=483, 1553.805pt x 1178.4025pt>
+<fixbif22.png, id=496, 1553.805pt x 1178.4025pt>
 File: fixbif22.png Graphic file (type png)
 <use fixbif22.png>
-Package pdftex.def Info: fixbif22.png  used on input line 265.
+Package pdftex.def Info: fixbif22.png  used on input line 270.
 (pdftex.def)             Requested size: 199.15665pt x 142.2473pt.
 
-Overfull \hbox (4.02898pt too wide) in paragraph at lines 265--266
+Overfull \hbox (4.02898pt too wide) in paragraph at lines 270--271
  [][] 
  []
 
-<fixbif23.png, id=484, 1563.8425pt x 1180.41pt>
+<fixbif23.png, id=497, 1563.8425pt x 1180.41pt>
 File: fixbif23.png Graphic file (type png)
 <use fixbif23.png>
-Package pdftex.def Info: fixbif23.png  used on input line 272.
+Package pdftex.def Info: fixbif23.png  used on input line 277.
 (pdftex.def)             Requested size: 199.15462pt x 142.25548pt.
 
-Overfull \hbox (4.02695pt too wide) in paragraph at lines 272--273
+Overfull \hbox (4.02695pt too wide) in paragraph at lines 277--278
  [][] 
  []
 
-<fixbif24.png, id=485, 1505.625pt x 1210.5225pt>
+<fixbif24.png, id=498, 1505.625pt x 1210.5225pt>
 File: fixbif24.png Graphic file (type png)
 <use fixbif24.png>
-Package pdftex.def Info: fixbif24.png  used on input line 279.
+Package pdftex.def Info: fixbif24.png  used on input line 284.
 (pdftex.def)             Requested size: 199.16124pt x 142.26411pt.
 
-Overfull \hbox (4.03357pt too wide) in paragraph at lines 279--280
+Overfull \hbox (4.03357pt too wide) in paragraph at lines 284--285
  [][] 
  []
 
-[20 <./tau0bif.png> <./tau05bif.png> <./tau1bif.png> <./tau15bif.png>]
-Overfull \hbox (1.30772pt too wide) in paragraph at lines 286--286
+[19 <./tau0bif.png> <./tau05bif.png> <./tau1bif.png> <./tau15bif.png>]
+Overfull \hbox (1.30772pt too wide) in paragraph at lines 291--291
 |[]\OT1/cmr/bx/n/17.28 Investigation of Vari-a-tion in Ini-tial and Bound-
  []
 
-[21 <./fixbif21.png> <./fixbif22.png> <./fixbif23.png> <./fixbif24.png>]
-<gaff0.png, id=515, 774.895pt x 485.815pt>
+[20 <./fixbif21.png> <./fixbif22.png> <./fixbif23.png> <./fixbif24.png>]
+<gaff0.png, id=529, 774.895pt x 485.815pt>
 File: gaff0.png Graphic file (type png)
 <use gaff0.png>
-Package pdftex.def Info: gaff0.png  used on input line 299.
+Package pdftex.def Info: gaff0.png  used on input line 304.
 (pdftex.def)             Requested size: 142.25371pt x 128.03613pt.
 
-Overfull \hbox (3.49214pt too wide) in paragraph at lines 299--300
+Overfull \hbox (3.49214pt too wide) in paragraph at lines 304--305
  [][] 
  []
 
-<ic20.png, id=516, 624.3325pt x 391.4625pt>
+<ic20.png, id=530, 624.3325pt x 391.4625pt>
 File: ic20.png Graphic file (type png)
 <use ic20.png>
-Package pdftex.def Info: ic20.png  used on input line 306.
+Package pdftex.def Info: ic20.png  used on input line 311.
 (pdftex.def)             Requested size: 142.25974pt x 128.03615pt.
 
-Overfull \hbox (3.49817pt too wide) in paragraph at lines 306--307
+Overfull \hbox (3.49817pt too wide) in paragraph at lines 311--312
  [][] 
  []
 
-<ic30.png, id=517, 658.46pt x 411.5375pt>
+<ic30.png, id=531, 658.46pt x 411.5375pt>
 File: ic30.png Graphic file (type png)
 <use ic30.png>
-Package pdftex.def Info: ic30.png  used on input line 313.
+Package pdftex.def Info: ic30.png  used on input line 318.
 (pdftex.def)             Requested size: 142.2594pt x 128.0337pt.
 
-Overfull \hbox (3.49783pt too wide) in paragraph at lines 313--314
+Overfull \hbox (3.49783pt too wide) in paragraph at lines 318--319
  [][] 
  []
 
-<gaff1.png, id=518, 709.65125pt x 457.71pt>
+<gaff1.png, id=534, 709.65125pt x 457.71pt>
 File: gaff1.png Graphic file (type png)
 <use gaff1.png>
-Package pdftex.def Info: gaff1.png  used on input line 324.
+Package pdftex.def Info: gaff1.png  used on input line 329.
 (pdftex.def)             Requested size: 142.26341pt x 128.03221pt.
 
-Overfull \hbox (3.50185pt too wide) in paragraph at lines 324--325
+Overfull \hbox (3.50185pt too wide) in paragraph at lines 329--330
  [][] 
  []
 
-<ic21.png, id=519, 632.3625pt x 400.49625pt>
+<ic21.png, id=535, 632.3625pt x 400.49625pt>
 File: ic21.png Graphic file (type png)
 <use ic21.png>
-Package pdftex.def Info: ic21.png  used on input line 331.
+Package pdftex.def Info: ic21.png  used on input line 336.
 (pdftex.def)             Requested size: 142.25612pt x 128.03918pt.
 
-Overfull \hbox (3.49455pt too wide) in paragraph at lines 331--332
+Overfull \hbox (3.49455pt too wide) in paragraph at lines 336--337
  [][] 
  []
 
-<ic31.png, id=520, 642.4pt x 408.52625pt>
+<ic31.png, id=536, 642.4pt x 408.52625pt>
 File: ic31.png Graphic file (type png)
 <use ic31.png>
-Package pdftex.def Info: ic31.png  used on input line 338.
+Package pdftex.def Info: ic31.png  used on input line 343.
 (pdftex.def)             Requested size: 142.25964pt x 128.03815pt.
 
-Overfull \hbox (3.49808pt too wide) in paragraph at lines 338--339
+Overfull \hbox (3.49808pt too wide) in paragraph at lines 343--344
  [][] 
  []
 
-<gaff2.png, id=521, 673.51625pt x 431.6125pt>
+<gaff2.png, id=539, 673.51625pt x 431.6125pt>
 File: gaff2.png Graphic file (type png)
 <use gaff2.png>
-Package pdftex.def Info: gaff2.png  used on input line 349.
+Package pdftex.def Info: gaff2.png  used on input line 354.
 (pdftex.def)             Requested size: 142.26474pt x 128.03584pt.
 
-Overfull \hbox (3.50317pt too wide) in paragraph at lines 349--350
+Overfull \hbox (3.50317pt too wide) in paragraph at lines 354--355
  [][] 
  []
 
-<ic22.png, id=522, 619.31375pt x 391.4625pt>
+<ic22.png, id=540, 619.31375pt x 391.4625pt>
 File: ic22.png Graphic file (type png)
 <use ic22.png>
-Package pdftex.def Info: ic22.png  used on input line 356.
+Package pdftex.def Info: ic22.png  used on input line 361.
 (pdftex.def)             Requested size: 142.25961pt x 128.03615pt.
 
-Overfull \hbox (3.49805pt too wide) in paragraph at lines 356--357
+Overfull \hbox (3.49805pt too wide) in paragraph at lines 361--362
  [][] 
  []
 
-<ic32.png, id=523, 669.50125pt x 420.57124pt>
+<ic32.png, id=541, 669.50125pt x 420.57124pt>
 File: ic32.png Graphic file (type png)
 <use ic32.png>
-Package pdftex.def Info: ic32.png  used on input line 363.
+Package pdftex.def Info: ic32.png  used on input line 368.
 (pdftex.def)             Requested size: 142.26457pt x 128.03339pt.
 
-Overfull \hbox (3.503pt too wide) in paragraph at lines 363--364
+Overfull \hbox (3.503pt too wide) in paragraph at lines 368--369
  [][] 
  []
 
-<gaff4.png, id=524, 703.62875pt x 440.64626pt>
+<gaff4.png, id=544, 703.62875pt x 440.64626pt>
 File: gaff4.png Graphic file (type png)
 <use gaff4.png>
-Package pdftex.def Info: gaff4.png  used on input line 374.
+Package pdftex.def Info: gaff4.png  used on input line 379.
 (pdftex.def)             Requested size: 142.25858pt x 128.03291pt.
 
-Overfull \hbox (3.49701pt too wide) in paragraph at lines 374--375
+Overfull \hbox (3.49701pt too wide) in paragraph at lines 379--380
  [][] 
  []
 
-<ic24.png, id=525, 661.47125pt x 413.545pt>
+<ic24.png, id=545, 661.47125pt x 413.545pt>
 File: ic24.png Graphic file (type png)
 <use ic24.png>
-Package pdftex.def Info: ic24.png  used on input line 381.
+Package pdftex.def Info: ic24.png  used on input line 386.
 (pdftex.def)             Requested size: 142.25392pt x 128.03986pt.
 
-Overfull \hbox (3.49236pt too wide) in paragraph at lines 381--382
+Overfull \hbox (3.49236pt too wide) in paragraph at lines 386--387
  [][] 
  []
 
-<ic34.png, id=526, 667.49374pt x 423.5825pt>
+<ic34.png, id=546, 667.49374pt x 423.5825pt>
 File: ic34.png Graphic file (type png)
 <use ic34.png>
-Package pdftex.def Info: ic34.png  used on input line 388.
+Package pdftex.def Info: ic34.png  used on input line 393.
 (pdftex.def)             Requested size: 142.25558pt x 128.0323pt.
 
-Overfull \hbox (3.49402pt too wide) in paragraph at lines 388--389
+Overfull \hbox (3.49402pt too wide) in paragraph at lines 393--394
  [][] 
  []
 
-[22 <./gaff0.png> <./ic20.png> <./ic30.png> <./gaff1.png> <./ic21.png> <./ic31.
+[21 <./gaff0.png> <./ic20.png> <./ic30.png> <./gaff1.png> <./ic21.png> <./ic31.
 png>]
-<gaff8.png, id=544, 737.75626pt x 460.72125pt>
+<gaff8.png, id=566, 737.75626pt x 460.72125pt>
 File: gaff8.png Graphic file (type png)
 <use gaff8.png>
-Package pdftex.def Info: gaff8.png  used on input line 399.
+Package pdftex.def Info: gaff8.png  used on input line 404.
 (pdftex.def)             Requested size: 142.25774pt x 128.03091pt.
 
-Overfull \hbox (3.49617pt too wide) in paragraph at lines 399--400
+Overfull \hbox (3.49617pt too wide) in paragraph at lines 404--405
  [][] 
  []
 
-<ic28.png, id=545, 656.4525pt x 407.5225pt>
+<ic28.png, id=567, 656.4525pt x 407.5225pt>
 File: ic28.png Graphic file (type png)
 <use ic28.png>
-Package pdftex.def Info: ic28.png  used on input line 406.
+Package pdftex.def Info: ic28.png  used on input line 411.
 (pdftex.def)             Requested size: 142.26642pt x 128.03447pt.
 
-Overfull \hbox (3.50485pt too wide) in paragraph at lines 406--407
+Overfull \hbox (3.50485pt too wide) in paragraph at lines 411--412
  [][] 
  []
 
-<ic38.png, id=546, 645.41125pt x 413.545pt>
+<ic38.png, id=568, 645.41125pt x 413.545pt>
 File: ic38.png Graphic file (type png)
 <use ic38.png>
-Package pdftex.def Info: ic38.png  used on input line 413.
+Package pdftex.def Info: ic38.png  used on input line 418.
 (pdftex.def)             Requested size: 142.2568pt x 128.03986pt.
 
-Overfull \hbox (3.49524pt too wide) in paragraph at lines 413--414
+Overfull \hbox (3.49524pt too wide) in paragraph at lines 418--419
  [][] 
  []
 
-[23 <./gaff2.png> <./ic22.png> <./ic32.png> <./gaff4.png> <./ic24.png> <./ic34.
+[22 <./gaff2.png> <./ic22.png> <./ic32.png> <./gaff4.png> <./ic24.png> <./ic34.
 png> <./gaff8.png> <./ic28.png> <./ic38.png>]
 File: ic20.png Graphic file (type png)
 <use ic20.png>
-Package pdftex.def Info: ic20.png  used on input line 431.
+Package pdftex.def Info: ic20.png  used on input line 436.
 (pdftex.def)             Requested size: 199.16173pt x 156.49261pt.
 
-Overfull \hbox (4.03406pt too wide) in paragraph at lines 431--432
+Overfull \hbox (4.03406pt too wide) in paragraph at lines 436--437
  [][] 
  []
 
-<bc0.png, id=568, 639.38875pt x 401.5pt>
+<bc0.png, id=591, 639.38875pt x 401.5pt>
 File: bc0.png Graphic file (type png)
 <use bc0.png>
-Package pdftex.def Info: bc0.png  used on input line 438.
+Package pdftex.def Info: bc0.png  used on input line 443.
 (pdftex.def)             Requested size: 199.16457pt x 156.49246pt.
 
-Overfull \hbox (4.0369pt too wide) in paragraph at lines 438--439
+Overfull \hbox (4.0369pt too wide) in paragraph at lines 443--444
  [][] 
  []
 
+[23]
 File: ic21.png Graphic file (type png)
 <use ic21.png>
-Package pdftex.def Info: ic21.png  used on input line 450.
+Package pdftex.def Info: ic21.png  used on input line 455.
 (pdftex.def)             Requested size: 199.16629pt x 156.49234pt.
 
-Overfull \hbox (4.03862pt too wide) in paragraph at lines 450--451
+Overfull \hbox (4.03862pt too wide) in paragraph at lines 455--456
  [][] 
  []
 
-<bc1.png, id=569, 637.38126pt x 398.48875pt>
+<bc1.png, id=601, 637.38126pt x 398.48875pt>
 File: bc1.png Graphic file (type png)
 <use bc1.png>
-Package pdftex.def Info: bc1.png  used on input line 457.
+Package pdftex.def Info: bc1.png  used on input line 462.
 (pdftex.def)             Requested size: 199.1617pt x 156.48622pt.
 
-Overfull \hbox (4.03403pt too wide) in paragraph at lines 457--458
+Overfull \hbox (4.03403pt too wide) in paragraph at lines 462--463
  [][] 
  []
 
-[24 <./bc0.png>]
-File: ic22.png Graphic file (type png)
-<use ic22.png>
-Package pdftex.def Info: ic22.png  used on input line 469.
-(pdftex.def)             Requested size: 199.16724pt x 156.49261pt.
+File: ic28.png Graphic file (type png)
+<use ic28.png>
+Package pdftex.def Info: ic28.png  used on input line 474.
+(pdftex.def)             Requested size: 199.17097pt x 156.48935pt.
 
-Overfull \hbox (4.03957pt too wide) in paragraph at lines 469--470
+Overfull \hbox (4.0433pt too wide) in paragraph at lines 474--475
  [][] 
  []
 
-<bc2.png, id=579, 623.32875pt x 389.455pt>
-File: bc2.png Graphic file (type png)
-<use bc2.png>
-Package pdftex.def Info: bc2.png  used on input line 476.
-(pdftex.def)             Requested size: 199.16492pt x 156.4864pt.
+<bc8.png, id=602, 671.50874pt x 420.57124pt>
+File: bc8.png Graphic file (type png)
+<use bc8.png>
+Package pdftex.def Info: bc8.png  used on input line 481.
+(pdftex.def)             Requested size: 199.16924pt x 156.4881pt.
 
-Overfull \hbox (4.03725pt too wide) in paragraph at lines 476--477
+Overfull \hbox (4.04156pt too wide) in paragraph at lines 481--482
  [][] 
  []
 
-
-Overfull \hbox (18.62773pt too wide) in paragraph at lines 485--485
+[24 <./bc0.png> <./bc1.png>]
+Overfull \hbox (18.62773pt too wide) in paragraph at lines 491--491
 |[]\OT1/cmr/bx/n/17.28 Relationship Be-tween Time-To-Pattern and time
  []
 
-[25 <./bc1.png> <./bc2.png>]
-<compdisp1.png, id=590, 1668.2325pt x 1122.1925pt>
+[25 <./bc8.png>]
+<compdisp1.png, id=619, 1603.9925pt x 1158.3275pt>
 File: compdisp1.png Graphic file (type png)
 <use compdisp1.png>
-Package pdftex.def Info: compdisp1.png  used on input line 502.
-(pdftex.def)             Requested size: 199.16106pt x 156.48944pt.
+Package pdftex.def Info: compdisp1.png  used on input line 508.
+(pdftex.def)             Requested size: 199.15245pt x 156.49118pt.
 
-Overfull \hbox (4.03339pt too wide) in paragraph at lines 502--503
+Overfull \hbox (4.02478pt too wide) in paragraph at lines 508--509
  [][] 
  []
 
-<compdisp2.png, id=591, 1543.7675pt x 1160.335pt>
+<compdisp2.png, id=620, 1543.7675pt x 1160.335pt>
 File: compdisp2.png Graphic file (type png)
 <use compdisp2.png>
-Package pdftex.def Info: compdisp2.png  used on input line 509.
+Package pdftex.def Info: compdisp2.png  used on input line 515.
 (pdftex.def)             Requested size: 199.16568pt x 156.47911pt.
 
-Overfull \hbox (4.03801pt too wide) in paragraph at lines 509--510
+Overfull \hbox (4.03801pt too wide) in paragraph at lines 515--516
  [][] 
  []
+
+
+LaTeX Warning: Reference `characfic' on page 26 undefined on input line 519.
+
+
+LaTeX Warning: Reference `characfic' on page 26 undefined on input line 519.
 
 [26]
-<uic.png, id=600, 793.96625pt x 518.93875pt>
-File: uic.png Graphic file (type png)
-<use uic.png>
-Package pdftex.def Info: uic.png  used on input line 521.
-(pdftex.def)             Requested size: 199.16951pt x 170.71979pt.
-
-Overfull \hbox (4.04184pt too wide) in paragraph at lines 521--522
- [][] 
- []
-
-<uicfc.png, id=601, 797.98125pt x 537.00626pt>
-File: uicfc.png Graphic file (type png)
-<use uicfc.png>
-Package pdftex.def Info: uicfc.png  used on input line 528.
-(pdftex.def)             Requested size: 199.16606pt x 170.71474pt.
-
-Overfull \hbox (4.03839pt too wide) in paragraph at lines 528--529
- [][] 
- []
-
-<Tu.png, id=603, 599.23875pt x 398.48875pt>
+<Tu.png, id=628, 599.23875pt x 398.48875pt>
 File: Tu.png Graphic file (type png)
 <use Tu.png>
-Package pdftex.def Info: Tu.png  used on input line 540.
+Package pdftex.def Info: Tu.png  used on input line 527.
 (pdftex.def)             Requested size: 199.16666pt x 170.71445pt.
 
-Overfull \hbox (4.03899pt too wide) in paragraph at lines 540--541
+Overfull \hbox (4.03899pt too wide) in paragraph at lines 527--528
  [][] 
  []
 
-<FCs.png, id=604, 602.25pt x 396.48125pt>
+<FCs.png, id=629, 602.25pt x 396.48125pt>
 File: FCs.png Graphic file (type png)
 <use FCs.png>
-Package pdftex.def Info: FCs.png  used on input line 547.
+Package pdftex.def Info: FCs.png  used on input line 534.
 (pdftex.def)             Requested size: 199.16583pt x 170.71954pt.
 
-Overfull \hbox (4.03816pt too wide) in paragraph at lines 547--548
+Overfull \hbox (4.03816pt too wide) in paragraph at lines 534--535
  [][] 
  []
 
-[27 <./compdisp1.png> <./compdisp2.png> <./uic.png> <./uicfc.png>]
-Overfull \hbox (3.80963pt too wide) in paragraph at lines 557--561
+[27 <./compdisp1.png> <./compdisp2.png>]
+Overfull \hbox (3.80963pt too wide) in paragraph at lines 544--547
 \OT1/cmr/m/n/12 It was found through nu-mer-i-cal so-lu-tions that the `true' t
 ime-to-pattern is $\OMS/cmsy/m/n/12 ^^Y \OT1/cmr/m/n/12 57\OML/cmm/m/it/12 :\OT
 1/cmr/m/n/12 5(3\OML/cmm/m/it/12 sf\OT1/cmr/m/n/12 )$.
  []
 
-<dispnumsim.png, id=619, 799.98875pt x 504.88625pt>
-File: dispnumsim.png Graphic file (type png)
-<use dispnumsim.png>
-Package pdftex.def Info: dispnumsim.png  used on input line 566.
-(pdftex.def)             Requested size: 199.16663pt x 170.71916pt.
+<ttp1.png, id=643, 598.235pt x 386.44376pt>
+File: ttp1.png Graphic file (type png)
+<use ttp1.png>
+Package pdftex.def Info: ttp1.png  used on input line 552.
+(pdftex.def)             Requested size: 142.26485pt x 142.26256pt.
 
-Overfull \hbox (4.03896pt too wide) in paragraph at lines 566--567
+Overfull \hbox (3.50328pt too wide) in paragraph at lines 552--553
  [][] 
  []
 
-<ttp1.png, id=620, 598.235pt x 386.44376pt>
-File: ttp1.png Graphic file (type png)
-<use ttp1.png>
-Package pdftex.def Info: ttp1.png  used on input line 573.
-(pdftex.def)             Requested size: 199.17079pt x 170.71388pt.
+<ttp2.png, id=644, 598.235pt x 392.46625pt>
+File: ttp2.png Graphic file (type png)
+<use ttp2.png>
+Package pdftex.def Info: ttp2.png  used on input line 559.
+(pdftex.def)             Requested size: 142.26485pt x 142.26385pt.
 
-Overfull \hbox (4.04312pt too wide) in paragraph at lines 573--574
+Overfull \hbox (3.50328pt too wide) in paragraph at lines 559--560
+ [][] 
+ []
+
+<ttp3.png, id=645, 597.23125pt x 395.4775pt>
+File: ttp3.png Graphic file (type png)
+<use ttp3.png>
+Package pdftex.def Info: ttp3.png  used on input line 566.
+(pdftex.def)             Requested size: 142.26309pt x 142.26317pt.
+
+Overfull \hbox (3.50153pt too wide) in paragraph at lines 566--567
  [][] 
  []
 
 [28 <./Tu.png> <./FCs.png>]
-<ttp2.png, id=631, 598.235pt x 392.46625pt>
-File: ttp2.png Graphic file (type png)
-<use ttp2.png>
-Package pdftex.def Info: ttp2.png  used on input line 585.
-(pdftex.def)             Requested size: 199.17079pt x 170.72142pt.
-
-Overfull \hbox (4.04312pt too wide) in paragraph at lines 585--586
- [][] 
- []
-
-<ttp3.png, id=632, 597.23125pt x 395.4775pt>
-File: ttp3.png Graphic file (type png)
-<use ttp3.png>
-Package pdftex.def Info: ttp3.png  used on input line 592.
-(pdftex.def)             Requested size: 199.16467pt x 170.7158pt.
-
-Overfull \hbox (4.037pt too wide) in paragraph at lines 592--593
- [][] 
- []
-
-<longlin2.png, id=637, 596.2275pt x 394.47375pt>
+<longlin2.png, id=662, 596.2275pt x 394.47375pt>
 File: longlin2.png Graphic file (type png)
 <use longlin2.png>
-Package pdftex.def Info: longlin2.png  used on input line 605.
+Package pdftex.def Info: longlin2.png  used on input line 579.
 (pdftex.def)             Requested size: 199.16656pt x 170.71588pt.
 
-Overfull \hbox (4.0389pt too wide) in paragraph at lines 605--606
+Overfull \hbox (4.0389pt too wide) in paragraph at lines 579--580
  [][] 
  []
 
-<longlin1.png, id=638, 598.235pt x 392.46625pt>
+<longlin1.png, id=663, 598.235pt x 392.46625pt>
 File: longlin1.png Graphic file (type png)
 <use longlin1.png>
-Package pdftex.def Info: longlin1.png  used on input line 612.
+Package pdftex.def Info: longlin1.png  used on input line 586.
 (pdftex.def)             Requested size: 199.17079pt x 170.72142pt.
 
-Overfull \hbox (4.04312pt too wide) in paragraph at lines 612--613
+Overfull \hbox (4.04312pt too wide) in paragraph at lines 586--587
  [][] 
  []
 
-[29 <./dispnumsim.png> <./ttp1.png> <./ttp2.png> <./ttp3.png>]
-<longlin3.png, id=649, 737.75626pt x 492.84125pt>
+[29 <./ttp1.png> <./ttp2.png> <./ttp3.png>]
+<longlin3.png, id=676, 737.75626pt x 492.84125pt>
 File: longlin3.png Graphic file (type png)
 <use longlin3.png>
-Package pdftex.def Info: longlin3.png  used on input line 624.
+Package pdftex.def Info: longlin3.png  used on input line 598.
 (pdftex.def)             Requested size: 199.16307pt x 170.71474pt.
 
-Overfull \hbox (4.0354pt too wide) in paragraph at lines 624--625
+Overfull \hbox (4.0354pt too wide) in paragraph at lines 598--599
  [][] 
  []
 
-<longlin4.png, id=650, 819.06pt x 541.02126pt>
+<longlin4.png, id=677, 819.06pt x 541.02126pt>
 File: longlin4.png Graphic file (type png)
 <use longlin4.png>
-Package pdftex.def Info: longlin4.png  used on input line 631.
+Package pdftex.def Info: longlin4.png  used on input line 605.
 (pdftex.def)             Requested size: 199.16547pt x 170.71153pt.
 
-Overfull \hbox (4.0378pt too wide) in paragraph at lines 631--632
+Overfull \hbox (4.0378pt too wide) in paragraph at lines 605--606
  [][] 
  []
 
-) [30 <./longlin2.png> <./longlin1.png> <./longlin3.png> <./longlin4.png>]
+[30 <./longlin2.png> <./longlin1.png> <./longlin3.png> <./longlin4.png>])
 [31]
 \openout2 = `distdel.aux'.
 
@@ -3043,317 +2939,164 @@ Overfull \hbox (38.87856pt too wide) detected at line 18
 
 
 
-]
-<t1sig1.png, id=675, 803.0pt x 526.96875pt>
+] [33]
+<t1sig1.png, id=715, 803.0pt x 526.96875pt>
 File: t1sig1.png Graphic file (type png)
 <use t1sig1.png>
-Package pdftex.def Info: t1sig1.png  used on input line 26.
+Package pdftex.def Info: t1sig1.png  used on input line 58.
 (pdftex.def)             Requested size: 199.1689pt x 142.26738pt.
 
-Overfull \hbox (4.04123pt too wide) in paragraph at lines 26--27
+Overfull \hbox (4.04123pt too wide) in paragraph at lines 58--59
  [][] 
  []
 
-<t1sig2.png, id=676, 810.02625pt x 539.01375pt>
+<t1sig2.png, id=716, 810.02625pt x 539.01375pt>
 File: t1sig2.png Graphic file (type png)
 <use t1sig2.png>
-Package pdftex.def Info: t1sig2.png  used on input line 33.
+Package pdftex.def Info: t1sig2.png  used on input line 65.
 (pdftex.def)             Requested size: 199.16885pt x 142.26222pt.
 
-Overfull \hbox (4.04118pt too wide) in paragraph at lines 33--34
+Overfull \hbox (4.04118pt too wide) in paragraph at lines 65--66
  [][] 
  []
 
-<t2sig1.png, id=677, 823.075pt x 544.0325pt>
+<t2sig1.png, id=717, 823.075pt x 544.0325pt>
 File: t2sig1.png Graphic file (type png)
 <use t2sig1.png>
-Package pdftex.def Info: t2sig1.png  used on input line 44.
+Package pdftex.def Info: t2sig1.png  used on input line 76.
 (pdftex.def)             Requested size: 199.16216pt x 142.26694pt.
 
-Overfull \hbox (4.03448pt too wide) in paragraph at lines 44--45
+Overfull \hbox (4.03448pt too wide) in paragraph at lines 76--77
  [][] 
  []
 
-<t2sig2.png, id=678, 870.25125pt x 573.14125pt>
+<t2sig2.png, id=718, 870.25125pt x 573.14125pt>
 File: t2sig2.png Graphic file (type png)
 <use t2sig2.png>
-Package pdftex.def Info: t2sig2.png  used on input line 51.
+Package pdftex.def Info: t2sig2.png  used on input line 83.
 (pdftex.def)             Requested size: 199.17093pt x 142.26173pt.
 
-Overfull \hbox (4.04326pt too wide) in paragraph at lines 51--52
+Overfull \hbox (4.04326pt too wide) in paragraph at lines 83--84
  [][] 
  []
 
-[33 <./t1sig1.png> <./t1sig2.png>] [34 <./t2sig1.png> <./t2sig2.png>]
-<truncerr.png, id=702, 723.70375pt x 483.8075pt>
-File: truncerr.png Graphic file (type png)
-<use truncerr.png>
-Package pdftex.def Info: truncerr.png  used on input line 75.
-(pdftex.def)             Requested size: 199.16821pt x 142.26427pt.
-
-Overfull \hbox (4.04054pt too wide) in paragraph at lines 75--76
- [][] 
- []
-
-<disterr.png, id=703, 735.74875pt x 475.7775pt>
-File: disterr.png Graphic file (type png)
-<use disterr.png>
-Package pdftex.def Info: disterr.png  used on input line 82.
-(pdftex.def)             Requested size: 199.17123pt x 142.26245pt.
-
-Overfull \hbox (4.04356pt too wide) in paragraph at lines 82--83
- [][] 
- []
-
-[35 <./truncerr.png> <./disterr.png>] [36]
-<p2fixed.png, id=738, 1487.5575pt x 1015.795pt>
+[34 <./t1sig1.png> <./t1sig2.png>] [35 <./t2sig1.png> <./t2sig2.png>] [36]
+[37]
+<p2fixed.png, id=776, 1487.5575pt x 1015.795pt>
 File: p2fixed.png Graphic file (type png)
 <use p2fixed.png>
-Package pdftex.def Info: p2fixed.png  used on input line 151.
+Package pdftex.def Info: p2fixed.png  used on input line 164.
 (pdftex.def)             Requested size: 199.15462pt x 142.25682pt.
 
-Overfull \hbox (4.02695pt too wide) in paragraph at lines 151--152
+Overfull \hbox (4.02695pt too wide) in paragraph at lines 164--165
  [][] 
  []
 
-<dispdiff1.png, id=739, 1658.195pt x 1180.41pt>
+<dispdiff1.png, id=777, 1658.195pt x 1180.41pt>
 File: dispdiff1.png Graphic file (type png)
 <use dispdiff1.png>
-Package pdftex.def Info: dispdiff1.png  used on input line 158.
+Package pdftex.def Info: dispdiff1.png  used on input line 171.
 (pdftex.def)             Requested size: 199.15193pt x 142.25548pt.
 
-Overfull \hbox (4.02426pt too wide) in paragraph at lines 158--159
+Overfull \hbox (4.02426pt too wide) in paragraph at lines 171--172
  [][] 
  []
 
-<p3fixed.png, id=740, 1495.5875pt x 1027.84pt>
+<p3fixed.png, id=778, 1495.5875pt x 1027.84pt>
 File: p3fixed.png Graphic file (type png)
 <use p3fixed.png>
-Package pdftex.def Info: p3fixed.png  used on input line 170.
+Package pdftex.def Info: p3fixed.png  used on input line 183.
 (pdftex.def)             Requested size: 199.1571pt x 142.24985pt.
 
-Overfull \hbox (4.02943pt too wide) in paragraph at lines 170--171
+Overfull \hbox (4.02943pt too wide) in paragraph at lines 183--184
  [][] 
  []
 
-<dispdiff2.png, id=741, 1479.5275pt x 1076.02pt>
+<dispdiff2.png, id=779, 1479.5275pt x 1076.02pt>
 File: dispdiff2.png Graphic file (type png)
 <use dispdiff2.png>
-Package pdftex.def Info: dispdiff2.png  used on input line 177.
+Package pdftex.def Info: dispdiff2.png  used on input line 190.
 (pdftex.def)             Requested size: 199.1632pt x 142.2518pt.
 
-Overfull \hbox (4.03552pt too wide) in paragraph at lines 177--178
+Overfull \hbox (4.03552pt too wide) in paragraph at lines 190--191
  [][] 
  []
 
-[37] [38 <./p2fixed.png> <./dispdiff1.png (PNG copy)> <./p3fixed.png> <./dispdi
-ff2.png (PNG copy)>]
-<t1f1.png, id=766, 1401.235pt x 1063.975pt>
+[38 <./p2fixed.png> <./dispdiff1.png (PNG copy)>]
+<t1f1.png, id=792, 1401.235pt x 1063.975pt>
 File: t1f1.png Graphic file (type png)
 <use t1f1.png>
-Package pdftex.def Info: t1f1.png  used on input line 193.
+Package pdftex.def Info: t1f1.png  used on input line 205.
 (pdftex.def)             Requested size: 199.16492pt x 135.13956pt.
 
-Overfull \hbox (4.03725pt too wide) in paragraph at lines 193--194
+Overfull \hbox (4.03725pt too wide) in paragraph at lines 205--206
  [][] 
  []
 
-<t1f2.png, id=767, 1413.28pt x 1078.0275pt>
-File: t1f2.png Graphic file (type png)
-<use t1f2.png>
-Package pdftex.def Info: t1f2.png  used on input line 200.
-(pdftex.def)             Requested size: 199.15175pt x 135.14789pt.
-
-Overfull \hbox (4.02408pt too wide) in paragraph at lines 200--201
- [][] 
- []
-
-<t1f3.png, id=768, 1429.34pt x 1116.17pt>
-File: t1f3.png Graphic file (type png)
-<use t1f3.png>
-Package pdftex.def Info: t1f3.png  used on input line 207.
-(pdftex.def)             Requested size: 199.16841pt x 135.14384pt.
-
-Overfull \hbox (4.04074pt too wide) in paragraph at lines 207--208
- [][] 
- []
-
-<t1f4.png, id=769, 1351.0475pt x 1082.0425pt>
-File: t1f4.png Graphic file (type png)
-<use t1f4.png>
-Package pdftex.def Info: t1f4.png  used on input line 214.
-(pdftex.def)             Requested size: 199.1644pt x 135.1394pt.
-
-Overfull \hbox (4.03673pt too wide) in paragraph at lines 214--215
- [][] 
- []
-
-<distbif31.png, id=770, 1353.055pt x 1035.87pt>
-File: distbif31.png Graphic file (type png)
-<use distbif31.png>
-Package pdftex.def Info: distbif31.png  used on input line 225.
-(pdftex.def)             Requested size: 199.15063pt x 135.142pt.
-
-Overfull \hbox (4.02296pt too wide) in paragraph at lines 225--226
- [][] 
- []
-
-<distbif32.png, id=771, 1555.8125pt x 1098.1025pt>
-File: distbif32.png Graphic file (type png)
-<use distbif32.png>
-Package pdftex.def Info: distbif32.png  used on input line 232.
-(pdftex.def)             Requested size: 199.15282pt x 135.15126pt.
-
-Overfull \hbox (4.02515pt too wide) in paragraph at lines 232--233
- [][] 
- []
-
-<distbif33.png, id=772, 1507.6325pt x 1102.1175pt>
-File: distbif33.png Graphic file (type png)
-<use distbif33.png>
-Package pdftex.def Info: distbif33.png  used on input line 239.
-(pdftex.def)             Requested size: 199.15073pt x 135.1409pt.
-
-Overfull \hbox (4.02306pt too wide) in paragraph at lines 239--240
- [][] 
- []
-
-<distbif34.png, id=773, 1459.4525pt x 1082.0425pt>
-File: distbif34.png Graphic file (type png)
-<use distbif34.png>
-Package pdftex.def Info: distbif34.png  used on input line 246.
-(pdftex.def)             Requested size: 199.15546pt x 135.1394pt.
-
-Overfull \hbox (4.02779pt too wide) in paragraph at lines 246--247
- [][] 
- []
-
-<t2f1.png, id=774, 1431.3475pt x 1088.065pt>
+<t2f1.png, id=793, 1431.3475pt x 1088.065pt>
 File: t2f1.png Graphic file (type png)
 <use t2f1.png>
-Package pdftex.def Info: t2f1.png  used on input line 257.
+Package pdftex.def Info: t2f1.png  used on input line 212.
 (pdftex.def)             Requested size: 199.16422pt x 135.14445pt.
 
-Overfull \hbox (4.03654pt too wide) in paragraph at lines 257--258
+Overfull \hbox (4.03654pt too wide) in paragraph at lines 212--213
  [][] 
  []
 
-<t2f2.png, id=775, 1437.37pt x 1076.02pt>
-File: t2f2.png Graphic file (type png)
-<use t2f2.png>
-Package pdftex.def Info: t2f2.png  used on input line 264.
-(pdftex.def)             Requested size: 199.16878pt x 135.1425pt.
+[39 <./p3fixed.png> <./dispdiff2.png (PNG copy)>]
 
-Overfull \hbox (4.0411pt too wide) in paragraph at lines 264--265
- [][] 
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 223.
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 232--232
+[]\OT1/cmr/m/n/12 Table 3.1: |Max-i-mum, over $(\OML/cmm/m/it/12 a; b\OT1/cmr/m
+/n/12 )$ pa-ram-e-ter space, of ab-so-lute dif-fer-ence of
  []
 
-<t2f3.png, id=776, 1499.6025pt x 1128.215pt>
-File: t2f3.png Graphic file (type png)
-<use t2f3.png>
-Package pdftex.def Info: t2f3.png  used on input line 271.
-(pdftex.def)             Requested size: 199.16547pt x 135.13895pt.
-
-Overfull \hbox (4.0378pt too wide) in paragraph at lines 271--272
- [][] 
- []
-
-<t2f4.png, id=777, 1591.9475pt x 1184.425pt>
-File: t2f4.png Graphic file (type png)
-<use t2f4.png>
-Package pdftex.def Info: t2f4.png  used on input line 278.
-(pdftex.def)             Requested size: 199.16298pt x 135.14874pt.
-
-Overfull \hbox (4.03531pt too wide) in paragraph at lines 278--279
- [][] 
- []
-
-[39 <./t1f1.png> <./t1f2.png> <./t1f3.png> <./t1f4.png>]
-<distbif41.png, id=790, 1449.415pt x 1100.11pt>
-File: distbif41.png Graphic file (type png)
-<use distbif41.png>
-Package pdftex.def Info: distbif41.png  used on input line 289.
-(pdftex.def)             Requested size: 199.15695pt x 135.14655pt.
-
-Overfull \hbox (4.02928pt too wide) in paragraph at lines 289--290
- [][] 
- []
-
-<distbif42.png, id=791, 1381.16pt x 1086.0575pt>
-File: distbif42.png Graphic file (type png)
-<use distbif42.png>
-Package pdftex.def Info: distbif42.png  used on input line 296.
-(pdftex.def)             Requested size: 199.15665pt x 135.14369pt.
-
-Overfull \hbox (4.02898pt too wide) in paragraph at lines 296--297
- [][] 
- []
-
-<distbif43.png, id=792, 1409.265pt x 1053.9375pt>
-File: distbif43.png Graphic file (type png)
-<use distbif43.png>
-Package pdftex.def Info: distbif43.png  used on input line 303.
-(pdftex.def)             Requested size: 199.16656pt x 135.1512pt.
-
-Overfull \hbox (4.0389pt too wide) in paragraph at lines 303--304
- [][] 
- []
-
-<distbif44.png, id=793, 1405.25pt x 1061.9675pt>
-File: distbif44.png Graphic file (type png)
-<use distbif44.png>
-Package pdftex.def Info: distbif44.png  used on input line 310.
-(pdftex.def)             Requested size: 199.15665pt x 135.14384pt.
-
-Overfull \hbox (4.02898pt too wide) in paragraph at lines 310--311
- [][] 
- []
-
-[40 <./distbif31.png> <./distbif32.png> <./distbif33.png> <./distbif34.png>]
-[41 <./t2f1.png> <./t2f2.png> <./t2f3.png> <./t2f4.png>] [42 <./distbif41.png> 
-<./distbif42.png> <./distbif43.png> <./distbif44.png>]
-<distp1sig1.png, id=826, 861.2175pt x 576.1525pt>
+[40 <./t1f1.png> <./t2f1.png>]
+<distp1sig1.png, id=819, 861.2175pt x 576.1525pt>
 File: distp1sig1.png Graphic file (type png)
 <use distp1sig1.png>
-Package pdftex.def Info: distp1sig1.png  used on input line 328.
+Package pdftex.def Info: distp1sig1.png  used on input line 243.
 (pdftex.def)             Requested size: 199.16656pt x 142.2619pt.
 
-Overfull \hbox (4.0389pt too wide) in paragraph at lines 328--329
+Overfull \hbox (4.0389pt too wide) in paragraph at lines 243--244
  [][] 
  []
 
-<distp1sig2.png, id=827, 876.27374pt x 582.175pt>
+<distp1sig2.png, id=820, 876.27374pt x 582.175pt>
 File: distp1sig2.png Graphic file (type png)
 <use distp1sig2.png>
-Package pdftex.def Info: distp1sig2.png  used on input line 335.
+Package pdftex.def Info: distp1sig2.png  used on input line 250.
 (pdftex.def)             Requested size: 199.1587pt x 142.25658pt.
 
-Overfull \hbox (4.03104pt too wide) in paragraph at lines 335--336
+Overfull \hbox (4.03104pt too wide) in paragraph at lines 250--251
  [][] 
  []
 
-<distp2sig1.png, id=828, 849.1725pt x 563.10374pt>
+<distp2sig1.png, id=821, 849.1725pt x 563.10374pt>
 File: distp2sig1.png Graphic file (type png)
 <use distp2sig1.png>
-Package pdftex.def Info: distp2sig1.png  used on input line 348.
+Package pdftex.def Info: distp2sig1.png  used on input line 263.
 (pdftex.def)             Requested size: 199.16684pt x 142.26204pt.
 
-Overfull \hbox (4.03917pt too wide) in paragraph at lines 348--349
+Overfull \hbox (4.03917pt too wide) in paragraph at lines 263--264
  [][] 
  []
 
-<distp2sig2.png, id=829, 880.28876pt x 587.19376pt>
+<distp2sig2.png, id=822, 880.28876pt x 587.19376pt>
 File: distp2sig2.png Graphic file (type png)
 <use distp2sig2.png>
-Package pdftex.def Info: distp2sig2.png  used on input line 355.
+Package pdftex.def Info: distp2sig2.png  used on input line 270.
 (pdftex.def)             Requested size: 199.15785pt x 142.26439pt.
 
-Overfull \hbox (4.03018pt too wide) in paragraph at lines 355--356
+Overfull \hbox (4.03018pt too wide) in paragraph at lines 270--271
  [][] 
  []
 
-) [43 <./distp1sig1.png> <./distp1sig2.png> <./distp2sig1.png> <./distp2sig2.pn
-g>]
+[41 <./distp1sig1.png> <./distp1sig2.png> <./distp2sig1.png> <./distp2sig2.png>
+] [42]) [43]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
@@ -3394,9 +3137,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 51.
 
-
-LaTeX Warning: Reference `fig:ic1' on page 46 undefined on input line 64.
-
 ) [46]
 \openout2 = `appendixB.aux'.
 
@@ -3410,21 +3150,21 @@ Appendix B.
 
 
 ]
-Overfull \hbox (6.75104pt too wide) in paragraph at lines 90--90
+Overfull \hbox (6.75104pt too wide) in paragraph at lines 93--93
 \OT1/cmr/m/n/12 de-lay''. In: \OT1/cmr/m/it/12 Jour-nal of Dy-nam-ics and Dif-f
 er-en-tial Equa-tions \OT1/cmr/m/n/12 31.4 (2019), pp. 2223{
  []
 
 [49] [50]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
  (./diss_main.aux (./dedication.aux) (./acknowledgements.aux)
 (./abstract.aux) (./intro.aux) (./fixdel.aux) (./distdel.aux) (./conclusion.aux
 ) (./appendixA.aux) (./appendixB.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `diss_main.out' has not changed.
-(rerunfilecheck)             Checksum: D487AE0B1A2F24A774B27CD201A586B4;1217.
+(rerunfilecheck)             Checksum: 9C4EFD600F83F23B59812D3C858A6414;1249.
 
 
 LaTeX Warning: There were undefined references.
@@ -3437,11 +3177,11 @@ Package logreq Info: Writing requests to 'diss_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47677 strings out of 480608
- 1039366 string characters out of 5903630
- 1839019 words of memory out of 5000000
- 62470 multiletter control sequences out of 15000+600000
- 551518 words of font info for 94 fonts, out of 8000000 for 9000
+ 47705 strings out of 480608
+ 1039604 string characters out of 5903630
+ 1841847 words of memory out of 5000000
+ 62498 multiletter control sequences out of 15000+600000
+ 551624 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,23n,108p,1617b,1760s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
@@ -3468,10 +3208,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf
 ist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on diss_main.pdf (52 pages, 7125270 bytes).
+Output written on diss_main.pdf (52 pages, 5553107 bytes).
 PDF statistics:
- 1005 PDF objects out of 1200 (max. 8388607)
- 724 compressed objects within 8 object streams
- 204 named destinations out of 1000 (max. 500000)
- 620 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1022 PDF objects out of 1200 (max. 8388607)
+ 759 compressed objects within 8 object streams
+ 214 named destinations out of 1000 (max. 500000)
+ 525 words of extra memory for PDF output out of 10000 (max. 10000000)
 
