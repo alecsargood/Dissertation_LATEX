@@ -36,7 +36,7 @@ k(s;\tau,\sigma)=\Phi_cf\left(\frac{s-\tau}{\sigma}\right).
 \end{equation}
 with $f(x)$ the general pdf of the Gaussian distribution given as
 \begin{equation}\label{f}
-    f(x)=\frac{1}{\sqrt{2\pi}\sigma}\exp\left(-\frac{1}{2}x^2\right).
+    f(x)=\frac{1}{\sigma\sqrt{2\pi}}\exp\left(-\frac{1}{2}x^2\right).
 \end{equation}
 We use $\Phi_c$ to denote the truncated scaling constant. This constant ensures that $k(s;\tau,\sigma)$ integrates to $1$ over the given integration domain $[a,b]$, and is computed as
 \begin{equation}
@@ -119,7 +119,7 @@ We use the notation $f_u$ to denote the derivative of function $f$ with respect 
 \begin{equation}\label{linu}
   \delta \frac{\partial \xi}{\partial t}=\delta \frac{\epsilon^2}{L^2}\frac{\partial^2\xi}{\partial x^2}+\delta\left[\xi(-1-4u_\star v_\star)-2\eta u_\star^2 +6u_\star v_\star\int_a^bk(s)\hat{\xi}\text{ds}+3u_\star^2\int_a^bk(s)\hat{\eta}\text{ds}\right].
 \end{equation}
-The linearised dynmacs for $v$ are more simply given by
+The linearised dynamics for $v$ are more simply given by
 \begin{equation}\label{linv}
 \delta \frac{\partial\eta}{\partial t}=\delta \frac{1}{L^2}\frac{\partial^2\eta}{\partial x^2}-\delta\left[2\xi u_\star v_\star+\eta u_\star^2\right].
 \end{equation}

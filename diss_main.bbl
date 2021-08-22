@@ -19,16 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{morph}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Morphogenesis
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Morphogenesis
-      \endverb
-    \endentry
     \entry{rodas}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
@@ -37,46 +27,6 @@
       \endverb
       \verb{url}
       \verb https://diffeq.sciml.ai/stable/solvers/ode_solve/
-      \endverb
-    \endentry
-    \entry{methsteps}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Delay_differential_equation
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Delay_differential_equation
-      \endverb
-    \endentry
-    \entry{chebfun}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://www.chebfun.org
-      \endverb
-      \verb{url}
-      \verb https://www.chebfun.org
-      \endverb
-    \endentry
-    \entry{compsimp}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Simpson%27s_rule
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Simpson%27s_rule
-      \endverb
-    \endentry
-    \entry{finitediff}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Finite_difference
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Finite_difference
       \endverb
     \endentry
     \entry{bailleul}{article}{}
@@ -117,6 +67,36 @@
       \field{year}{2020}
       \field{pages}{1840}
       \range{pages}{1}
+    \endentry
+    \entry{morph}{book}{}
+      \name{author}{2}{}{%
+        {{hash=7c38b3893548deb776f86244775aa7a0}{%
+           family={Bard},
+           familyi={B\bibinitperiod},
+           given={Jonathan\bibnamedelima BL},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=d489e54515502058d7c7f6b417fe6a7d}{%
+           family={Bard},
+           familyi={B\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{613e43f530301104db7b5c0f431c28bb}
+      \strng{fullhash}{613e43f530301104db7b5c0f431c28bb}
+      \strng{bibnamehash}{613e43f530301104db7b5c0f431c28bb}
+      \strng{authorbibnamehash}{613e43f530301104db7b5c0f431c28bb}
+      \strng{authornamehash}{613e43f530301104db7b5c0f431c28bb}
+      \strng{authorfullhash}{613e43f530301104db7b5c0f431c28bb}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Morphogenesis: the cellular and molecular processes of developmental anatomy}
+      \field{volume}{23}
+      \field{year}{1992}
     \endentry
     \entry{beentjes}{report}{}
       \name{author}{1}{}{%
@@ -252,6 +232,65 @@
       \field{journaltitle}{Mathematical Institute, University of Oxford}
       \field{title}{Distributed Delay in Reaction-Diffusion systems}
       \field{year}{2020}
+    \endentry
+    \entry{chebfun}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=0980b185bcce72e89bbd71ce0a25df18}{%
+           family={Driscoll},
+           familyi={D\bibinitperiod},
+           given={Tobin\bibnamedelima A},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0adabb449925182353edad0ca77527c6}{%
+           family={Hale},
+           familyi={H\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e3376455eaec77b00950a1dc9ce095f5}{%
+           family={Trefethen},
+           familyi={T\bibinitperiod},
+           given={Lloyd\bibnamedelima N},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pafnuty Publications, Oxford}%
+      }
+      \strng{namehash}{e45a97d0fe9111e2b5d5ce6d15745586}
+      \strng{fullhash}{e45a97d0fe9111e2b5d5ce6d15745586}
+      \strng{bibnamehash}{e45a97d0fe9111e2b5d5ce6d15745586}
+      \strng{authorbibnamehash}{e45a97d0fe9111e2b5d5ce6d15745586}
+      \strng{authornamehash}{e45a97d0fe9111e2b5d5ce6d15745586}
+      \strng{authorfullhash}{e45a97d0fe9111e2b5d5ce6d15745586}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Chebfun guide}
+      \field{year}{2014}
+    \endentry
+    \entry{methsteps}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e838f97c2cf2872caabc25743a772442}{%
+           family={Driver},
+           familyi={D\bibinitperiod},
+           given={Rodney\bibnamedelima David},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{e838f97c2cf2872caabc25743a772442}
+      \strng{fullhash}{e838f97c2cf2872caabc25743a772442}
+      \strng{bibnamehash}{e838f97c2cf2872caabc25743a772442}
+      \strng{authorbibnamehash}{e838f97c2cf2872caabc25743a772442}
+      \strng{authornamehash}{e838f97c2cf2872caabc25743a772442}
+      \strng{authorfullhash}{e838f97c2cf2872caabc25743a772442}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ordinary and delay differential equations}
+      \field{volume}{20}
+      \field{year}{2012}
     \endentry
     \entry{elowitz}{article}{}
       \name{author}{4}{}{%
@@ -566,6 +605,36 @@
       \field{year}{2019}
       \field{pages}{2223\bibrangedash 2247}
       \range{pages}{25}
+    \endentry
+    \entry{finitediff}{book}{}
+      \name{author}{2}{}{%
+        {{hash=a19efb725d3a31cfe68e9795bd2d675a}{%
+           family={Jovanovi{ć}},
+           familyi={J\bibinitperiod},
+           given={Bo{š}ko\bibnamedelima S},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=38d3a14c4a1c5448089a687a815acd4e}{%
+           family={S{ü}li},
+           familyi={S\bibinitperiod},
+           given={Endre},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{24fd2e44bbc8e3b34c305c6676c42e1f}
+      \strng{fullhash}{24fd2e44bbc8e3b34c305c6676c42e1f}
+      \strng{bibnamehash}{24fd2e44bbc8e3b34c305c6676c42e1f}
+      \strng{authorbibnamehash}{24fd2e44bbc8e3b34c305c6676c42e1f}
+      \strng{authornamehash}{24fd2e44bbc8e3b34c305c6676c42e1f}
+      \strng{authorfullhash}{24fd2e44bbc8e3b34c305c6676c42e1f}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analysis of Finite Difference Schemes: For Linear Partial Differential Equations with Generalized Solutions}
+      \field{volume}{46}
+      \field{year}{2013}
     \endentry
     \entry{kimmel}{article}{}
       \name{author}{5}{}{%
@@ -1137,6 +1206,35 @@
       \field{year}{1979}
       \field{pages}{389\bibrangedash 400}
       \range{pages}{12}
+    \endentry
+    \entry{compsimp}{book}{}
+      \name{author}{2}{}{%
+        {{hash=38d3a14c4a1c5448089a687a815acd4e}{%
+           family={S{ü}li},
+           familyi={S\bibinitperiod},
+           given={Endre},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6a88a30bc366510f4433c33a5e49a2c6}{%
+           family={Mayers},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima F},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge university press}%
+      }
+      \strng{namehash}{88b129d608a3b8f3056d5ede83dca7cd}
+      \strng{fullhash}{88b129d608a3b8f3056d5ede83dca7cd}
+      \strng{bibnamehash}{88b129d608a3b8f3056d5ede83dca7cd}
+      \strng{authorbibnamehash}{88b129d608a3b8f3056d5ede83dca7cd}
+      \strng{authornamehash}{88b129d608a3b8f3056d5ede83dca7cd}
+      \strng{authorfullhash}{88b129d608a3b8f3056d5ede83dca7cd}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An introduction to numerical analysis}
+      \field{year}{2003}
     \endentry
     \entry{tennyson}{article}{}
       \name{author}{3}{}{%
