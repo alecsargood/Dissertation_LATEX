@@ -567,6 +567,40 @@
       \field{pages}{1713\bibrangedash 1722}
       \range{pages}{10}
     \endentry
+    \entry{spike}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8bc14796355f2f3553aafd8d25f724c6}{%
+           family={Iron},
+           familyi={I\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c837e6250585cb26b519b71979ad4e82}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{d385dfc9a92aca9e93daf511d84d37df}
+      \strng{fullhash}{d385dfc9a92aca9e93daf511d84d37df}
+      \strng{bibnamehash}{d385dfc9a92aca9e93daf511d84d37df}
+      \strng{authorbibnamehash}{d385dfc9a92aca9e93daf511d84d37df}
+      \strng{authornamehash}{d385dfc9a92aca9e93daf511d84d37df}
+      \strng{authorfullhash}{d385dfc9a92aca9e93daf511d84d37df}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SIAM Journal on Applied Mathematics}
+      \field{number}{3}
+      \field{title}{A metastable spike solution for a nonlocal reaction-diffusion model}
+      \field{volume}{60}
+      \field{year}{2000}
+      \field{pages}{778\bibrangedash 802}
+      \range{pages}{25}
+    \endentry
     \entry{jiang}{article}{}
       \name{author}{3}{}{%
         {{hash=6595226a3e2753e80b5c256aeb1fd93d}{%

@@ -1,19 +1,31 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.1.1}{Background}{chapter.1}% 2
 \BOOKMARK [1][-]{section.1.2}{Model Introduction}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Mathematical Preliminaries}{chapter.1}% 4
-\BOOKMARK [0][-]{chapter.2}{Fixed Delay Model}{}% 5
-\BOOKMARK [1][-]{section.2.1}{Linear Analysis}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.2}{Investigation of Variation in Initial and Boundary Conditions}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.3}{Relationship Between Time-To-Pattern and time delay}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.4}{Summary}{chapter.2}% 9
-\BOOKMARK [0][-]{chapter.3}{Distributed Delay Model}{}% 10
-\BOOKMARK [1][-]{section.3.1}{Composite Simpson's Rule}{chapter.3}% 11
-\BOOKMARK [1][-]{section.3.2}{A Symmetric Distribution}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.3}{An Asymmetric Distribution}{chapter.3}% 13
-\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 14
-\BOOKMARK [0][-]{appendix.A}{Further Mathematical Details}{}% 15
-\BOOKMARK [1][-]{section.A.1}{Finite Difference Scheme}{appendix.A}% 16
-\BOOKMARK [1][-]{section.A.2}{Functional Form of IC_1.}{appendix.A}% 17
-\BOOKMARK [0][-]{appendix.B}{Further Numerical Results}{}% 18
-\BOOKMARK [0][-]{appendix.B}{Bibliography}{}% 19
+\BOOKMARK [2][-]{subsection.1.2.1}{Without Time Delay}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{With Fixed Time Delay}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{With Distributed Time Delay}{section.1.2}% 6
+\BOOKMARK [1][-]{section.1.3}{Mathematical Preliminaries}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.3.1}{Turing Pattern Formation Without Delay}{section.1.3}% 8
+\BOOKMARK [2][-]{subsection.1.3.2}{Numerical Implementation}{section.1.3}% 9
+\BOOKMARK [0][-]{chapter.2}{Fixed Delay Model}{}% 10
+\BOOKMARK [1][-]{section.2.1}{Linear Analysis}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.1.1}{Bifurcation Analysis}{section.2.1}% 12
+\BOOKMARK [1][-]{section.2.2}{Investigation of Variation in Initial and Boundary Conditions}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.3}{Relationship Between Time-To-Pattern and Time Delay}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.4}{Summary}{chapter.2}% 15
+\BOOKMARK [0][-]{chapter.3}{Distributed Delay Model}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Composite Simpson's Rule}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.2}{A Symmetric Distribution}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.2.1}{Introduction}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.2}{Linear Analysis}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.3}{Numerical Results}{section.3.2}% 21
+\BOOKMARK [1][-]{section.3.3}{An Asymmetric Distribution}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.1}{Introduction}{section.3.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.2}{Linear Analysis}{section.3.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.3}{Numerical Results}{section.3.3}% 25
+\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 26
+\BOOKMARK [0][-]{appendix.A}{Further Mathematical Details}{}% 27
+\BOOKMARK [1][-]{section.A.1}{Finite Difference Scheme}{appendix.A}% 28
+\BOOKMARK [1][-]{section.A.2}{Functional Form of IC_1.}{appendix.A}% 29
+\BOOKMARK [0][-]{appendix.B}{Further Numerical Results}{}% 30
+\BOOKMARK [0][-]{appendix.B}{Bibliography}{}% 31
