@@ -62,3 +62,29 @@ A_u&=-130.8444445,\ \ B_u=337.0666669,\ \ C_u=-281.6000002,\ \ D_u=75.3777778,\\
 A_v&=-170.6666682,\ \ B_v=412.4444479,\ \ C_v=-312.8888910,\ \ D_v=71.1111113,\\
 \end{align*}
 and $E_u=0.00600$, $E_v=0.00125$.
+
+
+\section{Derivation of Mean of Skewed Truncated Gaussian Distribution}
+
+Using a result from \cite{skewed}, we have that the $m$-th moment of a random variable $X$ following a truncated skewed Gaussian distribution, on the domain $[a,b]$ is given by
+\begin{equation}\label{mth}
+\mathbb{E}[X^m]=\sum_{r=0}^mC_m^r\mu^{m-r}\omega^rs_{\rho,r}(u,v).
+\end{equation}
+Here, $u=\frac{a-\mu}{\omega}$, $v=\frac{b-\mu}{\omega}$, and $C_m^r=\begin{pmatrix}m\\r\end{pmatrix}$ is a binomial coefficient. The function $s_{\rho,r}$ is given by
+\begin{equation}\label{s}
+    s_{\rho,r}(u,v)=(r-1)s_{\rho,r-2}(u,v)+q_{\rho,r}(u,v),
+\end{equation}
+with $s_{\rho,0}(u,v)=1$, and the function $q_{\rho,r}$ defined by
+\begin{equation}\label{q}
+    q_{\rho,r}(u,v)=-\frac{\left[x^{r-1}f_\rho(x)\right]|_u^v}{\left[F_\rho(x)\right]|_u^v}+\frac{2}{\sqrt{2\pi}}\frac{\rho}{\hat{\rho}^r}\frac{\left[\phi(\hat{\rho x})\right]|_u^v}{\left[F_\rho(x)\right]|_u^v}m_{r-1}(\hat{\rho}u, \hat{\rho}v).
+\end{equation}
+The functions $f_\rho$ and $F_\rho$ denote the pdf and cdf of the standard skew Gaussian distribution,
+
+ To compute the expection, $\mathbb{E}[X]$, we take the first moment, namely $m=1$. Equation \eqref{mth} can therefore be considerably simplified to
+\begin{equation}
+    \begin{split}
+\mathbb{E}[X]&=C_1^0\mu s_{\rho,0}(u,v)+C_1^1\omega s_{\rho,1}(u,v)\\
+&=\mu+\omega q_{\rho,1}(u,v),
+\end{split}
+\end{equation}
+since $s_{\rho,0}(u,v)=1$ and $s_{\rho,1}(u,v)=q_{\rho,1}(u,v)$. We also use the fact that $m_1{u,v}=1$, from \cite{skewed}. Evaluating $q_{\rho,1}(u,v)$ from \eqref{q} leads to the desired result presented in \eqref{computetau}.

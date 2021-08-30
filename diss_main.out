@@ -23,9 +23,14 @@
 \BOOKMARK [2][-]{subsection.3.3.1}{Introduction}{section.3.3}% 23
 \BOOKMARK [2][-]{subsection.3.3.2}{Linear Analysis}{section.3.3}% 24
 \BOOKMARK [2][-]{subsection.3.3.3}{Numerical Results}{section.3.3}% 25
-\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 26
-\BOOKMARK [0][-]{appendix.A}{Further Mathematical Details}{}% 27
-\BOOKMARK [1][-]{section.A.1}{Finite Difference Scheme}{appendix.A}% 28
-\BOOKMARK [1][-]{section.A.2}{Functional Form of IC_1.}{appendix.A}% 29
-\BOOKMARK [0][-]{appendix.B}{Further Numerical Results}{}% 30
-\BOOKMARK [0][-]{appendix.B}{Bibliography}{}% 31
+\BOOKMARK [0][-]{chapter.4}{Gierer-Meinhardt Model}{}% 26
+\BOOKMARK [1][-]{section.4.1}{Linear Analysis}{chapter.4}% 27
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 28
+\BOOKMARK [1][-]{section.5.1}{Summary of Findings}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.2}{Future Work}{chapter.5}% 30
+\BOOKMARK [0][-]{appendix.A}{Further Mathematical Details}{}% 31
+\BOOKMARK [1][-]{section.A.1}{Finite Difference Scheme}{appendix.A}% 32
+\BOOKMARK [1][-]{section.A.2}{Functional Form of IC_1.}{appendix.A}% 33
+\BOOKMARK [1][-]{section.A.3}{Derivation of Mean of Skewed Truncated Gaussian Distribution}{appendix.A}% 34
+\BOOKMARK [0][-]{appendix.B}{Further Numerical Results}{}% 35
+\BOOKMARK [0][-]{appendix.B}{Bibliography}{}% 36

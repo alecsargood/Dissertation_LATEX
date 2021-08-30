@@ -29,6 +29,16 @@
       \verb https://diffeq.sciml.ai/stable/solvers/ode_solve/
       \endverb
     \endentry
+    \entry{git}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://github.com/alecsargood/Dissertation
+      \endverb
+      \verb{url}
+      \verb https://github.com/alecsargood/Dissertation
+      \endverb
+    \endentry
     \entry{bailleul}{article}{}
       \name{author}{3}{}{%
         {{hash=4cc40da6548c1ff2cb2f9c28089e9379}{%
@@ -167,6 +177,73 @@
       \field{pages}{14593\bibrangedash 14598}
       \range{pages}{6}
     \endentry
+    \entry{newdist}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6e35ba8100c02529b508a7c97568c162}{%
+           family={Cassidy},
+           familyi={C\bibinitperiod},
+           given={Tyler},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{6e35ba8100c02529b508a7c97568c162}
+      \strng{fullhash}{6e35ba8100c02529b508a7c97568c162}
+      \strng{bibnamehash}{6e35ba8100c02529b508a7c97568c162}
+      \strng{authorbibnamehash}{6e35ba8100c02529b508a7c97568c162}
+      \strng{authornamehash}{6e35ba8100c02529b508a7c97568c162}
+      \strng{authorfullhash}{6e35ba8100c02529b508a7c97568c162}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SIAM Journal on Applied Mathematics}
+      \field{number}{4}
+      \field{title}{Distributed delay differential equation representations of cyclic differential equations}
+      \field{volume}{81}
+      \field{year}{2021}
+      \field{pages}{1742\bibrangedash 1766}
+      \range{pages}{25}
+    \endentry
+    \entry{signal}{article}{}
+      \name{author}{3}{}{%
+        {{hash=25f2ed34811bbdeb7cadb8fac046b343}{%
+           family={Cavallo},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima C},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c49c1228ed44c57b5767945aa77a3e26}{%
+           family={Scholpp},
+           familyi={S\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ba69108ce1dd90702cb5f6c297139a7d}{%
+           family={Flegg},
+           familyi={F\bibinitperiod},
+           given={Mark\bibnamedelima B},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{26497dc5619c2dcc4c0319355fcbcc9b}
+      \strng{fullhash}{26497dc5619c2dcc4c0319355fcbcc9b}
+      \strng{bibnamehash}{26497dc5619c2dcc4c0319355fcbcc9b}
+      \strng{authorbibnamehash}{26497dc5619c2dcc4c0319355fcbcc9b}
+      \strng{authornamehash}{26497dc5619c2dcc4c0319355fcbcc9b}
+      \strng{authorfullhash}{26497dc5619c2dcc4c0319355fcbcc9b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Theoretical Biology}
+      \field{title}{Delay-driven oscillations via Axin2 feedback in the Wnt/$\beta$-catenin signalling pathway}
+      \field{volume}{507}
+      \field{year}{2020}
+      \field{pages}{110458}
+      \range{pages}{1}
+    \endentry
     \entry{stiff1}{article}{}
       \name{author}{4}{}{%
         {{hash=a8e9d3b964cfb623147a91a2aee7efe2}{%
@@ -291,6 +368,40 @@
       \field{title}{Ordinary and delay differential equations}
       \field{volume}{20}
       \field{year}{2012}
+    \endentry
+    \entry{cancer}{article}{}
+      \name{author}{2}{}{%
+        {{hash=69e8762bcffd15a3ae6c5e3b88264a77}{%
+           family={Elaiw},
+           familyi={E\bibinitperiod},
+           given={AM},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a886ee99095e81ed0c9a878259fb117b}{%
+           family={Al\bibnamedelima Agha},
+           familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={AD},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e3133f07aac965a1f9e3732aa71305eb}
+      \strng{fullhash}{e3133f07aac965a1f9e3732aa71305eb}
+      \strng{bibnamehash}{e3133f07aac965a1f9e3732aa71305eb}
+      \strng{authorbibnamehash}{e3133f07aac965a1f9e3732aa71305eb}
+      \strng{authornamehash}{e3133f07aac965a1f9e3732aa71305eb}
+      \strng{authorfullhash}{e3133f07aac965a1f9e3732aa71305eb}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The European Physical Journal Plus}
+      \field{number}{1}
+      \field{title}{A reaction--diffusion model for oncolytic M1 virotherapy with distributed delays}
+      \field{volume}{135}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 40}
+      \range{pages}{40}
     \endentry
     \entry{elowitz}{article}{}
       \name{author}{4}{}{%

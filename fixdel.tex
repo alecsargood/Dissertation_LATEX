@@ -1,4 +1,4 @@
-\chapter{Fixed Delay Model}
+\chapter{Fixed Delay Model}\label{section:fixdel}
 
 In this chapter, we first revisit the analysis of the LI model through a more careful review of the linear theory presented in \cite{yigaffneyli,jiang}. We aim to analytically determine the effects of a increasing time delay on the Turing space and the time lag to onset of patterning in more detail that currently considered in the literature. Results are also confirmed through full numerical simulations.
 
@@ -24,12 +24,14 @@ with $\hat{\xi}=\xi(x,t-\tau)$ and $\hat{\eta}=\eta(x,t-\tau)$. Substituting int
 \mathcal{D}_k=\lambda_k^2+\alpha_k\lambda_k+\beta_k+(\gamma_k\lambda_k+\delta_k)e^{-\lambda_k\tau}=0,
 \end{equation}
 where the coefficients are given as,\footnote{We note the coefficient of $\beta_k$ differs from that of \cite{yigaffneyli} due to a typgraphical error in the cited paper.}
-\begin{align}
+\begin{equation}\label{fixcoeffs}
+    \begin{split}
 \alpha_k&=\left(\frac{\epsilon^2}{L^2}+\frac{1}{L^2}\right)k^2\pi^2+u_\star^2+4u_\star v_\star+1,\\
 \beta_k&=\left(\frac{1}{L^2}\pi^2k^2+u_\star^2\right)\left(\frac{\epsilon^2}{L^2}\pi^2k^2+4u_\star v_\star+1\right)-4u_\star^3v_\star,\\
 \gamma_k&=-6u_\star v_\star,\\
 \delta_k&=-{6}{L^2}u_\star v_\star k^2\pi^2.
-\end{align}
+\end{split}
+\end{equation}
 This characteristic equation can be used to determine the parameter sets $(a,b,\epsilon^2,L,\tau)$ in which a Turing instability occurs, and hence where we expect pattern formation. From the linear theory, as indicated in \eqref{perturbgrow}, the perturbation is expected to grow like $e^{\lambda_k t}\cos(k\pi x)$, and so if there exists a $k\neq0$ for a given $(a,b,\epsilon^2,L,\tau)$ such that $\Re(\max_k(\lambda_k))>0$, we expect pattern formation, where the final spatial pattern will look like $cos(k\pi x)$ for the dominating mode $k$. Figure \ref{fig:dispfixed} shows $\max_k(\Re(\lambda_k))$ plotted against $\tau$, for multiple given $(a,b)$ parameter sets. The complex roots for $\lambda_k$ of the characteristic equation were found using the \emph{roots} command of the MATLAB package Chebfun \cite{chebfun}. These plots were produced by varying $k\in\mathbb{Z}$ over $[0,50]$ for a given $\tau$, and for each $k$, the roots of \eqref{characfix} were computed. The maximum over the $k$ of the $\Re(\lambda_k)$ was then taken. This was repeated for time delay varied over $\tau\in[0,1]$ at regular intervals of $0.1$. We do not consider a $k$ larger than $50$ as full numerical solutions for the parameter values used tended towards patterns with four `spikes', so we do expect large wave numbers to be excited.
 
 \begin{figure}[H]
@@ -57,33 +59,32 @@ We note that by convention, as explained in section \ref{section:numimp}, the nu
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height = 5.5cm]{nopatt1.png}
+        \includegraphics[width=6cm,height = 5cm]{nopatt1.png}
         \caption{$\tau=0$. No pattern formation after $t=10^4$. }
         \label{}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height = 5.5cm]{nopatt2.png}
+        \includegraphics[width=6cm,height = 5cm]{nopatt2.png}
         \caption{$\tau=1.$ No pattern formation after $t=10^4$.}
         \label{}
     \end{subfigure}
     \caption{Numerical simulations of \eqref{fixed2} showing no pattern formation with $(a,b)=(0.4,0.4)$, $\epsilon^2=0.001$ and $L^2=9/2$. Boundary conditions given by \eqref{neumannbc} and initial conditions by \eqref{firstic}.}
     \label{fig:fixedsim1}
-\end{figure}1
-
+\end{figure}
 \begin{figure}[H]
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height = 5.5cm]{patt1.png}
+        \includegraphics[width=6cm,height = 5cm]{patt1.png}
         \caption{$\tau=0$. Distinct spikes formed at $t\approx7$ }
         \label{}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height = 5.5cm]{patt2.png}
+        \includegraphics[width=6cm,height = 5cm]{patt2.png}
         \caption{$\tau=1$. Distinct spikes formed at $t\approx50$.}
         \label{}
     \end{subfigure}
@@ -94,7 +95,7 @@ We note that by convention, as explained in section \ref{section:numimp}, the nu
 \subsection{Bifurcation Analysis}\label{section:fixedbif}
 The Turing plot produced in figure \ref{fig:turingspace}, computed using the conditions in \eqref{cond1} and \eqref{cond2}, is a bifurcation diagram indicating regions of Turing instability. We note two separate curves which separate the parameter space into its distinct regions. These will be referred to as the \textit{stability lines}.
 These two curves are indicated in figure \ref{fig:bif0}. The inner arc corresponds to the $(a,b)$ such that $\Re(\lambda_k)=0$ for the
-spatially homogeneous characteristic equation, $\mathcal{D}_k=0$ when $k=0$. For $\tau=0$, this corresponds exactly to equating conditions $\eqref{cond1}$ to 0. The outer boundary is the points $(a,b)$ such that $\max_k(\Re(\lambda_k)=0)$ for the spatially inhomogeneous characteristic equation, $\mathcal{D}_k$ when $k\neq0$. For $\tau=0$, this is identical to equating the conditions $\eqref{cond2}$ to 0. By letting $\lambda_k=x_k+iy_k$ for $x_k,y_k\in\mathbb{R}$, we split the characteristic equation $\mathcal{D}_k=0$ into its real and imaginary parts, $\mathcal{D}_k^{\Re}=0$ and $\mathcal{D}_k^{\Im}=0$, given by
+spatially homogeneous characteristic equation, $\mathcal{D}_k=0$ when $k=0$. For $\tau=0$, this corresponds exactly to equating conditions $\eqref{cond1}$ to 0. The outer boundary is comprised of the points $(a,b)$ such that $\max_k(\Re(\lambda_k))=0$ for the spatially inhomogeneous characteristic equation, $\mathcal{D}_k$ when $k\neq0$. For $\tau=0$, this is identical to equating the conditions $\eqref{cond2}$ to 0. By letting $\lambda_k=x_k+iy_k$ for $x_k,y_k\in\mathbb{R}$, we split the characteristic equation $\mathcal{D}_k=0$ into its real and imaginary parts, $\mathcal{D}_k^{\Re}=0$ and $\mathcal{D}_k^{\Im}=0$, given by
 \begin{align}\label{realfix}
 \mathcal{D}_k^{\Re}&=x_k^2-y_k^2+\alpha_kx_k+\beta_k+e^{-x_k\tau}[\gamma_kx_k\cos(-y_k\tau)-\gamma_ky_k\sin(-y_k\tau)+\delta_k\cos(-y_k\tau)]=0,\\
 \mathcal{D}_k^{\Im}&=2x_ky_k+\alpha_ky_k+e^{-x_k\tau}[\gamma_kx_k\sin(-y_k\tau)+\gamma_ky_k\cos(-y_k\tau)+\delta_k\sin(-y_k\tau)]=0.\label{complexfix}
@@ -111,14 +112,14 @@ Taking the $\max_k(a)$, a curve can be plotted in the $(a,b)$ parameter space fo
     \centering
     \begin{subfigure}[t]{0.47\textwidth}
         \centering
-        \includegraphics[width=7cm,height = 5.5cm]{bif0.png}
+        \includegraphics[width=7cm,height = 6cm]{bif0.png}
         \caption{stability lines for $\tau=0$ computed by solving characteristic equation with $\epsilon^2=0.001$, $L^2=9/2$.}
         \label{fig:bif0}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.47\textwidth}
         \centering
-        \includegraphics[width=7cm,height = 5.5cm]{turingspace.png}
+        \includegraphics[width=7cm,height = 6cm]{turingspace.png}
         \caption{Turing space as in figure \ref{fig:turingspace} plotted from parameters $(a,b)$ satisfying conditions Turing conditions.}
         \label{}
     \end{subfigure}
@@ -129,24 +130,24 @@ Taking the $\max_k(a)$, a curve can be plotted in the $(a,b)$ parameter space fo
 Figure \ref{fig:tspacetau} shows the stability lines computed for a varying $\tau\in\{0,0.5,1,1.5\}$. It can be seen that, whilst the outer boundary computed from the characteristic equation for the spatially inhomogeneous model stays the same, the inner arc computed from using the characteristic equation from the spatially homogeneous model shifts to the left, increasing the region of parameter space for which Turing instabilities can occur. This observation supports the findings in \cite{william}, where bifurcation analysis for the spatially homogeneous model showed an increase in size of the stable parameter region (corresponding to a shifting of the inner arc), and also a similar result to that observed in \cite{fadai2} for the Gierer-Meinhardt model, where spike solution analysis was conducted. We see that for the LI model, where delay-terms are placed solely in the activator dynamics, time delay acts as a stabilising agent for pattern formation and increases the parameter space where Turing instabilities can occur.
 \begin{figure}[H]
         \centering
-        \includegraphics[width=12cm,height = 9cm]{tspacetau.png}
-        \caption{stability lines for $\tau\in\{0,0.5,1,1.5\}$ computed by solving \eqref{realfixbif} and \eqref{complexfixbif}. $\epsilon^2=0.001$, $L^2=9/2$.}
+        \includegraphics[width=9cm,height = 6cm]{tspacetau.png}
+        \caption{Stability lines for $\tau\in\{0,0.5,1,1.5\}$ computed by solving \eqref{realfixbif} and \eqref{complexfixbif}. $\epsilon^2=0.001$, $L^2=9/2$.}
         \label{fig:tspacetau}
 \end{figure}
 We verify the results of figure \ref{fig:tspacetau} through numerical simulations. Three parameter points, $(a,b)=\{(0.12,0.5),(1.2,1.75),(1.2,1.85)\}$ are indicated in figure \ref{fig:tspacetau}. At $(a,b,\tau)=(0.12,0.5,0)$, linear theory suggests that there will be no pattern formation, but at $(a,b,\tau)=(0.12,0.5,1.5)$ there will be a Turing instability and thus patterns will form.
-The parameter region in the bottom left of the parameter space is a delicate region that can exhibit both Turing and Hopf bifurcations, leading to complex spatio-temporal behaviours. This type of dynamics in reaction-diffusion systems has been studied more extensively in \cite{krausefixed,jiang}. Although the linear theory is unable to provide information about the more intricate nonlinear dynamics, it can predict the expected type of behaviour for certain parameter values. To show a change in behaviour as $\tau$ changes from $0$ to $1.5$, from a temporally oscillating solution, to one exhibiting a Turing pattern, we increase the diffusive ratio to $\epsilon^2=0.1$. This result can be seen in figure \ref{fig:testturing}. The linear theory also suggests that for all $\tau\in\{0,0.5,1,1.5\}$, pattern formation will occur for $(a,b)=(1.2,1.85)$, but not for $(a,b)=(1.2,1.75)$. Figures \ref{fig:testturing2} and \ref{fig:testturing3} show the results for numerical simulations at $(a,b)=\{(1.2,1.75),(1.2,1.85)\}$ for $\tau=\{0,0.5,1,1.5\}$.
+The parameter region in the bottom left of the parameter space is a delicate region that can exhibit both Turing and Hopf bifurcations, leading to complex spatio-temporal behaviours. This type of dynamics in reaction-diffusion systems has been studied more extensively in \cite{krausefixed,jiang}. Although the linear theory is unable to provide information about the more intricate nonlinear dynamics, it can predict the expected type of behaviour for certain parameter values. To show a change in behaviour as $\tau$ changes from $0$ to $1.5$, from a temporally oscillating solution, to one exhibiting a Turing pattern, we increase the diffusive ratio to $\epsilon^2=0.1$. This result can be seen in figure \ref{fig:testturing}. The linear theory also suggests that for all $\tau\in\{0,0.5,1,1.5\}$, pattern formation will occur for $(a,b)=(1.2,1.85)$, but not for $(a,b)=(1.2,1.75)$. Figures \ref{fig:testturing2} and \ref{fig:testturing3} show the results for numerical simulations at $(a,b)=\{(1.2,1.75),(1.2,1.85)\}$ for $\tau=0,1.5$. Results for $\tau=0.5,1$ can be seen in Appendix \ref{section:appB}.
 \begin{figure}[h]
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=5cm]{toscill.png}
+        \includegraphics[width=7cm,height=4cm]{toscill.png}
         \caption{$\tau=0$. Oscillations seen.}
         \label{}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=5cm]{tpattpred.png}
+        \includegraphics[width=7cm,height=4cm]{tpattpred.png}
         \caption{$\tau=1.5$. Pattern formation seen.}
         \label{}
     \end{subfigure}
@@ -163,27 +164,27 @@ The parameter region in the bottom left of the parameter space is a delicate reg
         \label{}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[t]{0.45\textwidth}
-        \centering
-        \includegraphics[width=7cm,height=4cm]{p3t05.png}
-        \caption{$\tau=0.5$}
-        \label{}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[t]{0.45\textwidth}
-        \centering
-        \includegraphics[width=7cm,height=4cm]{p3t1.png}
-        \caption{$\tau=1$}
-        \label{}
-    \end{subfigure}
-    \hfill
+    %\begin{subfigure}[t]{0.45\textwidth}
+    %    \centering
+    %    \includegraphics[width=7cm,height=4cm]{p3t05.png}
+    %    \caption{$\tau=0.5$}
+    %    \label{}
+    %\end{subfigure}
+    %\hfill
+    %\begin{subfigure}[t]{0.45\textwidth}
+%        \centering
+%        \includegraphics[width=7cm,height=4cm]{p3t1.png}
+%        \caption{$\tau=1$}
+%        \label{}
+%    \end{subfigure}
+%    \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
         \includegraphics[width=7cm,height=4cm]{p3t15.png}
         \caption{$\tau=1.5$.}
         \label{}
     \end{subfigure}
-    \caption{Numerical simulations of \eqref{fixed2} for $(a,b)=(1.2,1.75)$. $\epsilon^2=0.001$ and $L^2=9/2$. Boundary conditions given by \eqref{neumannbc} and initial conditions by \eqref{firstic}. We see no pattern formation for $\tau\in\{0,0.5,1,1.5\}$ as suggested by linear theory, seen in figure \ref{fig:tspacetau}.}
+    \caption{Numerical simulations of \eqref{fixed2} for $(a,b)=(1.2,1.75)$. $\epsilon^2=0.001$ and $L^2=9/2$. Boundary conditions given by \eqref{neumannbc} and initial conditions by \eqref{firstic}. We see no pattern formation for $\tau\in\{0,1.5\}$ as suggested by linear theory, seen in figure \ref{fig:tspacetau}. Results for $\tau=0.5,1$ can be seen in Appendix \ref{section:appB}.}
     \label{fig:testturing2}
 \end{figure}
 
@@ -196,31 +197,31 @@ The parameter region in the bottom left of the parameter space is a delicate reg
         \label{}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[t]{0.45\textwidth}
-        \centering
-        \includegraphics[width=7cm,height=4cm]{p2t05.png}
-        \caption{$\tau=0.5$}
-        \label{}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[t]{0.45\textwidth}
-        \centering
-        \includegraphics[width=7cm,height=4cm]{p2t1.png}
-        \caption{$\tau=1$}
-        \label{}
-    \end{subfigure}
-    \hfill
+%    \begin{subfigure}[t]{0.45\textwidth}
+%        \centering
+%        \includegraphics[width=7cm,height=4cm]{p2t05.png}
+%        \caption{$\tau=0.5$}
+%        \label{}
+%    \end{subfigure}
+%    \hfill
+%    \begin{subfigure}[t]{0.45\textwidth}
+%        \centering
+%        \includegraphics[width=7cm,height=4cm]{p2t1.png}
+%        \caption{$\tau=1$}
+%        \label{}
+%    \end{subfigure}
+%    \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
         \includegraphics[width=7cm,height=4cm]{p2t15.png}
         \caption{$\tau=1.5$.}
         \label{}
     \end{subfigure}
-    \caption{Numerical simulations of \eqref{fixed2} for $(a,b)=(1.2,1.85)$. $\epsilon^2=0.001$ and $L^2=9/2$. Boundary conditions given by \eqref{neumannbc} and initial conditions by \eqref{firstic}. We see pattern formation on an increasing time-scale for $\tau\in\{0,0.5,1,1.5\}$ as suggested by linear theory, seen in figure \ref{fig:tspacetau}. Increasing time-scale seen from changing $x$-axis limits.}
+    \caption{Numerical simulations of \eqref{fixed2} for $(a,b)=(1.2,1.85)$. $\epsilon^2=0.001$ and $L^2=9/2$. Boundary conditions given by \eqref{neumannbc} and initial conditions by \eqref{firstic}. We see pattern formation on an increasing time-scale for $\tau\in\{0,1.5\}$ as suggested by linear theory, seen in figure \ref{fig:tspacetau}. Increasing time-scale seen from changing $x$-axis limits. Results for $\tau=0.5,1$ can be seen in Appendix \ref{section:appB}.}
     \label{fig:testturing3}
 \end{figure}
 
-Figure \ref{fig:tspacetau} shows how the time delay affects the region of Turing instability, but it provides no information as to how $\max_k(\Re(\lambda_k))$ varies as $\tau$ increases over the $(a,b)$ parameter space. In figure \ref{fig:lambdavary} we plot a heatmap of $\max_k(\Re(\lambda_k))$ over the $(a,b)$ parameter space for varying $\tau\in\{0,0.5,1,1.5\}$. Overlayed onto these plots are contour lines corresponding to where $\Re(\lambda_0)=0$ and $\max_k(\Re(\lambda_k))=0$,
+Figure \ref{fig:tspacetau} shows how the time delay affects the region of Turing instability, but it provides no information as to how $\max_k(\Re(\lambda_k))$ varies as $\tau$ increases over the $(a,b)$ parameter space. In figure \ref{fig:lambdavary} we plot a heatmap of $\max_k(\Re(\lambda_k))$ over the $(a,b)$ parameter space for varying $\tau\in\{0,1.5\}$. Overlayed onto these plots are contour lines corresponding to where $\Re(\lambda_0)=0$ and $\max_k(\Re(\lambda_k))=0$,
 highlighting the Turing instability region.
 \begin{figure}[H]
     \centering
@@ -231,27 +232,27 @@ highlighting the Turing instability region.
         \label{}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[t]{0.45\textwidth}
-        \centering
-        \includegraphics[width=7cm,height=5cm]{tau05bif.png}
-        \caption{$\tau=0.5$}
-        \label{}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[t]{0.45\textwidth}
-        \centering
-        \includegraphics[width=7cm,height=5cm]{tau1bif.png}
-        \caption{$\tau=1$}
-        \label{}
-    \end{subfigure}
-    \hfill
+%    \begin{subfigure}[t]{0.45\textwidth}
+%        \centering
+%        \includegraphics[width=7cm,height=5cm]{tau05bif.png}
+%        \caption{$\tau=0.5$}
+%        \label{}
+%    \end{subfigure}
+%    \hfill
+%    \begin{subfigure}[t]{0.45\textwidth}
+%        \centering
+%        \includegraphics[width=7cm,height=5cm]{tau1bif.png}
+%        \caption{$\tau=1$}
+%        \label{}
+%    \end{subfigure}
+%    \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
         \includegraphics[width=7cm,height=5cm]{tau15bif.png}
         \caption{$\tau=1.5$.}
         \label{}
     \end{subfigure}
-    \caption{$\max_k(\Re(\lambda_k))$ computed over $(a,b)$ parameter space by solving \eqref{realfixbif} and \eqref{complexfixbif}, with $\epsilon^2=0.001$, $L^2=9/2$. As $\tau$ increases, $|\max_k(\Re(\lambda_k))|$ decreases. Contour lines for $\Re(\lambda_0)=0$ and $\max_k(\Re(\lambda_k))=0$ overlayed, indicated Turing instability region.}
+    \caption{$\max_k(\Re(\lambda_k))$ computed over $(a,b)$ parameter space by solving \eqref{realfixbif} and \eqref{complexfixbif}, with $\epsilon^2=0.001$, $L^2=9/2$. As $\tau$ increases, $|\max_k(\Re(\lambda_k))|$ decreases. Contour lines for $\Re(\lambda_0)=0$ and $\max_k(\Re(\lambda_k))=0$ overlayed, indicated Turing instability region. Results for $\tau=0.5,1$ can be seen in Appendix \ref{section:appB}.}
     \label{fig:lambdavary}
 \end{figure}
 As $\tau$ increases, it can be seen that the absolute value $|\max_k(\Re((\lambda_k)))|$ also decreases. This suggests that for $(a,b)$ values within the Turing instability region, pattern formation will take longer to occur. It also suggests however that for $(a,b)$ such that $\max_k(\Re(\lambda_k))<0$, it will take a longer time for the eigenfunctions with modes $k\neq0$ to decay to a spatially homogeneous steady state. We note this behaviour in figure \ref{fig:testturing2}, where it can be seen, by carefully considering the timescales, that the time taken for the initial perturbation to fully decay back to a spatially homogeneous steady state increases as $\tau$ increases. Figure \ref{fig:fixbif2} shows analogous bifurcation diagrams as in figure \ref{fig:lambdavary}, but with $\epsilon^2=0.1$. We note that as the ratio of diffusion constants in the reaction-diffusion system, $\epsilon^2$, moves closer to $1$, the region of parameter space exhibiting Turing instability decreases. It can be observed however, that altering $\epsilon^2$ does not change the effect that an increasing $\tau$ has on $\max_k(\Re(\lambda_k))$, and that increasing the delay $\tau$ continues to act as a stabilising agent for Turing instabilities, with a shifting of the spatially homogeneous inner arc.
@@ -265,27 +266,27 @@ As $\tau$ increases, it can be seen that the absolute value $|\max_k(\Re((\lambd
         \label{}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[t]{0.45\textwidth}
-        \centering
-        \includegraphics[width=7cm,height=5cm]{fixbif22.png}
-        \caption{$\tau=0.5$}
-        \label{}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[t]{0.45\textwidth}
-        \centering
-        \includegraphics[width=7cm,height=5cm]{fixbif23.png}
-        \caption{$\tau=1$}
-        \label{}
-    \end{subfigure}
-    \hfill
+%    \begin{subfigure}[t]{0.45\textwidth}
+%        \centering
+%        \includegraphics[width=7cm,height=5cm]{fixbif22.png}
+%        \caption{$\tau=0.5$}
+%        \label{}
+%    \end{subfigure}
+%    \hfill
+%    \begin{subfigure}[t]{0.45\textwidth}
+%        \centering
+%        \includegraphics[width=7cm,height=5cm]{fixbif23.png}
+%        \caption{$\tau=1$}
+%        \label{}
+%    \end{subfigure}
+%    \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
         \includegraphics[width=7cm,height=5cm]{fixbif24.png}
         \caption{$\tau=1.5$.}
         \label{}
     \end{subfigure}
-    \caption{$\max_k(\Re(\lambda_k))$ computed over $(a,b)$ parameter space by solving \eqref{realfixbif} and \eqref{complexfixbif}, with $\epsilon^2=0.1$, $L^2=9/2$. As $\tau$ increases, $|\max_k(\Re(\lambda_k))|$ decreases. Contour lines for $\Re(\lambda_0)=0$ and $\max_k(\Re(\lambda_k))=0$ overlayed, indicated Turing instability region.}
+    \caption{$\max_k(\Re(\lambda_k))$ computed over $(a,b)$ parameter space by solving \eqref{realfixbif} and \eqref{complexfixbif}, with $\epsilon^2=0.1$, $L^2=9/2$. As $\tau$ increases, $|\max_k(\Re(\lambda_k))|$ decreases. Contour lines for $\Re(\lambda_0)=0$ and $\max_k(\Re(\lambda_k))=0$ overlayed, indicated Turing instability region. Results for $\tau=0.5,1$ can be seen in Appendix \ref{section:appB}.}
     \label{fig:fixbif2}
 \end{figure}
 \section{Investigation of Variation in Initial and Boundary Conditions}
@@ -455,7 +456,7 @@ Finally, we consider the effect of varying boundary conditions. Motivated from t
 \begin{equation}\label{homogeneousbc}
 u=\frac{\partial v}{\partial t}=0 \quad x=0, 1.
 \end{equation}
-These conditions are implemented numerically following the methodology outlined in section \ref{section:numimp}. The results in figures \ref{fig:bctau1}, \ref{fig:bctau2}, and \ref{fig:bctau3} were generated using $\text{IC}_2$, with a varying $\tau\in\{0,1,8\}$, and show the comparison between numerical simulations generated with homogeneous Neumann conditions for both $u$ and $v$, as in \eqref{neumannbc} indicated as $\text{BC}_1$, and those generated with homogeneous Dirichlet conditions for $u$, indicated as $\text{BC}_2$, as in \eqref{homogeneousbc}.
+These conditions are implemented numerically following the methodology outlined in section \ref{section:numimp}. The results in figures \ref{fig:bctau1}, \ref{fig:bctau2}, and \ref{fig:bctau3} were generated using $\text{IC}_2$, with a varying $\tau\in\{0,1,16\}$, and show the comparison between numerical simulations generated with homogeneous Neumann conditions for both $u$ and $v$, as in \eqref{neumannbc} indicated as $\text{BC}_1$, and those generated with homogeneous Dirichlet conditions for $u$, indicated as $\text{BC}_2$, as in \eqref{homogeneousbc}.
 
 We note that, although changing the boundary conditions for the activator term $u$ to homogeneous Dirichlet conditions affects the type of patterns we may see (number and amplitude of spikes), this change does not affect the increased timescales, caused by an increase in time delay, on which onset of patterning occurs.
 
@@ -463,14 +464,14 @@ We note that, although changing the boundary conditions for the activator term $
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=5cm]{ic20.png}
+        \includegraphics[width=6cm,height=4.5cm]{ic20.png}
         \caption{$\text{BC}_1$ given by equation \eqref{neumannbc}.}
         \label{}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=5cm]{bc0.png}
+        \includegraphics[width=6cm,height=4.5cm]{bc0.png}
         \caption{$\text{BC}_2$ given by equation \eqref{homogeneousbc}.}
         \label{}
     \end{subfigure}
@@ -482,14 +483,14 @@ We note that, although changing the boundary conditions for the activator term $
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=5cm]{ic21.png}
+        \includegraphics[width=6cm,height=4.5cm]{ic21.png}
         \caption{$\text{BC}_1$ given by equation \eqref{neumannbc}.}
         \label{}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=5cm]{bc1.png}
+        \includegraphics[width=6cm,height=4.5cm]{bc1.png}
         \caption{$\text{BC}_2$ given by equation \eqref{homogeneousbc}.}
         \label{}
     \end{subfigure}
@@ -501,18 +502,18 @@ We note that, although changing the boundary conditions for the activator term $
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=5cm]{ic28.png}
+        \includegraphics[width=7cm,height=4.5cm]{ic216.png}
         \caption{$\text{BC}_1$ given by equation \eqref{neumannbc}.}
         \label{}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=5cm]{bc8.png}
+        \includegraphics[width=7cm,height=4.5cm]{bc16.png}
         \caption{$\text{BC}_2$ given by equation \eqref{homogeneousbc}.}
         \label{}
     \end{subfigure}
-    \caption{Comparison of varying BCs for $\tau=8$. $(a,b)=(0.1,0.9)$, $\epsilon^2=0.001$, $L^2=9/2$. Initial conditions given by \eqref{firstic}.}
+    \caption{Comparison of varying BCs for $\tau=16$. $(a,b)=(0.1,0.9)$, $\epsilon^2=0.001$, $L^2=9/2$. Initial conditions given by \eqref{firstic}.}
     \label{fig:bctau3}
 \end{figure}
 
@@ -533,14 +534,14 @@ We consider an example case for $(a,b,\tau)=(0.4,1.8,0.2)$. The standard deviati
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=5.5cm]{compdisp1.png}
+        \includegraphics[width=7cm,height=5cm]{compdisp1.png}
         \caption{Dispersion curve plotted with domain size $L^2=1/5$. Curve produced by varying $k\in[0,5]$ at regular intervals of $0.1$. Discrete values of $k$ overlayed as scatter points. }
         \label{fig:compdisp1}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=5.5cm]{compdisp2.png}
+        \includegraphics[width=7cm,height=5cm]{compdisp2.png}
         \caption{Dispersion curve plotted with domain size $L^2=9/2$. Curve produced by varying $k\in[0,60]$ at regular intervals of $1$.}
         \label{fig:compdisp2}
     \end{subfigure}
@@ -552,14 +553,14 @@ Using $\epsilon^2=0.001$, on the domain size $L^2=1/5$, figure \ref{fig:compdisp
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=6cm]{Tu.png}
+        \includegraphics[width=7cm,height=5cm]{Tu.png}
         \caption{Numerical solution $u(T)$ at $t=T$}
         \label{uT}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=6cm]{FCs.png}
+        \includegraphics[width=7cm,height=5cm]{FCs.png}
         \caption{Absolute Fourier coefficients of $u(T)$, for $k\in[1,50]$.}
         \label{fig:uTfc}
     \end{subfigure}
@@ -595,48 +596,48 @@ We use `true' time-to-pattern here to mean the time taken for a perturbation to 
         \caption{$(a,b)=(0.2,1.3)$.}
         \label{fig:ttp3}
     \end{subfigure}
-    \caption{Predicted vs `true' time-to-pattern for numerical solution of \eqref{fixed2} with boundary conditions given by \eqref{neumannbc}. Initial perturbation from steady state with $\sigma_{\text{IC}}= 10^{-5}$. Predicted time-to-pattern computed using the relationship \eqref{ttprelation}, for three different parameter sets, with $L^2=1/5$, $\epsilon^2=0.001$, and $\tau\in[0,1.6]$.}
+    \caption{Predicted vs `true' time-to-pattern for numerical solution of \eqref{fixed2} with boundary conditions given by \eqref{neumannbc}. Initial perturbation from steady state with $\sigma_{\text{IC}}= 10^{-5}$ and threshold of $0.1$. Predicted time-to-pattern computed using the relationship \eqref{ttprelation}, for three different parameter sets, with $L^2=1/5$, $\epsilon^2=0.001$, and $\tau\in[0,1.6]$, varied at regular intervals of $0.2$.}
     \label{}
 \end{figure}
 
-Finally, through full numerical solutions, we show a linear relationship between $\tau$ and time-to-pattern on a longer time-scale. Varying $\tau\in[1,16]$ at regular intervals of $1$, for two different parameter sets $(a,b)=\{(0.1,0.9),(0.4,0.8)\}$, we compute the time taken for a perturbation to grow up to a threshold value, and plot the results. Figure \ref{fig:linperturb1a} shows the results for $(a,b)=(0.1,0.9)$ with an initial perturbation of standard-deviation $\sigma_{\text{IC}}=10^{-5}$ and threshold value $0.1$. Figure \ref{fig:linperturb1b} shows the results for the same parameter values but with an initial perturbation of standard-deviation $\sigma_{\text{IC}}=0.01$ and threshold value $2$. Figures \ref{fig:linperturb2a} and \ref{fig:linperturb2b} show analogous results but for $(a,b)=(0.4,0.8)$. The simulations were run with $\epsilon^2=0.001$ and $L^2=9/2$.
+Finally, through full numerical solutions, we show a linear relationship between $\tau$ and time-to-pattern on a longer time-scale. Varying $\tau\in[1,16]$ at regular intervals of $1$, for two different parameter sets $(a,b)=\{(0.1,0.9),(0.4,0.8)\}$, we compute the time taken for a perturbation to grow up to a threshold value $0.1$, from a $\sigma_{\text{IC}}=10^{-5}$, and plot the results. The results can be seen in figure \ref{fig:linperturb1}, and a linearly increasing relationship can be seen. In order to check this claim further, numerical simulations were also run with a threshold value $2$, from a $\sigma_{\text{IC}}=0.01$. The results for this can be found in Appendix \ref{section:appB}, where a linear relationship can also be seen.
 \begin{figure}[H]
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=6cm]{longlin2.png}
-        \caption{$\sigma_{\text{IC}}=10^{-5}$ and threshold $0.1$.}
+        \includegraphics[width=6cm,height=5cm]{longlin2.png}
+        \caption{$(a,b)=(0.1,0.9)$}
         \label{fig:linperturb1a}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=6cm]{longlin1.png}
-        \caption{$\sigma_{\text{IC}}=0.01$ and threshold $2$}
+        \includegraphics[width=6cm,height=5cm]{longlin3.png}
+        \caption{$(a,b)=(0.4,0.8)$}
         \label{fig:linperturb1b}
     \end{subfigure}
-    \caption{Time-to-pattern for full numerical solutions of \eqref{fixed2} plotted against $\tau\in[1,16]$ for two different initial perturbations and threshold values. $(a,b)=(0.1,0.9)$, $\epsilon^2=0.001$ and domain size $L^2=9/2$.}
+    \caption{Time-to-pattern for full numerical solutions of \eqref{fixed2} plotted against $\tau\in[1,16]$ for $\sigma_{\text{IC}}=10^{-5}$ and threshold $0.1$. Parameters used are $\epsilon^2=0.001$ and domain size $L^2=9/2$.}
     \label{fig:linperturb1}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \begin{subfigure}[t]{0.45\textwidth}
-        \centering
-        \includegraphics[width=7cm,height=6cm]{longlin3.png}
-        \caption{$\sigma_{\text{IC}}=10^{-5}$ and threshold $0.1$}
-        \label{fig:linperturb2a}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[t]{0.45\textwidth}
-        \centering
-        \includegraphics[width=7cm,height=6cm]{longlin4.png}
-        \caption{$\sigma_{\text{IC}}=0.01$ and threshold $2$}
-        \label{fig:linperturb2b}
-    \end{subfigure}
-    \caption{Time-to-pattern for full numerical solutions of \eqref{fixed2} plotted against $\tau\in[1,16]$ for two different initial perturbations and threshold values. $(a,b)=(0.4,0.8)$, $\epsilon^2=0.001$ and domain size $L^2=9/2$.}
-    \label{fig:linperturb2}
-\end{figure}
+%\begin{figure}[H]
+%    \centering
+%    \begin{subfigure}[t]{0.45\textwidth}
+%        \centering
+%        \includegraphics[width=6cm,height=5cm]{longlin3.png}
+%        \caption{$\sigma_{\text{IC}}=10^{-5}$ and threshold $0.1$}
+%        \label{fig:linperturb2a}
+%    \end{subfigure}
+%    \hfill
+%    \begin{subfigure}[t]{0.45\textwidth}
+%        \centering
+%        \includegraphics[width=7cm,height=5cm]{longlin4.png}
+%        \caption{$\sigma_{\text{IC}}=0.01$ and threshold $2$}
+%        \label{fig:linperturb2b}
+%    \end{subfigure}
+%    \caption{Time-to-pattern for full numerical solutions of \eqref{fixed2} plotted against $\tau\in[1,16]$ for two different initial perturbations and threshold values. $(a,b)=(0.4,0.8)$, $\epsilon^2=0.001$ and domain size $L^2=9/2$.}
+%    \label{fig:linperturb2}
+%\end{figure}
 
 The results show that, on a smaller time scale, smaller spatial domain, and smaller time delay, the linear theory provides a good approximation of the time-to-pattern compared to full numerical solutions. The full numerical simulations also strongly suggest that there is a linearly increasing relationship between time delay and time-to-pattern.
 \section{Summary}
