@@ -1,0 +1,96 @@
+\documentclass[12pt]{ociamthesis}  % default square logo
+%\documentclass[12pt,beltcrest]{ociamthesis} % use old belt crest logo
+%\documentclass[12pt,shieldcrest]{ociamthesis} % use older shield crest logo
+
+%load any additional packages
+\usepackage{nicematrix}
+ \usepackage{multirow}
+ \usepackage[normalem]{ulem}
+ \useunder{\uline}{\ul}{}
+\usepackage{multicol}
+\usepackage{caption}
+\usepackage[edges]{forest}
+\usepackage{graphicx,wrapfig,lipsum}
+\usepackage{amsmath,empheq}
+\usepackage{dirtree}
+\usepackage{chemmacros}
+\usepackage{titlesec}
+\usepackage{breqn}
+\usepackage{amsthm}
+\usepackage[style=numeric,minbibnames=3,maxbibnames=3,autopunct=true,babel=hyphen,hyperref=true,abbreviate=false,backend=biber]{biblatex}
+\addbibresource{bibliographydiss_n.bib}
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage[ruled]{algorithm2e}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{cancel}
+\usepackage{epstopdf}
+\usepackage{mathtools}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{bm}
+\usepackage[export]{adjustbox}
+\usepackage{relsize}
+\usepackage{listings}
+\usepackage[toc,page]{appendix}
+%input macros (i.e. write your own macros file called mymacros.tex
+%and uncomment the next line)
+\include{mymacros}
+
+\title{Gene Expression Time Delays in Reaction-Diffusion Systems}     %your thesis title}   %note \\[1ex] is a line break in the title
+
+\author{Alec Sargood}             %your name
+\college{St Anne's College}  %your college
+
+%\renewcommand{\submittedtext}{change the default text here if needed}
+\degree{MSc Mathematical Modelling and Scientific Computing}     %the degree
+\degreedate{Trinity Term, September 2021}         %the degree date
+
+%end the preamble and start the document
+\begin{document}
+
+%this baselineskip gives sufficient line spacing for an examiner to easily
+%markup the thesis with comments
+\baselineskip=18pt plus1pt
+
+%set the number of sectioning levels that get number and appear in the contents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+
+\maketitle                  % create a title page from the preamble info
+\include{dedication}        % include a dedication.tex file
+\include{acknowledgements}  % include an acknowledgements.tex file
+\include{abstract_n}          % include the abstract
+
+\begin{romanpages}          % start roman page numbering
+\tableofcontents            % generate and include a table of contents
+\end{romanpages}            % end roman page numbering
+
+%now include the files of latex for each of the chapters etc
+\include{intro_n}
+\include{fixdel_n}
+\include{distdel_n}
+\include{gm_n}
+\include{conclusion_n}
+
+%now enable appendix numbering format and include any appendices
+\appendix
+\include{appendixA}
+\include{appendixB}
+
+%next line adds the Bibliography to the contents page
+\addcontentsline{toc}{chapter}{Bibliography}
+%uncomment next line to change bibliography name to references
+
+\printbibliography
+     %use a bibtex bibliography file refs.bib
+%\bibliographystyle{plain}  %use the plain bibliography style
+
+\end{document}

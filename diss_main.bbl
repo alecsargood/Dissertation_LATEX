@@ -19,16 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{rodas}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://diffeq.sciml.ai/stable/solvers/ode_solve/
-      \endverb
-      \verb{url}
-      \verb https://diffeq.sciml.ai/stable/solvers/ode_solve/
-      \endverb
-    \endentry
     \entry{git}{online}{}
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
@@ -634,6 +624,89 @@
       \field{pages}{30\bibrangedash 39}
       \range{pages}{10}
     \endentry
+    \entry{grayscott}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a1089d8d265093ed9848d5e89b251127}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=00e8df71c4dc07836c97a396488cccae}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Stephen\bibnamedelima K},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{59ea8c0732bd0bbfbe14827d3e48e1d5}
+      \strng{fullhash}{59ea8c0732bd0bbfbe14827d3e48e1d5}
+      \strng{bibnamehash}{59ea8c0732bd0bbfbe14827d3e48e1d5}
+      \strng{authorbibnamehash}{59ea8c0732bd0bbfbe14827d3e48e1d5}
+      \strng{authornamehash}{59ea8c0732bd0bbfbe14827d3e48e1d5}
+      \strng{authorfullhash}{59ea8c0732bd0bbfbe14827d3e48e1d5}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Berichte der Bunsengesellschaft f{ü}r physikalische Chemie}
+      \field{number}{11}
+      \field{title}{A new model for oscillatory behaviour in closed systems: the autocatalator}
+      \field{volume}{90}
+      \field{year}{1986}
+      \field{pages}{985\bibrangedash 996}
+      \range{pages}{12}
+    \endentry
+    \entry{molecular}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e962dce3ce339655e344795541b57384}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Matthew\bibnamedelima P},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=191031c2fc98c8f0e0acb4299353d299}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=14459211fe855ce526bfe3e117b0aae1}{%
+           family={Fallon},
+           familyi={F\bibinitperiod},
+           given={John\bibnamedelima F},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=d3740821bf69b36846b43ad640e02fb5}{%
+           family={Meinhardt},
+           familyi={M\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+        {{hash=264f61539463bd66b67cf511e64c88b3}{%
+           family={Prum},
+           familyi={P\bibinitperiod},
+           given={Richard\bibnamedelima O},
+           giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{23f5587599d493d63a90c83acf811e00}
+      \strng{fullhash}{3e683f1044bc0d05c4bdc3a5f45b3270}
+      \strng{bibnamehash}{23f5587599d493d63a90c83acf811e00}
+      \strng{authorbibnamehash}{23f5587599d493d63a90c83acf811e00}
+      \strng{authornamehash}{23f5587599d493d63a90c83acf811e00}
+      \strng{authorfullhash}{3e683f1044bc0d05c4bdc3a5f45b3270}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{33}
+      \field{title}{Molecular evidence for an activator--inhibitor mechanism in development of embryonic feather branching}
+      \field{volume}{102}
+      \field{year}{2005}
+      \field{pages}{11734\bibrangedash 11739}
+      \range{pages}{6}
+    \endentry
     \entry{glimm}{article}{}
       \name{author}{4}{}{%
         {{hash=0e31f946229b052712268ad2d1bd98b3}{%
@@ -1081,6 +1154,7 @@
       \strng{authorbibnamehash}{af79a3a5fca292f313010eb7b12243e4}
       \strng{authornamehash}{af79a3a5fca292f313010eb7b12243e4}
       \strng{authorfullhash}{af79a3a5fca292f313010eb7b12243e4}
+      \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{labelnamesource}{author}
@@ -1092,6 +1166,41 @@
       \field{year}{2000}
       \field{pages}{100\bibrangedash 107}
       \range{pages}{8}
+    \endentry
+    \entry{miura}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7257fe4bbb3fccb21932217dc6c7eb4e}{%
+           family={Miura},
+           familyi={M\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9157be760987c45957f886dd51ae4099}{%
+           family={Shiota},
+           familyi={S\bibinitperiod},
+           given={Kohei},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{af79a3a5fca292f313010eb7b12243e4}
+      \strng{fullhash}{af79a3a5fca292f313010eb7b12243e4}
+      \strng{bibnamehash}{af79a3a5fca292f313010eb7b12243e4}
+      \strng{authorbibnamehash}{af79a3a5fca292f313010eb7b12243e4}
+      \strng{authornamehash}{af79a3a5fca292f313010eb7b12243e4}
+      \strng{authorfullhash}{af79a3a5fca292f313010eb7b12243e4}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Developmental dynamics: an official publication of the American Association of Anatomists}
+      \field{number}{3}
+      \field{title}{TGF$\beta$2 acts as an “Activator” molecule in reaction-diffusion model and is involved in cell sorting phenomenon in mouse limb micromass culture}
+      \field{volume}{217}
+      \field{year}{2000}
+      \field{pages}{241\bibrangedash 249}
+      \range{pages}{9}
     \endentry
     \entry{murray}{book}{}
       \name{author}{1}{}{%
@@ -1217,6 +1326,38 @@
       \field{pages}{157\bibrangedash 175}
       \range{pages}{19}
     \endentry
+    \entry{rodas}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c454e867cc51042dbb2c4a284006599f}{%
+           family={Rackauckas},
+           familyi={R\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5f45b8ea167da2d5685f5d8f36094dea}{%
+           family={Nie},
+           familyi={N\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Ubiquity Press}%
+      }
+      \strng{namehash}{72532c9bb73703d2c2ce1424659b680f}
+      \strng{fullhash}{72532c9bb73703d2c2ce1424659b680f}
+      \strng{bibnamehash}{72532c9bb73703d2c2ce1424659b680f}
+      \strng{authorbibnamehash}{72532c9bb73703d2c2ce1424659b680f}
+      \strng{authornamehash}{72532c9bb73703d2c2ce1424659b680f}
+      \strng{authorfullhash}{72532c9bb73703d2c2ce1424659b680f}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Research Software}
+      \field{number}{1}
+      \field{title}{Differentialequations.jl--a performant and feature-rich ecosystem for solving differential equations in julia}
+      \field{volume}{5}
+      \field{year}{2017}
+    \endentry
     \entry{raj}{article}{}
       \name{author}{2}{}{%
         {{hash=0a4a88c5197213c7d5f5f6b850065299}{%
@@ -1323,6 +1464,45 @@
       \field{pages}{136\bibrangedash 150}
       \range{pages}{15}
     \endentry
+    \entry{mainigeneral}{article}{}
+      \name{author}{3}{}{%
+        {{hash=23d17d8725f54d2ac2e5a2487f684901}{%
+           family={Satnoianu},
+           familyi={S\bibinitperiod},
+           given={Razvan\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bb57b344ca3b3936386cc2bb24bb9920}{%
+           family={Menzinger},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2ee9644b9267423553b2c9ee226c46b0}{%
+           family={Maini},
+           familyi={M\bibinitperiod},
+           given={Philip\bibnamedelima K},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c444f1cdd29ef43ef0981b105eae05a7}
+      \strng{fullhash}{c444f1cdd29ef43ef0981b105eae05a7}
+      \strng{bibnamehash}{c444f1cdd29ef43ef0981b105eae05a7}
+      \strng{authorbibnamehash}{c444f1cdd29ef43ef0981b105eae05a7}
+      \strng{authornamehash}{c444f1cdd29ef43ef0981b105eae05a7}
+      \strng{authorfullhash}{c444f1cdd29ef43ef0981b105eae05a7}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of mathematical biology}
+      \field{number}{6}
+      \field{title}{Turing instabilities in general systems}
+      \field{volume}{41}
+      \field{year}{2000}
+      \field{pages}{493\bibrangedash 512}
+      \range{pages}{20}
+    \endentry
     \entry{schnakenberg}{article}{}
       \name{author}{1}{}{%
         {{hash=f2cf9af7ad5198408c339fb113c2319c}{%
@@ -1351,6 +1531,50 @@
       \field{year}{1979}
       \field{pages}{389\bibrangedash 400}
       \range{pages}{12}
+    \endentry
+    \entry{sick}{article}{}
+      \name{author}{4}{}{%
+        {{hash=ec71f2d67f0fd739a85ca7e9a4417d74}{%
+           family={Sick},
+           familyi={S\bibinitperiod},
+           given={Stefanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=41bf27c8d9a25d75851fc0292d6323f4}{%
+           family={Reinker},
+           familyi={R\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=82453591276f42305ff740c7975e21df}{%
+           family={Timmer},
+           familyi={T\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=faa2181a6cefb95454ad3db1c8c5fc6d}{%
+           family={Schlake},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{04926423fd73dfd2f1daade20c3cdaac}
+      \strng{fullhash}{abb791ec428a2c7d328a934fc4148e5b}
+      \strng{bibnamehash}{04926423fd73dfd2f1daade20c3cdaac}
+      \strng{authorbibnamehash}{04926423fd73dfd2f1daade20c3cdaac}
+      \strng{authornamehash}{04926423fd73dfd2f1daade20c3cdaac}
+      \strng{authorfullhash}{abb791ec428a2c7d328a934fc4148e5b}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5804}
+      \field{title}{WNT and DKK determine hair follicle spacing through a reaction-diffusion mechanism}
+      \field{volume}{314}
+      \field{year}{2006}
+      \field{pages}{1447\bibrangedash 1450}
+      \range{pages}{4}
     \endentry
     \entry{compsimp}{book}{}
       \name{author}{2}{}{%
@@ -1567,7 +1791,6 @@
       \range{pages}{1}
     \endentry
   \enddatalist
-  \missing{cite}
 \endrefsection
 \endinput
 

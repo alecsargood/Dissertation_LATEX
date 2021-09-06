@@ -1,0 +1,1835 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{git}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://github.com/alecsargood/Dissertation
+      \endverb
+      \verb{url}
+      \verb https://github.com/alecsargood/Dissertation
+      \endverb
+    \endentry
+    \entry{bailleul}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4cc40da6548c1ff2cb2f9c28089e9379}{%
+           family={Bailleul},
+           familyi={B\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=990187515e2252b845590a13b8fefe42}{%
+           family={Manceau},
+           familyi={M\bibinitperiod},
+           given={Marie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e2d1130a74fcd4e7424b2f46ff8ad029}{%
+           family={Touboul},
+           familyi={T\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{3b21c49b1cc652234a800465e556f3d6}
+      \strng{fullhash}{3b21c49b1cc652234a800465e556f3d6}
+      \strng{bibnamehash}{3b21c49b1cc652234a800465e556f3d6}
+      \strng{authorbibnamehash}{3b21c49b1cc652234a800465e556f3d6}
+      \strng{authornamehash}{3b21c49b1cc652234a800465e556f3d6}
+      \strng{authorfullhash}{3b21c49b1cc652234a800465e556f3d6}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cells}
+      \field{number}{8}
+      \field{title}{A “Numerical Evo-Devo” Synthesis for the Identification of Pattern-Forming Factors}
+      \field{volume}{9}
+      \field{year}{2020}
+      \field{pages}{1840}
+      \range{pages}{1}
+    \endentry
+    \entry{morph}{book}{}
+      \name{author}{2}{}{%
+        {{hash=7c38b3893548deb776f86244775aa7a0}{%
+           family={Bard},
+           familyi={B\bibinitperiod},
+           given={Jonathan\bibnamedelima BL},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=d489e54515502058d7c7f6b417fe6a7d}{%
+           family={Bard},
+           familyi={B\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{613e43f530301104db7b5c0f431c28bb}
+      \strng{fullhash}{613e43f530301104db7b5c0f431c28bb}
+      \strng{bibnamehash}{613e43f530301104db7b5c0f431c28bb}
+      \strng{authorbibnamehash}{613e43f530301104db7b5c0f431c28bb}
+      \strng{authornamehash}{613e43f530301104db7b5c0f431c28bb}
+      \strng{authorfullhash}{613e43f530301104db7b5c0f431c28bb}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Morphogenesis: the cellular and molecular processes of developmental anatomy}
+      \field{volume}{23}
+      \field{year}{1992}
+    \endentry
+    \entry{beentjes}{report}{}
+      \name{author}{1}{}{%
+        {{hash=4de664a041cf3206cd03359bc043d407}{%
+           family={Beentjes},
+           familyi={B\bibinitperiod},
+           given={Casper\bibnamedelima HL},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Technical Report, University of Oxford, Oxford, UK}%
+      }
+      \strng{namehash}{4de664a041cf3206cd03359bc043d407}
+      \strng{fullhash}{4de664a041cf3206cd03359bc043d407}
+      \strng{bibnamehash}{4de664a041cf3206cd03359bc043d407}
+      \strng{authorbibnamehash}{4de664a041cf3206cd03359bc043d407}
+      \strng{authornamehash}{4de664a041cf3206cd03359bc043d407}
+      \strng{authorfullhash}{4de664a041cf3206cd03359bc043d407}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pattern formation analysis in the Schnakenberg model}
+      \field{type}{techreport}
+      \field{year}{2015}
+    \endentry
+    \entry{bratsun}{article}{}
+      \name{author}{4}{}{%
+        {{hash=732f1e9e30c37500912e385af0a53c83}{%
+           family={Bratsun},
+           familyi={B\bibinitperiod},
+           given={Dmitri},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d870a7f0ea421f910ea73b3db3a3b4ff}{%
+           family={Volfson},
+           familyi={V\bibinitperiod},
+           given={Dmitri},
+           giveni={D\bibinitperiod}}}%
+        {{hash=be0df4e96a2e7863a2320eb361bf1105}{%
+           family={Tsimring},
+           familyi={T\bibinitperiod},
+           given={Lev\bibnamedelima S},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=e292c7aa7ea70e8e77abd3134400fa1a}{%
+           family={Hasty},
+           familyi={H\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{6f039c0efd99191b913a0175277a232e}
+      \strng{fullhash}{b43682761eaaaafcf3b81aeff537f04f}
+      \strng{bibnamehash}{45573e424ad7c33ac807cc3e3425135b}
+      \strng{authorbibnamehash}{45573e424ad7c33ac807cc3e3425135b}
+      \strng{authornamehash}{6f039c0efd99191b913a0175277a232e}
+      \strng{authorfullhash}{b43682761eaaaafcf3b81aeff537f04f}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{41}
+      \field{title}{Delay-induced stochastic oscillations in gene regulation}
+      \field{volume}{102}
+      \field{year}{2005}
+      \field{pages}{14593\bibrangedash 14598}
+      \range{pages}{6}
+    \endentry
+    \entry{newdist}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6e35ba8100c02529b508a7c97568c162}{%
+           family={Cassidy},
+           familyi={C\bibinitperiod},
+           given={Tyler},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{6e35ba8100c02529b508a7c97568c162}
+      \strng{fullhash}{6e35ba8100c02529b508a7c97568c162}
+      \strng{bibnamehash}{6e35ba8100c02529b508a7c97568c162}
+      \strng{authorbibnamehash}{6e35ba8100c02529b508a7c97568c162}
+      \strng{authornamehash}{6e35ba8100c02529b508a7c97568c162}
+      \strng{authorfullhash}{6e35ba8100c02529b508a7c97568c162}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SIAM Journal on Applied Mathematics}
+      \field{number}{4}
+      \field{title}{Distributed delay differential equation representations of cyclic differential equations}
+      \field{volume}{81}
+      \field{year}{2021}
+      \field{pages}{1742\bibrangedash 1766}
+      \range{pages}{25}
+    \endentry
+    \entry{signal}{article}{}
+      \name{author}{3}{}{%
+        {{hash=25f2ed34811bbdeb7cadb8fac046b343}{%
+           family={Cavallo},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima C},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c49c1228ed44c57b5767945aa77a3e26}{%
+           family={Scholpp},
+           familyi={S\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ba69108ce1dd90702cb5f6c297139a7d}{%
+           family={Flegg},
+           familyi={F\bibinitperiod},
+           given={Mark\bibnamedelima B},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{26497dc5619c2dcc4c0319355fcbcc9b}
+      \strng{fullhash}{26497dc5619c2dcc4c0319355fcbcc9b}
+      \strng{bibnamehash}{26497dc5619c2dcc4c0319355fcbcc9b}
+      \strng{authorbibnamehash}{26497dc5619c2dcc4c0319355fcbcc9b}
+      \strng{authornamehash}{26497dc5619c2dcc4c0319355fcbcc9b}
+      \strng{authorfullhash}{26497dc5619c2dcc4c0319355fcbcc9b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Theoretical Biology}
+      \field{title}{Delay-driven oscillations via Axin2 feedback in the Wnt/$\beta$-catenin signalling pathway}
+      \field{volume}{507}
+      \field{year}{2020}
+      \field{pages}{110458}
+      \range{pages}{1}
+    \endentry
+    \entry{stiff1}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a8e9d3b964cfb623147a91a2aee7efe2}{%
+           family={Chou},
+           familyi={C\bibinitperiod},
+           given={Ching-Shan},
+           giveni={C\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=d0737a03b1cbcd49796fcf153330244e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yong-Tao},
+           giveni={Y\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=5db4068796cde560b4fd3829096ef6c5}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5f45b8ea167da2d5685f5d8f36094dea}{%
+           family={Nie},
+           familyi={N\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Mathematical Sciences}%
+      }
+      \strng{namehash}{bba2fc250e9b82e07f4b6281f14e8ef9}
+      \strng{fullhash}{5343536b78f67322196385817cc40aed}
+      \strng{bibnamehash}{de75179aea90f2f65860fd2987cf2239}
+      \strng{authorbibnamehash}{de75179aea90f2f65860fd2987cf2239}
+      \strng{authornamehash}{bba2fc250e9b82e07f4b6281f14e8ef9}
+      \strng{authorfullhash}{5343536b78f67322196385817cc40aed}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Discrete \& Continuous Dynamical Systems-B}
+      \field{number}{3}
+      \field{title}{Numerical methods for stiff reaction-diffusion systems}
+      \field{volume}{7}
+      \field{year}{2007}
+      \field{pages}{515}
+      \range{pages}{1}
+    \endentry
+    \entry{william}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bb01e5086d06f1caf9f66b095594700f}{%
+           family={Dash},
+           familyi={D\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb01e5086d06f1caf9f66b095594700f}
+      \strng{fullhash}{bb01e5086d06f1caf9f66b095594700f}
+      \strng{bibnamehash}{bb01e5086d06f1caf9f66b095594700f}
+      \strng{authorbibnamehash}{bb01e5086d06f1caf9f66b095594700f}
+      \strng{authornamehash}{bb01e5086d06f1caf9f66b095594700f}
+      \strng{authorfullhash}{bb01e5086d06f1caf9f66b095594700f}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Institute, University of Oxford}
+      \field{title}{Distributed Delay in Reaction-Diffusion systems}
+      \field{year}{2020}
+    \endentry
+    \entry{chebfun}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=0980b185bcce72e89bbd71ce0a25df18}{%
+           family={Driscoll},
+           familyi={D\bibinitperiod},
+           given={Tobin\bibnamedelima A},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0adabb449925182353edad0ca77527c6}{%
+           family={Hale},
+           familyi={H\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e3376455eaec77b00950a1dc9ce095f5}{%
+           family={Trefethen},
+           familyi={T\bibinitperiod},
+           given={Lloyd\bibnamedelima N},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pafnuty Publications, Oxford}%
+      }
+      \strng{namehash}{e45a97d0fe9111e2b5d5ce6d15745586}
+      \strng{fullhash}{e45a97d0fe9111e2b5d5ce6d15745586}
+      \strng{bibnamehash}{e45a97d0fe9111e2b5d5ce6d15745586}
+      \strng{authorbibnamehash}{e45a97d0fe9111e2b5d5ce6d15745586}
+      \strng{authornamehash}{e45a97d0fe9111e2b5d5ce6d15745586}
+      \strng{authorfullhash}{e45a97d0fe9111e2b5d5ce6d15745586}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Chebfun guide}
+      \field{year}{2014}
+    \endentry
+    \entry{methsteps}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e838f97c2cf2872caabc25743a772442}{%
+           family={Driver},
+           familyi={D\bibinitperiod},
+           given={Rodney\bibnamedelima David},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{e838f97c2cf2872caabc25743a772442}
+      \strng{fullhash}{e838f97c2cf2872caabc25743a772442}
+      \strng{bibnamehash}{e838f97c2cf2872caabc25743a772442}
+      \strng{authorbibnamehash}{e838f97c2cf2872caabc25743a772442}
+      \strng{authornamehash}{e838f97c2cf2872caabc25743a772442}
+      \strng{authorfullhash}{e838f97c2cf2872caabc25743a772442}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ordinary and delay differential equations}
+      \field{volume}{20}
+      \field{year}{2012}
+    \endentry
+    \entry{cancer}{article}{}
+      \name{author}{2}{}{%
+        {{hash=69e8762bcffd15a3ae6c5e3b88264a77}{%
+           family={Elaiw},
+           familyi={E\bibinitperiod},
+           given={AM},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a886ee99095e81ed0c9a878259fb117b}{%
+           family={Al\bibnamedelima Agha},
+           familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={AD},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e3133f07aac965a1f9e3732aa71305eb}
+      \strng{fullhash}{e3133f07aac965a1f9e3732aa71305eb}
+      \strng{bibnamehash}{e3133f07aac965a1f9e3732aa71305eb}
+      \strng{authorbibnamehash}{e3133f07aac965a1f9e3732aa71305eb}
+      \strng{authornamehash}{e3133f07aac965a1f9e3732aa71305eb}
+      \strng{authorfullhash}{e3133f07aac965a1f9e3732aa71305eb}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The European Physical Journal Plus}
+      \field{number}{1}
+      \field{title}{A reaction--diffusion model for oncolytic M1 virotherapy with distributed delays}
+      \field{volume}{135}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 40}
+      \range{pages}{40}
+    \endentry
+    \entry{elowitz}{article}{}
+      \name{author}{4}{}{%
+        {{hash=172d917eef79d80ede6ac97ef3cfb264}{%
+           family={Elowitz},
+           familyi={E\bibinitperiod},
+           given={Michael\bibnamedelima B},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=7cff54519aaf69cd3a95abd91fc0a1b2}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Arnold\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=232fe6f0d8549f2fe8607cc9ff28dda1}{%
+           family={Siggia},
+           familyi={S\bibinitperiod},
+           given={Eric\bibnamedelima D},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=654a2b16a78ef3f2363bd043c12ee9d9}{%
+           family={Swain},
+           familyi={S\bibinitperiod},
+           given={Peter\bibnamedelima S},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{afcecdeeae6ebf9ab43768333ff87600}
+      \strng{fullhash}{3c1d4497b80d1bcc8a01e34b70d75cfa}
+      \strng{bibnamehash}{5b0a43221b5428c12bc658245f1e31ae}
+      \strng{authorbibnamehash}{5b0a43221b5428c12bc658245f1e31ae}
+      \strng{authornamehash}{afcecdeeae6ebf9ab43768333ff87600}
+      \strng{authorfullhash}{3c1d4497b80d1bcc8a01e34b70d75cfa}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5584}
+      \field{title}{Stochastic gene expression in a single cell}
+      \field{volume}{297}
+      \field{year}{2002}
+      \field{pages}{1183\bibrangedash 1186}
+      \range{pages}{4}
+    \endentry
+    \entry{fadai2}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c890cf87bf6b05ebaad37bdd6bb769c5}{%
+           family={Fadai},
+           familyi={F\bibinitperiod},
+           given={Nabil\bibnamedelima T},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=c837e6250585cb26b519b71979ad4e82}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a5b38628065ba35b632c0087951a7b95}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Juncheng},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Mathematical Sciences}%
+      }
+      \strng{namehash}{8cc1de02edc0ea7369a14680a037e135}
+      \strng{fullhash}{8cc1de02edc0ea7369a14680a037e135}
+      \strng{bibnamehash}{8cc1de02edc0ea7369a14680a037e135}
+      \strng{authorbibnamehash}{8cc1de02edc0ea7369a14680a037e135}
+      \strng{authornamehash}{8cc1de02edc0ea7369a14680a037e135}
+      \strng{authorfullhash}{8cc1de02edc0ea7369a14680a037e135}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Discrete \& Continuous Dynamical Systems-B}
+      \field{number}{4}
+      \field{title}{A time-delay in the activator kinetics enhances the stability of a spike solution to the gierer-meinhardt model}
+      \field{volume}{23}
+      \field{year}{2018}
+      \field{pages}{1431}
+      \range{pages}{1}
+    \endentry
+    \entry{fadai1}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c890cf87bf6b05ebaad37bdd6bb769c5}{%
+           family={Fadai},
+           familyi={F\bibinitperiod},
+           given={Nabil\bibnamedelima T},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=c837e6250585cb26b519b71979ad4e82}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a5b38628065ba35b632c0087951a7b95}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Juncheng},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{8cc1de02edc0ea7369a14680a037e135}
+      \strng{fullhash}{8cc1de02edc0ea7369a14680a037e135}
+      \strng{bibnamehash}{8cc1de02edc0ea7369a14680a037e135}
+      \strng{authorbibnamehash}{8cc1de02edc0ea7369a14680a037e135}
+      \strng{authornamehash}{8cc1de02edc0ea7369a14680a037e135}
+      \strng{authorfullhash}{8cc1de02edc0ea7369a14680a037e135}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SIAM Journal on Applied Mathematics}
+      \field{number}{2}
+      \field{title}{Delayed Reaction Kinetics and the Stability of Spikes in the Gierer--Meinhardt Model}
+      \field{volume}{77}
+      \field{year}{2017}
+      \field{pages}{664\bibrangedash 696}
+      \range{pages}{33}
+    \endentry
+    \entry{skewed}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0c03b808316790fc66f453655099e828}{%
+           family={Flecher},
+           familyi={F\bibinitperiod},
+           given={Cedric},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6da5c62889bdd5a138d69aa4cfec2ac9}{%
+           family={Allard},
+           familyi={A\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1f7662a8baf8910aec10869658f84a41}{%
+           family={Naveau},
+           familyi={N\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3b4a0bf8e440434c10df3e529547aa06}
+      \strng{fullhash}{3b4a0bf8e440434c10df3e529547aa06}
+      \strng{bibnamehash}{3b4a0bf8e440434c10df3e529547aa06}
+      \strng{authorbibnamehash}{3b4a0bf8e440434c10df3e529547aa06}
+      \strng{authornamehash}{3b4a0bf8e440434c10df3e529547aa06}
+      \strng{authorfullhash}{3b4a0bf8e440434c10df3e529547aa06}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Metron}
+      \field{number}{3}
+      \field{title}{Truncated skew-normal distributions: moments, estimation by weighted moments and application to climatic data}
+      \field{volume}{68}
+      \field{year}{2010}
+      \field{pages}{331\bibrangedash 345}
+      \range{pages}{15}
+    \endentry
+    \entry{gaffmonk}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c374bde1848f9040ae70fa8b49c1c511}{%
+           family={Gaffney},
+           familyi={G\bibinitperiod},
+           given={EA},
+           giveni={E\bibinitperiod}}}%
+        {{hash=135b71ec2ac01241c4b3bb2bb2b68da3}{%
+           family={Monk},
+           familyi={M\bibinitperiod},
+           given={NAM},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a9d3d0d613a7b21f01a785f6dafbdabd}
+      \strng{fullhash}{a9d3d0d613a7b21f01a785f6dafbdabd}
+      \strng{bibnamehash}{a9d3d0d613a7b21f01a785f6dafbdabd}
+      \strng{authorbibnamehash}{a9d3d0d613a7b21f01a785f6dafbdabd}
+      \strng{authornamehash}{a9d3d0d613a7b21f01a785f6dafbdabd}
+      \strng{authorfullhash}{a9d3d0d613a7b21f01a785f6dafbdabd}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of mathematical biology}
+      \field{number}{1}
+      \field{title}{Gene expression time delays and Turing pattern formation systems}
+      \field{volume}{68}
+      \field{year}{2006}
+      \field{pages}{99\bibrangedash 130}
+      \range{pages}{32}
+    \endentry
+    \entry{gm}{article}{}
+      \name{author}{2}{}{%
+        {{hash=da157d5f038be13ff6e02671f2c472cf}{%
+           family={Gierer},
+           familyi={G\bibinitperiod},
+           given={Alfred},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d3740821bf69b36846b43ad640e02fb5}{%
+           family={Meinhardt},
+           familyi={M\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2da4783bb8228d3034007afe9729260b}
+      \strng{fullhash}{2da4783bb8228d3034007afe9729260b}
+      \strng{bibnamehash}{2da4783bb8228d3034007afe9729260b}
+      \strng{authorbibnamehash}{2da4783bb8228d3034007afe9729260b}
+      \strng{authornamehash}{2da4783bb8228d3034007afe9729260b}
+      \strng{authorfullhash}{2da4783bb8228d3034007afe9729260b}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Kybernetik}
+      \field{number}{1}
+      \field{title}{A theory of biological pattern formation}
+      \field{volume}{12}
+      \field{year}{1972}
+      \field{pages}{30\bibrangedash 39}
+      \range{pages}{10}
+    \endentry
+    \entry{grayscott}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a1089d8d265093ed9848d5e89b251127}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=00e8df71c4dc07836c97a396488cccae}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Stephen\bibnamedelima K},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{59ea8c0732bd0bbfbe14827d3e48e1d5}
+      \strng{fullhash}{59ea8c0732bd0bbfbe14827d3e48e1d5}
+      \strng{bibnamehash}{59ea8c0732bd0bbfbe14827d3e48e1d5}
+      \strng{authorbibnamehash}{59ea8c0732bd0bbfbe14827d3e48e1d5}
+      \strng{authornamehash}{59ea8c0732bd0bbfbe14827d3e48e1d5}
+      \strng{authorfullhash}{59ea8c0732bd0bbfbe14827d3e48e1d5}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Berichte der Bunsengesellschaft f{ü}r physikalische Chemie}
+      \field{number}{11}
+      \field{title}{A new model for oscillatory behaviour in closed systems: the autocatalator}
+      \field{volume}{90}
+      \field{year}{1986}
+      \field{pages}{985\bibrangedash 996}
+      \range{pages}{12}
+    \endentry
+    \entry{molecular}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e962dce3ce339655e344795541b57384}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Matthew\bibnamedelima P},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=191031c2fc98c8f0e0acb4299353d299}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=14459211fe855ce526bfe3e117b0aae1}{%
+           family={Fallon},
+           familyi={F\bibinitperiod},
+           given={John\bibnamedelima F},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=d3740821bf69b36846b43ad640e02fb5}{%
+           family={Meinhardt},
+           familyi={M\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+        {{hash=264f61539463bd66b67cf511e64c88b3}{%
+           family={Prum},
+           familyi={P\bibinitperiod},
+           given={Richard\bibnamedelima O},
+           giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{23f5587599d493d63a90c83acf811e00}
+      \strng{fullhash}{3e683f1044bc0d05c4bdc3a5f45b3270}
+      \strng{bibnamehash}{6f1b74be02b58b071d6af3ba8ec7052f}
+      \strng{authorbibnamehash}{6f1b74be02b58b071d6af3ba8ec7052f}
+      \strng{authornamehash}{23f5587599d493d63a90c83acf811e00}
+      \strng{authorfullhash}{3e683f1044bc0d05c4bdc3a5f45b3270}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{33}
+      \field{title}{Molecular evidence for an activator--inhibitor mechanism in development of embryonic feather branching}
+      \field{volume}{102}
+      \field{year}{2005}
+      \field{pages}{11734\bibrangedash 11739}
+      \range{pages}{6}
+    \endentry
+    \entry{glimm}{article}{}
+      \name{author}{4}{}{%
+        {{hash=0e31f946229b052712268ad2d1bd98b3}{%
+           family={Hentschel},
+           familyi={H\bibinitperiod},
+           given={HGE},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e724d1e1f289d909f506710bacfc92a8}{%
+           family={Glimm},
+           familyi={G\bibinitperiod},
+           given={Tilmann},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f4e7b9dfb16e82902561bee7552b5f6c}{%
+           family={Glazier},
+           familyi={G\bibinitperiod},
+           given={James\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=725440c5c6179efcdfa77acf9279dd98}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={Stuart\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{b149b3bedc426a365aeccb5f711398d0}
+      \strng{fullhash}{dc90891f0250f807e0250f05c4aab233}
+      \strng{bibnamehash}{b60c09ad30c95f279a57e161ff3b22f9}
+      \strng{authorbibnamehash}{b60c09ad30c95f279a57e161ff3b22f9}
+      \strng{authornamehash}{b149b3bedc426a365aeccb5f711398d0}
+      \strng{authorfullhash}{dc90891f0250f807e0250f05c4aab233}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Royal Society of London. Series B: Biological Sciences}
+      \field{number}{1549}
+      \field{title}{Dynamical mechanisms for skeletal pattern formation in the vertebrate limb}
+      \field{volume}{271}
+      \field{year}{2004}
+      \field{pages}{1713\bibrangedash 1722}
+      \range{pages}{10}
+    \endentry
+    \entry{spike}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8bc14796355f2f3553aafd8d25f724c6}{%
+           family={Iron},
+           familyi={I\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c837e6250585cb26b519b71979ad4e82}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{d385dfc9a92aca9e93daf511d84d37df}
+      \strng{fullhash}{d385dfc9a92aca9e93daf511d84d37df}
+      \strng{bibnamehash}{d385dfc9a92aca9e93daf511d84d37df}
+      \strng{authorbibnamehash}{d385dfc9a92aca9e93daf511d84d37df}
+      \strng{authornamehash}{d385dfc9a92aca9e93daf511d84d37df}
+      \strng{authorfullhash}{d385dfc9a92aca9e93daf511d84d37df}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SIAM Journal on Applied Mathematics}
+      \field{number}{3}
+      \field{title}{A metastable spike solution for a nonlocal reaction-diffusion model}
+      \field{volume}{60}
+      \field{year}{2000}
+      \field{pages}{778\bibrangedash 802}
+      \range{pages}{25}
+    \endentry
+    \entry{jiang}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6595226a3e2753e80b5c256aeb1fd93d}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Weihua},
+           giveni={W\bibinitperiod}}}%
+        {{hash=bb596c2ad266541ba401586042bb0896}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hongbin},
+           giveni={H\bibinitperiod}}}%
+        {{hash=99fcca9ec88c3d0bc13189b334d1185d}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Xun},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{303542881c63c891da1a6259ff62c274}
+      \strng{fullhash}{303542881c63c891da1a6259ff62c274}
+      \strng{bibnamehash}{303542881c63c891da1a6259ff62c274}
+      \strng{authorbibnamehash}{303542881c63c891da1a6259ff62c274}
+      \strng{authornamehash}{303542881c63c891da1a6259ff62c274}
+      \strng{authorfullhash}{303542881c63c891da1a6259ff62c274}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Dynamics and Differential Equations}
+      \field{number}{4}
+      \field{title}{Turing instability and Turing--Hopf bifurcation in diffusive Schnakenberg systems with gene expression time delay}
+      \field{volume}{31}
+      \field{year}{2019}
+      \field{pages}{2223\bibrangedash 2247}
+      \range{pages}{25}
+    \endentry
+    \entry{finitediff}{book}{}
+      \name{author}{2}{}{%
+        {{hash=a19efb725d3a31cfe68e9795bd2d675a}{%
+           family={Jovanovi{ć}},
+           familyi={J\bibinitperiod},
+           given={Bo{š}ko\bibnamedelima S},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=38d3a14c4a1c5448089a687a815acd4e}{%
+           family={S{ü}li},
+           familyi={S\bibinitperiod},
+           given={Endre},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{24fd2e44bbc8e3b34c305c6676c42e1f}
+      \strng{fullhash}{24fd2e44bbc8e3b34c305c6676c42e1f}
+      \strng{bibnamehash}{24fd2e44bbc8e3b34c305c6676c42e1f}
+      \strng{authorbibnamehash}{24fd2e44bbc8e3b34c305c6676c42e1f}
+      \strng{authornamehash}{24fd2e44bbc8e3b34c305c6676c42e1f}
+      \strng{authorfullhash}{24fd2e44bbc8e3b34c305c6676c42e1f}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analysis of Finite Difference Schemes: For Linear Partial Differential Equations with Generalized Solutions}
+      \field{volume}{46}
+      \field{year}{2013}
+    \endentry
+    \entry{kimmel}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7182dd9b7c4ac3c2b99a46034efd070f}{%
+           family={Kimmel},
+           familyi={K\bibinitperiod},
+           given={Charles\bibnamedelima B},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=d12be1f39eb894cd570276dd4306b9c6}{%
+           family={Ballard},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima W},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=f57fa3a780a59fe22febd6be54903380}{%
+           family={Kimmel},
+           familyi={K\bibinitperiod},
+           given={Seth\bibnamedelima R},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8297fbe3351a5acb7492c77803c1e692}{%
+           family={Ullmann},
+           familyi={U\bibinitperiod},
+           given={Bonnie},
+           giveni={B\bibinitperiod}}}%
+        {{hash=52277cfaf15ceff5ee5eb2b499fc712f}{%
+           family={Schilling},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima F},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{5522730176bb9d229dbee35d29d77b42}
+      \strng{fullhash}{e2bb98dc8c08addaddd6f30c11d4f91a}
+      \strng{bibnamehash}{a3bfb62b3973d485881d69563511f983}
+      \strng{authorbibnamehash}{a3bfb62b3973d485881d69563511f983}
+      \strng{authornamehash}{5522730176bb9d229dbee35d29d77b42}
+      \strng{authorfullhash}{e2bb98dc8c08addaddd6f30c11d4f91a}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Developmental dynamics}
+      \field{number}{3}
+      \field{title}{Stages of embryonic development of the zebrafish}
+      \field{volume}{203}
+      \field{year}{1995}
+      \field{pages}{253\bibrangedash 310}
+      \range{pages}{58}
+    \endentry
+    \entry{krausenew}{article}{}
+      \name{author}{4}{}{%
+        {{hash=bf0e6ccbadc5c076cd47c8f3e0a34907}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={Andrew\bibnamedelima L},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=81a45e4c4cd8c3f408c04999cd16c75d}{%
+           family={Gaffney},
+           familyi={G\bibinitperiod},
+           given={Eamonn\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2ee9644b9267423553b2c9ee226c46b0}{%
+           family={Maini},
+           familyi={M\bibinitperiod},
+           given={Philip\bibnamedelima K},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=57619fa212cae84cfd5146d66eecffe4}{%
+           family={Klika},
+           familyi={K\bibinitperiod},
+           given={V{á}clav},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{fbbf1d46dbf58f505f2aa2c724c3595d}
+      \strng{fullhash}{f1c9207a961916658ce6644d340cb18b}
+      \strng{bibnamehash}{5ac8f360cad4b0de96e8dd5017445a80}
+      \strng{authorbibnamehash}{5ac8f360cad4b0de96e8dd5017445a80}
+      \strng{authornamehash}{fbbf1d46dbf58f505f2aa2c724c3595d}
+      \strng{authorfullhash}{f1c9207a961916658ce6644d340cb18b}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2106.08375}
+      \field{title}{Modern Perspectives on Near-Equilibrium Analysis of Turing Systems}
+      \field{year}{2021}
+    \endentry
+    \entry{krausemixed}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bf0e6ccbadc5c076cd47c8f3e0a34907}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={Andrew\bibnamedelima L},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=57619fa212cae84cfd5146d66eecffe4}{%
+           family={Klika},
+           familyi={K\bibinitperiod},
+           given={V{á}clav},
+           giveni={V\bibinitperiod}}}%
+        {{hash=2ee9644b9267423553b2c9ee226c46b0}{%
+           family={Maini},
+           familyi={M\bibinitperiod},
+           given={Philip\bibnamedelima K},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=05f8c9e7a1aecefe057e6401680b920f}{%
+           family={Headon},
+           familyi={H\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=81a45e4c4cd8c3f408c04999cd16c75d}{%
+           family={Gaffney},
+           familyi={G\bibinitperiod},
+           given={Eamonn\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{fbbf1d46dbf58f505f2aa2c724c3595d}
+      \strng{fullhash}{fc9d909dcc81f1033bfd10298318a7fd}
+      \strng{bibnamehash}{1d7f8c56dd8b004be3f9d04695d40227}
+      \strng{authorbibnamehash}{1d7f8c56dd8b004be3f9d04695d40227}
+      \strng{authornamehash}{fbbf1d46dbf58f505f2aa2c724c3595d}
+      \strng{authorfullhash}{fc9d909dcc81f1033bfd10298318a7fd}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of Mathematical Biology}
+      \field{number}{7}
+      \field{title}{Isolating Patterns in Open Reaction--Diffusion Systems}
+      \field{volume}{83}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 35}
+      \range{pages}{35}
+    \endentry
+    \entry{leegaffney}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cf20478f9d6c2d198d833895cb9c2bfc}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={S\bibnamedelima Seirin},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c374bde1848f9040ae70fa8b49c1c511}{%
+           family={Gaffney},
+           familyi={G\bibinitperiod},
+           given={EA},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{05a6b99f9c8b3d923182f6fafc830b8b}
+      \strng{fullhash}{05a6b99f9c8b3d923182f6fafc830b8b}
+      \strng{bibnamehash}{05a6b99f9c8b3d923182f6fafc830b8b}
+      \strng{authorbibnamehash}{05a6b99f9c8b3d923182f6fafc830b8b}
+      \strng{authornamehash}{05a6b99f9c8b3d923182f6fafc830b8b}
+      \strng{authorfullhash}{05a6b99f9c8b3d923182f6fafc830b8b}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of mathematical biology}
+      \field{number}{8}
+      \field{title}{Aberrant behaviours of reaction diffusion self-organisation models on growing domains in the presence of gene expression time delays}
+      \field{volume}{72}
+      \field{year}{2010}
+      \field{pages}{2161\bibrangedash 2179}
+      \range{pages}{19}
+    \endentry
+    \entry{leegaffmonk}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cf20478f9d6c2d198d833895cb9c2bfc}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={S\bibnamedelima Seirin},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c374bde1848f9040ae70fa8b49c1c511}{%
+           family={Gaffney},
+           familyi={G\bibinitperiod},
+           given={EA},
+           giveni={E\bibinitperiod}}}%
+        {{hash=135b71ec2ac01241c4b3bb2bb2b68da3}{%
+           family={Monk},
+           familyi={M\bibinitperiod},
+           given={NAM},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{7392bc101b6e3c1b79dba63b181d5491}
+      \strng{fullhash}{7392bc101b6e3c1b79dba63b181d5491}
+      \strng{bibnamehash}{7392bc101b6e3c1b79dba63b181d5491}
+      \strng{authorbibnamehash}{7392bc101b6e3c1b79dba63b181d5491}
+      \strng{authornamehash}{7392bc101b6e3c1b79dba63b181d5491}
+      \strng{authorfullhash}{7392bc101b6e3c1b79dba63b181d5491}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of mathematical biology}
+      \field{number}{8}
+      \field{title}{The influence of gene expression time delays on Gierer--Meinhardt pattern formation systems}
+      \field{volume}{72}
+      \field{year}{2010}
+      \field{pages}{2139\bibrangedash 2160}
+      \range{pages}{22}
+    \endentry
+    \entry{mcadams}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d8c9f12e6530830d729eb6d5b608556d}{%
+           family={McAdams},
+           familyi={M\bibinitperiod},
+           given={Harley\bibnamedelima H},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=0d94f85ea094997684e64923d01bb20b}{%
+           family={Arkin},
+           familyi={A\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{66855d46af6821bfef6e89fcbe4a8fa3}
+      \strng{fullhash}{66855d46af6821bfef6e89fcbe4a8fa3}
+      \strng{bibnamehash}{66855d46af6821bfef6e89fcbe4a8fa3}
+      \strng{authorbibnamehash}{66855d46af6821bfef6e89fcbe4a8fa3}
+      \strng{authornamehash}{66855d46af6821bfef6e89fcbe4a8fa3}
+      \strng{authorfullhash}{66855d46af6821bfef6e89fcbe4a8fa3}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{3}
+      \field{title}{Stochastic mechanisms in gene expression}
+      \field{volume}{94}
+      \field{year}{1997}
+      \field{pages}{814\bibrangedash 819}
+      \range{pages}{6}
+    \endentry
+    \entry{miura2}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7257fe4bbb3fccb21932217dc6c7eb4e}{%
+           family={Miura},
+           familyi={M\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2ee9644b9267423553b2c9ee226c46b0}{%
+           family={Maini},
+           familyi={M\bibinitperiod},
+           given={Philip\bibnamedelima K},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c0f03a381e644005f960c8740c25e9ec}
+      \strng{fullhash}{c0f03a381e644005f960c8740c25e9ec}
+      \strng{bibnamehash}{c0f03a381e644005f960c8740c25e9ec}
+      \strng{authorbibnamehash}{c0f03a381e644005f960c8740c25e9ec}
+      \strng{authornamehash}{c0f03a381e644005f960c8740c25e9ec}
+      \strng{authorfullhash}{c0f03a381e644005f960c8740c25e9ec}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of mathematical biology}
+      \field{number}{4}
+      \field{title}{Speed of pattern appearance in reaction-diffusion models: implications in the pattern formation of limb bud mesenchyme cells}
+      \field{volume}{66}
+      \field{year}{2004}
+      \field{pages}{627\bibrangedash 649}
+      \range{pages}{23}
+    \endentry
+    \entry{miura1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7257fe4bbb3fccb21932217dc6c7eb4e}{%
+           family={Miura},
+           familyi={M\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9157be760987c45957f886dd51ae4099}{%
+           family={Shiota},
+           familyi={S\bibinitperiod},
+           given={Kohei},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{af79a3a5fca292f313010eb7b12243e4}
+      \strng{fullhash}{af79a3a5fca292f313010eb7b12243e4}
+      \strng{bibnamehash}{af79a3a5fca292f313010eb7b12243e4}
+      \strng{authorbibnamehash}{af79a3a5fca292f313010eb7b12243e4}
+      \strng{authornamehash}{af79a3a5fca292f313010eb7b12243e4}
+      \strng{authorfullhash}{af79a3a5fca292f313010eb7b12243e4}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Anatomical Record: An Official Publication of the American Association of Anatomists}
+      \field{number}{1}
+      \field{title}{Extracellular matrix environment influences chondrogenic pattern formation in limb bud micromass culture: experimental verification of theoretical models}
+      \field{volume}{258}
+      \field{year}{2000}
+      \field{pages}{100\bibrangedash 107}
+      \range{pages}{8}
+    \endentry
+    \entry{miura}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7257fe4bbb3fccb21932217dc6c7eb4e}{%
+           family={Miura},
+           familyi={M\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9157be760987c45957f886dd51ae4099}{%
+           family={Shiota},
+           familyi={S\bibinitperiod},
+           given={Kohei},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{af79a3a5fca292f313010eb7b12243e4}
+      \strng{fullhash}{af79a3a5fca292f313010eb7b12243e4}
+      \strng{bibnamehash}{af79a3a5fca292f313010eb7b12243e4}
+      \strng{authorbibnamehash}{af79a3a5fca292f313010eb7b12243e4}
+      \strng{authornamehash}{af79a3a5fca292f313010eb7b12243e4}
+      \strng{authorfullhash}{af79a3a5fca292f313010eb7b12243e4}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Developmental dynamics: an official publication of the American Association of Anatomists}
+      \field{number}{3}
+      \field{title}{TGF$\beta$2 acts as an “Activator” molecule in reaction-diffusion model and is involved in cell sorting phenomenon in mouse limb micromass culture}
+      \field{volume}{217}
+      \field{year}{2000}
+      \field{pages}{241\bibrangedash 249}
+      \range{pages}{9}
+    \endentry
+    \entry{murray}{book}{}
+      \name{author}{1}{}{%
+        {{hash=29820554483e0151cc9f851a9b33214b}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={JD},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{29820554483e0151cc9f851a9b33214b}
+      \strng{fullhash}{29820554483e0151cc9f851a9b33214b}
+      \strng{bibnamehash}{29820554483e0151cc9f851a9b33214b}
+      \strng{authorbibnamehash}{29820554483e0151cc9f851a9b33214b}
+      \strng{authornamehash}{29820554483e0151cc9f851a9b33214b}
+      \strng{authorfullhash}{29820554483e0151cc9f851a9b33214b}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mathematical biology II: spatial models and biomedical applications}
+      \field{volume}{3}
+      \field{year}{2001}
+    \endentry
+    \entry{painter}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dd47fd8ec42f79ae7d08fec669043875}{%
+           family={Painter},
+           familyi={P\bibinitperiod},
+           given={KJ},
+           giveni={K\bibinitperiod}}}%
+        {{hash=03658bff3627bebce4f4a7230c044658}{%
+           family={Maini},
+           familyi={M\bibinitperiod},
+           given={PK},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e1e7a7ddd0866f17691df62074bcd125}{%
+           family={Othmer},
+           familyi={O\bibinitperiod},
+           given={HG},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{d156067374f908369d4adaebfe053c65}
+      \strng{fullhash}{d156067374f908369d4adaebfe053c65}
+      \strng{bibnamehash}{d156067374f908369d4adaebfe053c65}
+      \strng{authorbibnamehash}{d156067374f908369d4adaebfe053c65}
+      \strng{authornamehash}{d156067374f908369d4adaebfe053c65}
+      \strng{authorfullhash}{d156067374f908369d4adaebfe053c65}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Math. Biol}
+      \field{number}{4}
+      \field{title}{Complex spatial patterns in a hybrid chemotaxis reaction-diffusion model}
+      \field{volume}{41}
+      \field{year}{2000}
+      \field{pages}{285\bibrangedash 314}
+      \range{pages}{30}
+    \endentry
+    \entry{owenst}{article}{}
+      \name{author}{2}{}{%
+        {{hash=840423d4273850f0df6b7fff5172b24c}{%
+           family={Patefield},
+           familyi={P\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=678f73e8286eb76082a42a4093e69dd0}{%
+           family={Tandy},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Statistical Association}%
+      }
+      \strng{namehash}{1bedb225e4bac4d53001dfe639323d32}
+      \strng{fullhash}{1bedb225e4bac4d53001dfe639323d32}
+      \strng{bibnamehash}{1bedb225e4bac4d53001dfe639323d32}
+      \strng{authorbibnamehash}{1bedb225e4bac4d53001dfe639323d32}
+      \strng{authornamehash}{1bedb225e4bac4d53001dfe639323d32}
+      \strng{authorfullhash}{1bedb225e4bac4d53001dfe639323d32}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Statistical Software}
+      \field{number}{5}
+      \field{title}{Fast and accurate calculation of Owen’s T function}
+      \field{volume}{5}
+      \field{year}{2000}
+      \field{pages}{1\bibrangedash 25}
+      \range{pages}{25}
+    \endentry
+    \entry{paulsson}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ca532e2cf7dfa60584c3119426157a1b}{%
+           family={Paulsson},
+           familyi={P\bibinitperiod},
+           given={Johan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ca532e2cf7dfa60584c3119426157a1b}
+      \strng{fullhash}{ca532e2cf7dfa60584c3119426157a1b}
+      \strng{bibnamehash}{ca532e2cf7dfa60584c3119426157a1b}
+      \strng{authorbibnamehash}{ca532e2cf7dfa60584c3119426157a1b}
+      \strng{authornamehash}{ca532e2cf7dfa60584c3119426157a1b}
+      \strng{authorfullhash}{ca532e2cf7dfa60584c3119426157a1b}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of life reviews}
+      \field{number}{2}
+      \field{title}{Models of stochastic gene expression}
+      \field{volume}{2}
+      \field{year}{2005}
+      \field{pages}{157\bibrangedash 175}
+      \range{pages}{19}
+    \endentry
+    \entry{rodas}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c454e867cc51042dbb2c4a284006599f}{%
+           family={Rackauckas},
+           familyi={R\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5f45b8ea167da2d5685f5d8f36094dea}{%
+           family={Nie},
+           familyi={N\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Ubiquity Press}%
+      }
+      \strng{namehash}{72532c9bb73703d2c2ce1424659b680f}
+      \strng{fullhash}{72532c9bb73703d2c2ce1424659b680f}
+      \strng{bibnamehash}{72532c9bb73703d2c2ce1424659b680f}
+      \strng{authorbibnamehash}{72532c9bb73703d2c2ce1424659b680f}
+      \strng{authornamehash}{72532c9bb73703d2c2ce1424659b680f}
+      \strng{authorfullhash}{72532c9bb73703d2c2ce1424659b680f}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Research Software}
+      \field{number}{1}
+      \field{title}{Differentialequations.jl--a performant and feature-rich ecosystem for solving differential equations in Julia}
+      \field{volume}{5}
+      \field{year}{2017}
+    \endentry
+    \entry{raj}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0a4a88c5197213c7d5f5f6b850065299}{%
+           family={Raj},
+           familyi={R\bibinitperiod},
+           given={Arjun},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c0c4b5ac03682f3315ff96445cfde5f2}{%
+           family={Van\bibnamedelima Oudenaarden},
+           familyi={V\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{67073fdb51f41d558a26b2270a217930}
+      \strng{fullhash}{67073fdb51f41d558a26b2270a217930}
+      \strng{bibnamehash}{67073fdb51f41d558a26b2270a217930}
+      \strng{authorbibnamehash}{67073fdb51f41d558a26b2270a217930}
+      \strng{authornamehash}{67073fdb51f41d558a26b2270a217930}
+      \strng{authorfullhash}{67073fdb51f41d558a26b2270a217930}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell}
+      \field{number}{2}
+      \field{title}{Nature, nurture, or chance: stochastic gene expression and its consequences}
+      \field{volume}{135}
+      \field{year}{2008}
+      \field{pages}{216\bibrangedash 226}
+      \range{pages}{11}
+    \endentry
+    \entry{rosenbrock}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c590405dd2553f2a0311f2bffbb0b053}{%
+           family={Rosenbrock},
+           familyi={R\bibinitperiod},
+           given={HH},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{c590405dd2553f2a0311f2bffbb0b053}
+      \strng{fullhash}{c590405dd2553f2a0311f2bffbb0b053}
+      \strng{bibnamehash}{c590405dd2553f2a0311f2bffbb0b053}
+      \strng{authorbibnamehash}{c590405dd2553f2a0311f2bffbb0b053}
+      \strng{authornamehash}{c590405dd2553f2a0311f2bffbb0b053}
+      \strng{authorfullhash}{c590405dd2553f2a0311f2bffbb0b053}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Computer Journal}
+      \field{number}{4}
+      \field{title}{Some general implicit processes for the numerical solution of differential equations}
+      \field{volume}{5}
+      \field{year}{1963}
+      \field{pages}{329\bibrangedash 330}
+      \range{pages}{2}
+    \endentry
+    \entry{krausefixed}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e2dac613b0d3bc3305f8e7ef012b3b4e}{%
+           family={S{á}nchez-Garduno},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Faustino},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bf0e6ccbadc5c076cd47c8f3e0a34907}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={Andrew\bibnamedelima L},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=3dbf84d56c7aaae8f4357ed51a058714}{%
+           family={Castillo},
+           familyi={C\bibinitperiod},
+           given={Jorge\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ec4626c9d42fa6a0eff732091d363fa6}{%
+           family={Padilla},
+           familyi={P\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5e5abc4c7babc4b6a916a760cfe21525}
+      \strng{fullhash}{fc4af1f7d4517c5d1800d05c2ac9c921}
+      \strng{bibnamehash}{d507465bdd6392673511e183d7da49bc}
+      \strng{authorbibnamehash}{d507465bdd6392673511e183d7da49bc}
+      \strng{authornamehash}{5e5abc4c7babc4b6a916a760cfe21525}
+      \strng{authorfullhash}{fc4af1f7d4517c5d1800d05c2ac9c921}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of theoretical biology}
+      \field{title}{Turing--Hopf patterns on growing domains: the torus and the sphere}
+      \field{volume}{481}
+      \field{year}{2019}
+      \field{pages}{136\bibrangedash 150}
+      \range{pages}{15}
+    \endentry
+    \entry{mainigeneral}{article}{}
+      \name{author}{3}{}{%
+        {{hash=23d17d8725f54d2ac2e5a2487f684901}{%
+           family={Satnoianu},
+           familyi={S\bibinitperiod},
+           given={Razvan\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bb57b344ca3b3936386cc2bb24bb9920}{%
+           family={Menzinger},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2ee9644b9267423553b2c9ee226c46b0}{%
+           family={Maini},
+           familyi={M\bibinitperiod},
+           given={Philip\bibnamedelima K},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c444f1cdd29ef43ef0981b105eae05a7}
+      \strng{fullhash}{c444f1cdd29ef43ef0981b105eae05a7}
+      \strng{bibnamehash}{c444f1cdd29ef43ef0981b105eae05a7}
+      \strng{authorbibnamehash}{c444f1cdd29ef43ef0981b105eae05a7}
+      \strng{authornamehash}{c444f1cdd29ef43ef0981b105eae05a7}
+      \strng{authorfullhash}{c444f1cdd29ef43ef0981b105eae05a7}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of mathematical biology}
+      \field{number}{6}
+      \field{title}{Turing instabilities in general systems}
+      \field{volume}{41}
+      \field{year}{2000}
+      \field{pages}{493\bibrangedash 512}
+      \range{pages}{20}
+    \endentry
+    \entry{schnakenberg}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f2cf9af7ad5198408c339fb113c2319c}{%
+           family={Schnakenberg},
+           familyi={S\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f2cf9af7ad5198408c339fb113c2319c}
+      \strng{fullhash}{f2cf9af7ad5198408c339fb113c2319c}
+      \strng{bibnamehash}{f2cf9af7ad5198408c339fb113c2319c}
+      \strng{authorbibnamehash}{f2cf9af7ad5198408c339fb113c2319c}
+      \strng{authornamehash}{f2cf9af7ad5198408c339fb113c2319c}
+      \strng{authorfullhash}{f2cf9af7ad5198408c339fb113c2319c}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of theoretical biology}
+      \field{number}{3}
+      \field{title}{Simple chemical reaction systems with limit cycle behaviour}
+      \field{volume}{81}
+      \field{year}{1979}
+      \field{pages}{389\bibrangedash 400}
+      \range{pages}{12}
+    \endentry
+    \entry{sick}{article}{}
+      \name{author}{4}{}{%
+        {{hash=ec71f2d67f0fd739a85ca7e9a4417d74}{%
+           family={Sick},
+           familyi={S\bibinitperiod},
+           given={Stefanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=41bf27c8d9a25d75851fc0292d6323f4}{%
+           family={Reinker},
+           familyi={R\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=82453591276f42305ff740c7975e21df}{%
+           family={Timmer},
+           familyi={T\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=faa2181a6cefb95454ad3db1c8c5fc6d}{%
+           family={Schlake},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{04926423fd73dfd2f1daade20c3cdaac}
+      \strng{fullhash}{abb791ec428a2c7d328a934fc4148e5b}
+      \strng{bibnamehash}{4d78b13613743605f15cb84105dce97b}
+      \strng{authorbibnamehash}{4d78b13613743605f15cb84105dce97b}
+      \strng{authornamehash}{04926423fd73dfd2f1daade20c3cdaac}
+      \strng{authorfullhash}{abb791ec428a2c7d328a934fc4148e5b}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5804}
+      \field{title}{WNT and DKK determine hair follicle spacing through a reaction-diffusion mechanism}
+      \field{volume}{314}
+      \field{year}{2006}
+      \field{pages}{1447\bibrangedash 1450}
+      \range{pages}{4}
+    \endentry
+    \entry{compsimp}{book}{}
+      \name{author}{2}{}{%
+        {{hash=38d3a14c4a1c5448089a687a815acd4e}{%
+           family={S{ü}li},
+           familyi={S\bibinitperiod},
+           given={Endre},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6a88a30bc366510f4433c33a5e49a2c6}{%
+           family={Mayers},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima F},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge university press}%
+      }
+      \strng{namehash}{88b129d608a3b8f3056d5ede83dca7cd}
+      \strng{fullhash}{88b129d608a3b8f3056d5ede83dca7cd}
+      \strng{bibnamehash}{88b129d608a3b8f3056d5ede83dca7cd}
+      \strng{authorbibnamehash}{88b129d608a3b8f3056d5ede83dca7cd}
+      \strng{authornamehash}{88b129d608a3b8f3056d5ede83dca7cd}
+      \strng{authorfullhash}{88b129d608a3b8f3056d5ede83dca7cd}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An introduction to numerical analysis}
+      \field{year}{2003}
+    \endentry
+    \entry{tennyson}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c867075de35a4dfb9b92616d7a21bd61}{%
+           family={Tennyson},
+           familyi={T\bibinitperiod},
+           given={Christine\bibnamedelima N},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=bddabeeb5ad84a865e530336e5db37cc}{%
+           family={Klamut},
+           familyi={K\bibinitperiod},
+           given={Henry\bibnamedelima J},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=71da532b95228686c39c5346398d2cac}{%
+           family={Worton},
+           familyi={W\bibinitperiod},
+           given={Ronald\bibnamedelima G},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{b259243026725b5b14216d2da9d6dd2f}
+      \strng{fullhash}{b259243026725b5b14216d2da9d6dd2f}
+      \strng{bibnamehash}{b259243026725b5b14216d2da9d6dd2f}
+      \strng{authorbibnamehash}{b259243026725b5b14216d2da9d6dd2f}
+      \strng{authornamehash}{b259243026725b5b14216d2da9d6dd2f}
+      \strng{authorfullhash}{b259243026725b5b14216d2da9d6dd2f}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature genetics}
+      \field{number}{2}
+      \field{title}{The human dystrophin gene requires 16 hours to be transcribed and is cotranscriptionally spliced}
+      \field{volume}{9}
+      \field{year}{1995}
+      \field{pages}{184\bibrangedash 190}
+      \range{pages}{7}
+    \endentry
+    \entry{turing}{article}{}
+      \name{author}{1}{}{%
+        {{hash=74b4cb980e41f6e8857af4f97c98b755}{%
+           family={Turing},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima Mathison},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{74b4cb980e41f6e8857af4f97c98b755}
+      \strng{fullhash}{74b4cb980e41f6e8857af4f97c98b755}
+      \strng{bibnamehash}{74b4cb980e41f6e8857af4f97c98b755}
+      \strng{authorbibnamehash}{74b4cb980e41f6e8857af4f97c98b755}
+      \strng{authornamehash}{74b4cb980e41f6e8857af4f97c98b755}
+      \strng{authorfullhash}{74b4cb980e41f6e8857af4f97c98b755}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of mathematical biology}
+      \field{number}{1}
+      \field{title}{The chemical basis of morphogenesis}
+      \field{volume}{52}
+      \field{year}{1990}
+      \field{pages}{153\bibrangedash 197}
+      \range{pages}{45}
+    \endentry
+    \entry{wolpert}{article}{}
+      \name{author}{1}{}{%
+        {{hash=150e4376a8fbf56402f90f32c1d7c81b}{%
+           family={Wolpert},
+           familyi={W\bibinitperiod},
+           given={Lewis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{150e4376a8fbf56402f90f32c1d7c81b}
+      \strng{fullhash}{150e4376a8fbf56402f90f32c1d7c81b}
+      \strng{bibnamehash}{150e4376a8fbf56402f90f32c1d7c81b}
+      \strng{authorbibnamehash}{150e4376a8fbf56402f90f32c1d7c81b}
+      \strng{authornamehash}{150e4376a8fbf56402f90f32c1d7c81b}
+      \strng{authorfullhash}{150e4376a8fbf56402f90f32c1d7c81b}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of theoretical biology}
+      \field{number}{1}
+      \field{title}{Positional information and the spatial pattern of cellular differentiation}
+      \field{volume}{25}
+      \field{year}{1969}
+      \field{pages}{1\bibrangedash 47}
+      \range{pages}{47}
+    \endentry
+    \entry{baker}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e54d50f8c12b6dad7c1086da2e1af825}{%
+           family={Woolley},
+           familyi={W\bibinitperiod},
+           given={Thomas\bibnamedelima E},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f8b372ed26f6542b44dced564b500faf}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Ruth\bibnamedelima E},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=81a45e4c4cd8c3f408c04999cd16c75d}{%
+           family={Gaffney},
+           familyi={G\bibinitperiod},
+           given={Eamonn\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2ee9644b9267423553b2c9ee226c46b0}{%
+           family={Maini},
+           familyi={M\bibinitperiod},
+           given={Philip\bibnamedelima K},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=ee7c849a58322f9cce84bcf22c14b197}{%
+           family={Seirin-Lee},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={Sungrim},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{4e30024261b48e1e49de24697534e9e2}
+      \strng{fullhash}{c4508ddc9d9bd2f822437c2a399f4a2e}
+      \strng{bibnamehash}{e8a7e4373015bccafbb46639e777f8fa}
+      \strng{authorbibnamehash}{e8a7e4373015bccafbb46639e777f8fa}
+      \strng{authornamehash}{4e30024261b48e1e49de24697534e9e2}
+      \strng{authorfullhash}{c4508ddc9d9bd2f822437c2a399f4a2e}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review E}
+      \field{number}{5}
+      \field{title}{Effects of intrinsic stochasticity on delayed reaction-diffusion patterning systems}
+      \field{volume}{85}
+      \field{year}{2012}
+      \field{pages}{051914}
+      \range{pages}{1}
+    \endentry
+    \entry{bespoke}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e54d50f8c12b6dad7c1086da2e1af825}{%
+           family={Woolley},
+           familyi={W\bibinitperiod},
+           given={Thomas\bibnamedelima E},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=bf0e6ccbadc5c076cd47c8f3e0a34907}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={Andrew\bibnamedelima L},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=81a45e4c4cd8c3f408c04999cd16c75d}{%
+           family={Gaffney},
+           familyi={G\bibinitperiod},
+           given={Eamonn\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2dee4334f9a6f6478c5a303843f60b9f}
+      \strng{fullhash}{2dee4334f9a6f6478c5a303843f60b9f}
+      \strng{bibnamehash}{2dee4334f9a6f6478c5a303843f60b9f}
+      \strng{authorbibnamehash}{2dee4334f9a6f6478c5a303843f60b9f}
+      \strng{authornamehash}{2dee4334f9a6f6478c5a303843f60b9f}
+      \strng{authorfullhash}{2dee4334f9a6f6478c5a303843f60b9f}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of Mathematical Biology}
+      \field{number}{5}
+      \field{title}{Bespoke Turing Systems}
+      \field{volume}{83}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 32}
+      \range{pages}{32}
+    \endentry
+    \entry{yigaffneyli}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9d3365878edf0501ab3d6760281cc5ef}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Fengqi},
+           giveni={F\bibinitperiod}}}%
+        {{hash=81a45e4c4cd8c3f408c04999cd16c75d}{%
+           family={Gaffney},
+           familyi={G\bibinitperiod},
+           given={Eamonn\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ee7c849a58322f9cce84bcf22c14b197}{%
+           family={Seirin-Lee},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={Sungrim},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Mathematical Sciences}%
+      }
+      \strng{namehash}{d064f9b897958a83bca1c595400ad1e8}
+      \strng{fullhash}{d064f9b897958a83bca1c595400ad1e8}
+      \strng{bibnamehash}{d064f9b897958a83bca1c595400ad1e8}
+      \strng{authorbibnamehash}{d064f9b897958a83bca1c595400ad1e8}
+      \strng{authornamehash}{d064f9b897958a83bca1c595400ad1e8}
+      \strng{authorfullhash}{d064f9b897958a83bca1c595400ad1e8}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Discrete \& Continuous Dynamical Systems-B}
+      \field{number}{2}
+      \field{title}{The bifurcation analysis of Turing pattern formation induced by delay and diffusion in the Schnakenberg system}
+      \field{volume}{22}
+      \field{year}{2017}
+      \field{pages}{647}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

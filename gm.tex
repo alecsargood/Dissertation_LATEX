@@ -16,7 +16,7 @@ In this chapter, we introduce two fixed time delay variants of the Gierer-Meinha
 \end{split}\right\}
 \end{equation}
 \end{multicols}
-We note the difference in the two models being the $v$ term in the activator's kinetics. The notation $\hat{u}$ and $\hat{v}$ denote the activator and inhibitor evaluated at some fixed time delay $\tau$, namely $\hat{u}=u(x,t-\tau)$, $\hat{v}=v(x,t-\tau)$. The results in \cite{fadai1,fadai2} showed that an increasing time delay in \eqref{fadai1} acted as a de-stabilising agent, and shrunk the parameter space exhibiting stable spike solutions. In contrast, an increasing time delay incorporated as in \eqref{fadai2} caused an expansion of the stable spike solution parameter regime. In this chapter, we use linear analysis of the spatially homogeneous steady states to examine how an inreasing time delay will effect the Turing space seen for each of these variants. Figure \ref{fig:gmspace} shows the stable and unstable parameter regimes as well as the Turing space for a $\tau=0$. The parameter space considered is $(a,b)\in[0,1]\times[0,4]$, and the steady state for the GM model is given as $(u_\star,v_\star)=\left(\frac{a+1}{b},\left(\frac{a+1}{b}\right)^2\right)$.
+We note the difference in the two models being the $v$ term in the activator's kinetics. The notation $\hat{u}$ and $\hat{v}$ denote the activator and inhibitor evaluated at some fixed time delay $\tau$, namely $\hat{u}=u(x,t-\tau)$, $\hat{v}=v(x,t-\tau)$. The results in \cite{fadai1,fadai2} showed that an increasing time delay in \eqref{fadai1} acted as a de-stabilising agent, and shrunk the parameter space exhibiting stable spike solutions. In contrast, an increasing time delay incorporated as in \eqref{fadai2} caused an expansion of the stable spike solution parameter regime. In this chapter, we use linear analysis of the spatially homogeneous steady states to examine how an increasing time delay will affect the Turing space seen for each of these variants. Figure \ref{fig:gmspace} shows the stable and unstable parameter regimes as well as the Turing space for a $\tau=0$. The parameter space considered is $(a,b)\in[0,1]\times[0,4]$, and the steady state for the GM model is given as $(u_\star,v_\star)=\left(\frac{a+1}{b},\left(\frac{a+1}{b}\right)^2\right)$.
 
 \begin{figure}[H]
     \centering
@@ -101,7 +101,7 @@ The roots of \eqref{characf1} and \eqref{characf2} can thus be solved, and plots
     \centering
     \begin{subfigure}[t]{0.32\textwidth}
         \centering
-        \includegraphics[width=5.5cm,height = 5cm]{f2t0.png}
+        \includegraphics[width=5.5cm,height = 5cm]{f1t0.png}
         \caption{$\tau=0$.}
         \label{}
     \end{subfigure}
@@ -122,81 +122,25 @@ The roots of \eqref{characf1} and \eqref{characf2} can thus be solved, and plots
     \caption{Result for model in \eqref{fadai2}. $\max_k(\Re(\lambda_k))$ plotted for $(a,b)\in[0,1]\times[0,4]$, with varying $\tau$. $\max_k$ taken over over $k\in[0,50]$ for $k\in\mathbb{Z}$. Parameters $\epsilon^2=0.001$ and $L^2=9/2$ used.}
     \label{fig:fad2}
 \end{figure}
-For the model given in \eqref{fadai1}, where analysis in \cite{fadai1} showed an de-stabilisation of the stable spike solution parameter space with an increasing $\tau$, the results in figure \ref{fig:fad1} show a similar result for Turing instabilities. Namely, the Turing space shrinks for increasing $\tau$. Similarly, \cite{fadai2} showed a stabilising effect of increasing $\tau$ on the stable spike solution parameter space for the model in \eqref{fadai2}, and we find an analogous result for the Turing space, as seen in figure \ref{fig:fad2}. On the bifurcation plots, we have indicated $(a,b)$ paramter points that either fall within, or no longer are within, the Turing instability region due to an increasing $\tau$, as predicted by linear theory. For figure \ref{fig:fad1}, this corresponds to $(a,b)=(0.25,1)$, and for \ref{fig:fad2}, $(a,b)=(0.5,3)$. We confirm the predictions from linear theory through numerical solutions, seen in figures \ref{fig:fadlin1} and \ref{fadlin2}.
-\begin{figure}[H]
-    \centering
-    \begin{subfigure}[t]{0.32\textwidth}
-        \centering
-        \includegraphics[width=5cm,height = 4.5cm]{fad1t0.png}
-        \caption{$\tau=0$.}
-        \label{}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[t]{0.32\textwidth}
-        \centering
-        \includegraphics[width=5cm,height = 4.5cm]{fad1t02.png}
-        \caption{$\tau=0.5$.}
-        \label{}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[t]{0.32\textwidth}
-        \centering
-        \includegraphics[width=5cm,height = 4.5cm]{fad1t05.png}
-        \caption{$\tau=0.8$.}
-        \label{}
-    \end{subfigure}
-    \caption{Result for model in \eqref{fadai2}. $\max_k(\Re(\lambda_k))$ plotted for $(a,b)\in[0,1]\times[0,4]$, with varying $\tau$. $\max_k$ taken over over $k\in[0,50]$ for $k\in\mathbb{Z}$. Parameters $\epsilon^2=0.001$ and $L^2=9/2$ used.}
-    \label{fig:fad2}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \begin{subfigure}[t]{0.32\textwidth}
-        \centering
-        \includegraphics[width=5cm,height = 4.5cm]{fad2t0.png}
-        \caption{$\tau=0$.}
-        \label{}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[t]{0.32\textwidth}
-        \centering
-        \includegraphics[width=5cm,height = 4.5cm]{fad2t05.png}
-        \caption{$\tau=0.5$.}
-        \label{}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[t]{0.32\textwidth}
-        \centering
-        \includegraphics[width=5cm,height = 4.5cm]{fad2t08.png}
-        \caption{$\tau=0.8$.}
-        \label{}
-    \end{subfigure}
-    \caption{Result for model in \eqref{fadai2}. $\max_k(\Re(\lambda_k))$ plotted for $(a,b)\in[0,1]\times[0,4]$, with varying $\tau$. $\max_k$ taken over over $k\in[0,50]$ for $k\in\mathbb{Z}$. Parameters $\epsilon^2=0.001$ and $L^2=9/2$ used.}
-    \label{fig:fad2}
-\end{figure}
+For the model given in \eqref{fadai1}, where analysis in \cite{fadai1} showed a de-stabilisation of the stable spike solution parameter space with an increasing $\tau$, the results in figure \ref{fig:fad1} show a similar result for Turing instabilities. Namely, the Turing space shrinks for increasing $\tau$. Similarly, \cite{fadai2} showed a stabilising effect of increasing $\tau$ on the stable spike solution parameter space for the model in \eqref{fadai2}, and we find an analogous result for the Turing space, as seen in figure \ref{fig:fad2}. We note here that in all models considered, namely the LI model, and the two GM model variants, the changing size of the Turing space with an increasing $\tau$ is solely dependent on the movement of the curve produced by considering the homogeneous characteristic equation (when $k=0$). This similarity could suggest a particular mechanism by which stabilising or de-stabilising effects of time delay on the Turing space arise.
 
-
-
-
-
-We note here that in all models considered, namely the LI model, and the two GM model variants, the changing size of the Turing space with an increasing $\tau$ is solely dependent on the movement of the curve produced by considering the homogeneous characteristic equation (when $k=0$). This similarity could suggest a particular mechanism by which stabilisation or de-stabilising effects of time delay on the Turing space arise.
-
-Finally, (LINEAR RELATIONSHIP TIME TO PATTERN)
+Finally, through numerical simulations, we present a linearly increasing relationship between time delay and time-to-pattern for both variants of the GM model. For the model in \eqref{fadai1}, as a result of the shrinking Turing space, we only consider small $\tau\in[0.1,1]$, varied at regular intervals of $0.1$. For the model in \eqref{fadai2}, we consider $\tau\in[1,16]$, varied at regular intervals of $1$. Using a similar methodology to compute time-to-pattern as in Chapter 2, we set an initial perturbation from the steady state as $\sigma_{\text{IC}}=0.01$, and a threshold value of $2$. These larger values were chosen to improve computational time, and should not impact the relationship we see. The figures for the time-to-pattern results for \eqref{fadai1} and \eqref{fadai2} can be seen in \ref{fig:fadlin}, where a linear relationship can be deduced for both models.
 
 \begin{figure}[H]
     \centering
-    \begin{subfigure}[t]{0.45\textwidth}
-        \centering
-        \includegraphics[width=6cm,height = 5cm]{gmlin1.png}
-        \caption{$\tau=0$.}
-        \label{}
-    \end{subfigure}
-    \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
         \includegraphics[width=6cm,height = 5cm]{fad2lin.png}
-        \caption{$\tau=0.5$.}
-        \label{f}
+        \caption{Model given in \eqref{fadai1}. $\tau\in[0.1,1]$ varied at intervals of $0.1$.}
+        \label{}
     \end{subfigure}
-    \caption{Result for model in \eqref{fadai1}. $\max_k(\Re(\lambda_k))$ plotted for $(a,b)\in[0,1]\times[0,4]$, with varying $\tau$. $\max_k$ taken over $k\in[0,50]$ for $k\in\mathbb{Z}$. Parameters $\epsilon^2=0.001$ and $L^2=9/2$ used.}
-    \label{fig:fad1}
+    \hfill
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=6cm,height = 5cm]{gmlin1.png}
+        \caption{Model given in \eqref{fadai2}. $\tau\in[1,16]$ varied at intervals of $1$.}
+        \label{}
+    \end{subfigure}
+    \caption{Time-to-pattern results for the two GM variants given in \eqref{fadai1} and \eqref{fadai2}. Initial random perturbation given with $\sigma_{\text{IC}}=0.01$, and threshold value given as $2$.}
+    \label{fig:fadlin}
 \end{figure}

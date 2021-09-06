@@ -1,8 +1,8 @@
 \chapter{Fixed Delay Model}\label{section:fixdel}
 
-In this chapter, we first revisit the analysis of the LI model through a more careful review of the linear theory presented in \cite{yigaffneyli,jiang}. We aim to analytically determine the effects of a increasing time delay on the Turing space and the time lag to onset of patterning in more detail that currently considered in the literature. Results are also confirmed through full numerical simulations.
+In this chapter, we first revisit the analysis of the LI model through a more careful review of the linear theory presented in \cite{yigaffneyli,jiang}. We aim to analytically determine the effects of an increasing time delay on the Turing space and the time lag to onset of patterning in more detail than currently considered in the literature. Results are also confirmed through full numerical simulations.
 
-We find through bifurcation analysis that an increasing time delay increases the size of the Turing space, resulting in a wider parameter range that can exhibit Turing instabilities. This is a similar result to one produced in \cite{fadai2} using spike solution analysis for the Gierer-Meinhardt model, but not one that has been established for the LI model. We also show that on a small scale, the linear analysis provides a good approximation to the time-to-pattern with an increasing fixed time delay, and in fact the time-to-pattern increases linearly with time delay. The concept of time-to-pattern is one we formalise more rigorously within Section \ref{section:delaypatt}. Using full numerical solutions, we also confirm a linearly increasing relationship between time-to-pattern and time delay on a larger time scale. The literature generally shows that an increasing time delay causes a lag in onset of patterning, however an exact relationship has not yet been formalised.
+We find through bifurcation analysis that an increasing time delay increases the size of the Turing space, resulting in a wider parameter range that can exhibit Turing instabilities. We also show that on a small scale, the linear analysis provides a good approximation to the time-to-pattern with an increasing fixed time delay, and in fact the time-to-pattern increases linearly with time delay. The concept of time-to-pattern is one we formalise more rigorously within Section \ref{section:delaypatt}. Using full numerical solutions, we also confirm this linear relationship on a larger time scale. This linear relationship is not one that has been formalised in the current literature.
 
 \section{Linear Analysis}
 As defined in \eqref{fixed}, the equations we study for the LI model are
@@ -23,7 +23,7 @@ with $\hat{\xi}=\xi(x,t-\tau)$ and $\hat{\eta}=\eta(x,t-\tau)$. Substituting int
 \begin{equation}\label{characfix}
 \mathcal{D}_k=\lambda_k^2+\alpha_k\lambda_k+\beta_k+(\gamma_k\lambda_k+\delta_k)e^{-\lambda_k\tau}=0,
 \end{equation}
-where the coefficients are given as,\footnote{We note the coefficient of $\beta_k$ differs from that of \cite{yigaffneyli} due to a typgraphical error in the cited paper.}
+where the coefficients are given as,\footnote{We note the coefficient of $\beta_k$ differs from that of \cite{yigaffneyli} due to a typographical error in the cited paper.}
 \begin{equation}\label{fixcoeffs}
     \begin{split}
 \alpha_k&=\left(\frac{\epsilon^2}{L^2}+\frac{1}{L^2}\right)k^2\pi^2+u_\star^2+4u_\star v_\star+1,\\
@@ -32,7 +32,7 @@ where the coefficients are given as,\footnote{We note the coefficient of $\beta_
 \delta_k&=-{6}{L^2}u_\star v_\star k^2\pi^2.
 \end{split}
 \end{equation}
-This characteristic equation can be used to determine the parameter sets $(a,b,\epsilon^2,L,\tau)$ in which a Turing instability occurs, and hence where we expect pattern formation. From the linear theory, as indicated in \eqref{perturbgrow}, the perturbation is expected to grow like $e^{\lambda_k t}\cos(k\pi x)$, and so if there exists a $k\neq0$ for a given $(a,b,\epsilon^2,L,\tau)$ such that $\Re(\max_k(\lambda_k))>0$, we expect pattern formation, where the final spatial pattern will look like $cos(k\pi x)$ for the dominating mode $k$. Figure \ref{fig:dispfixed} shows $\max_k(\Re(\lambda_k))$ plotted against $\tau$, for multiple given $(a,b)$ parameter sets. The complex roots for $\lambda_k$ of the characteristic equation were found using the \emph{roots} command of the MATLAB package Chebfun \cite{chebfun}. These plots were produced by varying $k\in\mathbb{Z}$ over $[0,50]$ for a given $\tau$, and for each $k$, the roots of \eqref{characfix} were computed. The maximum over the $k$ of the $\Re(\lambda_k)$ was then taken. This was repeated for time delay varied over $\tau\in[0,1]$ at regular intervals of $0.1$. We do not consider a $k$ larger than $50$ as full numerical solutions for the parameter values used tended towards patterns with four `spikes', so we do expect large wave numbers to be excited.
+This characteristic equation can be used to determine the parameter sets $(a,b,\epsilon^2,L,\tau)$ in which a Turing instability occurs, and hence where we expect pattern formation. From the linear theory, as indicated in \eqref{perturbgrow}, the perturbation is expected to grow like $e^{\lambda_k t}\cos(k\pi x)$, and so if there exists a $k\neq0$ for a given $(a,b,\epsilon^2,L,\tau)$ such that $\max_k(\Re(\lambda_k))>0$, we expect pattern formation, where the final spatial pattern will look like $\cos(k\pi x)$ for the dominating mode $k$. Figure \ref{fig:dispfixed} shows $\max_k(\Re(\lambda_k))$ plotted against $\tau$, for multiple given $(a,b)$ parameter sets. The complex roots for $\lambda_k$ of the characteristic equation were found using the \emph{roots} command of the MATLAB package Chebfun \cite{chebfun}. These plots were produced by varying $k\in\mathbb{Z}$ over $[0,50]$ for a given $\tau$, and for each $k$, the roots of \eqref{characfix} were computed. The maximum over the $k$ of the $\Re(\lambda_k)$ was then taken. This was repeated for time delay varied over $\tau\in[0,1]$ at regular intervals of $0.1$. We do not consider a $k$ larger than $50$ as full numerical solutions for the parameter values used tended towards patterns with four `spikes', so we do not expect large wavenumbers to be excited.
 
 \begin{figure}[H]
     \centering
@@ -52,7 +52,7 @@ This characteristic equation can be used to determine the parameter sets $(a,b,\
     \caption{Characteristic equation \eqref{characfix} solved and $\max_k(\Re(\lambda_k))$ plotted against $\tau\in[0,1]$ for two different parameter sets. $\epsilon^2=0.001$ and $L^2=9/2$.}
     \label{fig:dispfixed}
 \end{figure}
-Figure \ref{fig:dispfixed} suggests that for $(a,b)=(0.4,0.4)$ and $\tau\in[0,1]$, no patterns will form, however, we expect to see pattern formation $(a,b)=(0.1,0.9)$. We also hypothesise that since $\max_k(\Re(\lambda_k))$ at $\tau=0$ is greater than at $\tau=1$, the time taken to pattern formation will be longer at $\tau=1$. This relationship between time-to-pattern and time delay is explored in more detail in section \ref{section:delaypatt}. Numerical results in figures \ref{fig:fixedsim1} and \ref{fig:fixedsim2} verify the findings from figure \ref{fig:dispfixed}, namely that pattern formation does not occur for $(a,b)=(0.4,0.4)$, but does for $(a,b)=(0.1,0.9)$, hence confirming predictions from the linear theory.
+Figure \ref{fig:dispfixed} suggests that for all $\tau\in[0,1]$, pattern formation will not occur for $(a,b)=(0.4,0.4)$, but will occur for $(a,b)=(0.1,0.9)$. We also hypothesise that since $\max_k(\Re(\lambda_k))$ at $\tau=0$ is greater than at $\tau=1$, the time taken to pattern formation will be longer at $\tau=1$. This relationship between time-to-pattern and time delay is explored in more detail in section \ref{section:delaypatt}. Numerical results in figures \ref{fig:fixedsim1} and \ref{fig:fixedsim2} verify the findings from figure \ref{fig:dispfixed}, namely that pattern formation does not occur for $(a,b)=(0.4,0.4)$, but does for $(a,b)=(0.1,0.9)$, hence confirming predictions from the linear theory.
 
 We note that by convention, as explained in section \ref{section:numimp}, the numerical solution of only the activator $u$ is plotted.
 \begin{figure}[H]
@@ -113,7 +113,7 @@ Taking the $\max_k(a)$, a curve can be plotted in the $(a,b)$ parameter space fo
     \begin{subfigure}[t]{0.47\textwidth}
         \centering
         \includegraphics[width=7cm,height = 6cm]{bif0.png}
-        \caption{stability lines for $\tau=0$ computed by solving characteristic equation with $\epsilon^2=0.001$, $L^2=9/2$.}
+        \caption{Stability lines for $\tau=0$ computed by solving characteristic equation with $\epsilon^2=0.001$, $L^2=9/2$.}
         \label{fig:bif0}
     \end{subfigure}
     \hfill
@@ -127,7 +127,7 @@ Taking the $\max_k(a)$, a curve can be plotted in the $(a,b)$ parameter space fo
     \label{fig:tspace1}
 \end{figure}
 
-Figure \ref{fig:tspacetau} shows the stability lines computed for a varying $\tau\in\{0,0.5,1,1.5\}$. It can be seen that, whilst the outer boundary computed from the characteristic equation for the spatially inhomogeneous model stays the same, the inner arc computed from using the characteristic equation from the spatially homogeneous model shifts to the left, increasing the region of parameter space for which Turing instabilities can occur. This observation supports the findings in \cite{william}, where bifurcation analysis for the spatially homogeneous model showed an increase in size of the stable parameter region (corresponding to a shifting of the inner arc), and also a similar result to that observed in \cite{fadai2} for the Gierer-Meinhardt model, where spike solution analysis was conducted. We see that for the LI model, where delay-terms are placed solely in the activator dynamics, time delay acts as a stabilising agent for pattern formation and increases the parameter space where Turing instabilities can occur.
+Figure \ref{fig:tspacetau} shows the stability lines computed for a varying $\tau\in\{0,0.5,1,1.5\}$. It can be seen that, whilst the outer boundary computed from the characteristic equation for the spatially inhomogeneous model stays the same, the inner arc computed from using the characteristic equation from the spatially homogeneous model shifts to the left, increasing the region of parameter space for which Turing instabilities can occur. This observation supports the findings in \cite{william}, where bifurcation analysis for the spatially homogeneous model showed an increase in size of the stable parameter region (corresponding to a shifting of the inner arc). We see that for the LI model, where delay-terms are placed solely in the activator dynamics, time delay acts as a stabilising agent for pattern formation and increases the parameter space where Turing instabilities can occur.
 \begin{figure}[H]
         \centering
         \includegraphics[width=9cm,height = 6cm]{tspacetau.png}
@@ -217,7 +217,7 @@ The parameter region in the bottom left of the parameter space is a delicate reg
         \caption{$\tau=1.5$.}
         \label{}
     \end{subfigure}
-    \caption{Numerical simulations of \eqref{fixed2} for $(a,b)=(1.2,1.85)$. $\epsilon^2=0.001$ and $L^2=9/2$. Boundary conditions given by \eqref{neumannbc} and initial conditions by \eqref{firstic}. We see pattern formation on an increasing time-scale for $\tau\in\{0,1.5\}$ as suggested by linear theory, seen in figure \ref{fig:tspacetau}. Increasing time-scale seen from changing $x$-axis limits. Results for $\tau=0.5,1$ can be seen in Appendix \ref{section:appB}.}
+    \caption{Numerical simulations of \eqref{fixed2} for $(a,b)=(1.2,1.85)$. $\epsilon^2=0.001$ and $L^2=9/2$. Boundary conditions given by \eqref{neumannbc} and initial conditions by \eqref{firstic}. We see pattern formation on an increasing timescale for $\tau\in\{0,1.5\}$ as suggested by linear theory, seen in figure \ref{fig:tspacetau}. Results for $\tau=0.5,1$ can be seen in Appendix \ref{section:appB}.}
     \label{fig:testturing3}
 \end{figure}
 
@@ -290,11 +290,11 @@ As $\tau$ increases, it can be seen that the absolute value $|\max_k(\Re((\lambd
     \label{fig:fixbif2}
 \end{figure}
 \section{Investigation of Variation in Initial and Boundary Conditions}
-In this section, the robustness of the results obtained in \cite{gaffmonk} are examined numerically under varying of initial conditions and boundary conditions. We first consider the sensitivity of pattern formation in the context of fixed time delay to varying initial conditions. Three different sets of initial conditions are considered. $\text{IC}_1$ corresponds to the initial conditions used in \cite{gaffmonk}. The functional form of $\text{IC}_1$ can be found in appendix \ref{section:appA}. $\text{IC}_2$ denotes the same initial conditions defined in \eqref{firstic}, and $\text{IC}_3$ are the initial conditions given by
+In this section, the robustness of the results obtained in \cite{gaffmonk} are examined numerically under varying of initial conditions and boundary conditions. We first consider the sensitivity of pattern formation in the context of a fixed time delay to varying initial conditions. Three different sets of initial conditions are considered. $\text{IC}_1$ corresponds to the initial conditions used in \cite{gaffmonk}. The functional form of $\text{IC}_1$ can be found in Appendix \ref{section:appA}. $\text{IC}_2$ denotes the same initial conditions defined in \eqref{firstic}, and $\text{IC}_3$ are the initial conditions given by
 \begin{equation}\label{ic3}
 \text{IC}_3:\quad\quad\quad\begin{pmatrix}u_0\\v_0\end{pmatrix}=\begin{pmatrix}u_\star(1+r)\\v_\star(1+r)\end{pmatrix}\quad r\sim\mathcal{N}\left(0,0.1^2\right).
 \end{equation}
-We note that computationally a fixed random seed was set. The model parameters used match those used in \cite{gaffmonk}, with $(a,b)=(0.1,0.9)$. The results in figures \ref{fig:figtau0}, \ref{fig:figtau1}, \ref{fig:figtau2}, \ref{fig:figtau4}, \ref{fig:figtau8}, and \ref{fig:figtau16} show the pattern formation observed for each of the initial conditions for varying fixed time delay $\tau\in\{0,1,2,4,8,16 \}$. This range of time delays was motivated from those used in \cite{gaffmonk}.
+We note that computationally a fixed random seed was set. The model parameters used match those used in \cite{gaffmonk}, with $(a,b)=(0.1,0.9)$. The results in figures \ref{fig:figtau0}, \ref{fig:figtau1}, \ref{fig:figtau2}, \ref{fig:figtau4}, \ref{fig:figtau8}, and \ref{fig:figtau16} show the pattern formation observed for each of the initial conditions for varying fixed time delay $\tau\in\{0,1,2,4,8,16 \}$. This range of time delays was motivated by those used in \cite{gaffmonk}.
 
 \begin{figure}[H]
     \centering
@@ -448,11 +448,11 @@ We note that computationally a fixed random seed was set. The model parameters u
     \label{fig:figtau16}
 \end{figure}
 
-It can be seen that the final pattern is sensitive to the choice of initial conditions, and that, intuitively, the larger $\sigma_{\text{IC}}$ used in $\text{IC}_3$, compared to that of $\text{IC}_2$ results in a faster onset of pattern formation. We see from considering the timescales as to which pattern formation occurs however, that although the time taken until onset of patterning varies with different initial conditions, the increase in time-to-pattern with an increasing time delay is consistent independent of the initial conditions chosen. By considering the varying $x$-axis, we also note that in each case, this relationship seems to be linear. We formalise this in section \ref{section:delaypatt}.
+It can be seen that the final pattern is sensitive to the choice of initial conditions, and that, intuitively, the larger $\sigma_{\text{IC}}$ used in $\text{IC}_3$, compared to that of $\text{IC}_2$, results in a faster onset of pattern formation. We see from considering the timescales as to which pattern formation occurs however, that although the time taken until onset of patterning varies with different initial conditions, the increase in time-to-pattern with an increasing time delay is consistent independent of the initial conditions chosen. By considering the varying $x$-axis, we also note that in each case, this relationship seems to be linear. We formalise this in section \ref{section:delaypatt}.
 
-Numerical results were also simulated to study the effects of a temporal variation in the history function. A history function was set as $h(t)=u_\star(1+r\sin(\omega t))$ for $t\in[-\tau,0)$, where $r$ is the random variable used in $\text{IC}_2$. Simulations were conducted for varying $\tau$ and $\omega$. Preliminary simulations, which can be found in appendix \ref{section:appB}, show that this type of variation in history does not have a significant effect on the results seen.
+Numerical results were also simulated to study the effects of a temporal variation in the history function. A history function was set as $h(t)=u_\star(1+r\sin(\omega t))$ for $t\in[-\tau,0)$, where $r$ is the random variable used in $\text{IC}_2$. Simulations were conducted for varying $\tau$ and $\omega$. Preliminary simulations, which can be found in Appendix \ref{section:appB}, show that this type of variation in history does not have a significant effect on the results seen.
 
-Finally, we consider the effect of varying boundary conditions. Motivated from the analysis in \cite{krausemixed}, homogeneous Dirichlet boundary conditions are implemented for the activator term, and homogeneous Neumann boundary conditions implemented for the inhibitor term. Thus, we have that, on the boundaries of the domain $\Omega=[0,1]$,
+Finally, we consider the effect of varying boundary conditions. motivated by the analysis in \cite{krausemixed}, homogeneous Dirichlet boundary conditions are implemented for the activator term, and homogeneous Neumann boundary conditions implemented for the inhibitor term. Thus, we have that, on the boundaries of the domain $\Omega=[0,1]$,
 \begin{equation}\label{homogeneousbc}
 u=\frac{\partial v}{\partial t}=0 \quad x=0, 1.
 \end{equation}
@@ -502,14 +502,14 @@ We note that, although changing the boundary conditions for the activator term $
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=4.5cm]{ic216.png}
+        \includegraphics[width=6cm,height=4.5cm]{ic216.png}
         \caption{$\text{BC}_1$ given by equation \eqref{neumannbc}.}
         \label{}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
-        \includegraphics[width=7cm,height=4.5cm]{bc16.png}
+        \includegraphics[width=6cm,height=4.5cm]{bc16.png}
         \caption{$\text{BC}_2$ given by equation \eqref{homogeneousbc}.}
         \label{}
     \end{subfigure}
@@ -519,7 +519,7 @@ We note that, although changing the boundary conditions for the activator term $
 
 \section{Relationship Between Time-To-Pattern and Time Delay}\label{section:delaypatt}
 
-We aim to show that, for small $\tau$ and small $L$, the linear theory provides a good approximation to the time taken until pattern formation occurs, and in fact, the relationship between $\tau$ and time-to-pattern under these conditions is linear. We also show that, through full numerical solutions, the relationship between $\tau$ and time-to-pattern on a longer time-scale for larger $\tau$ is also linear. We first consider the former.
+We aim to show that, for small $\tau$ and small $L$, the linear theory provides a good approximation to the time taken until pattern formation occurs, and in fact, the relationship between $\tau$ and time-to-pattern under these conditions is linear. We also show that, through full numerical solutions, the relationship between $\tau$ and time-to-pattern on a longer timescale for larger $\tau$ is also linear. We first consider the former.
 
 To minimise the effect of nonlinearity in the dynamics, we restrict the domain size to $L^2=1/5$. Shrinking the domain results in fewer unstable modes and thus less competition for the dominant mode, resulting in a better approximation of the linear theory. This finite size effect can be seen in figure \ref{fig:compardisp}, where $\Re(\lambda_k)$ is plotted against $k$ for two different domain sizes, for a given $(a,b,\tau)$. Due to numerical restrictions when using Chebfun in finding roots of the characteristic equation \eqref{characfix}, only $\tau\leq1.6$ is considered. Taking a small perturbation in the activator term, $\xi(x,t)$, such that $\xi(x,0)=ru_\star$, where $r$ is a small Gaussian random variable, $r\sim\mathcal{N}\left(0,\sigma_{\text{IC}}^2\right)$,
 for some standard deviation of the initial perturbation $\sigma_{\text{IC}}$.
@@ -600,7 +600,7 @@ We use `true' time-to-pattern here to mean the time taken for a perturbation to 
     \label{}
 \end{figure}
 
-Finally, through full numerical solutions, we show a linear relationship between $\tau$ and time-to-pattern on a longer time-scale. Varying $\tau\in[1,16]$ at regular intervals of $1$, for two different parameter sets $(a,b)=\{(0.1,0.9),(0.4,0.8)\}$, we compute the time taken for a perturbation to grow up to a threshold value $0.1$, from a $\sigma_{\text{IC}}=10^{-5}$, and plot the results. The results can be seen in figure \ref{fig:linperturb1}, and a linearly increasing relationship can be seen. In order to check this claim further, numerical simulations were also run with a threshold value $2$, from a $\sigma_{\text{IC}}=0.01$. The results for this can be found in Appendix \ref{section:appB}, where a linear relationship can also be seen.
+Finally, through full numerical solutions, we show a linear relationship between $\tau$ and time-to-pattern on a longer timescale. Varying $\tau\in[1,16]$ at regular intervals of $1$, for two different parameter sets $(a,b)=\{(0.1,0.9),(0.4,0.8)\}$, we compute the time taken for a perturbation to grow up to a threshold value $0.1$, from a $\sigma_{\text{IC}}=10^{-5}$, and plot the results. The results can be seen in figure \ref{fig:linperturb1}, and a linearly increasing relationship can be seen. In order to check this claim further, numerical simulations were also run with a threshold value $2$, from a $\sigma_{\text{IC}}=0.01$. The results for this can be found in Appendix \ref{section:appB}, where a linear relationship can also be seen.
 \begin{figure}[H]
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
@@ -639,11 +639,11 @@ Finally, through full numerical solutions, we show a linear relationship between
 %    \label{fig:linperturb2}
 %\end{figure}
 
-The results show that, on a smaller time scale, smaller spatial domain, and smaller time delay, the linear theory provides a good approximation of the time-to-pattern compared to full numerical solutions. The full numerical simulations also strongly suggest that there is a linearly increasing relationship between time delay and time-to-pattern.
+The results show that, on a smaller time scale, smaller spatial domain, and with smaller time delay, the linear theory provides a good approximation of the time-to-pattern compared to full numerical solutions. The full numerical simulations also strongly suggest that there is a linearly increasing relationship between time delay and time-to-pattern.
 \section{Summary}
 
 In this chapter, we presented the biological motivation for studying the LI variant of the Schnakenberg model with incorporated fixed delay.
 
-Linear theory suggested that for the LI model, time delay can act as a stabilising agent for Turing instabilities, increasing the parameter region where Turing instabilities can occur. Through both linear analysis on a small scale, and full numerical solutions on a larger scale, a linear relationship between time delay and time-to-pattern was presented. Additionally, an increasing delay was shown to, depending on the $(a,b)$ parameters chosen, increase the time taken for pattern formation to occur, or increase the time taken for perturbations to fully decay.
+The linear theory suggested that for the LI model, time delay can act as a stabilising agent for Turing instabilities, increasing the parameter region where Turing instabilities can occur. Through both linear analysis on a small scale, and full numerical solutions on a larger scale, a linearly increasing relationship between time delay and time-to-pattern was presented.
 
 Numerical results in this chapter were also systematically tested with a varying of initial and boundary conditions, and a temporal variation in the history function. Simulations suggested that the increase in time-to-pattern with an increase in delay is robust to these variations. We therefore look for ways to remedy the problems caused by a fixed delay. Considering the complexity and stochastic nature of pattern formation on a cellular level leads us to consider modelling the time delay as a distribution, which we consider in the next chapter.
