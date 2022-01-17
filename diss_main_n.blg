@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'diss_main_n.blg'
-[84] biber-darwin:322> INFO - === Sun Sep  5, 2021, 21:33:43
-[105] Biber.pm:415> INFO - Reading 'diss_main_n.bcf'
-[217] Biber.pm:943> INFO - Found 51 citekeys in bib section 0
-[231] Biber.pm:4256> INFO - Processing section 0
-[231] Utils.pm:75> INFO - Globbing data source 'bibliographydiss_n.bib'
-[232] Utils.pm:91> INFO - Globbed data source 'bibliographydiss_n.bib' to bibliographydiss_n.bib
-[244] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographydiss_n.bib' for section 0
-[247] bibtex.pm:1653> INFO - LaTeX decoding ...
-[324] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographydiss_n.bib'
-[654] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[654] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[654] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[654] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[713] bbl.pm:652> INFO - Writing 'diss_main_n.bbl' with encoding 'UTF-8'
-[738] bbl.pm:755> INFO - Output to diss_main_n.bbl
+[96] biber-darwin:322> INFO - === Mon Sep  6, 2021, 14:35:05
+[118] Biber.pm:415> INFO - Reading 'diss_main_n.bcf'
+[236] Biber.pm:943> INFO - Found 51 citekeys in bib section 0
+[251] Biber.pm:4256> INFO - Processing section 0
+[252] Utils.pm:75> INFO - Globbing data source 'bibliographydiss_n.bib'
+[252] Utils.pm:91> INFO - Globbed data source 'bibliographydiss_n.bib' to bibliographydiss_n.bib
+[264] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliographydiss_n.bib' for section 0
+[267] bibtex.pm:1653> INFO - LaTeX decoding ...
+[349] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliographydiss_n.bib'
+[706] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[706] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[706] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[706] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[765] bbl.pm:652> INFO - Writing 'diss_main_n.bbl' with encoding 'UTF-8'
+[790] bbl.pm:755> INFO - Output to diss_main_n.bbl

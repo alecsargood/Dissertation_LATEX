@@ -1,5 +1,5 @@
 \chapter{Distributed Delay Model}\label{section:distdel}
-A systematic study of distributed delay in the context of Turing instabilities is extremely sparse in the current literature, with little to no systematic analysis of Turing pattern formation in reaction-diffusion systems with distributed delay, \tb{in the context of developmental biology.} As far as we, there has been no previous work carried out looking at the Schnakenberg model with incorporated distributed delay. In this chapter, we consider the LI model with time delay modelled as a (skewed) truncated Gaussian distribution. We begin this chapter by outlining the quadrature rule we use to numerically evaluate the integral term in the model \eqref{distmodel}. The linear analysis conducted for the fixed delay case is then extended to the distributed delay model, and we look to show analytically that for small mean time delay $\tau$, using either a symmetric or skewed truncated Gaussian distribution does not have a qualitative difference on the results seen, and thus does not \tb{change} some of the key problems highlighted in the fixed delay case. These findings are verified through numerical simulations. We also conclude the same results for a larger mean time delay $\tau$ using full numerical solutions.
+A systematic study of distributed delay in the context of Turing instabilities is extremely sparse in the current literature, with little to no systematic analysis of Turing pattern formation in reaction-diffusion systems with distributed delay, in the context of developmental biology. As far as we are aware of, there has been no previous work carried out looking at the Schnakenberg model with incorporated distributed delay. In this chapter, we consider the LI model with time delay modelled as a (skewed) truncated Gaussian distribution. We begin this chapter by outlining the quadrature rule we use to numerically evaluate the integral term in the model \eqref{distmodel}. The linear analysis conducted for the fixed delay case is then extended to the distributed delay model, and we look to show analytically that for small mean time delay $\tau$, using either a symmetric or skewed truncated Gaussian distribution does not have a qualitative difference on the results seen, and thus does not change some of the key problems highlighted in the fixed delay case. These findings are verified through numerical simulations. We also conclude the same results for a larger mean time delay $\tau$ using full numerical solutions.
 \section{Composite Simpson's Rule}\label{section:quad}
 
 The LI model with distributed time delay, as defined in \eqref{distmodel}, is given by
@@ -19,7 +19,7 @@ where $h$ is computed as $h=\frac{b-a}{N}$. We use the notation $\hat{u}_j$ and 
 \section{A Symmetric Distribution}\label{section:symmetric}
 \subsection{Introduction}
 
-\tb{As implemented in} \cite{william}, by assuming each individual mechanism within the gene expression process \tb{occurs} independently and identically, we use the central limit theorem to model the delay as a symmetric Gaussian distribution with parameters $\textbf{p}=(\tau,\sigma)$, for some mean $\tau$ and standard deviation $\sigma$. Throughout Section \ref{section:symmetric}, we use integration limits $a=\tau-n\sigma$ and $b=\tau+n\sigma$ for some $n\in\mathbb{N}$, such that $a=\tau-n\sigma>0$. We can thus write the LI model with distributed time delay as
+As implemented in \cite{william}, by assuming each individual mechanism within the gene expression process occurs independently and identically, we use the central limit theorem to model the delay as a symmetric Gaussian distribution with parameters $\textbf{p}=(\tau,\sigma)$, for some mean $\tau$ and standard deviation $\sigma$. Throughout Section \ref{section:symmetric}, we use integration limits $a=\tau-n\sigma$ and $b=\tau+n\sigma$ for some $n\in\mathbb{N}$, such that $a=\tau-n\sigma>0$. We can thus write the LI model with distributed time delay as
 \begin{equation}\label{symmod}
     \begin{split}
         \frac{\partial u}{\partial t}&=\frac{\epsilon^2}{L^2}\frac{\partial^u}{\partial x^2}+a-u-2u^2v+3\int_{\tau-n\sigma}^{\tau+n\sigma}k(s;\tau,\sigma)\hat{u}^2\hat{v}\ \text{d}s,\\
@@ -38,7 +38,7 @@ with $\phi(x)$ the cdf of the (symmetric) standard Gaussian distribution. This i
 \begin{equation}\label{phi}
     \phi(x)=\frac{1}{2}\left(1+\text{erf}\left(\frac{x}{\sqrt{2}}\right)\right),
 \end{equation}
-\tb{where $\text{erf}(x)$ denotes the error function \footnote{The error function is given by $\text{erf}(x)=\frac{2}{\sqrt{\pi}}\int_0^xe^{-z^2}\ dz$.}}. Throughout this section we use $n=3$ so that the integration limits are $a=\tau-3\sigma$ and $b=\tau+3\sigma$. This was chosen so that a relatively large $\sigma$ value could be used for each $\tau$ while maintaining $a>0$. For each $\tau$ value, a maximum $\sigma$ value can be computed such that $a=\tau-3\sigma\geq0$ as $\sigma_{\max}=\frac{\tau}{3}$. By setting $\sigma<\sigma_{\max}$, we ensure that the integration domain strictly considers positive time delays only.
+where $\text{erf}(x)$ denotes the error function \footnote{The error function is given by $\text{erf}(x)=\frac{2}{\sqrt{\pi}}\int_0^xe^{-z^2}\ dz$.}. Throughout this section, we use $n=3$ so that the integration limits are $a=\tau-3\sigma$ and $b=\tau+3\sigma$. This was chosen so that a relatively large $\sigma$ value could be used for each $\tau$ while maintaining $a>0$. For each $\tau$ value, a maximum $\sigma$ value can be computed such that $a=\tau-3\sigma\geq0$ as $\sigma_{\max}=\frac{\tau}{3}$. By setting $\sigma<\sigma_{\max}$, we ensure that the integration domain strictly considers positive time delays only.
 
 Figures \ref{fig:pdf1} and \ref{fig:pdf2} show the pdf of a truncated Gaussian distribution centred at a mean $\tau=1,2$ with varying $\sigma$ values as fractions of $\sigma_{\max}$.
 
@@ -47,17 +47,17 @@ Figures \ref{fig:pdf1} and \ref{fig:pdf2} show the pdf of a truncated Gaussian d
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
         \includegraphics[width=7cm,height=4.5cm]{t1sig1.png}
-        \caption{Truncated Gaussian distribution following $\mathcal{N}(1,(\sigma_{\max}\times0.99)^2)$, \tb{with $\sigma=\sigma_{\max}\times0.99=0.33 (2 d.p.)$}}
+        \caption{Truncated Gaussian distribution following $\mathcal{N}(1,(\sigma_{\max}\times0.99)^2)$, with $\sigma=\sigma_{\max}\times0.99=0.33$, to 2 decimal places.}
         \label{}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
         \includegraphics[width=7cm,height=4.5cm]{t1sig2.png}
-        \caption{Truncated Gaussian distribution following $\mathcal{N}(1,(\sigma_{\max}\times0.1)^2)$, \tb{with $\sigma=\sigma_{\max}\times0.1=0.03 (2 d.p.)$}}
+        \caption{Truncated Gaussian distribution following $\mathcal{N}(1,(\sigma_{\max}\times0.1)^2)$, with $\sigma=\sigma_{\max}\times0.1=0.03$, to 2 decimal places.}
         \label{}
     \end{subfigure}
-\caption{PDF of truncated symmetric Gaussian distribution with mean $\tau=1$ and integration domain $[1-3\sigma,1+3\sigma]$. \tb{For $\tau=1$, $\sigma_{\max}=1/3$.}}
+\caption{PDF of truncated symmetric Gaussian distribution with mean $\tau=1$ and integration domain $[1-3\sigma,1+3\sigma]$. For $\tau=1$, $\sigma_{\max}=1/3$.}
 \label{fig:pdf1}
 \end{figure}
 \begin{figure}[H]
@@ -65,28 +65,28 @@ Figures \ref{fig:pdf1} and \ref{fig:pdf2} show the pdf of a truncated Gaussian d
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
         \includegraphics[width=7cm,height=4.5cm]{t2sig1.png}
-        \caption{Truncated Gaussian distribution following $\mathcal{N}(2,(\sigma_{\max}\times0.99)^2)$, \tb{with $\sigma=\sigma_{\max}\times0.99=0.66 (2 d.p.)$}}
+        \caption{Truncated Gaussian distribution following $\mathcal{N}(2,(\sigma_{\max}\times0.99)^2)$, with $\sigma=\sigma_{\max}\times0.99=0.66$, to 2 decimal places.}
         \label{}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.45\textwidth}
         \centering
         \includegraphics[width=7cm,height=4.5cm]{t2sig2.png}
-        \caption{Truncated Gaussian distribution following $\mathcal{N}(2,(\sigma_{\max}\times0.1)^2)$, \tb{with $\sigma=\sigma_{\max}\times0.1=0.07 (2 d.p.)$}}
+        \caption{Truncated Gaussian distribution following $\mathcal{N}(2,(\sigma_{\max}\times0.1)^2)$, with $\sigma=\sigma_{\max}\times0.1=0.07 $, to 2 decimal places.}
         \label{}
     \end{subfigure}
-    \caption{PDF of symmetric truncated Gaussian distribution with mean $\tau=2$ and integration domain $[2-3\sigma,2+3\sigma]$. \tb{For $\tau=2$, $\sigma_{\max}=2/3$.}}
+    \caption{PDF of symmetric truncated Gaussian distribution with mean $\tau=2$ and integration domain $[2-3\sigma,2+3\sigma]$. For $\tau=2$, $\sigma_{\max}=2/3$.}
     \label{fig:pdf2}
 \end{figure}
 We see that $\sigma$ is responsible for scaling on the $x$-axis, while the truncation constant $\Phi_c$, defined in \eqref{distmodel}, scales the $y$-axis, ensuring the pdf integrates to $1$ across the integration domain. Throughout Chapter \ref{section:distdel}, the number of sub-intervals $N$ was chosen to be $N=50$ for the implementation of the quadrature rule applied to the distribution of delay (for both symmetric and skewed distributions). The consideration for such a choice involves both quadrature accuracy and computational efficiency. In this section, we present results obtained in testing the quadrature rule, to show that $N=50$ is a sufficiently large choice. We apply the quadrature to two test integrals: the first is the truncated Gaussian pdf $k(s;\tau,\sigma)$, which should analytically integrate to $1$. For the second test, we apply the quadrature rule to both a spatially and temporally dependent integral
 \begin{equation}\label{testint}
-\int_a^bk(s;\tau,\sigma)\tb{\mathcal{F}}(x,t-s)\ \text{d}s,
+\int_a^bk(s;\tau,\sigma)\mathcal{F}(x,t-s)\ \text{d}s,
 \end{equation}
-where $\tb{\mathcal{F}}(x,t)=xt$. This can be explicitly evaluated as
+where $\mathcal{F}(x,t)=xt$. This can be explicitly evaluated as
 
 \begin{equation}
     \begin{split}
-&\int_a^bk(s;\tau,\sigma)\tb{\mathcal{F}}(x,t-s)\ \text{d}s=xt\int_a^bk(s;\tau,\sigma)\ \text{d}s-x\int_a^bk(s;\tau,\sigma)s\ \text{d}s\\&=xt\left[\frac{\Phi_c}{2}\text{erf}\left(\frac{s-\tau}{\sqrt{2}\sigma}\right)\right]\bigg|_a^b-x\left[\frac{\Phi_c}{2}\text{erf}\left(\frac{s-\tau}{\sqrt{2}\sigma}\right)-\frac{\Phi_c\sigma}{\sqrt{2\pi}}\exp\left(-\frac{1}{2}\left(\frac{s-\tau}{\sigma}\right)^2 \right)\right]\Bigg|_a^b.
+&\int_a^bk(s;\tau,\sigma)\mathcal{F}(x,t-s)\ \text{d}s=xt\int_a^bk(s;\tau,\sigma)\ \text{d}s-x\int_a^bk(s;\tau,\sigma)s\ \text{d}s\\&=xt\left[\frac{\Phi_c}{2}\text{erf}\left(\frac{s-\tau}{\sqrt{2}\sigma}\right)\right]\bigg|_a^b-x\left[\frac{\Phi_c}{2}\text{erf}\left(\frac{s-\tau}{\sqrt{2}\sigma}\right)-\frac{\Phi_c\sigma}{\sqrt{2\pi}}\exp\left(-\frac{1}{2}\left(\frac{s-\tau}{\sigma}\right)^2 \right)\right]\Bigg|_a^b.
     \end{split}
 \end{equation}
 
@@ -130,11 +130,11 @@ Looking for non-trivial solutions, we look for roots of the characteristic equat
 \begin{equation}\label{characdist}
   \mathcal{D}_k=\lambda_k^2+\alpha_k\lambda_k+\beta_k+(\gamma_k\lambda_k+\delta_k)E_k=0,
 \end{equation}
-\tb{where $\alpha_k,\beta_k,\gamma_k,\delta_k$ are the same as those given in \eqref{fixcoeffs}.} Finally, we note that the expression $E_k$ can be evaluated explicitly as
+where $\alpha_k,\beta_k,\gamma_k,\delta_k$ are the same as those given in \eqref{fixcoeffs}. Finally, we note that the expression $E_k$ can be evaluated explicitly as
 \begin{equation}
 E_k=\int_a^bk(s;\tau,\sigma)e^{-\lambda_k s}\ \text{d}s=\frac{\Phi_c}{2}\left[\exp\left(\frac{\lambda_k(\lambda_k\sigma^2-2\tau)}{2}\right) \text{erf} \left(\frac{\lambda_k\sigma^2+s-\tau}{\sqrt{2}\sigma}\right)\right]\Bigg|_a^b.
 \end{equation}
-The characteristic equation \eqref{characdist} cannot trivially be split into its real and imaginary components, due to the error function term in $E_k$, as was done in the fixed delay case. We therefore cannot explicitly compute the stability lines in $(a,b)$ parameter space. We can however range over $(a,b)$ and compute $\max_k(\Re(\lambda_k))$ for different $\tau$, and produce plots similar to those in Figures \ref{fig:dispfixed} and \ref{fig:lambdavary}. We use these plots to \tb{semi}-analytically \tb{show} that, using a symmetric Gaussian distribution centred at mean $\tau$ will not change the time-to-pattern seen for a fixed delay of $\tau$, independent of the standard deviation of the distribution $\sigma$. We first plot $\max_k(\Re(\lambda_k))$ against $\tau$, as seen analogously in Figure \ref{fig:dispfixed} for the fixed delay case, for multiple parameters $(a,b,\tau,\sigma)$, and compare these to the fixed delay case.
+The characteristic equation \eqref{characdist} cannot trivially be split into its real and imaginary components, due to the error function term in $E_k$, as was done in the fixed delay case. We therefore cannot explicitly compute the stability lines in $(a,b)$ parameter space. We can however range over $(a,b)$ and compute $\max_k(\Re(\lambda_k))$ for different $\tau$, and produce plots similar to those in Figures \ref{fig:dispfixed} and \ref{fig:lambdavary}. We use these plots to semi-analytically show that using a symmetric Gaussian distribution centred at mean $\tau$ will not change the time-to-pattern seen for a fixed delay of $\tau$, independent of the standard deviation of the distribution $\sigma$. We first plot $\max_k(\Re(\lambda_k))$ against $\tau$, as seen analogously in Figure \ref{fig:dispfixed} for the fixed delay case, for multiple parameters $(a,b,\tau,\sigma)$, and compare these to the fixed delay case.
 
 Figures \ref{fig:p2} and \ref{fig:p3} show $\max_k(\Re(\lambda_k))$ plotted against $\tau\in[0,1]$ for two different parameter sets $(a,b)=\{(0.1,0.9), (0.4,0.4)\}$, for the fixed delay case. For each parameter set, dispersion curves were computed with different $\sigma$ values as a fraction of $\sigma_{\max}$, and the absolute value of the difference between $\max_k(\Re(\lambda_k))$ for each distributed delay case compared with the fixed delay case is plotted. We note that in the distributed delay case,  $\sigma_{\max}$, and thus the integration limits both change as functions of $\tau$.
 
@@ -177,7 +177,7 @@ Figures \ref{fig:p2} and \ref{fig:p3} show $\max_k(\Re(\lambda_k))$ plotted agai
     \label{fig:p3}
 \end{figure}
 
-Figures \ref{fig:p2} and \ref{fig:p3} show that the largest difference in $\max_k(\Re(\lambda_k))$ occurs when the largest $\sigma$ value is used. The results also suggest that for all $\sigma$ and $\tau\in[0,1]$ considered, that we expect to see pattern formation for $(a,b)=(0.1,0.9)$, but not for $(a,b)=(0.4,0.4)$. We note that that largest absolute difference in $\max_k(\Re(\lambda_k))$ across both parameter sets is of $O(10^{-3})$. This is an extremely small difference and is thus unlikely to make a qualitative difference on the rate of growth of a perturbation, and thus time-to-pattern. We verify these observations numerically in section \ref{section:distsim}.
+Figures \ref{fig:p2} and \ref{fig:p3} show that the largest difference in $\max_k(\Re(\lambda_k))$ occurs when the largest $\sigma$ value is used. The results also suggest that for all $\sigma$ and $\tau\in[0,1]$ considered, that we expect to see pattern formation for $(a,b)=(0.1,0.9)$, but not for $(a,b)=(0.4,0.4)$. We note that the largest absolute difference in $\max_k(\Re(\lambda_k))$ across both parameter sets is of $O(10^{-3})$. This is an extremely small difference and is thus unlikely to make a qualitative difference on the rate of growth of a perturbation, and thus time-to-pattern. We verify these observations numerically in section \ref{section:distsim}.
 
 In order to consider how $\max_k(\Re(\lambda_k))$ varies across a larger parameter plane as $\sigma$ is varied, we consider the absolute difference of $\max_k(\Re(\lambda_k))$ for varying $\sigma$ values as a fraction of $\sigma_{\max}$, for multiple $\tau$, against the fixed delay case, for $\epsilon^2=0.001,0.01$. For each $(\tau,\epsilon^2)$, bifurcation plots were computed for the distributed delay case with varying $\sigma\in\{\sigma_{\max}\times0.99,\sigma_{\max}\times0.2,\sigma_{\max}\times0.1\}$. For each $(\tau,\epsilon^2)$, we consider the absolute difference of $\max_k(\Re(\lambda_k))$ between each distributed delay case and the fixed delay case, across the $(a,b)$ parameter space. These results are summarised in table \ref{tab:tab1}. The bifurcation diagrams of $\max_k(\Re(\lambda_k))$ across the $(a,b)$ space can be found in Appendix \ref{section:Bfix}
 % \begin{figure}[H]
@@ -218,7 +218,7 @@ In order to consider how $\max_k(\Re(\lambda_k))$ varies across a larger paramet
 % \end{figure}
 
 Observing the results in Table \ref{tab:tab1}, the largest absolute difference in $\max_k(\Re(\lambda_k))$ for all $\sigma$, $\tau$ and $\epsilon^2$ considered across the parameter space $(a,b)\in[0,1.4]\times[0,2]$ is $O(10^{-3})$. We therefore expect that for all $(a,b)\in[0,1.4]\times[0,2]$,
-using a symmetric Gaussian distribution centred at some mean $\tau$ (for small $\tau$) will not significantly effect the time-taken until pattern formation compared to the fixed delay case, independent of the standard deviation $\sigma$ of the distribution. \tb{Absolute differences were considered rather than relative differences to avoid catastrophic cancelling.}
+using a symmetric Gaussian distribution centred at some mean $\tau$ (for small $\tau$) will not significantly affect the time-taken until pattern formation compared to the fixed delay case, independent of the standard deviation $\sigma$ of the distribution. Absolute differences were considered rather than relative differences to avoid catastrophic cancelling.
 
 \begin{table}[H]
 \centering
@@ -235,7 +235,7 @@ $\epsilon^2=0.01$  & \textbf{$\tau=0.5$} & \textbf{$0.0076$}                  & 
 \end{table}
 
 \subsection{Numerical Results}\label{section:distsim}
-Numerical simulations are shown here to verify the linear theory presented in section \ref{section:distlin} \tb{and to explore quantitative impacts of distributed delay beyond where the linear theory is valid.} We first confirm that the results obtained in Figures \ref{fig:p2} and \ref{fig:p3} are accurate, namely that we find pattern formation for $(a,b)=(0.1,0.9)$ but not for $(a,b)=(0.4,0.4)$, independent of the $\tau\in[0,1]$ and $\sigma$ values considered. We also verify our main result, that modelling time delay as a symmetric Gaussian distribution will not quantitatively change the results seen from that of a fixed delay, independent of the $\sigma$ used. Figures \ref{fig:testdist1} and \ref{fig:testdist2} show the numerical solutions for $(a,b)=\{(0.1,0.9),(0.4,0.4)\}$ for $\tau=1$ and varying $\sigma$. Further numerical results with different $\tau$ and $\sigma$ values can be found in Appendix \ref{section:appB}.
+Numerical simulations are shown here to verify the linear theory presented in section \ref{section:distlin} and to explore the quantitative impacts of distributed delay beyond where the linear theory is valid. We first confirm that the results obtained in Figures \ref{fig:p2} and \ref{fig:p3} are accurate, namely that we find pattern formation for $(a,b)=(0.1,0.9)$ but not for $(a,b)=(0.4,0.4)$, independent of the $\tau\in[0,1]$ and $\sigma$ values considered. We also verify our main result, that modelling time delay as a symmetric Gaussian distribution will not quantitatively change the results seen from that of a fixed delay, independent of the $\sigma$ used. Figures \ref{fig:testdist1} and \ref{fig:testdist2} show the numerical solutions for $(a,b)=\{(0.1,0.9),(0.4,0.4)\}$ for $\tau=1$ and varying $\sigma$. Further numerical results with different $\tau$ and $\sigma$ values can be found in Appendix \ref{section:appB}.
 
 \begin{figure}[H]
     \centering
@@ -275,7 +275,7 @@ Numerical simulations are shown here to verify the linear theory presented in se
     \caption{Numerical solutions produced for $(a,b)=(0.4,0.4)$ with $\tau=1$ and $\sigma=\sigma_{\max}\times0.99, \sigma_{\max}\times0.1$. We use $L^2=9/2$ and $\epsilon^2=0.001$. Boundary conditions given by \eqref{neumannbc} and initial conditions by \eqref{firstic}. We see no Turing pattern formation, as predicted from linear theory.}
     \label{fig:testdist2}
 \end{figure}
-Figures \ref{fig:distres1} and \ref{fig:distres2} show \tb{numerical solutions} using $(a,b)=(0.1,0.9)$ for $\tau=\{1,16\}$ and varying $\sigma$, each compared with the appropriate fixed delay case. The results indicate that the onset of patterning, and the type of pattern we see, is independent of $\sigma$ used. Further numerical solutions for different $(a,b)$ verifying this claim can be found in Appendix \ref{section:Bdist}.
+Figures \ref{fig:distres1} and \ref{fig:distres2} show numerical solutions using $(a,b)=(0.1,0.9)$ for $\tau=\{1,16\}$ and varying $\sigma$, each compared with the appropriate fixed delay case. The results indicate that the onset of patterning, and the type of pattern we see, is independent of $\sigma$ used. Further numerical solutions for different $(a,b)$ verifying this claim can be found in Appendix \ref{section:Bdist}.
 
 \begin{figure}[H]
     \centering
@@ -400,7 +400,7 @@ The function $T(x,\rho)$ denotes the Owen's T function \cite{owenst} and is writ
 \begin{equation}
     T(x,\rho)=\frac{1}{2\pi}\int_0^\rho\frac{e^{-\frac{1}{2}x^2(1+s^2)}}{1+s^2}\ \text{d}s\quad -\infty<x,\rho<\infty.
 \end{equation}
-In the computational implementation of the skewed truncated Gaussian pdf, the integral $T(x,\rho)$ is resolved numerically using the composite Simpson's \tb{rule with $100,000$ discretisation points.}
+In the computational implementation of the skewed truncated Gaussian pdf, the integral $T(x,\rho)$ is resolved numerically using the composite Simpson's rule with $100,000$ discretisation points.
 
 Since the distribution is skewed, the parameters $\mu$ and $\omega$ no longer denote the mean and standard deviation of the distribution, but solely the location and scale of the distribution. To compare how the skewed distribution affects the onset of patterning compared to that of the fixed delay case, we consider the mean of the skewed distribution, $\tau$, which is given by
 \begin{equation}\label{anmean}
@@ -410,7 +410,7 @@ Following \cite{skewed}, the mean of the skewed truncated Gaussian distribution 
 \begin{equation}\label{computetau}
 \tau=\mu+\omega\Psi_c\left[k(a;\mu,\omega,\rho)-k(b;\mu,\omega,\rho)+\frac{2\rho}{\hat{\rho}\sqrt{2\pi}}\left(\phi\left(\hat{\rho}\frac{b-\mu}{\omega}\right)-\phi\left(\hat{\rho}\frac{a-\mu}{\omega}\right)\right)\right],
 \end{equation}
-with $\hat{\rho}=\left(1+\rho^2\right)^{1/2}$. \tb{See Appendix \ref{section:appA} for a detailed derivation.}
+with $\hat{\rho}=\left(1+\rho^2\right)^{1/2}$. See Appendix \ref{section:appA} for a detailed derivation.
 
 Throughout this section, the integration limits were set to $a=\mu-3\omega$, $b=\mu+3\omega$, where $\omega$ was chosen such that $\omega<\omega_{\max}$, with $\omega_{\max}=\frac{\mu}{3}$ to ensure only positive time delays were considered.
 \subsection{Linear Analysis}\label{section:linanalskew}
@@ -418,14 +418,14 @@ Conducting an analogous linear analysis to that of the symmetric distributed del
 \begin{equation}\label{characskew}
   \mathcal{D}_k=\lambda_k^2+\alpha_k\lambda_k+\beta_k+(\gamma_k\lambda_k+\delta_k)\hat{E}_k=0,
 \end{equation}
-where $\alpha_k$, $\beta_k$, $\gamma_k$ and $\delta_k$ are the same coefficients as defined in \eqref{characcoeff}, for the symmetric distribution case. The difference is in expression $\hat{E}_k$, which is given by
+where $\alpha_k$, $\beta_k$, $\gamma_k$ and $\delta_k$ are the same coefficients as for the symmetric distribution case, also defined in \eqref{fixcoeffs}. The difference is in expression $\hat{E}_k$, which is given by
 \begin{equation}\label{Ehat}
     \begin{split}
 \hat{E}_k&=\int_a^bk(s;\mu,\omega,\rho)e^{-\lambda_k s}\ \text{d}s\\
 &=\frac{\Psi_c}{\omega\sqrt{2\pi}}\int_a^b\left(1+\text{erf}\left(\rho\frac{s-\mu}{\omega\sqrt{2}}\right)\right)\exp\left(-\frac{1}{2}\left(\frac{s-\mu}{\omega}\right)^2-\lambda_ks\right)\ \text{d}s.
     \end{split}
 \end{equation}
-\tb{We numerically compute this integral using the composite Simpson's rule $100,000$ discretisation points.} This allows roots of the characteristic equation \eqref{characskew} to be solved for.
+We numerically compute this integral using the composite Simpson's rule with $100,000$ discretisation points. This allows roots of the characteristic equation \eqref{characskew} to be solved for.
 
 Here we present results of the $\max_k(\Re(\lambda_k))$ for varying $\tau$ with a skewed distribution. Namely, we show that for a small mean $\tau$, the skew, positive or negative, does not significantly effect the $\max_k(\Re(\lambda_k))$. We note that, for a given $\rho$, all of the terms on the right-hand side of \eqref{computetau}, namely $\omega$, $\Psi_c$,  and $k(s;\mu,\omega,\rho)$, can be written explicitly in terms of $\mu$. Equation \eqref{computetau} can therefore be solved implicitly for $\mu(\tau)$, for a given $\tau$, using the \textit{fzero} command in MATLAB. For a given $\rho$, and each found $\mu$, we compute $\max_k(\Re(\lambda_k))$ by solving for roots of the characteristic equation \eqref{characskew}. In Figure \ref{fig:dispskew}, we plot $\max_k(\Re(\lambda_k))$ against $\tau\in[0,0.8]$ for skew parameter values of $\rho=-10,10$, and $\omega=\omega_{\max}\times0.99$, with two different $(a,b)$ parameter sets. A plot of $\max_k(\Re(\lambda_k))$ for the fixed delay case is also added for comparison in each case.
 
@@ -452,7 +452,7 @@ From Figure \ref{fig:dispskew} we see that the curves differ slightly for small 
 
 \subsection{Numerical Results}\label{section:numresskew}
 
-\tb{Numerical simulations confirming the linear theory for a small $\tau=0.1$ and $(a,b)=(0.1,0.9)$ can be seen in Figure \ref{fig:linskew1}, where we see a very minor variation in the onset of patterning between the $\rho=10$ and $\rho=10$ cases (\ref{fig:rhom10} and \ref{fig:rho10}).}
+Numerical simulations confirming the linear theory for a small $\tau=0.1$ and $(a,b)=(0.1,0.9)$ can be seen in Figure \ref{fig:linskew1}, where we see a very minor variation in the onset of patterning between the $\rho=-10$ and $\rho=10$ cases (\ref{fig:rhom10} and \ref{fig:rho10}).
 
 \begin{figure}[H]
     \centering
@@ -487,7 +487,7 @@ From Figure \ref{fig:dispskew} we see that the curves differ slightly for small 
     \label{fig:linskew1}
 \end{figure}
 
-\tb{We look to verify the results suggested by the linear theory, and show through full numerical solutions that for a larger $\tau$ the results we see are consistent with the finding from linear theory for a smaller $\tau$. Namely, we show that using a skewed truncated Gaussian distribution does not have a significant effect on the onset of patterning.} Using an analogous methodology as outlined in the previous section \ref{section:linanalskew}, we present results for $\tau=16$, and $\rho=-10,10$ for a fixed parameter set $(a,b)=(0.1,0.9)$, with a comparison to the fixed delay case. The result for $\tau=16$ is shown in Figure \ref{fig:linskew3}. Further numerical solutions for varying $\tau\in\{1,2,4,8\}$ can be found in Appendix \ref{section:Bdist}.
+We look to verify the results suggested by the linear theory, and show through full numerical solutions that for a larger $\tau$ the results we see are consistent with the finding from linear theory for a smaller $\tau$. Namely, we show that using a skewed truncated Gaussian distribution does not have a significant effect on the onset of patterning. Using an analogous methodology as outlined in the previous section \ref{section:linanalskew}, we present results for $\tau=16$, and $\rho=-10,10$ for a fixed parameter set $(a,b)=(0.1,0.9)$, with a comparison to the fixed delay case. The result for $\tau=16$ is shown in Figure \ref{fig:linskew3}. Further numerical solutions for varying $\tau\in\{1,2,4,8\}$ can be found in Appendix \ref{section:Bdist}.
 
 % \begin{figure}[H]
 %     \centering
@@ -554,3 +554,7 @@ From Figure \ref{fig:dispskew} we see that the curves differ slightly for small 
     \caption{Numerical results for $(a,b)=(0.1,0.9)$ with $\rho=-10,10$ and $\tau=16$. Parameters $\epsilon^2=0.01$ and $L^2=9/2$. Initial conditions given by \eqref{firstic} and boundary conditions by \eqref{neumannbc}.}
     \label{fig:linskew3}
 \end{figure}
+
+\section{Summary}
+
+In this chapter, we performed a linear stability analysis of the LI model with distributed delay to determine analytically the effects of an increasing time delay on the Turing space, for both a symmetric and skewed truncated Gaussian distribution. Through numerical simulations, we also presented the findings that modelling the time delay as a continuous distribution does not significantly change the results seen compared to that of the fixed delay case, where the mean delay of the distribution is used as the fixed time delay. We therefore conclude that fixed delay and distributed delay models have almost identical dynamics. This allows one to use simpler fixed delay models rather than the more complicated distributed delay variants.

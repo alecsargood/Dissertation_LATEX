@@ -2,7 +2,7 @@
 
 \section{For Chapter 2}\label{section:Bfix}
 
-Figure \ref{fig:appfig1} and \ref{fig:appfig2} show numerical solutions for $\tau=\{0.5,1\}$ further verifying the linear theory presented in \ref{fig:tspacetau}.
+Figure \ref{fig:appfig1} and \ref{fig:appfig2} show numerical solutions for $\tau=\{0.5,1\}$ further verifying the linear theory presented in Figure \ref{fig:tspacetau}.
 
 \begin{figure}[H]
   \centering
@@ -139,7 +139,7 @@ In Figures \ref{fig:Bbc2}, \ref{fig:Bbc4} and \ref{fig:Bbc8}, we present the com
     \label{fig:Bbc8}
 \end{figure}
 
-In Figures \ref{fig:temp1}, \ref{fig:temp2}, \ref{fig:temp4}, \ref{fig:temp8} and \ref{fig:temp16} show the preliminary results for a temporal variation in the history function on the time-to-pattern properties. We consider two history functions, namely $h(t)=u_\star(1+r\sin(\omega t))$, for $\omega=1/7,4/7$ for $t\in[-\tau,0)$, where $r$ is the random variable used in $\text{IC}_2$. The history functions with $\omega=1/7,4/7$ will be denoted $h_1(t)$, and $h_2(t)$ repectively. For each $\tau\in\{1,2,4,8,16\}$, we compare the results for each of these variations in history function with the numerical results simulated with the history function equal to the initial conditions, as given in \eqref{hist}. We see that these variations in the history function do not signficantly effect the timescales on which pattern formation occurs.
+In Figures \ref{fig:temp1}, \ref{fig:temp2}, \ref{fig:temp4}, \ref{fig:temp8} and \ref{fig:temp16} show the preliminary results for a temporal variation in the history function on the time-to-pattern properties. We consider two history functions, namely $h(t)=u_\star(1+r\sin(\omega t))$, for $\omega=1/7,4/7$ for $t\in[-\tau,0)$, where $r$ is the random variable used in $\text{IC}_2$. The history functions with $\omega=1/7,4/7$ will be denoted $h_1(t)$, and $h_2(t)$ respectively. For each $\tau\in\{1,2,4,8,16\}$, we compare the results for each of these variations in history function with the numerical results simulated with the history function equal to the initial conditions, as given in \eqref{hist}. We see that these variations in the history function do not significantly affect the timescales on which pattern formation occurs.
 
 \begin{figure}[H]
     \centering
@@ -341,7 +341,7 @@ We present results for the composite Simpson's rule to motivate a choice of $N=5
         \caption{$\tau=16$.}
         \label{}
     \end{subfigure}
-    \caption{Relative error of composite Simpson's rule applied to integrating test integral given in \eqref{testint} for varying $\tau\in\{1,8,16\}$, and $\sigma=\sigma_{\max}\times0.1\}$. $N=50$ discresised at regular intervals of $10$.}
+    \caption{Relative error of composite Simpson's rule applied to integrating test integral given in \eqref{testint} for varying $\tau\in\{1,8,16\}$, and $\sigma=\sigma_{\max}\times0.99$. $N=50$ discretisation points used.}
     \label{fig:tempquad}
 \end{figure}
 
@@ -466,7 +466,7 @@ The linear theory from Figures \ref{fig:p2} and \ref{fig:p3} suggests that we ha
         \caption{Numerical solution with $\tau=0.5$ and $\sigma=\sigma_{\max}\times0.1$.}
         \label{}
     \end{subfigure}
-    \caption{Numerical solutions produced for $(a,b)=(0.1,0.9)$ with $\tau=0.5$ and $\sigma=\sigma_{\max}\times0.99, \sigma_{\max}\times0.1$. We use $L^2=9/2$ and $\epsilon^2=0.001$. Boundary conditions given by \eqref{neumannbc} and initial conditions by \eqref{firstic}. We see pattern formation, as predicted from linear theory.}
+    \caption{Numerical solutions produced for $(a,b)=(0.1,0.9)$ with $\tau=0.5$ and $\sigma=\sigma_{\max}\times0.99, \sigma_{\max}\times0.1$. We use $L^2=9/2$ and $\epsilon^2=0.001$. Boundary conditions given by \eqref{neumannbc} and initial conditions by \eqref{firstic}. We see Turing pattern formation, as predicted from linear theory.}
     \label{fig:linapp1}
 \end{figure}
 
@@ -485,11 +485,11 @@ The linear theory from Figures \ref{fig:p2} and \ref{fig:p3} suggests that we ha
         \caption{Numerical solution with $\tau=0.5$ and $\sigma=\sigma_{\max}\times0.1$.}
         \label{}
     \end{subfigure}
-    \caption{Numerical solutions produced for $(a,b)=(0.4,0.4)$ with $\tau=0.5$ and $\sigma=\sigma_{\max}\times0.99, \sigma_{\max}\times0.1$. We use $L^2=9/2$ and $\epsilon^2=0.001$. Boundary conditions given by \eqref{neumannbc} and initial conditions by \eqref{firstic}. We see no pattern formation, as predicted from linear theory.}
+    \caption{Numerical solutions produced for $(a,b)=(0.4,0.4)$ with $\tau=0.5$ and $\sigma=\sigma_{\max}\times0.99, \sigma_{\max}\times0.1$. We use $L^2=9/2$ and $\epsilon^2=0.001$. Boundary conditions given by \eqref{neumannbc} and initial conditions by \eqref{firstic}. We see no Turing pattern formation, as predicted from linear theory.}
     \label{fig:linapp2}
 \end{figure}
 
-Finally, we show futher numerical results, for the parameter set $(a,b)=(0.3,1.2)$, to support the conclusion that the onset of patterning, and the type of pattern we see, is independent of $\sigma$ used.
+Finally, we show further numerical results, for the parameter set $(a,b)=(0.3,1.2)$, to support the conclusion that the onset of patterning, and the type of pattern we see, are independent of $\sigma$ used.
 
 \begin{figure}[H]
    \centering
@@ -544,7 +544,7 @@ Finally, we show futher numerical results, for the parameter set $(a,b)=(0.3,1.2
 
 \subsection{An Asymmetric Distribution}
 
-We present results here to verify that for larger $\tau$, the skewed distribution does not signficantly change the results seen compared to that of the fixed delay case. Figures here show the results for $\tau\in\{1,2,4,8\}$.
+We present results here to verify that for larger $\tau$, the skewed distribution does not significantly change the results seen compared to that of the fixed delay case. Figures here show the results for $\tau\in\{1,2,4,8\}$.
 
 % tau = 1
 \begin{figure}[H]
